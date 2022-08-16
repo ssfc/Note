@@ -1,0 +1,82 @@
+在编写使用OpenCV函数的程序时，首先，需要正确的配置工程设置。主要是设置预先编译的头文件的路径与动态链接库的路径。
+一　在VC编译器下，在Project菜单下选择setting，弹出对话框。
+在Setting For 下拉菜单中选择All Configurations , 为Debug 和Release版本设置配置。
+1 设置预编译的头文件
+选择Ｃ／Ｃ＋＋　【Category】，在下拉菜单中选择Preprocessor，然后在Additional Include directories 中输入以下几项：
+D:\Program Files \OpenCV\cv\include,D:\Program Files \OpenCV\otherlibs\highgui,D:\Program Files \OpenCV\cxcore\include,D:\Program Files \OpenCV\otherlibs\cvcam\include
+每一条之间用逗号隔开。其中C:\Program Files\Intel\opencv　为OpenCV的安装路径，这是通用的安装路径，建议最好采用这种设置，以方便大家交流；不然，每次都要重新设置路径，比较麻烦。
+2   设置链接库
+在 Link按键下的 Category下拉菜单中选择 Input选项(指定要连接的库文件，放弃连接的库文件hao )，在Additional library path中，输入：
+C:\Program Files \OpenCV\lib
+最后在 Setting For下拉菜单中依次选择 Win32 Debug和 Win32 Release，分别在Object /library modules 输入：
+cv.lib highgui .lib cxcore.lib cvcam.lib
+注意每个库之间用一个空格隔开。
+或者直接在all configurations中的Object /library modules 输入：cv.lib highgui.lib cxcore.lib(新版本需要) cvcam.lib（cxcore.lib highgui.lib　是几乎所有OpenCV程序都要用到的函数库，分别封装了基本的函数和图形界面接口，cv.lib中封装了大量的图像处理函数，cvcam.lib中封装了很多针对视频流的处理函数）
+当前工程就可以使用OpenCV的函数了。
+二　如果一直要使用OpenCV的函数，把其路径设置到系统目录下
+在Tools 菜单下选择 Options 子菜单，在弹出的对话框中选择Directory，将用到的几个库的路径添加进去。以后只需将所用的库在Object /library modules下输入就可以了，不用再每次指定路径。
+在Show directories for 下拉菜单中选择Include files，输入：
+C:\Program Files \OpenCV\cv\include
+C:\Program Files \OpenCV\otherlibs\highgui
+C:\Program Files \OpenCV\cxcore\include(新版本需要)
+C:\Program Files \OpenCV\otherlibs\cvcam\include
+在Show directories for 下拉菜单中选择Library files，输入：
+C:\Program Files \OpenCV\lib
+注意：（防止每次都拷贝.dll文件）
+我的电脑—属性—高级—环境变量—path—C:\Program Files\OpenCV\bin
+
+
+三   关于DLL的一点介绍
+所谓：“工欲善其事，必先利其器”。链接的问题是使用OpenCV时一个经常遇到的问题，有必要做一简单介绍。
+动态链接DLL与静态链接库一样包含了所提供函数的目标代码，但程序运行动态链接库中的函数时，连接程序并不将包含在动态链接库中的目标函数的代码复制至运行文件，而只是简单的记录了函数的位置信息，程序在运行时根据这些信息找到函数的目标代码。（运行时连接，故称为动态链接库。至于动态链接库的详细介绍以及其与静态链接库的优缺点比较，参见参考文献。）
+以上的设置就可以保证找到所需的动态链接库，不过我们还是有必要对系统怎样找到DLL文件做一了解：
+函数在动态链接库中的位置信息放在一个独立的导入库文件中（以.lib为后缀）Windows将遵循下面的搜索顺序来定位DLL： 
+1．包含EXE文件的目录， 
+2．进程的当前工作目录， 
+3． Windows系统目录， 
+4． Windows目录， 
+5．列在Path环境变量中的一系列目录。 
+   这样 ， 如果运行时仍然报错：不到*.DLL, 那么，就将所需的*.DLL粘贴到可执行文件的文件夹下
+▲这里有一个很容易发生错误的陷阱。如果你使用VC＋＋进行项目开发，并且为DLL模块专门创建了一个项目，然后将生成的DLL文件拷贝到系统目录下，从应用程序中调用DLL模块。到目前为止，一切正常。接下来对DLL模块做了一些修改后重新生成了新的DLL文件，但你忘记将新的DLL文件拷贝到系统目录下。下一次当你运行应用程序时，它仍加载了老版本的DLL文件，这可要当心！
+▲在发布自己的程序时，一定要记得提供相应的动态链接库。
+
+
+安装完OpenCV_b5a后，打开Visual C++ 6.0，在Tools -> Directories选项中，Show Directories for中选择Include files，在其中添加
+
+
+C:\Program Files\OpenCV\cv\include
+
+C:\Program Files\OpenCV\cvaux\include
+
+C:\Program Files\OpenCV\cxcore\include
+
+C:\Program Files\OpenCV\otherlibs\highgui
+
+C:\Program Files\OpenCV\otherlibs\cvcam\include
+
+
+选择Source files，在其中添加
+
+
+C:\Program Files\OpenCV\cv\src
+
+C:\Program Files\OpenCV\cvaux\src
+
+C:\Program Files\OpenCV\cxcore\src
+
+C:\Program Files\OpenCV\otherlibs\highgui
+
+C:\Program Files\OpenCV\otherlibs\cvcam\src\windows
+
+
+选择Library files，在其中添加
+
+
+C:\Program Files\OpenCV\lib
+
+
+在Project Setting ->Link的Input选项中，添加cv.lib cxcore.lib highgui.lib三个库文件(这一步对于每个新工程都要重新设置，而前三步不需要)。
+
+
+最后要把C:\Program Files\OpenCV\bin目录下的几个动态链接库复制到工作目录或者系统目录。至此所有工作就完成了。
+ 
