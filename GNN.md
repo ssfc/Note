@@ -125,125 +125,113 @@ FastGCN; (2021-4-10)
 #### List 6.1.1, 拉普拉斯特征映射; 
 #### List 6.1.2, 图分解; 
 
-Node 6.2, 基于随机游走的图嵌入方法; 
+### Node 6.2, 基于随机游走的图嵌入方法; 
 网络嵌入考虑的信息更加本地化, 只考虑每个节点利用随机游走得到的邻居节点; (2021-4-10)
-List 6.2.1, DeepWalk; 
+#### List 6.2.1, DeepWalk; 
 Skip-gram模型, 用一个词做输入, 预测它周围的上下文; CBOW模型, 用一个词的上下文做输入, 预测当前词; DeepWalk采用随机游走的方法在途中随机采样大量固定的路径, 每个路径相当于一个句子, 每个节点相当于一个词; 负采样不需要精确计算概率, 只需要尽可能区分目标节点和噪声(负样本); (2021-4-12)
-List 6.2.2, node2vec; 
+#### List 6.2.2, node2vec; 
 最大化观察到邻接节点的概率; 平衡DFS和BFS; (2021-4-12)
-List 6.2.3, 随机游走和矩阵分解的统一; 
+#### List 6.2.3, 随机游走和矩阵分解的统一; 
 
-Node 6.3, 从自编码器的角度看图嵌入; 
+### Node 6.3, 从自编码器的角度看图嵌入; 
 所有的图嵌入实际上都是一个自编码器; (2021-4-12)
 
-Node 6.4, 小结; 
+### Node 6.4, 小结; 
 将节点本身的属性向量映射到一个更低维的向量; (2021-4-12)
 
 
-Chapter 7, 知识图谱与异构图神经网络; 
+## Chapter 7, 知识图谱与异构图神经网络; 
 知识图谱是由实体(节点)和关系(边)组成的多关系图; (2021-4-12)
-Node 7.1, 知识图谱的定义和任务; 
-List 7.1.1, 知识图谱; 
+### Node 7.1, 知识图谱的定义和任务; 
+#### List 7.1.1, 知识图谱; 
 KG = (h,r,t) ; (2021-4-12)
-List 7.1.2, 知识图谱嵌入; 
+#### List 7.1.2, 知识图谱嵌入; 
 KG embedding就是知识图谱的表示学习, 就是将实体和关系映射到一个低维连续空间上; KG completion; (2021-4-12)
 
-Node 7.2, 距离变换模型; 
-List 7.2.1, TransE模型; 
+### Node 7.2, 距离变换模型; 
+#### List 7.2.1, TransE模型; 
 可以将r看作h到t的翻译; (2021-4-12)
-List 7.2.2, TransH模型; 
+#### List 7.2.2, TransH模型; 
 投影到超平面上; (2021-4-12)
-List 7.2.3, TransR模型; 
-List 7.2.4, TransD模型; 
+#### List 7.2.3, TransR模型; 
+#### List 7.2.4, TransD模型; 
 
-Node 7.3, 语义匹配模型; 
-List 7.3.1, RESCAL模型; 
+### Node 7.3, 语义匹配模型; 
+#### List 7.3.1, RESCAL模型; 
 双线性模型; fr(h,t) = hT*Mt*t; (2021-4-12)
-List 7.3.2, DistMult模型; 
-List 7.3.3, HoiE模型; 
-List 7.3.4, 语义匹配能量模型; 
-List 7.3.5, 神经张量网络模型; 
-List 7.3.6, ConvE模型; 
+#### List 7.3.2, DistMult模型; 
+#### List 7.3.3, HoiE模型; 
+#### List 7.3.4, 语义匹配能量模型; 
+#### List 7.3.5, 神经张量网络模型; 
+#### List 7.3.6, ConvE模型; 
 
-Node 7.4, 知识图谱上的图神经网络; 
-List 7.4.1, 关系图卷积网络; 
-List 7.4.2, 带权重的图卷积编码器; 
-List 7.4.3, 知识图谱与图注意力模型; 
-List 7.4.4, 图神经网络与传统知识图谱嵌入的结合: CompGCN; 
+### Node 7.4, 知识图谱上的图神经网络; 
+#### List 7.4.1, 关系图卷积网络; 
+#### List 7.4.2, 带权重的图卷积编码器; 
+#### List 7.4.3, 知识图谱与图注意力模型; 
+#### List 7.4.4, 图神经网络与传统知识图谱嵌入的结合: CompGCN; 
 
-Node 7.5, 小结; 
+### Node 7.5, 小结; 
 
 
-Chapter 8, 图神经网络模型的应用; 
-Node 8.1, 图数据上的一般任务; 
-List 8.1.1, 节点分类; 
-List 8.1.2, 链路预测; 
-List 8.1.3, 图分类; 
+## Chapter 8, 图神经网络模型的应用; 
+### Node 8.1, 图数据上的一般任务; 
+#### List 8.1.1, 节点分类; 
+#### List 8.1.2, 链路预测; 
+#### List 8.1.3, 图分类; 
 
-Node 8.2, 生化医疗相关的应用; 
-List 8.2.1, 预测分子的化学性质和化学反应; 
-List 8.2.2, 图生成模型与药物发现; 
+### Node 8.2, 生化医疗相关的应用; 
+#### List 8.2.1, 预测分子的化学性质和化学反应; 
+#### List 8.2.2, 图生成模型与药物发现; 
 自回归模型; GraphRNN; 基于生成对抗网络的模型; MolGAN; 基于变分自编码器的模型; 联接树VAE; 如果按照自回归模型中一个节点一个节点依序生成, 很难保障生成的分子图是符合语法的, 那么不如把图分解成一些子结构, 再拼接这些在一定语义中有效的子结构; 基于标准化流的模型; Real NVP; GraphNVP; (2021-4-14)
-List 8.2.3, 药物/蛋白质交互图的利用; 
+#### List 8.2.3, 药物/蛋白质交互图的利用; 
 将蛋白质作为节点, 将蛋白质之间的相互作用当成边; GameNet; (2021-4-14)
 
-Node 8.3, 自然语言处理相关的应用; 
+### Node 8.3, 自然语言处理相关的应用; 
 文本分类; TextGCN; 语义角色标注; Syntactic GCN; (2021-4-14)
 
-Node 8.4, 推荐系统上的应用; 
+### Node 8.4, 推荐系统上的应用; 
 PinSAGE; (2021-4-14)
 
-Node 8.5, 计算机视觉相关的应用; 
+### Node 8.5, 计算机视觉相关的应用; 
 
-Node 8.6, 其他应用; 
+### Node 8.6, 其他应用; 
 
-Node 8.7, 小结; 
-
-
+### Node 8.7, 小结; 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-青源Forum丨图神经网络前沿学术研讨会暨清华“计算未来”博硕论坛069期（ 回放中）
+# 青源Forum丨图神经网络前沿学术研讨会暨清华“计算未来”博硕论坛069期（ 回放中）
 https://hub.baai.ac.cn/activity/details/145
 
-
-马腾飞; 图神经网络前沿专题; 
-引用网络, 知识图谱, 蛋白质交互图; (2021-4-2)
-节点的不均匀分布; 排列不变性; 边的额外属性(知识图谱上不同的关系); (2021-4-2)
-图表示学习
-邻居节点尽量相近, 同类节点尽量相近, 节点顺序没有影响; (2021-4-2)
+## 马腾飞; 图神经网络前沿专题; 
+1. 引用网络, 知识图谱, 蛋白质交互图; (2021-4-2)
+2. 节点的不均匀分布; 排列不变性; 边的额外属性(知识图谱上不同的关系); (2021-4-2)
+### 图表示学习
+1. 邻居节点尽量相近, 同类节点尽量相近, 节点顺序没有影响; (2021-4-2)
 节点分类, 链路预测, 图分类; (2021-4-2)
-拉普拉斯矩阵; 拉普拉斯二次型; 物理意义是图信号的光滑程度; 图论傅里叶变换; 谱域上的图卷积; 谱域图卷积网络; 多项式卷积核; (2021-4-2)
-局部化; ChebyNet; 从ChebyNet到GCN; GCN(图卷积网络); 消息传递网络MPNN; GAT(图注意力网络); R-GCNs, 多关系图上的GCN; 多关系图(知识图谱); 谱域GNN; 空域GNN(更流行); GCN的本质, 低通滤波; 图滤波神经网络GfNN; GCN的本质, 拉普拉斯平滑; GCN的问题, 过平滑; 深层GNN--解决过平滑、过拟合; 训练方式(drop edge); GCN问题2, 邻居爆炸; 节点采样GraphSage(只做两层); 层采样--FastGCN; FastGCN的重要性采样; 均匀采样; 方差缩减; 图采样--graphSAINT; 多关系图上的采样--RS-GCN; 实际应用-PinSAGE, 基于GraphSAGE的一个改进; GNN的可扩展模型小结; (2021-4-3)
-GNN的池化, 相邻的节点聚合在一起, 相似的节点聚合在一起; 预处理的方式, 先对图进行聚类; 池化的原则和方法, 聚类, AMG-style(代数多重网格); graclus; AMG方式的池化; 可微池化; top-K pooling; 自注意力池化; OTCoarsen--DiffPool和TopK的折中; 池化真的有用吗? GCN的问题3, 缺少标签; 无监督模型; deep graph infoMax(DGI); 多模态的图自编码器; 两图的距离与最优传输; 可解算法; 实验结果; 无监督的用处, 多任务实验结果; GCN的预训练; 节点级别(上下文预测, 属性遮蔽); 图级别(图标签预测, 图相似度比较); 应用实例; 分子图生成(加上了语义限制); 分子图上的语义限制; 生成结果可视化; 药物推荐I, GameNet; 药物推荐II, GBert; GNN的应用, semantic parsing; GNN的应用, planner selection; 通过构建SQL数据库中column name的连接图获得更好的跨领域表示; GNN的应用, 金融; EvolveGCN, 反欺诈反洗钱; 应用方法小结; 寻找图结构(自然语言的语法树); 无中生有(产生分子图); deep graph library; (2021-4-3)
+2. 拉普拉斯矩阵; 拉普拉斯二次型; 物理意义是图信号的光滑程度; 图论傅里叶变换; 谱域上的图卷积; 谱域图卷积网络; 多项式卷积核; (2021-4-2)
+3. 局部化; ChebyNet; 从ChebyNet到GCN; GCN(图卷积网络); 消息传递网络MPNN; GAT(图注意力网络); R-GCNs, 多关系图上的GCN; 多关系图(知识图谱); 谱域GNN; 空域GNN(更流行); GCN的本质, 低通滤波; 图滤波神经网络GfNN; GCN的本质, 拉普拉斯平滑; GCN的问题, 过平滑; 深层GNN--解决过平滑、过拟合; 训练方式(drop edge); GCN问题2, 邻居爆炸; 节点采样GraphSage(只做两层); 层采样--FastGCN; FastGCN的重要性采样; 均匀采样; 方差缩减; 图采样--graphSAINT; 多关系图上的采样--RS-GCN; 实际应用-PinSAGE, 基于GraphSAGE的一个改进; GNN的可扩展模型小结; (2021-4-3)
+4. GNN的池化, 相邻的节点聚合在一起, 相似的节点聚合在一起; 预处理的方式, 先对图进行聚类; 池化的原则和方法, 聚类, AMG-style(代数多重网格); graclus; AMG方式的池化; 可微池化; top-K pooling; 自注意力池化; OTCoarsen--DiffPool和TopK的折中; 池化真的有用吗? GCN的问题3, 缺少标签; 无监督模型; deep graph infoMax(DGI); 多模态的图自编码器; 两图的距离与最优传输; 可解算法; 实验结果; 无监督的用处, 多任务实验结果; GCN的预训练; 节点级别(上下文预测, 属性遮蔽); 图级别(图标签预测, 图相似度比较); 应用实例; 分子图生成(加上了语义限制); 分子图上的语义限制; 生成结果可视化; 药物推荐I, GameNet; 药物推荐II, GBert; GNN的应用, semantic parsing; GNN的应用, planner selection; 通过构建SQL数据库中column name的连接图获得更好的跨领域表示; GNN的应用, 金融; EvolveGCN, 反欺诈反洗钱; 应用方法小结; 寻找图结构(自然语言的语法树); 无中生有(产生分子图); deep graph library; (2021-4-3)
 
-王啸 Dive into the Message Passing Mechanism of Graph Neural Networks (2:40)
+## 王啸 Dive into the Message Passing Mechanism of Graph Neural Networks (2:40)
 Network representation learning; pipeline for GNN; 除了node周边的拓扑结构, 还有node自身的结构; topology graph和feature graph分别做图传播和聚合(attention自适应提取), 通过参数共享共同embedding; 低频信号(把大家都变得一样)并不总是最优; (空域对应信号处理中的时域); revisit GNNs; the unified framework; GCN/SGC; PPNP; GNN-HF; 现在还是以同质化网络为主, 毕竟人和它的邻居是相似的嘛; (2021-4-4)
 
-图计算在推荐召回中的应用和挑战; 王晓伟 快手AI Platform AI算法研究员 (3:22:41)
+## 图计算在推荐召回中的应用和挑战; 王晓伟 快手AI Platform AI算法研究员 (3:22:41)
 快手推荐流程; 短视频召回现状, 效率高, 精准, 覆盖全; 基于图的I2I召回通用设计; 实际场景优化--初始图构建; 没有groundtruth, 需要构建初始图; 去噪--图结构学习; 实际场景优化--多级优化目标; 实际场景优化--多任务召回; 挑战和展望(多兴趣, 动态图); (2021-4-5)
 
-异质图神经网络在阿里推荐业务中的探索; 纪厚业 北京邮电大学 (3:58:16)
+## 异质图神经网络在阿里推荐业务中的探索; 纪厚业 北京邮电大学 (3:58:16)
 将基于图拉普拉斯矩阵将图信号从空域(顶点上)转换到谱域; 推荐系统及其价值; 和图数据挖掘息息相关; 淘宝大社区, 分享推荐(非对称性); 特征表示; 传递性三元组表示; 在线实验online serving; 聚划算百亿补贴, 选品推荐; 项目背景; 方案设计; 架构图; 用户级别(细粒度)&人群级别(粗粒度); 仿真结果; (2021-4-5)
 
-Intention-aware Sequential Recommendation with Structured Intent Transition	 李昊阳 清华大学 (4:28:46)
+## Intention-aware Sequential Recommendation with Structured Intent Transition	 李昊阳 清华大学 (4:28:46)
 推荐系统能否理解用户行为之后的意图; 从购买序列了解用户的意图; model framework; transformer-based encoder; intent extraction; structured intent transition (用到ConceptNet); intent decoder; experimental settings; experimental metrics, hit rate, MRR; experimental result; (2021-4-6)
 
-分子图表示学习：一种分子动力学思路; 李子尧 北京大学 (4:57:52)
+## 分子图表示学习：一种分子动力学思路; 李子尧 北京大学 (4:57:52)
 HamNet; molecular representation; molecular fingerprints; virtual screening (虚拟筛选); 2D fingerprints (ECFP 2010, MPNN 2015, Attentive FP 2019); 3D fingerprints (3DGCN 2019, DimeNet 2020, CMPNN 2020); HamNet; Hamiltonian Equations; Neural Hamiltonian, using NNs to model the energy; GCN (encoding the atomic chemical environment) + LSTM; supervising the Hamiltonian engine; generating the fingerprints; (2021-4-6)
 
-Graph Heterogeneous Multi-Relational Recommendation 陈冲 清华大学 (5:33:16)
+## Graph Heterogeneous Multi-Relational Recommendation 陈冲 清华大学 (5:33:16)
 Multi-relational recommendation; GCN; graph heterogeneous collaborative filtering; embedding propagation layers; multi-task prediction; utilizing implicit feedback data, negative sampling vs non-sampling learning; complexity issue of non-sampling learning; experimental settings; model comparisons; handling cold-start issue; ablation study; conclusion; (2021-4-6)
 
 
