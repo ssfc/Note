@@ -1,3 +1,3 @@
 # Note
-research experience and programming experience
+note of courses and lectures 
 
