@@ -220,34 +220,36 @@ LaTeX中用于书写分数和分式的基本命令为\frac{分子}{分母} ; (20
 使用\label{标签名}及\ref{标签名}在文中对表格进行索引。
 	
 ###	Node 8.2, 创建超链接
-208	List 8.2.1, 超链接类型
-209	List 8.2.2, 超链接格式
-210	
-211	Node 8.3, BibTeX用法
-212	List 8.3.1, 创建参考文献
-213	List 8.3.2, 使用BibTeX文件
-214	在这三条文献中，einstein、latexcompanion、knuthwebsite是文献的标签，在文档中，只需要在适当位置用引用命令如\cite{}便可以引用这些文献，例如，\cite{einstein}。
-215	article：对应着期刊或杂志上发表的论文，必须添加的信息有author（作者）、title（标题）、journal（期刊）、year（年份）、volume（卷），可供选择添加的信息包括number（期）、pages（页码）、month（月份）、doi（数字对象识别码）等。
-216	inproceedings：对应着会议论文，必须添加的信息有author（作者）、title（论文标题）、booktitle（论文集标题）、year（年份），可供选择添加的信息包括editor（版号）、volume/number（卷或期）、series（系列）、pages（页码）、address（地址）、month（月份）、organization（组织方）、publisher（出版社）等。
-217	
-218	Node 8.4, 文献引用格式
-219	List 8.4.1, 几种标准样式
-220	acm.bst：对应于Association for Computing Machinery期刊。
-221	
-222	
-223	Chapter 9, 幻灯片制作
-224	导言
-225	
-226	Node 9.1, 基本介绍
-227	List 9.1.1, Beamer简介
-228	List 9.1.2, 创建幻灯片
-229	List 9.1.3, 创建章节与生成目录
-230	
-231	Node 9.2, 添加动画效果
-232	List 9.2.1, \pause命令
-233	List 9.2.2, \item<>命令
-234	List 9.2.3, 其它命令
-235	List 9.2.4, 自动计数
+#### List 8.2.1, 超链接类型
+#### List 8.2.2, 超链接格式
+
+###	Node 8.3, BibTeX用法
+#### List 8.3.1, 创建参考文献
+#### List 8.3.2, 使用BibTeX文件
+在这三条文献中，einstein、latexcompanion、knuthwebsite是文献的标签，在文档中，只需要在适当位置用引用命令如\cite{}便可以引用这些文献，例如，\cite{einstein}。
+
+article：对应着期刊或杂志上发表的论文，必须添加的信息有author（作者）、title（标题）、journal（期刊）、year（年份）、volume（卷），可供选择添加的信息包括number（期）、pages（页码）、month（月份）、doi（数字对象识别码）等。
+
+inproceedings：对应着会议论文，必须添加的信息有author（作者）、title（论文标题）、booktitle（论文集标题）、year（年份），可供选择添加的信息包括editor（版号）、volume/number（卷或期）、series（系列）、pages（页码）、address（地址）、month（月份）、organization（组织方）、publisher（出版社）等。
+
+### Node 8.4, 文献引用格式
+#### List 8.4.1, 几种标准样式
+acm.bst：对应于Association for Computing Machinery期刊。
+	
+	
+##	Chapter 9, 幻灯片制作
+###	导言
+	
+### Node 9.1, 基本介绍
+#### List 9.1.1, Beamer简介
+#### List 9.1.2, 创建幻灯片
+#### List 9.1.3, 创建章节与生成目录
+	
+### Node 9.2, 添加动画效果
+#### List 9.2.1, \pause命令
+#### List 9.2.2, \item<>命令
+#### List 9.2.3, 其它命令
+#### List 9.2.4, 自动计数
 	
 ### Node 9.3, 块与盒子——添加框元素
 #### List 9.3.1, 区块环境
