@@ -1,6 +1,6 @@
 # Sketch of real analysis
 ## Reference: Real Analysis, Book by Halsey Royden;
-## Web course: https://www.youtube.com/watch?v=g-Cu9ks3Gv4&list=PLvg2RutqSPrKufYuFeIFvkIv8R9lQnVbn	
+## Web course: <https://www.youtube.com/watch?v=g-Cu9ks3Gv4&list=PLvg2RutqSPrKufYuFeIFvkIv8R9lQnVbn>	
 
 1.	Ep 01: Newton and Leibniz; (2018-1-22)
 2.	Ep 02: natural number, chapter 1-2;  (2018-1-22)
