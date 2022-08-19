@@ -116,15 +116,15 @@ NDP=GDP-depreciation; (2020-4-12)
 贯穿本书中“投资”一词是指物质资本存量的增加; 教育投资可以认为是人力资本投资; (2020-5-10)
 ####	List 4, 净出口; 
 出口与进口之间的差额被称为净出口(net export); (2020-5-10)
-121.	
-122.	2-3, some important identities;
-123.	List 1, A simple economy;
-124.	我们可以将积累的存货量作为投资的一部分; Y=C+I; Y=S+C; investment=saving; (2020-5-10)
-125.	List 2, Reintroducing the government and foreign trade;
-126.	S-I = (政府采购G+对私人的转移支付TR-税收TA)(government budget deficit) + NX(trade); (2020-4-12)
-127.	List 3, 储蓄、投资、政府预算与贸易;
-128.	
-129.	2-4, measuring GDP;
+	
+###	2-3, some important identities;
+####	List 1, A simple economy;
+我们可以将积累的存货量作为投资的一部分; Y=C+I; Y=S+C; investment=saving; (2020-5-10)
+####	List 2, Reintroducing the government and foreign trade;
+S-I = (政府采购G+对私人的转移支付TR-税收TA)(government budget deficit) + NX(trade); (2020-4-12)
+####	List 3, 储蓄、投资、政府预算与贸易;
+	
+###	2-4, measuring GDP;
 130.	List 1, Final goods and value added;
 131.	List 2, Current output; 
 132.	List 3, 计算GDP时的问题; 
