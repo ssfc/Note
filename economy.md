@@ -67,39 +67,37 @@ CPI一般会高估, 因为是拉氏指数(除以基期); GDP平减指数低估-�
 ##	9th course;
 短期菲利普斯曲线和通胀相关; 长期菲利普斯曲线是垂线; 五大理念, 创新、协调、绿色、开放、共享; 逆回购; LPR; 加入通胀预期; 理性预期; 宏观审慎; 微调; 预调; 工资价格相互影响; 奥肯定律在中国; 盖洛普调查组织; 政治经济周期; chapter 7, unemployment; the berevige curve; (2020-4-22)
 
-70.	10th course;
-71.	人社部; 劳动参与率; 摩擦性失业; 结构性失业; 周期性失业; 交易性需求; 收入分配问题; 开卷考试, 电脑答题; 考试时候交作业; 论文在考试结束后一周交; 泰勒规则; (2020-4-25) 
-72.	
-73.	
-74.	Textbook: Macroeconomics 12th editon, Rudiger Dornbusch; 
-75.	Chapter 1, introduction;
-76.	1-1, macroeconomics encapsulated in three models; 
-77.	Very long run growth; 
-78.	Growth theory; economy fluctuation; 4 percent is better than 2 percent; (2020-3-27)
-79.	The economy with fixed productive capacity;
-80.	AS and AD; 在长期中, 总供给曲线是垂直的; 总供给曲线通常一年向右移动几个百分点; the only source of high inflation is government increase money supply; (2020-5-3)
-81.	The short run;
-82.	AS is flat;output is determined by AD and price is not affected; AD curve is moved left and right, rather than up and down; (2020-3-28)
-83.	The medium run;
-84.	菲利普斯曲线; (2020-5-3)
-85.	
-86.	1-2, to reiterate;
-87.	All can be fitted into growth, AS and AD; (2020-3-28)
-88.	Growth and GDP; 
-89.	GDP growth is due to capital growth and labor growth, efficiency growth; (2020-3-28)
-90.	The business cycle and the output gap;
-91.	Growth, inflation, unemployment; recovery and recession; not everyone has a job, and some rooms are empty; output gap=actual output-potential output; (2020-3-28)
-92.	Recession: economics jargon versus the popular meaning;
-93.	Inflation and the business cycle;
-94.	Inflation and unemployment trade-off; (2020-3-29)
-95.	
-96.	1-3, outline and preview of the text;
-97.	Growth, AD and AS; (2020-3-29)
-98.	
-99.	1-4, prerequisites and recipes; 
-100.	
-101.	
-102.	Chapter 2, national income accounting;
+##	10th course;
+人社部; 劳动参与率; 摩擦性失业; 结构性失业; 周期性失业; 交易性需求; 收入分配问题; 开卷考试, 电脑答题; 考试时候交作业; 论文在考试结束后一周交; 泰勒规则; (2020-4-25) 
+	
+	
+#	Textbook: Macroeconomics 12th editon, Rudiger Dornbusch; 
+##	Chapter 1, introduction;
+###	1-1, macroeconomics encapsulated in three models; 
+1.	Very long run growth; 
+2.	Growth theory; economy fluctuation; 4 percent is better than 2 percent; (2020-3-27)
+3.	The economy with fixed productive capacity;
+4.	AS and AD; 在长期中, 总供给曲线是垂直的; 总供给曲线通常一年向右移动几个百分点; the only source of high inflation is government increase money supply; (2020-5-3)
+5.	The short run;
+6.	AS is flat;output is determined by AD and price is not affected; AD curve is moved left and right, rather than up and down; (2020-3-28)
+7.	The medium run;
+8.	菲利普斯曲线; (2020-5-3)
+	
+###	1-2, to reiterate;
+1.	All can be fitted into growth, AS and AD; (2020-3-28)
+2.	Growth and GDP; 
+3.	GDP growth is due to capital growth and labor growth, efficiency growth; (2020-3-28)
+4.	The business cycle and the output gap;
+5.	Growth, inflation, unemployment; recovery and recession; not everyone has a job, and some rooms are empty; output gap=actual output-potential output; (2020-3-28)
+6.	Recession: economics jargon versus the popular meaning;
+7.	Inflation and the business cycle;
+8.	Inflation and unemployment trade-off; (2020-3-29)
+	
+###	1-3, outline and preview of the text;
+1.	Growth, AD and AS; (2020-3-29)
+	
+###	1-4, prerequisites and recipes; 	
+##	Chapter 2, national income accounting;
 103.	2-1, the production of output and payments to factors of production; 
 104.	GDP_Y=f(labor_N, capital_K); Y=w*N+r*K+profit; (2020-5-10)
 105.	List 1, GDP, GNP和GNI; 
