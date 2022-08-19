@@ -40,26 +40,26 @@ Reference: https://www.bilibili.com/video/BV1sb411A7WP?p=1
 	
 		
 #	宏观经济学课堂笔记;
-1.	1st course;
+##	1st course;
 国际货币基金组织IMF; microeconomics-个体/稳定/企业; macroeconomics-总量aggregate; 美联储Federal Reserve System; 美国联邦基金利率Federal fund rate; 政府支出; 汇率是国家关系的体现, 非常重要; 经济波动economic fluctuation; 经济预期expectation; 长期看来, 所有的变量都会变化; price level, 一般价格水平; 凯恩斯学派Keynesian school; 价格在短期是刚性的rigidity; classical school, 古典学派; 亚当斯密Adam Smith; 价格在长期是弹性的; tools -> models; aggregate means as a whole; AD, aggregate demand; AS, aggregate supply; 总需求决定总供给, AS=f(AD); recession, recovery, bust-boom cycle; AD-消费; 计量经济学; 价格就是通胀; 宏观经济政策 - 经济增长, 物价稳定, 充分就业, 收支平衡; Phillips curve; 就业-物价trade-off; 经济学是研究资源配置的学问; inflation-CPI; (2020-3-26)
 
-2.	2nd course;
+##	2nd course;
 National income accounting; 国富论写于1776年; 政府是经济发展的守夜人; 金融危机谁之过; why NIPA; GDP是一个流量; GDP-GNP=要素支付之差; Y = f(N, K); corn = f(land, labor, seed, machine); NDP = GDP-折旧 = GDP * 88%; NI = NDP - taxes; 可支配收入DI; Y=G+C+I+NX; 三驾马车; 2010年是中国经济的拐点; 转为创新驱动社会; (2020-4-3)
 
-3.	3rd course;
-50.	论文可以谈就业问题, 鼓励写成英文论文; 论文还可以谈CPI 和PPI的关系; NI accounting; 可支配收入DI; 收入法, 支出法; 社会商品零售总额, 商务部统计; Foreign direct investment外国直接投资; 两部门模型; 三部门模型; Y = C+I+G = C+S+T; national defence; transfer payment; 固定资产投资, 住宅投资, 存货投资; 复苏-下行周期; 景气指标; 投资-利率; 投资=储蓄; 改革开放之初外汇奇缺, 三来一补; 易货barter; T-G=公共储蓄; 投资储蓄平衡; S-I = (G+TR-TA)(budget deficit) + NX(trade surplus); GDP缺陷, 忽略了地下经济; 名义GDP; 实际GDP; GDP平减指数, 衡量通胀水平; CPI; PPI; (2020-4-3)
-51.	
-52.	4th course;
-53.	CPI一般会高估, 因为是拉氏指数(除以基期); GDP平减指数低估-因为是帕氏指数(除以报告期); 区别CPI和GDP平减指数; GDP deflator = nomial GDP / real GDP; PPI出厂价格指数, 生产端; 原材料, power, fuel; PPI是先行指标, CPI是滞后指标; inflation还包括货币因素; M0=cash; M1=cash+活期存款; M2=M1+定期存款; M2是央行能够控制的货币; MV=PY; M->Price; 物价反映货币供应; CPI不能高于3%; unemployment充分就业; 名义利率和实际利率; ROI - return on investment; 利率是重要的变量; 欧洲央行; 短期利率, 中期利率, 长期利率; 隔夜利率overnight rate; 联邦基金利率就是隔夜利率; Libor伦敦同业拆借利率; medium lending facility; base point基点; exchange rate汇率; floating exchange rate浮动汇率; fixed exchange rate固定汇率; ch3, growth and accumulation; production function; Harrod-Domar mode, 基于凯恩斯模型; Y=AF(K, N); N, K(资本), y(人均产出); 经济增长率和储蓄率成正比, assume储蓄有效转换成投资; Robert Solow; input(N, K); technology; growth accounting equation; 对经济的贡献率, 劳动份额>资本份额; 稻田条件Inada conditions; (2020-4-6)
-54.	
-55.	5th course;
-56.	技术中性, 不偏向劳动也不偏向资本; production function; growth accounting equation; growth in per capita output; growth accounting equation in per capita terms; factors other than N and K, human capital; Y=AF(K, H, N); growth theory, the neoclassical model; investment=saving; solution for the steady state; 要增加储蓄率; the transition process, s to s’; Chapter 4; 边际报酬递减DRS, 不变CRS, 递增IRS; (2020-4-8)
-57.	
-58.	6th course;
-59.	经济政策, 法律政策; capital deepening资本深化; sy, 人均储蓄; equity; equity law; Human Development Index; capital widening; 资本深化=人均储蓄-资本广化; 滞胀, 凯恩斯主义的困境; 稳态, 死寂; 赶超战略; 内生增长理论; 创造性破坏; 新增长理论; 垄断不可能完全存在; 资本回报; 专利保护的有效期; 中小企业, 船小好调头; 扁平化管理; 反垄断法; 收敛; 人口增长与经济增长; big push; Chapter 5, AS and AD; (2020-4-10)
-60.	
-61.	7th course;
-62.	任何经济问题都是供求问题; 谷贱伤农; 储蓄过多抑制经济; 储蓄悖论; 《集体行动的逻辑》; 合成谬误Fallacy of Composition; 人是有限理性的bounded rationality; 管理就是决策; 量价都升; 经济短期问题, 经济周期, 经济波动; 总需求决定总供给; 经济危机是过剩经济; 庇古效应; 利率效应; 替代效应; 价格向上刚性; 凯恩斯供给曲线; 摩擦性失业; 结构性失业; 自然失业率; 财政政策或货币政策是改变需求; 财政政策和货币政策; (2020-4-15)
+##	3rd course;
+论文可以谈就业问题, 鼓励写成英文论文; 论文还可以谈CPI 和PPI的关系; NI accounting; 可支配收入DI; 收入法, 支出法; 社会商品零售总额, 商务部统计; Foreign direct investment外国直接投资; 两部门模型; 三部门模型; Y = C+I+G = C+S+T; national defence; transfer payment; 固定资产投资, 住宅投资, 存货投资; 复苏-下行周期; 景气指标; 投资-利率; 投资=储蓄; 改革开放之初外汇奇缺, 三来一补; 易货barter; T-G=公共储蓄; 投资储蓄平衡; S-I = (G+TR-TA)(budget deficit) + NX(trade surplus); GDP缺陷, 忽略了地下经济; 名义GDP; 实际GDP; GDP平减指数, 衡量通胀水平; CPI; PPI; (2020-4-3)
+
+##	4th course;
+CPI一般会高估, 因为是拉氏指数(除以基期); GDP平减指数低估-因为是帕氏指数(除以报告期); 区别CPI和GDP平减指数; GDP deflator = nomial GDP / real GDP; PPI出厂价格指数, 生产端; 原材料, power, fuel; PPI是先行指标, CPI是滞后指标; inflation还包括货币因素; M0=cash; M1=cash+活期存款; M2=M1+定期存款; M2是央行能够控制的货币; MV=PY; M->Price; 物价反映货币供应; CPI不能高于3%; unemployment充分就业; 名义利率和实际利率; ROI - return on investment; 利率是重要的变量; 欧洲央行; 短期利率, 中期利率, 长期利率; 隔夜利率overnight rate; 联邦基金利率就是隔夜利率; Libor伦敦同业拆借利率; medium lending facility; base point基点; exchange rate汇率; floating exchange rate浮动汇率; fixed exchange rate固定汇率; ch3, growth and accumulation; production function; Harrod-Domar mode, 基于凯恩斯模型; Y=AF(K, N); N, K(资本), y(人均产出); 经济增长率和储蓄率成正比, assume储蓄有效转换成投资; Robert Solow; input(N, K); technology; growth accounting equation; 对经济的贡献率, 劳动份额>资本份额; 稻田条件Inada conditions; (2020-4-6)
+
+##	5th course;
+技术中性, 不偏向劳动也不偏向资本; production function; growth accounting equation; growth in per capita output; growth accounting equation in per capita terms; factors other than N and K, human capital; Y=AF(K, H, N); growth theory, the neoclassical model; investment=saving; solution for the steady state; 要增加储蓄率; the transition process, s to s’; Chapter 4; 边际报酬递减DRS, 不变CRS, 递增IRS; (2020-4-8)
+
+##	6th course;
+经济政策, 法律政策; capital deepening资本深化; sy, 人均储蓄; equity; equity law; Human Development Index; capital widening; 资本深化=人均储蓄-资本广化; 滞胀, 凯恩斯主义的困境; 稳态, 死寂; 赶超战略; 内生增长理论; 创造性破坏; 新增长理论; 垄断不可能完全存在; 资本回报; 专利保护的有效期; 中小企业, 船小好调头; 扁平化管理; 反垄断法; 收敛; 人口增长与经济增长; big push; Chapter 5, AS and AD; (2020-4-10)
+
+7.	7th course;
+任何经济问题都是供求问题; 谷贱伤农; 储蓄过多抑制经济; 储蓄悖论; 《集体行动的逻辑》; 合成谬误Fallacy of Composition; 人是有限理性的bounded rationality; 管理就是决策; 量价都升; 经济短期问题, 经济周期, 经济波动; 总需求决定总供给; 经济危机是过剩经济; 庇古效应; 利率效应; 替代效应; 价格向上刚性; 凯恩斯供给曲线; 摩擦性失业; 结构性失业; 自然失业率; 财政政策或货币政策是改变需求; 财政政策和货币政策; (2020-4-15)
 63.	
 64.	8th course; 
 65.	重视实体经济; 采购经理人指数; 菲利普斯曲线; 理性预期; 还是一个前沿理论; 卢卡斯批判; 新古典主义; wage-unemployment relationship and sticky wages; 工资和就业正相关; (2020-4-19)
