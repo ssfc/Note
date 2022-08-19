@@ -125,18 +125,18 @@ S-I = (政府采购G+对私人的转移支付TR-税收TA)(government budget defi
 ####	List 3, 储蓄、投资、政府预算与贸易;
 	
 ###	2-4, measuring GDP;
-130.	List 1, Final goods and value added;
-131.	List 2, Current output; 
-132.	List 3, 计算GDP时的问题; 
-133.	Adjusted GNP; (2020-5-10)
-134.	
-135.	2-5, inflation and price indexes;
-136.	Real GDP; nominal GDP; (2020-4-13)
-137.	List 1, inflation and prices; 
-138.	List 2, price indexes;
-139.	The GDP deflator, ratio of nominal GDP to real GDP; the consumer and producer price indexes; personal consumption expenditure; core inflation; (2020-4-13)
-140.	
-141.	2-6, unemployment;
+####	List 1, Final goods and value added;
+####	List 2, Current output; 
+####	List 3, 计算GDP时的问题; 
+Adjusted GNP; (2020-5-10)
+	
+###	2-5, inflation and price indexes;
+Real GDP; nominal GDP; (2020-4-13)
+####	List 1, inflation and prices; 
+####	List 2, price indexes;
+The GDP deflator, ratio of nominal GDP to real GDP; the consumer and producer price indexes; personal consumption expenditure; core inflation; (2020-4-13)
+	
+###	2-6, unemployment;
 142.	失业率是指失去工作、正在寻找工作或期望被重新雇用的劳动力占劳动人口的比率; (2020-5-10)
 143.	
 144.	2-7, interest rate and real interest rate;
