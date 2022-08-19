@@ -137,29 +137,28 @@ Real GDP; nominal GDP; (2020-4-13)
 The GDP deflator, ratio of nominal GDP to real GDP; the consumer and producer price indexes; personal consumption expenditure; core inflation; (2020-4-13)
 	
 ###	2-6, unemployment;
-142.	失业率是指失去工作、正在寻找工作或期望被重新雇用的劳动力占劳动人口的比率; (2020-5-10)
-143.	
-144.	2-7, interest rate and real interest rate;
-145.	名义利率表明的只是货币报酬; 实际利率给出了按照美元不变价值计算的报酬; (2020-5-10)
-146.	
-147.	2-8, exchange rate;
-148.	
-149.	2-9, where to grab a look at the data; 
-150.	
-151.	
-152.	Chapter 3, growth and accumulation;
-153.	3-1, growth accounting;
-154.	Y=AF(K, N); MPL, the marginal product of labor; MPK, marginal product of capital; 全要素生产率的增长率是在所有投入不变的情况下, 由于生产方法改进所导致的产出增加的数额; (2020-5-10)
-155.	List 1, accounting for growth in per capita output;
-156.	List 2, The postwar convergence of the US and Japanese economics;
-157.	日本经济的飞速发展是由于技术进步; (2020-5-10)
-158.	
-159.	3-2, empirical estimates of growth;
-160.	索洛剩余; (2020-5-10)
-161.	List 1, Factors other than capital and labor;
-162.	Natural resources; human capital; 
-163.	
-164.	3-3, growth theory: the neoclassical model;
+失业率是指失去工作、正在寻找工作或期望被重新雇用的劳动力占劳动人口的比率; (2020-5-10)
+	
+###	2-7, interest rate and real interest rate;
+名义利率表明的只是货币报酬; 实际利率给出了按照美元不变价值计算的报酬; (2020-5-10)
+	
+###	2-8, exchange rate;
+	
+###	2-9, where to grab a look at the data; 
+		
+##	Chapter 3, growth and accumulation;
+###	3-1, growth accounting;
+Y=AF(K, N); MPL, the marginal product of labor; MPK, marginal product of capital; 全要素生产率的增长率是在所有投入不变的情况下, 由于生产方法改进所导致的产出增加的数额; (2020-5-10)
+####	List 1, accounting for growth in per capita output;
+####	List 2, The postwar convergence of the US and Japanese economics;
+日本经济的飞速发展是由于技术进步; (2020-5-10)
+	
+###	3-2, empirical estimates of growth;
+索洛剩余; (2020-5-10)
+####	List 1, Factors other than capital and labor;
+Natural resources; human capital; 
+	
+###	3-3, growth theory: the neoclassical model;
 165.	Y/N = A(K/N)^theta; 边际产量递减; (2020-5-10)
 166.	List 1, Steady state;
 167.	当人均收入和人均资本不变时, 经济就处于稳定状态; (2020-5-10)
