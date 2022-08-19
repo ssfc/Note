@@ -98,14 +98,14 @@ CPI一般会高估, 因为是拉氏指数(除以基期); GDP平减指数低估-�
 	
 ###	1-4, prerequisites and recipes; 	
 ##	Chapter 2, national income accounting;
-103.	2-1, the production of output and payments to factors of production; 
-104.	GDP_Y=f(labor_N, capital_K); Y=w*N+r*K+profit; (2020-5-10)
-105.	List 1, GDP, GNP和GNI; 
-106.	在美国, GDP, GNP和GNI之间的差额可以忽略不计; (2020-5-10)
-107.	List 2, GNP与GDP; 
-108.	NDP=GDP-depreciation; (2020-4-12)
-109.	List 3, 要素报酬; 
-110.	
+1.	2-1, the production of output and payments to factors of production; 
+2.	GDP_Y=f(labor_N, capital_K); Y=w*N+r*K+profit; (2020-5-10)
+####	List 1, GDP, GNP和GNI; 
+在美国, GDP, GNP和GNI之间的差额可以忽略不计; (2020-5-10)
+####	List 2, GNP与GDP; 
+NDP=GDP-depreciation; (2020-4-12)
+####	List 3, 要素报酬; 
+	
 111.	2-2, outlays and components of demand;
 112.	国民收入核算恒等式Y=C+I+G+NX; (2020-5-10)
 113.	List 1, 消费; 
