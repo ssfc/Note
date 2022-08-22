@@ -21,9 +21,11 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 
 ### Knapsack 5 - relaxation, branch and bound
 1. Exhaustive Search - Definition. •A brute force solution to a problem involving search. for an element with a special property, usually among combinatorial objects such as a permutations, combinations, or subsets of a set. (2022年8月22日)
+2. depth-first search; 
+
+### Knapsack 6 - search strategies, depth first, best first, least discrepancy
+1. depth-first search; 
 2. 
-
-
 
 
 
