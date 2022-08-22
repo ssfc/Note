@@ -18,7 +18,11 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 3. v(i,j) meaning: when capacity is j, total value after deciding item i. Item [1, i-1] have already been decided; (2022年8月22日)
 4. how to draw dynamic-programming table, but do not show how to get the exact item selected: https://blog.csdn.net/qq_39133120/article/details/93623531 
 5. how to get the exact item selected: https://www.bilibili.com/video/BV1K4411X766/?spm_id_from=333.788.recommend_more_video.-1&vd_source=3ef4175721f926fbf390a069da19b0ca
-6. 
+
+### Knapsack 5 - relaxation, branch and bound
+1. Exhaustive Search - Definition. •A brute force solution to a problem involving search. for an element with a special property, usually among combinatorial objects such as a permutations, combinations, or subsets of a set. (2022年8月22日)
+2. 
+
 
 
 
