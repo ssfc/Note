@@ -15,7 +15,8 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 ### Knapsack 4 - dynamic programming
 1.  dynamic programming reduce capacity from high to low, table method increase capacity from low to high; (2022年8月22日)
 2.  Since every recursive method has a corresponding iterative method, table method is the corresponding iterative method of dynamic programming; (2022年8月22日)
-
+3. v(i,j) meaning: when capacity is j, total value after deciding item i. Item [1, i-1] have already been decided; (2022年8月22日)
+4. 
 
 
 
