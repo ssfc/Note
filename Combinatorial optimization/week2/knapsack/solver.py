@@ -31,7 +31,23 @@ def dynamic_iterative(items, capacity):
 #    print(matrix)
     total_value = matrix[-1][-1]
 
-    return total_value
+    taken = [0] * len(items)
+    i = row_count
+    current_value = total_value
+
+    for i in range(row_count-1, 0, -1):
+        for j in range(column_count):
+            if matrix[i][j] == current_value:
+                index = j
+                break
+
+        if matrix[i][index] == matrix[i-1][index]:
+            taken[i-1] = 0
+        else:
+            taken[i - 1] = 1
+            current_value = current_value - items[i-1].value
+
+    return total_value, taken
 
 
 def solve_it(input_data):
@@ -71,7 +87,8 @@ def solve_it(input_data):
     elif choice == "dynamic_recursive":
         total_value = dynamic_recursive(item_count-1, capacity, items, taken)
     elif choice == "dynamic_iterative":
-        total_value = dynamic_iterative(items, capacity)
+        opt = 1
+        total_value, taken = dynamic_iterative(items, capacity)
 
     # prepare the solution in the specified output format
     output_data = str(total_value) + ' ' + str(opt) + '\n'
