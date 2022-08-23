@@ -17,6 +17,10 @@ def dynamic_recursive(i, j, items, taken):
                        dynamic_recursive(i-1, j-items[i].weight, items, taken) + items[i].value)
 
 
+def dynamic_iterative(items, capacity):
+    return 0
+
+
 def solve_it(input_data):
     # Modify this code to run your optimization algorithm
 
@@ -52,6 +56,8 @@ def solve_it(input_data):
                 total_weight += item.weight
     elif choice == "dynamic_recursive":
         total_value = dynamic_recursive(item_count-1, capacity, items, taken)
+    elif choice == "dynamic_iterative":
+        total_value = 0
 
     # prepare the solution in the specified output format
     output_data = str(total_value) + ' ' + str(opt) + '\n'
