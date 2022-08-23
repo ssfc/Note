@@ -1,4 +1,4 @@
-#!/usr/bin/python
+0#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 from __future__ import print_function

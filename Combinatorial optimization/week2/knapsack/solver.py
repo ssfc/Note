@@ -28,14 +28,14 @@ def solve_it(input_data):
     total_value = 0
     opt = 0
 
-    weight = 0
+    total_weight = 0
     taken = [0] * len(items)
 
     for item in items:
-        if weight + item.weight <= capacity:
+        if total_weight + item.weight <= capacity:
             taken[item.index] = 1
             total_value += item.value
-            weight += item.weight
+            total_weight += item.weight
 
     # prepare the solution in the specified output format
     output_data = str(total_value) + ' ' + str(opt) + '\n'
