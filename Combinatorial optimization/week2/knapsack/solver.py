@@ -6,6 +6,16 @@ from collections import namedtuple
 Item = namedtuple("Item", ['index', 'value', 'weight'])
 
 
+def dynamic_recursive(i, j, items):
+    if i == 0 or j == 0:
+        return 0
+    else:
+        if items[i].weight > j:
+            return dynamic_recursive(i-1, j, items)
+        else:
+            return max(dynamic_recursive(i-1, j, items), dynamic_recursive(i-1, j-items[i].weight, items)+items[i].value)
+
+
 def solve_it(input_data):
     # Modify this code to run your optimization algorithm
 
@@ -31,7 +41,7 @@ def solve_it(input_data):
     total_weight = 0
     taken = [0] * len(items)  # a way to create list of certain size;
 
-    choice = "in_order"
+    choice = "dynamic_recursive"
 
     if choice == "in_order":
         for item in items:
@@ -39,6 +49,8 @@ def solve_it(input_data):
                 taken[item.index] = 1
                 total_value += item.value
                 total_weight += item.weight
+    elif choice == "dynamic_recursive":
+        total_value = dynamic_recursive(item_count, capacity, items)
 
     # prepare the solution in the specified output format
     output_data = str(total_value) + ' ' + str(opt) + '\n'
