@@ -25,7 +25,16 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 
 ### Knapsack 6 - search strategies, depth first, best first, least discrepancy
 1. depth-first search; 
-2. 
+
+### Programming Assignment: Knapsack
+1. The files given can be uploaded directly, we only need to modify solve_it function; (2022年8月23日)
+2. The function should be run on linux environment; (2022年8月23日)
+3. 
+   
+
+
+
+
 
 
 
