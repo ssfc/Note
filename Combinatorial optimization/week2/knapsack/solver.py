@@ -21,11 +21,17 @@ def dynamic_iterative(items, capacity):
     row_count = len(items) + 1
     column_count = capacity + 1
     matrix = [[0 for x in range(column_count)] for y in range(row_count)]
-    for i in range(column_count):
-        for j in range(row_count):
-            print(1)
+    for j in range(1, column_count):
+        for i in range(1, row_count):
+            if items[i-1].weight > j:
+                matrix[i][j] = matrix[i-1][j]
+            else:
+                matrix[i][j] = max(matrix[i-1][j], matrix[i-1][j-items[i-1].weight] + items[i-1].value)
 
-    return matrix
+#    print(matrix)
+    total_value = matrix[-1][-1]
+
+    return total_value
 
 
 def solve_it(input_data):
@@ -53,7 +59,8 @@ def solve_it(input_data):
     total_weight = 0
     taken = [0] * len(items)  # a way to create list of certain size;
 
-    choice = "dynamic_recursive"
+#    choice = "dynamic_recursive"
+    choice = "dynamic_iterative"
 
     if choice == "in_order":
         for item in items:
@@ -64,7 +71,7 @@ def solve_it(input_data):
     elif choice == "dynamic_recursive":
         total_value = dynamic_recursive(item_count-1, capacity, items, taken)
     elif choice == "dynamic_iterative":
-        total_value = 0
+        total_value = dynamic_iterative(items, capacity)
 
     # prepare the solution in the specified output format
     output_data = str(total_value) + ' ' + str(opt) + '\n'
