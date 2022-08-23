@@ -31,11 +31,14 @@ def solve_it(input_data):
     total_weight = 0
     taken = [0] * len(items)  # a way to create list of certain size;
 
-    for item in items:
-        if total_weight + item.weight <= capacity:
-            taken[item.index] = 1
-            total_value += item.value
-            total_weight += item.weight
+    choice = "in_order"
+
+    if choice == "in_order":
+        for item in items:
+            if total_weight + item.weight <= capacity:
+                taken[item.index] = 1
+                total_value += item.value
+                total_weight += item.weight
 
     # prepare the solution in the specified output format
     output_data = str(total_value) + ' ' + str(opt) + '\n'
