@@ -6,14 +6,15 @@ from collections import namedtuple
 Item = namedtuple("Item", ['index', 'value', 'weight'])
 
 
-def dynamic_recursive(i, j, items):
-    if i == 0 or j == 0:
+def dynamic_recursive(i, j, items, taken):
+    if i < 0 or j == 0:
         return 0
     else:
         if items[i].weight > j:
-            return dynamic_recursive(i-1, j, items)
+            return dynamic_recursive(i-1, j, items, taken)
         else:
-            return max(dynamic_recursive(i-1, j, items), dynamic_recursive(i-1, j-items[i].weight, items)+items[i].value)
+            return max(dynamic_recursive(i-1, j, items, taken),
+                       dynamic_recursive(i-1, j-items[i].weight, items, taken) + items[i].value)
 
 
 def solve_it(input_data):
@@ -50,7 +51,7 @@ def solve_it(input_data):
                 total_value += item.value
                 total_weight += item.weight
     elif choice == "dynamic_recursive":
-        total_value = dynamic_recursive(item_count, capacity, items)
+        total_value = dynamic_recursive(item_count-1, capacity, items, taken)
 
     # prepare the solution in the specified output format
     output_data = str(total_value) + ' ' + str(opt) + '\n'
