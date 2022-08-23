@@ -29,8 +29,9 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 ### Programming Assignment: Knapsack
 1. The files given can be uploaded directly, we only need to modify solve_it function; (2022年8月23日)
 2. The function should be run on linux environment; (2022年8月23日)
-3. Namedtuple in Python; Access by index, Access by keyname; (2022年8月23日)
-4. 
+3. What is Namedtuple in Python: Access by index, Access by keyname; (2022年8月23日)
+4. A way to create python list: thislist = [0] * 5 = [0, 0, 0, 0, 0] ; (2022年8月23日)
+5. 
    
 
 
