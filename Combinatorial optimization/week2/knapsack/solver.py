@@ -18,9 +18,12 @@ def dynamic_recursive(i, j, items, taken):
 
 
 def dynamic_iterative(items, capacity):
-    row_count = len(items)
-    column_count = capacity
+    row_count = len(items) + 1
+    column_count = capacity + 1
     matrix = [[0 for x in range(column_count)] for y in range(row_count)]
+    for i in range(column_count):
+        for j in range(row_count):
+            print(1)
 
     return matrix
 
