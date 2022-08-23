@@ -12,9 +12,9 @@ def solve_it(input_data):
     # parse the input
     lines = input_data.split('\n')
 
-    firstLine = lines[0].split()
-    item_count = int(firstLine[0])
-    capacity = int(firstLine[1])
+    first_line = lines[0].split()
+    item_count = int(first_line[0])
+    capacity = int(first_line[1])
 
     items = []
 
@@ -26,6 +26,8 @@ def solve_it(input_data):
     # a trivial algorithm for filling the knapsack
     # it takes items in-order until the knapsack is full
     value = 0
+    opt = 0
+
     weight = 0
     taken = [0] * len(items)
 
@@ -36,7 +38,7 @@ def solve_it(input_data):
             weight += item.weight
 
     # prepare the solution in the specified output format
-    output_data = str(value) + ' ' + str(0) + '\n'
+    output_data = str(value) + ' ' + str(opt) + '\n'
     output_data += ' '.join(map(str, taken))
     return output_data
 
