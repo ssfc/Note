@@ -36,7 +36,7 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 7. We can use Backtracking to optimize the Brute Force solution. (2022年8月25日)
 8. branch and bound; 
 9. how to sort python namedtuple according one of the element? 
-10. / 除法计算结果是浮点数，即使是两个整数恰好整除，结果也是浮点数。(2022年8月25日)
+10. python / 除法计算结果是浮点数，即使是两个整数恰好整除，结果也是浮点数。(2022年8月25日)
 11. 
 
 

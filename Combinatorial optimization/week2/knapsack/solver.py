@@ -80,7 +80,8 @@ def solve_it(input_data):
     taken = [0] * len(items)  # a way to create list of certain size;
 
 #    choice = "dynamic_recursive"
-    choice = "dynamic_iterative"
+#    choice = "dynamic_iterative"
+    choice = "brand_bound"
 
     if choice == "in_order":
         for item in items:
@@ -93,6 +94,10 @@ def solve_it(input_data):
     elif choice == "dynamic_iterative":
         opt = 1
         total_value, taken = dynamic_iterative(items, capacity)
+    elif choice == "brand_bound":
+        opt = 1
+        total_value = -1
+        brand_bound(items)
 
     # prepare the solution in the specified output format
     output_data = str(total_value) + ' ' + str(opt) + '\n'
