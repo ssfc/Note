@@ -32,7 +32,8 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 3. What is Namedtuple in Python: Access by index, Access by keyname; (2022年8月23日)
 4. A way to create python list: thislist = [0] * 5 = [0, 0, 0, 0, 0] ; (2022年8月23日)
 5. A way to create python matrix: matrix = [[0 for x in range(column_count)] for y in range(row_count)] ; (2022年8月23日)
-6. 
+6. The DP Solution doesn’t work if item weights are not integers. (2022年8月25日)
+7. 
    
 
 
