@@ -50,7 +50,7 @@ def dynamic_iterative(items, capacity):
     return total_value, taken
 
 
-def brand_bound():
+def brand_bound(items):
     print(123)
 
 
