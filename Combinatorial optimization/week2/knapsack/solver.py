@@ -54,6 +54,9 @@ def brand_bound(items):
     # print(items)
     items.sort(key=lambda x: x.ratio, reverse=True)
     # print(items)
+    max_profit = 0
+    queue = []
+    
 
 
 def solve_it(input_data):

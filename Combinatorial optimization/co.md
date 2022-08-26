@@ -38,7 +38,9 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 9. branch and bound; 
 10. how to sort python namedtuple according one of the element? 
 11. python / 除法计算结果是浮点数，即使是两个整数恰好整除，结果也是浮点数。(2022年8月25日)
-12. 
+12. Step 1: Sort all items in decreasing order of ratio of value per unit weight so that an upper bound can be computed using Greedy Approach. (2022年8月26日)
+13. Step 2: Initialize maximum profit, maxProfit = 0 ; (2022年8月26日)
+14. Create an empty queue, Q; 
 
 
 
