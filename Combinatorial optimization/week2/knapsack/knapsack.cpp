@@ -1,8 +1,10 @@
 // C++ program to solve knapsack problem using
 // branch and bound
-#include <bits/stdc++.h>
+#include <algorithm>
+#include <iostream>
+#include <queue>
 using namespace std;
-  
+
 // Structure for Item which store weight and corresponding
 // value of Item
 struct Item
