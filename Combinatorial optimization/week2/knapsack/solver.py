@@ -51,9 +51,9 @@ def dynamic_iterative(items, capacity):
 
 
 def brand_bound(items):
-    print(items)
-    items.sort(key=lambda x: x.weight)
-    print(items)
+#    print(items)
+    items.sort(key=lambda x: x.ratio, reverse=True)
+#    print(items)
 
 
 def solve_it(input_data):
@@ -81,10 +81,10 @@ def solve_it(input_data):
     total_weight = 0
     taken = [0] * len(items)  # a way to create list of certain size;
 
-    choice = "in_order"
+#    choice = "in_order"
 #    choice = "dynamic_recursive"
 #    choice = "dynamic_iterative"
-#    choice = "brand_bound"
+    choice = "brand_bound"
 
     if choice == "in_order":
         for item in items:
