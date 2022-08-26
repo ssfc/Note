@@ -51,9 +51,9 @@ def dynamic_iterative(items, capacity):
 
 
 def brand_bound(items):
-#    print(items)
+    # print(items)
     items.sort(key=lambda x: x.ratio, reverse=True)
-#    print(items)
+    # print(items)
 
 
 def solve_it(input_data):
