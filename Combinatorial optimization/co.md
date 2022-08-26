@@ -32,12 +32,13 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 3. What is Namedtuple in Python: Access by index, Access by keyname; (2022年8月23日)
 4. A way to create python list: thislist = [0] * 5 = [0, 0, 0, 0, 0] ; (2022年8月23日)
 5. A way to create python matrix: matrix = [[0 for x in range(column_count)] for y in range(row_count)] ; (2022年8月23日)
-6. The DP Solution doesn’t work if item weights are not integers. (2022年8月25日)
-7. We can use Backtracking to optimize the Brute Force solution. (2022年8月25日)
-8. branch and bound; 
-9. how to sort python namedtuple according one of the element? 
-10. python / 除法计算结果是浮点数，即使是两个整数恰好整除，结果也是浮点数。(2022年8月25日)
-11. 
+6. brand and bound for 0-1 knapsack: https://www.geeksforgeeks.org/implementation-of-0-1-knapsack-using-branch-and-bound/
+7. The DP Solution doesn’t work if item weights are not integers. (2022年8月25日)
+8. We can use Backtracking to optimize the Brute Force solution. (2022年8月25日)
+9. branch and bound; 
+10. how to sort python namedtuple according one of the element? 
+11. python / 除法计算结果是浮点数，即使是两个整数恰好整除，结果也是浮点数。(2022年8月25日)
+12. 
 
 
 
