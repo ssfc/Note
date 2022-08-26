@@ -3,7 +3,7 @@
 
 from collections import namedtuple
 
-Item = namedtuple("Item", ['index', 'value', 'weight'])
+Item = namedtuple("Item", ['index', 'value', 'weight', 'ratio'])
 
 
 def dynamic_recursive(i, j, items, taken):
@@ -71,7 +71,7 @@ def solve_it(input_data):
     for i in range(1, item_count + 1):
         line = lines[i]
         parts = line.split()
-        items.append(Item(i - 1, int(parts[0]), int(parts[1])))
+        items.append(Item(i - 1, int(parts[0]), int(parts[1]), int(parts[0]) / int(parts[1])))
 
     # a trivial algorithm for filling the knapsack
     # it takes items in-order until the knapsack is full
@@ -81,10 +81,10 @@ def solve_it(input_data):
     total_weight = 0
     taken = [0] * len(items)  # a way to create list of certain size;
 
-#    choice = "in_order"
+    choice = "in_order"
 #    choice = "dynamic_recursive"
 #    choice = "dynamic_iterative"
-    choice = "brand_bound"
+#    choice = "brand_bound"
 
     if choice == "in_order":
         for item in items:
