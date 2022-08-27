@@ -140,9 +140,12 @@ void knapsack(int capacity, Item arr[], int item_count)
 // driver program to test above function
 int main()
 {
-    int capacity = 10;   // Capacity of knapsack
+/*    int capacity = 10;   // Capacity of knapsack
     Item arr[] = {{2, 40}, {3.14, 50}, {1.98, 100},
                   {5, 95}, {3, 30}};
+*/                  
+    int capacity = 11;   // Capacity of knapsack
+    Item arr[] = {{4, 8}, {5, 10}, {8, 15}, {3, 4}};
     int item_count = sizeof(arr) / sizeof(arr[0]);
   
     knapsack(capacity, arr, item_count); 
