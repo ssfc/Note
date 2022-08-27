@@ -114,7 +114,10 @@ int knapsack(int capacity, Item arr[], int item_count)
   
         // Step 5.2: If the profit of next value is more than max_profit, then update max_profit. 
         if (v.weight <= capacity && v.profit > max_profit)
+        {
             max_profit = v.profit;
+            cout<<arr[v.level].value<<endl;
+        }
   
         // Get the upper bound on profit to decide whether to add v to Q or not.
         v.bound = bound(v, item_count, capacity, arr);
