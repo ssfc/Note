@@ -39,8 +39,9 @@ bool cmp(Item a, Item b)
 int bound(Node u, int item_count, int capacity, Item arr[])
 {
     // if weight overcomes the knapsack capacity, return 0 as expected upper bound
+    // this is similar to dynamic programming method: if items[i-1].weight > j: matrix[i][j] = matrix[i-1][j]
     if (u.weight >= capacity)
-        return 0;
+        return 0; 
   
     // initialize upper bound on profit by current profit
     int profit_bound = u.profit;
