@@ -97,7 +97,7 @@ int knapsack(int capacity, Item arr[], int item_count)
     // compute profit of all children of extracted item
     // and keep saving maxProfit
     
-    while (!Q.empty())
+    while (!Q.empty())  // Step 5.0: do following while Q is not empty; 
     {
         // Dequeue a node
         u = Q.front();
