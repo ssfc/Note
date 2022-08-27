@@ -119,9 +119,7 @@ int knapsack(int capacity, Item arr[], int item_count)
         // Get the upper bound on profit to decide whether to add v to Q or not.
         v.bound = bound(v, item_count, capacity, arr);
   
-        // If bound value is greater than profit,
-        // then only push into queue for further
-        // consideration
+        // If bound value is greater than profit, then only push into queue for further consideration
         if (v.bound > maxProfit)
             Q.push(v);
   
