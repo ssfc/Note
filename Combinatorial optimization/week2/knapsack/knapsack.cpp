@@ -77,8 +77,11 @@ int bound(Node u, int item_count, int capacity, Item arr[])
 // Returns maximum profit we can get with capacity 
 int knapsack(int capacity, Item arr[], int item_count)
 {
-    // sorting Item on basis of value per unit weight.
+    // Step 1: sorting Item on basis of value per unit weight.
     sort(arr, arr + item_count, cmp);
+    
+    // Step 2: Initialize maximum profit, maxProfit = 0
+    int maxProfit = 0; 
   
     // make a queue for traversing the node
     queue<Node> Q;
@@ -86,13 +89,14 @@ int knapsack(int capacity, Item arr[], int item_count)
   
     // dummy node at starting
     u.level = -1;
-    u.profit = u.weight = 0;
+    u.profit = 0; 
+    u.weight = 0; 
     Q.push(u);
   
     // One by one extract an item from decision tree
     // compute profit of all children of extracted item
     // and keep saving maxProfit
-    int maxProfit = 0;
+    
     while (!Q.empty())
     {
         // Dequeue a node
