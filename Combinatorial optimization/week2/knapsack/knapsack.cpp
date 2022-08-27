@@ -41,6 +41,7 @@ bool cmp(Item a, Item b)
 // Returns bound of profit in subtree rooted with u.
 // This function mainly uses Greedy solution to find
 // an upper bound on maximum profit.
+// Ah, the bound is upper bound; 
 int bound(Node u, int n, int W, Item arr[])
 {
     // if weight overcomes the knapsack capacity, return
