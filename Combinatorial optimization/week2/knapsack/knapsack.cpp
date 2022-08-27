@@ -49,19 +49,19 @@ int bound(Node u, int n, int W, Item arr[])
     if (u.weight >= W)
         return 0;
   
-    // initialize bound on profit by current profit
+    // initialize upper bound on profit by current profit
     int profit_bound = u.profit;
   
     // start including items from index 1 more to current
     // item index
     int j = u.level + 1;
-    int totweight = u.weight;
+    int total_weight = u.weight;
   
     // checking index condition and knapsack capacity
     // condition
-    while ((j < n) && (totweight + arr[j].weight <= W))
+    while ((j < n) && (total_weight + arr[j].weight <= W))
     {
-        totweight    += arr[j].weight;
+        total_weight    += arr[j].weight;
         profit_bound += arr[j].value;
         j++;
     }
@@ -69,7 +69,7 @@ int bound(Node u, int n, int W, Item arr[])
     // If k is not n, include last item partially for
     // upper bound on profit
     if (j < n)
-        profit_bound += (W - totweight) * arr[j].value /
+        profit_bound += (W - total_weight) * arr[j].value /
                                          arr[j].weight;
   
     return profit_bound;
