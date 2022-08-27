@@ -99,8 +99,8 @@ int knapsack(int capacity, Item arr[], int item_count)
     
     while (!Q.empty())  // Step 5.0: do following while Q is not empty; 
     {
-        // Dequeue a node
-        u = Q.front(); // Step 5.1: Extract an item from Q. Let the extracted item be u. 
+        // Step 5.1: Extract an item from Q. Let the extracted item be u.
+        u = Q.front(); 
         Q.pop();
   
         // If it is starting node, assign level 0
