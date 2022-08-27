@@ -149,9 +149,6 @@ int main()
              
     int capacity = 11;   // Capacity of knapsack
     vector<Item> arr = {{8, 4}, {10, 5}, {15, 8}, {4, 3}};
-
-
-//    int item_count = sizeof(arr) / sizeof(arr[0]);  
     int item_count = arr.size();  
 
     knapsack(capacity, arr, item_count); 
