@@ -53,8 +53,7 @@ int bound(Node u, int item_count, int capacity, Item arr[])
     int j = u.level + 1;
     int total_weight = u.weight;
   
-    // checking index condition and knapsack capacity
-    // condition
+    // checking index condition and knapsack capacity condition
     while ((j < item_count) && (total_weight + arr[j].weight <= capacity))
     {
         total_weight    += arr[j].weight;
