@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <iostream>
 #include <queue>
+#include <vector>
 using namespace std;
 
 // Class for Item which store weight and corresponding
