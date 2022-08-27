@@ -69,7 +69,7 @@ int bound(Node u, int capacity, vector<Item> arr)
 }
   
 // Returns maximum profit we can get with capacity 
-void knapsack(int capacity, vector<Item> arr, int item_count)
+void knapsack(int capacity, vector<Item> arr)
 {
     // Step 1: sorting Item on basis of value per unit weight.
     sort(arr.begin(), arr.end(), cmp);
@@ -102,8 +102,8 @@ void knapsack(int capacity, vector<Item> arr, int item_count)
         if (u.level == -1)
             v.level = 0;
   
-        // If there is nothing on next level
-        if (u.level == item_count - 1)
+        // If there is nothing on next level, means reaching the last item; 
+        if (u.level == arr.size() - 1)
             continue;
   
         // Else if not last node, then increment level, and compute profit of children nodes.
@@ -151,7 +151,7 @@ int main()
     vector<Item> arr = {{8, 4}, {10, 5}, {15, 8}, {4, 3}};
     int item_count = arr.size();  
 
-    knapsack(capacity, arr, item_count); 
+    knapsack(capacity, arr); 
   
     return 0;
 }
