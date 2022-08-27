@@ -34,7 +34,7 @@ bool cmp(Item a, Item b)
     return r1 > r2;
 }
   
-// Returns bound of profit in subtree rooted with u.
+// Returns bound of profit in subtree rooted with u. (u is already the child node of current node)
 // This function mainly uses Greedy solution to find an upper bound on maximum profit.
 int bound(Node u, int item_count, int capacity, Item arr[])
 {
