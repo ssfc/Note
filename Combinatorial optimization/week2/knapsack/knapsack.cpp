@@ -77,8 +77,7 @@ int bound(Node u, int item_count, int capacity, Item arr[])
 // Returns maximum profit we can get with capacity 
 int knapsack(int capacity, Item arr[], int item_count)
 {
-    // sorting Item on basis of value per unit
-    // weight.
+    // sorting Item on basis of value per unit weight.
     sort(arr, arr + item_count, cmp);
   
     // make a queue for traversing the node
