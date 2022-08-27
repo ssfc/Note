@@ -5,18 +5,20 @@
 #include <queue>
 using namespace std;
 
-// Structure for Item which store weight and corresponding
+// Class for Item which store weight and corresponding
 // value of Item
-struct Item
+class Item
 {
+public:
     float weight;
     int value;
 };
   
-// Node structure to store information of decision
+// Node class to store information of decision
 // tree
-struct Node
+class Node
 {
+public:
     // level  --> Level of node in decision tree (or index
     //             in arr[]
     // profit --> Profit of nodes on path from root to this
@@ -26,7 +28,7 @@ struct Node
     int level, profit, bound;
     float weight;
 };
-  
+
 // Comparison function to sort Item according to
 // val/weight ratio
 bool cmp(Item a, Item b)
@@ -153,7 +155,7 @@ int main()
     int n = sizeof(arr) / sizeof(arr[0]);
   
     cout << "Maximum possible profit = "
-         << knapsack(W, arr, n);
+         << knapsack(W, arr, n) << endl;
   
     return 0;
 }
