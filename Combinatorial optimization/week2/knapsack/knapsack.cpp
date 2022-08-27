@@ -45,7 +45,7 @@ bool cmp(Item a, Item b)
 int bound(Node u, int n, int W, Item arr[])
 {
     // if weight overcomes the knapsack capacity, return
-    // 0 as expected bound
+    // 0 as expected upper bound
     if (u.weight >= W)
         return 0;
   
