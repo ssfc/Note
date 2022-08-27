@@ -37,7 +37,7 @@ bool cmp(Item a, Item b)
   
 // Returns bound of profit in subtree rooted with u. (u is already the child node of current node)
 // This function mainly uses Greedy solution to find an upper bound on maximum profit.
-int bound(Node u, int item_count, int capacity, Item arr[])
+int bound(Node u, int item_count, int capacity, vector<Item> arr)
 {
     // if weight overcomes the knapsack capacity, return 0 as expected upper bound
     // this is similar to dynamic programming method: if items[i-1].weight > j: matrix[i][j] = matrix[i-1][j]
@@ -69,10 +69,10 @@ int bound(Node u, int item_count, int capacity, Item arr[])
 }
   
 // Returns maximum profit we can get with capacity 
-void knapsack(int capacity, Item arr[], int item_count)
+void knapsack(int capacity, vector<Item> arr, int item_count)
 {
     // Step 1: sorting Item on basis of value per unit weight.
-    sort(arr, arr + item_count, cmp);
+    sort(arr.begin(), arr.end(), cmp);
     
     // Step 2: Initialize maximum profit, max_profit = 0
     int max_profit = 0; 
@@ -148,10 +148,13 @@ int main()
 */
              
     int capacity = 11;   // Capacity of knapsack
-    Item arr[] = {{8, 4}, {10, 5}, {15, 8}, {4, 3}};
+//    Item arr[] = {{8, 4}, {10, 5}, {15, 8}, {4, 3}};
+    vector<Item> arr = {{8, 4}, {10, 5}, {15, 8}, {4, 3}};
 
 
-    int item_count = sizeof(arr) / sizeof(arr[0]);  
+//    int item_count = sizeof(arr) / sizeof(arr[0]);  
+    int item_count = arr.size();  
+
     knapsack(capacity, arr, item_count); 
   
     return 0;
