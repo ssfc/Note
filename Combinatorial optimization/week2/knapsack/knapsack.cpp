@@ -38,8 +38,7 @@ bool cmp(Item a, Item b)
 // This function mainly uses Greedy solution to find an upper bound on maximum profit.
 int bound(Node u, int item_count, int capacity, Item arr[])
 {
-    // if weight overcomes the knapsack capacity, return
-    // 0 as expected upper bound
+    // if weight overcomes the knapsack capacity, return 0 as expected upper bound
     if (u.weight >= capacity)
         return 0;
   
