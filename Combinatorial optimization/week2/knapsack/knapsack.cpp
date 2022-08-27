@@ -104,8 +104,7 @@ int knapsack(int capacity, Item arr[], int item_count)
         if (u.level == item_count - 1)
             continue;
   
-        // Else if not last node, then increment level,
-        // and compute profit of children nodes.
+        // Else if not last node, then increment level, and compute profit of children nodes.
         v.level = u.level + 1;
   
         // Taking current level's item add current
