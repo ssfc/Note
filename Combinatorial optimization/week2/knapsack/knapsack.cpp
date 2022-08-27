@@ -87,11 +87,11 @@ int knapsack(int capacity, Item arr[], int item_count)
     queue<Node> Q;
     Node u, v;
   
-    // Step 4.1: dummy node at starting
+    // Step 4.1: dummy node at starting. Profit and weight of dummy node are 0; 
     u.level = -1;
     u.profit = 0; 
     u.weight = 0; 
-    Q.push(u);
+    Q.push(u); 
   
     // One by one extract an item from decision tree
     // compute profit of all children of extracted item
