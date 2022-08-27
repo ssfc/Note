@@ -42,11 +42,11 @@ bool cmp(Item a, Item b)
 // This function mainly uses Greedy solution to find
 // an upper bound on maximum profit.
 // Ah, the bound is upper bound; 
-int bound(Node u, int n, int W, Item arr[])
+int bound(Node u, int n, int capacity, Item arr[])
 {
     // if weight overcomes the knapsack capacity, return
     // 0 as expected upper bound
-    if (u.weight >= W)
+    if (u.weight >= capacity)
         return 0;
   
     // initialize upper bound on profit by current profit
@@ -59,7 +59,7 @@ int bound(Node u, int n, int W, Item arr[])
   
     // checking index condition and knapsack capacity
     // condition
-    while ((j < n) && (total_weight + arr[j].weight <= W))
+    while ((j < n) && (total_weight + arr[j].weight <= capacity))
     {
         total_weight    += arr[j].weight;
         profit_bound += arr[j].value;
@@ -69,14 +69,14 @@ int bound(Node u, int n, int W, Item arr[])
     // If k is not n, include last item partially for
     // upper bound on profit
     if (j < n)
-        profit_bound += (W - total_weight) * arr[j].value /
+        profit_bound += (capacity - total_weight) * arr[j].value /
                                          arr[j].weight;
   
     return profit_bound;
 }
   
-// Returns maximum profit we can get with capacity W
-int knapsack(int W, Item arr[], int n)
+// Returns maximum profit we can get with capacity 
+int knapsack(int capacity, Item arr[], int n)
 {
     // sorting Item on basis of value per unit
     // weight.
@@ -119,15 +119,15 @@ int knapsack(int W, Item arr[], int n)
         v.weight = u.weight + arr[v.level].weight;
         v.profit = u.profit + arr[v.level].value;
   
-        // If cumulated weight is less than W and
+        // If cumulated weight is less than capacity and
         // profit is greater than previous profit,
         // update maxprofit
-        if (v.weight <= W && v.profit > maxProfit)
+        if (v.weight <= capacity && v.profit > maxProfit)
             maxProfit = v.profit;
   
         // Get the upper bound on profit to decide
         // whether to add v to Q or not.
-        v.bound = bound(v, n, W, arr);
+        v.bound = bound(v, n, capacity, arr);
   
         // If bound value is greater than profit,
         // then only push into queue for further
@@ -135,11 +135,11 @@ int knapsack(int W, Item arr[], int n)
         if (v.bound > maxProfit)
             Q.push(v);
   
-        // Do the same thing,  but Without taking
+        // Do the same thing,  but without taking
         // the item in knapsack
         v.weight = u.weight;
         v.profit = u.profit;
-        v.bound = bound(v, n, W, arr);
+        v.bound = bound(v, n, capacity, arr);
         if (v.bound > maxProfit)
             Q.push(v);
     }
@@ -150,13 +150,13 @@ int knapsack(int W, Item arr[], int n)
 // driver program to test above function
 int main()
 {
-    int W = 10;   // Weight of knapsack
+    int capacity = 10;   // Capacity of knapsack
     Item arr[] = {{2, 40}, {3.14, 50}, {1.98, 100},
                   {5, 95}, {3, 30}};
     int n = sizeof(arr) / sizeof(arr[0]);
   
     cout << "Maximum possible profit = "
-         << knapsack(W, arr, n) << endl;
+         << knapsack(capacity, arr, n) << endl;
   
     return 0;
 }
