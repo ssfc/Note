@@ -87,7 +87,7 @@ int knapsack(int capacity, Item arr[], int item_count)
     queue<Node> Q;
     Node u, v;
   
-    // dummy node at starting
+    // Step 4.1: dummy node at starting
     u.level = -1;
     u.profit = 0; 
     u.weight = 0; 
