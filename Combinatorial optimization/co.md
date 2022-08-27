@@ -44,7 +44,8 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 15. try to run C++ sample code on linux; (2022年8月26日)
 16. <bits/stdc++.h> in C++: It is basically a header file that includes every standard library. (2022年8月26日)
 17. Replace struct with class; 使用struct和class来定义类，唯一的区别就是默认的访问权限不同。目的是为了兼容C; (2022年8月27日)
-18. 
+18. the bound is upper bound; (2022年8月27日)
+19. 
 
 
 
