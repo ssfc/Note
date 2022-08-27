@@ -37,7 +37,7 @@ bool cmp(Item a, Item b)
   
 // Returns bound of profit in subtree rooted with u. (u is already the child node of current node)
 // This function mainly uses Greedy solution to find an upper bound on maximum profit.
-int bound(Node u, int item_count, int capacity, vector<Item> arr)
+int bound(Node u, int capacity, vector<Item> arr)
 {
     // if weight overcomes the knapsack capacity, return 0 as expected upper bound
     // this is similar to dynamic programming method: if items[i-1].weight > j: matrix[i][j] = matrix[i-1][j]
@@ -52,7 +52,7 @@ int bound(Node u, int item_count, int capacity, vector<Item> arr)
     int total_weight = u.weight;
   
     // checking index condition and knapsack capacity condition
-    while ((j < item_count) && (total_weight + arr[j].weight <= capacity))
+    while ((j < arr.size()) && (total_weight + arr[j].weight <= capacity))
     {
         total_weight += arr[j].weight;
         profit_bound += arr[j].value;
@@ -61,7 +61,7 @@ int bound(Node u, int item_count, int capacity, vector<Item> arr)
   
     // If k is not n, include last item partially for
     // upper bound on profit
-    if (j < item_count)
+    if (j < arr.size())
         profit_bound += (capacity - total_weight) * arr[j].value /
                                          arr[j].weight;
   
@@ -121,7 +121,7 @@ void knapsack(int capacity, vector<Item> arr, int item_count)
         }
   
         // Get the upper bound on profit to decide whether to add v to Q or not.
-        v.bound = bound(v, item_count, capacity, arr);
+        v.bound = bound(v, capacity, arr);
   
         // Step 5.3: if bound of next level is more than max_profit, add next level node to Q.
         if (v.bound > max_profit)
@@ -130,7 +130,7 @@ void knapsack(int capacity, vector<Item> arr, int item_count)
         // Step 5.4: do the same thing, but without taking the item in knapsack
         v.weight = u.weight;
         v.profit = u.profit;
-        v.bound = bound(v, item_count, capacity, arr);
+        v.bound = bound(v, capacity, arr);
         if (v.bound > max_profit)
             Q.push(v);
     }
