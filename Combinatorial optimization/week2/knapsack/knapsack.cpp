@@ -117,8 +117,7 @@ int knapsack(int capacity, Item arr[], int item_count)
         if (v.weight <= capacity && v.profit > maxProfit)
             maxProfit = v.profit;
   
-        // Get the upper bound on profit to decide
-        // whether to add v to Q or not.
+        // Get the upper bound on profit to decide whether to add v to Q or not.
         v.bound = bound(v, item_count, capacity, arr);
   
         // If bound value is greater than profit,
