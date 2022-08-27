@@ -76,11 +76,11 @@ int bound(Node u, int n, int capacity, Item arr[])
 }
   
 // Returns maximum profit we can get with capacity 
-int knapsack(int capacity, Item arr[], int n)
+int knapsack(int capacity, Item arr[], int item_count)
 {
     // sorting Item on basis of value per unit
     // weight.
-    sort(arr, arr + n, cmp);
+    sort(arr, arr + item_count, cmp);
   
     // make a queue for traversing the node
     queue<Node> Q;
@@ -106,7 +106,7 @@ int knapsack(int capacity, Item arr[], int n)
             v.level = 0;
   
         // If there is nothing on next level
-        if (u.level == n-1)
+        if (u.level == item_count - 1)
             continue;
   
         // Else if not last node, then increment level,
@@ -127,7 +127,7 @@ int knapsack(int capacity, Item arr[], int n)
   
         // Get the upper bound on profit to decide
         // whether to add v to Q or not.
-        v.bound = bound(v, n, capacity, arr);
+        v.bound = bound(v, item_count, capacity, arr);
   
         // If bound value is greater than profit,
         // then only push into queue for further
@@ -139,7 +139,7 @@ int knapsack(int capacity, Item arr[], int n)
         // the item in knapsack
         v.weight = u.weight;
         v.profit = u.profit;
-        v.bound = bound(v, n, capacity, arr);
+        v.bound = bound(v, item_count, capacity, arr);
         if (v.bound > maxProfit)
             Q.push(v);
     }
