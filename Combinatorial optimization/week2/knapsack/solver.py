@@ -56,7 +56,7 @@ def brand_bound(items):
     # print(items)
     max_profit = 0
     queue = []
-    
+
 
 
 def solve_it(input_data):

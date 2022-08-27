@@ -153,10 +153,10 @@ int main()
     int capacity = 10;   // Capacity of knapsack
     Item arr[] = {{2, 40}, {3.14, 50}, {1.98, 100},
                   {5, 95}, {3, 30}};
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int item_count = sizeof(arr) / sizeof(arr[0]);
   
     cout << "Maximum possible profit = "
-         << knapsack(capacity, arr, n) << endl;
+         << knapsack(capacity, arr, item_count) << endl;
   
     return 0;
 }
