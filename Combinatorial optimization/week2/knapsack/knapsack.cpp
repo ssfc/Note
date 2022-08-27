@@ -112,8 +112,7 @@ int knapsack(int capacity, Item arr[], int item_count)
         v.weight = u.weight + arr[v.level].weight;
         v.profit = u.profit + arr[v.level].value;
   
-        // If cumulated weight is less than capacity and profit is greater than previous profit,
-        // update maxprofit
+        // Step 5.2: Compute profit of next level node. If the profit is more than maxProfit, then update maxProfit. 
         if (v.weight <= capacity && v.profit > maxProfit)
             maxProfit = v.profit;
   
