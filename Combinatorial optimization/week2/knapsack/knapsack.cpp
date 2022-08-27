@@ -119,11 +119,11 @@ int knapsack(int capacity, Item arr[], int item_count)
         // Get the upper bound on profit to decide whether to add v to Q or not.
         v.bound = bound(v, item_count, capacity, arr);
   
-        // Step 5.3: If bound of next level is more than max_profit, add next level node to Q.
+        // Step 5.3: if bound of next level is more than max_profit, add next level node to Q.
         if (v.bound > max_profit)
             Q.push(v);
   
-        // Do the same thing, but without taking the item in knapsack
+        // Step 5.4: do the same thing, but without taking the item in knapsack
         v.weight = u.weight;
         v.profit = u.profit;
         v.bound = bound(v, item_count, capacity, arr);
