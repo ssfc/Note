@@ -148,7 +148,6 @@ int main()
 */
              
     int capacity = 11;   // Capacity of knapsack
-//    Item arr[] = {{8, 4}, {10, 5}, {15, 8}, {4, 3}};
     vector<Item> arr = {{8, 4}, {10, 5}, {15, 8}, {4, 3}};
 
 
