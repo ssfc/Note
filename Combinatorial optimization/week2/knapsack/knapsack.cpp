@@ -73,8 +73,8 @@ int knapsack(int capacity, Item arr[], int item_count)
     // Step 1: sorting Item on basis of value per unit weight.
     sort(arr, arr + item_count, cmp);
     
-    // Step 2: Initialize maximum profit, maxProfit = 0
-    int maxProfit = 0; 
+    // Step 2: Initialize maximum profit, max_profit = 0
+    int max_profit = 0; 
   
     // Step 3: make a queue for traversing the node
     queue<Node> Q;
@@ -89,7 +89,7 @@ int knapsack(int capacity, Item arr[], int item_count)
   
     // One by one extract an item from decision tree
     // compute profit of all children of extracted item
-    // and keep saving maxProfit
+    // and keep saving max_profit
     
     while (!Q.empty())  // Step 5.0: do following while Q is not empty; 
     {
@@ -112,26 +112,26 @@ int knapsack(int capacity, Item arr[], int item_count)
         v.weight = u.weight + arr[v.level].weight;
         v.profit = u.profit + arr[v.level].value;
   
-        // Step 5.2: Compute profit of next level node. If the profit is more than maxProfit, then update maxProfit. 
-        if (v.weight <= capacity && v.profit > maxProfit)
-            maxProfit = v.profit;
+        // Step 5.2: If the profit of next value is more than max_profit, then update max_profit. 
+        if (v.weight <= capacity && v.profit > max_profit)
+            max_profit = v.profit;
   
         // Get the upper bound on profit to decide whether to add v to Q or not.
         v.bound = bound(v, item_count, capacity, arr);
   
         // If bound value is greater than profit, then only push into queue for further consideration
-        if (v.bound > maxProfit)
+        if (v.bound > max_profit)
             Q.push(v);
   
         // Do the same thing, but without taking the item in knapsack
         v.weight = u.weight;
         v.profit = u.profit;
         v.bound = bound(v, item_count, capacity, arr);
-        if (v.bound > maxProfit)
+        if (v.bound > max_profit)
             Q.push(v);
     }
   
-    return maxProfit;
+    return max_profit;
 }
   
 // driver program to test above function
