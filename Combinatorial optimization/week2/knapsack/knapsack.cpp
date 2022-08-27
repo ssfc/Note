@@ -83,7 +83,7 @@ int knapsack(int capacity, Item arr[], int item_count)
     // Step 2: Initialize maximum profit, maxProfit = 0
     int maxProfit = 0; 
   
-    // make a queue for traversing the node
+    // Step 3: make a queue for traversing the node
     queue<Node> Q;
     Node u, v;
   
