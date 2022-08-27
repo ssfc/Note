@@ -123,7 +123,7 @@ int knapsack(int capacity, Item arr[], int item_count)
         if (v.bound > maxProfit)
             Q.push(v);
   
-        // Do the same thing,  but without taking the item in knapsack
+        // Do the same thing, but without taking the item in knapsack
         v.weight = u.weight;
         v.profit = u.profit;
         v.bound = bound(v, item_count, capacity, arr);
