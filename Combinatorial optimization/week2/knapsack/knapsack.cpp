@@ -18,12 +18,9 @@ public:
 class Node
 {
 public:
-    // level  --> Level of node in decision tree (or index
-    //             in arr[]
-    // profit --> Profit of nodes on path from root to this
-    //            node (including this node)
-    // bound ---> Upper bound of maximum profit in subtree
-    //            of this node/
+    // level  --> Level of node in decision tree (or index in arr[])
+    // profit --> Profit of nodes on path from root to this node (including this node)
+    // bound ---> Upper bound of maximum profit in subtree of this node; 
     int level, profit, bound;
     float weight;
 };
