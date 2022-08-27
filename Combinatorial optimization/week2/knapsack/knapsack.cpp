@@ -78,7 +78,8 @@ int knapsack(int capacity, Item arr[], int item_count)
   
     // Step 3: make a queue for traversing the node
     queue<Node> Q;
-    Node u, v;
+    Node u; // u is the node extracted from Q; 
+    Node v; // v is u's child in decision tree; 
   
     // Step 4.1: dummy node at starting. Profit and weight of dummy node are 0; 
     u.level = -1;
@@ -107,9 +108,7 @@ int knapsack(int capacity, Item arr[], int item_count)
         // Else if not last node, then increment level, and compute profit of children nodes.
         v.level = u.level + 1;
   
-        // Taking current level's item add current
-        // level's weight and value to node u's
-        // weight and value
+        // Taking current level's item add current level's weight and value to node u's weight and value
         v.weight = u.weight + arr[v.level].weight;
         v.profit = u.profit + arr[v.level].value;
   
