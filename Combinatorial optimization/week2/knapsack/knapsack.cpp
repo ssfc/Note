@@ -68,7 +68,7 @@ int bound(Node u, int item_count, int capacity, Item arr[])
 }
   
 // Returns maximum profit we can get with capacity 
-int knapsack(int capacity, Item arr[], int item_count)
+void knapsack(int capacity, Item arr[], int item_count)
 {
     // Step 1: sorting Item on basis of value per unit weight.
     sort(arr, arr + item_count, cmp);
@@ -134,7 +134,7 @@ int knapsack(int capacity, Item arr[], int item_count)
             Q.push(v);
     }
   
-    return max_profit;
+    cout<<"Max profit is: "<< max_profit<<endl;
 }
   
 // driver program to test above function
@@ -145,8 +145,7 @@ int main()
                   {5, 95}, {3, 30}};
     int item_count = sizeof(arr) / sizeof(arr[0]);
   
-    cout << "Maximum possible profit = "
-         << knapsack(capacity, arr, item_count) << endl;
+    knapsack(capacity, arr, item_count); 
   
     return 0;
 }
