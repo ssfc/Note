@@ -41,7 +41,7 @@ bool cmp(Item a, Item b)
 // This function mainly uses Greedy solution to find
 // an upper bound on maximum profit.
 // Ah, the bound is upper bound; 
-int bound(Node u, int n, int capacity, Item arr[])
+int bound(Node u, int item_count, int capacity, Item arr[])
 {
     // if weight overcomes the knapsack capacity, return
     // 0 as expected upper bound
@@ -58,7 +58,7 @@ int bound(Node u, int n, int capacity, Item arr[])
   
     // checking index condition and knapsack capacity
     // condition
-    while ((j < n) && (total_weight + arr[j].weight <= capacity))
+    while ((j < item_count) && (total_weight + arr[j].weight <= capacity))
     {
         total_weight    += arr[j].weight;
         profit_bound += arr[j].value;
@@ -67,7 +67,7 @@ int bound(Node u, int n, int capacity, Item arr[])
   
     // If k is not n, include last item partially for
     // upper bound on profit
-    if (j < n)
+    if (j < item_count)
         profit_bound += (capacity - total_weight) * arr[j].value /
                                          arr[j].weight;
   
