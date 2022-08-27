@@ -14,8 +14,7 @@ public:
     int value;
 };
   
-// Node class to store information of decision
-// tree
+// Node class to store information of decision tree
 class Node
 {
 public:
