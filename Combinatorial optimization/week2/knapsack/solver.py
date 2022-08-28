@@ -92,6 +92,7 @@ def brand_bound(capacity, items):
     # Step 4.1: dummy node at starting. Profit and weight of dummy node are 0;
     u = Node(-1, 0, 0, 0)
     queue.append(u)  # Step 4.2: enqueue dummy node to Q;
+    print("Bound of root is: ", bound(u, capacity, items))
 
 
 def solve_it(input_data):
@@ -143,7 +144,7 @@ def solve_it(input_data):
         print("u: ", u)
         bound(u, capacity, items)
 
-        brand_bound(items)
+        brand_bound(capacity, items)
 
     # prepare the solution in the specified output format
     output_data = str(total_value) + ' ' + str(opt) + '\n'
