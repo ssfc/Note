@@ -4,7 +4,14 @@
 from collections import namedtuple
 
 Item = namedtuple("Item", ['index', 'value', 'weight', 'ratio'])
-Node = namedtuple("Node", ['level', 'profit', 'bound', 'weight'])
+# Node = namedtuple("Node", ['level', 'profit', 'bound', 'weight'])
+
+
+class Node:
+    level = -1
+    profit = 0
+    bound = 0
+    weight = 0
 
 
 def dynamic_recursive(i, j, items, taken):
@@ -90,8 +97,8 @@ def brand_bound(capacity, items):
     queue = []
 
     # Step 4.1: dummy node at starting. Profit and weight of dummy node are 0;
-    u = Node(-1, 0, 0, 0)
-    v = Node(-1, 0, 0, 0)
+    u = Node()
+    v = Node()
     queue.append(u)  # Step 4.2: enqueue dummy node to Q;
     print("Bound of root is: ", bound(u, capacity, items))
 
@@ -111,7 +118,12 @@ def brand_bound(capacity, items):
         # Else if not last node, then increment level, and compute profit of children nodes.
         v.level = u.level + 1
 
-        # Taking current level's item add current level's weight and value to node u's weight and value 
+        # Taking current level's item add current level's weight and value to node u's weight and value
+        # print("items: ", items)
+        v.weight = u.weight + items[v.level].weight
+        v.profit = u.profit + items[v.level].value
+
+        # Step 5.2: If the profit of next value is more than max_profit, then update max_profit.
 
 
 def solve_it(input_data):
@@ -159,7 +171,7 @@ def solve_it(input_data):
         opt = 1
         total_value = -1
 
-        u = Node(-1, 0, 0, 0)
+        u = Node()
         print("u: ", u)
         bound(u, capacity, items)
 
