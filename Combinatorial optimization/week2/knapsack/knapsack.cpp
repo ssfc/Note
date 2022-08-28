@@ -89,8 +89,7 @@ void knapsack(int capacity, vector<Item> arr)
     cout<<"Bound of root is: "<<bound(u, capacity, arr)<<endl;
   
     // One by one extract an item from decision tree
-    // compute profit of all children of extracted item
-    // and keep saving max_profit
+    // compute profit of all children of extracted item and keep saving max_profit
     
     while (!Q.empty())  // Step 5.0: do following while Q is not empty; 
     {
