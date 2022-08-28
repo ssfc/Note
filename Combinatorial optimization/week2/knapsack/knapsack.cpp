@@ -59,8 +59,7 @@ int bound(Node u, int capacity, vector<Item> arr)
         j++;
     }
   
-    // If k is not n, include last item partially for
-    // upper bound on profit
+    // If k is not n, include last item partially for upper bound on profit
     if (j < arr.size())
         profit_bound += (capacity - total_weight) * arr[j].value /
                                          arr[j].weight;

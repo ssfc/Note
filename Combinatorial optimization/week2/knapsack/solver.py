@@ -64,6 +64,16 @@ def bound(u, capacity, items):
     total_weight = u.weight
 
     # checking index condition and knapsack capacity condition
+    while (j < len(items)) and (total_weight + items[j].weight <= capacity):
+        total_weight += items[j].weight
+        profit_bound += items[j].value
+        j += 1
+
+    # If k is not n, include last item partially for upper bound on profit
+    if j < len(items):
+        profit_bound += (capacity - total_weight) * items[j].value / items[j].weight
+
+    print("profit bound: ", profit_bound)
 
     print("bound end")
 
