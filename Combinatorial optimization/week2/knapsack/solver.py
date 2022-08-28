@@ -73,9 +73,9 @@ def bound(u, capacity, items):
     if j < len(items):
         profit_bound += (capacity - total_weight) * items[j].value / items[j].weight
 
-    print("profit bound: ", profit_bound)
+#    print("profit bound: ", profit_bound)
 
-    print("bound end")
+    return profit_bound
 
 
 def brand_bound(items):
