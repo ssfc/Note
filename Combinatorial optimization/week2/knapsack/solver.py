@@ -91,6 +91,7 @@ def brand_bound(capacity, items):
 
     # Step 4.1: dummy node at starting. Profit and weight of dummy node are 0;
     u = Node(-1, 0, 0, 0)
+    v = Node(-1, 0, 0, 0)
     queue.append(u)  # Step 4.2: enqueue dummy node to Q;
     print("Bound of root is: ", bound(u, capacity, items))
 
@@ -100,7 +101,8 @@ def brand_bound(capacity, items):
         queue.pop(0)
 
         # If it is starting node, assign level 0;
-
+        if u.level == -1:
+            v.level = 0
 
 def solve_it(input_data):
     # Modify this code to run your optimization algorithm
