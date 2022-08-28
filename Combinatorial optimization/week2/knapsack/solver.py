@@ -104,6 +104,16 @@ def brand_bound(capacity, items):
         if u.level == -1:
             v.level = 0
 
+        # If there is nothing on next level, means reaching the last item;
+        if u.level == len(items) - 1:
+            continue
+
+        # Else if not last node, then increment level, and compute profit of children nodes.
+        v.level = u.level + 1
+
+        # Taking current level's item add current level's weight and value to node u's weight and value 
+
+
 def solve_it(input_data):
     # Modify this code to run your optimization algorithm
 
