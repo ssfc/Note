@@ -124,6 +124,23 @@ def brand_bound(capacity, items):
         v.profit = u.profit + items[v.level].value
 
         # Step 5.2: If the profit of next value is more than max_profit, then update max_profit.
+        if v.weight <= capacity and v.profit > max_profit:
+            max_profit = v.profit
+            print(items[v.level].value)
+
+        # Step 5.3: if bound of next level is more than max_profit, add next level node to Q.
+        v.bound = bound(v, capacity, items)
+        if v.bound > max_profit:
+            queue.append(v)
+
+        # Step 5.4: do the same thing, but without taking the item in knapsack
+        v.weight = u.weight
+        v.profit = u.profit
+        v.bound = bound(v, capacity, items)
+        if v.bound > max_profit:
+            queue.append(v)
+
+    print("Max profit is: ", max_profit)
 
 
 def solve_it(input_data):
