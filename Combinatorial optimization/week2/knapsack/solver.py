@@ -6,9 +6,6 @@ from collections import namedtuple
 Item = namedtuple("Item", ['index', 'value', 'weight', 'ratio'])
 
 
-# Node = namedtuple("Node", ['level', 'profit', 'bound', 'weight'])
-
-
 class Node:
     def __init__(self, level, profit, bound, weight):
         self.level = level
@@ -107,6 +104,7 @@ def brand_bound(capacity, items):
     print("Bound of root is: ", bound(u, capacity, items))
 
     # iter_count = 0
+    taken = [0] * len(items)
     while len(Q) > 0:  # Step 5.0: do following while Q is not empty;
         # print("iter count: ", iter_count)
         # iter_count += 1
