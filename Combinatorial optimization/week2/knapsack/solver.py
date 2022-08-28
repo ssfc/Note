@@ -183,7 +183,8 @@ def solve_it(input_data):
     # choice = "in_order"
     # choice = "dynamic_recursive"
     # choice = "dynamic_iterative"
-    choice = "brand_bound"
+    choice = "depth_first"
+    # choice = "brand_bound"
 
     if choice == "in_order":
         for item in items:
@@ -196,7 +197,7 @@ def solve_it(input_data):
     elif choice == "dynamic_iterative":
         opt = 1
         total_value, taken = dynamic_iterative(items, capacity)
-    elif choice == "depth_search":
+    elif choice == "depth_first":
         opt = 1
         u = Node(-1, 0, 0, 0)
         print("u: ", u)
