@@ -180,8 +180,8 @@ def solve_it(input_data):
     total_weight = 0
     taken = [0] * len(items)  # a way to create list of certain size;
 
-    #    choice = "in_order"
-    #    choice = "dynamic_recursive"
+    # choice = "in_order"
+    # choice = "dynamic_recursive"
     # choice = "dynamic_iterative"
     choice = "brand_bound"
 
@@ -196,13 +196,18 @@ def solve_it(input_data):
     elif choice == "dynamic_iterative":
         opt = 1
         total_value, taken = dynamic_iterative(items, capacity)
-    elif choice == "brand_bound":
+    elif choice == "depth_search":
         opt = 1
-        total_value = -1
-
         u = Node(-1, 0, 0, 0)
         print("u: ", u)
         bound(u, capacity, items)
+
+        total_value, taken = brand_bound(capacity, items)
+    elif choice == "brand_bound":
+        opt = 1
+        u = Node(-1, 0, 0, 0)
+        # print("u: ", u)
+        # bound(u, capacity, items)
 
         total_value, taken = brand_bound(capacity, items)
 
