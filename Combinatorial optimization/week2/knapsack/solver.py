@@ -59,6 +59,12 @@ def bound(u, capacity, items):
     # initialize upper bound on profit by current profit
     profit_bound = u.profit
 
+    # start including items from index 1 more to current item index
+    j = u.level + 1
+    total_weight = u.weight
+
+    # checking index condition and knapsack capacity condition
+
     print("bound end")
 
 
@@ -117,7 +123,7 @@ def solve_it(input_data):
 
         u = Node(-1, 0, 0, 0)
         print("u: ", u)
-#        bound()
+        bound(u, capacity, items)
 
         brand_bound(items)
 
