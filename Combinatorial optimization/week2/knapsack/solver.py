@@ -133,6 +133,7 @@ def brand_bound(capacity, items):
         # Step 5.2: If the profit of next value is more than max_profit, then update max_profit.
         if v.weight <= capacity and v.profit > max_profit:
             max_profit = v.profit
+            taken[items[v.level].index] = 1
             print(items[v.level].value)
 
         # Step 5.3: if bound of next level is more than max_profit, add next level node to Q.
@@ -151,6 +152,7 @@ def brand_bound(capacity, items):
             Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
 
     print("Max profit is: ", max_profit)
+    return max_profit, taken
 
 
 def solve_it(input_data):
@@ -202,7 +204,7 @@ def solve_it(input_data):
         print("u: ", u)
         bound(u, capacity, items)
 
-        brand_bound(capacity, items)
+        total_value, taken = brand_bound(capacity, items)
 
     # prepare the solution in the specified output format
     output_data = str(total_value) + ' ' + str(opt) + '\n'
