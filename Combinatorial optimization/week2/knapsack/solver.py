@@ -4,6 +4,7 @@
 from collections import namedtuple
 
 Item = namedtuple("Item", ['index', 'value', 'weight', 'ratio'])
+Node = namedtuple("Node", ['level', 'profit', 'bound', 'weight'])
 
 
 def dynamic_recursive(i, j, items, taken):

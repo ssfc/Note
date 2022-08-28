@@ -87,6 +87,7 @@ void knapsack(int capacity, vector<Item> arr)
     u.profit = 0; 
     u.weight = 0; 
     Q.push(u); // Step 4.2: enqueue dummy node to Q; 
+    cout<<"Bound of root is: "<<bound(u, capacity, arr)<<endl;
   
     // One by one extract an item from decision tree
     // compute profit of all children of extracted item
@@ -120,10 +121,8 @@ void knapsack(int capacity, vector<Item> arr)
             cout<<arr[v.level].value<<endl;
         }
   
-        // Get the upper bound on profit to decide whether to add v to Q or not.
-        v.bound = bound(v, capacity, arr);
-  
         // Step 5.3: if bound of next level is more than max_profit, add next level node to Q.
+        v.bound = bound(v, capacity, arr);
         if (v.bound > max_profit)
             Q.push(v);
   
