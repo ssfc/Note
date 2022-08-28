@@ -79,9 +79,11 @@ def bound(u, capacity, items):
 
 
 def brand_bound(capacity, items):
-    # Step 1: sorting Item on basis of value per unit weight. 
+    # Step 1: sorting Item on basis of value per unit weight.
     items.sort(key=lambda x: x.ratio, reverse=True)
     # print(items)
+
+    # Step 2: Initialize maximum profit, max_profit = 0
     max_profit = 0
     queue = []
 
