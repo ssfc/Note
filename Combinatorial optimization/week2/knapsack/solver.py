@@ -110,7 +110,13 @@ def brand_bound(capacity, items):
         iter_count += 1
         # Step 5.1: Extract an item from Q. Let the extracted item be u.
         u = queue[0]
-        print("extracted item is: ", u.level)
+        # print("extracted item is: ", u.level)
+
+        print("queue: ", end='')
+        for ele in queue:
+            print(ele.level, " ", end='')
+        print("")
+
         queue.pop(0)
 
         # If it is starting node, assign level 0;

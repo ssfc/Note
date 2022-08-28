@@ -2,7 +2,6 @@
 // branch and bound
 #include <algorithm>
 #include <iostream>
-#include <queue>
 #include <vector>
 using namespace std;
 
@@ -77,7 +76,7 @@ void knapsack(int capacity, vector<Item> arr)
     int max_profit = 0; 
   
     // Step 3: make a queue for traversing the node
-    queue<Node> Q;
+    vector<Node> Q;
     Node u; // u is the node extracted from Q; 
     Node v; // v is u's child in decision tree; 
   
@@ -85,7 +84,7 @@ void knapsack(int capacity, vector<Item> arr)
     u.level = -1;
     u.profit = 0; 
     u.weight = 0; 
-    Q.push(u); // Step 4.2: enqueue dummy node to Q; 
+    Q.push_back(u); // Step 4.2: enqueue dummy node to Q; 
     cout<<"Bound of root is: "<<bound(u, capacity, arr)<<endl;
   
     // One by one extract an item from decision tree
@@ -97,9 +96,9 @@ void knapsack(int capacity, vector<Item> arr)
         cout<<"iter count: "<<iter_count<<endl;
         iter_count++; 
         // Step 5.1: Extract an item from Q. Let the extracted item be u.
-        u = Q.front(); 
-        cout<<"extract item is: "<<u.level<<endl; 
-        Q.pop();
+        u = Q[0]; 
+        // cout<<"extract item is: "<<u.level<<endl; 
+        Q.erase(Q.begin());
   
         // If it is starting node, assign level 0
         if (u.level == -1)
@@ -126,14 +125,14 @@ void knapsack(int capacity, vector<Item> arr)
         // Step 5.3: if bound of next level is more than max_profit, add next level node to Q.
         v.bound = bound(v, capacity, arr);
         if (v.bound > max_profit)
-            Q.push(v);
+            Q.push_back(v);
   
         // Step 5.4: do the same thing, but without taking the item in knapsack
         v.weight = u.weight;
         v.profit = u.profit;
         v.bound = bound(v, capacity, arr);
         if (v.bound > max_profit)
-            Q.push(v);
+            Q.push_back(v);
     }
   
     cout<<"Max profit is: "<< max_profit<<endl;
