@@ -96,31 +96,31 @@ def brand_bound(capacity, items):
     max_profit = 0
 
     # Step 3: make a queue for traversing the node
-    queue = []
+    Q = []
 
     # Step 4.1: dummy node at starting. Profit and weight of dummy node are 0;
     u = Node()
     v = Node()
-    queue.append(u)  # Step 4.2: enqueue dummy node to Q;
+    Q.append(u)  # Step 4.2: enqueue dummy node to Q;
     print("Bound of root is: ", bound(u, capacity, items))
 
     iter_count = 0
-    while len(queue) > 0:  # Step 5.0: do following while Q is not empty;
+    while len(Q) > 0:  # Step 5.0: do following while Q is not empty;
         print("iter count: ", iter_count)
         iter_count += 1
         # Step 5.1: Extract an item from Q. Let the extracted item be u.
-        u = queue[0]
+        u = Q[0]
         # print("extracted item is: ", u.level)
 
         print("queue: ", end='')
-        for ele in queue:
+        for ele in Q:
             print(ele.level, " ", end='')
         print("")
 
-        queue.pop(0)
+        Q.pop(0)
 
         print("queue after pop: ", end='')
-        for ele in queue:
+        for ele in Q:
             print(ele.level, " ", end='')
         print("")
 
@@ -132,25 +132,50 @@ def brand_bound(capacity, items):
         if u.level == len(items) - 1:
             continue
 
+        print("queue (before*5 append): ", end='')
+        for ele in Q:
+            print(ele.level, " ", end='')
+        print("")
+
         # Else if not last node, then increment level, and compute profit of children nodes.
         v.level = u.level + 1
+
+        print("queue (before*4 append): ", end='')
+        for ele in Q:
+            print(ele.level, " ", end='')
+        print("")
 
         # Taking current level's item add current level's weight and value to node u's weight and value
         # print("items: ", items)
         v.weight = u.weight + items[v.level].weight
         v.profit = u.profit + items[v.level].value
 
+        print("queue (before*3 append): ", end='')
+        for ele in Q:
+            print(ele.level, " ", end='')
+        print("")
+
         # Step 5.2: If the profit of next value is more than max_profit, then update max_profit.
         if v.weight <= capacity and v.profit > max_profit:
             max_profit = v.profit
             print(items[v.level].value)
 
+        print("queue (before before append): ", end='')
+        for ele in Q:
+            print(ele.level, " ", end='')
+        print("")
+
         # Step 5.3: if bound of next level is more than max_profit, add next level node to Q.
         v.bound = bound(v, capacity, items)
         if v.bound > max_profit:
-            queue.append(v)
-            print("queue add next level: ", end='')
-            for ele in queue:
+            print("queue add next level (before append): ", end='')
+            for ele in Q:
+                print(ele.level, " ", end='')
+            print("")
+
+            Q.append(v)
+            print("queue add next level (after append): ", end='')
+            for ele in Q:
                 print(ele.level, " ", end='')
             print("")
 
@@ -159,9 +184,9 @@ def brand_bound(capacity, items):
         v.profit = u.profit
         v.bound = bound(v, capacity, items)
         if v.bound > max_profit:
-            queue.append(v)
+            Q.append(v)
             print("queue not add next level: ", end='')
-            for ele in queue:
+            for ele in Q:
                 print(ele.level, " ", end='')
             print("")
 
