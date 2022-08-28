@@ -85,6 +85,8 @@ def brand_bound(capacity, items):
 
     # Step 2: Initialize maximum profit, max_profit = 0
     max_profit = 0
+
+    # Step 3: make a queue for traversing the node
     queue = []
 
 
