@@ -119,6 +119,13 @@ def brand_bound(capacity, items):
 
         queue.pop(0)
 
+        '''
+        print("queue after pop: ", end='')
+        for ele in queue:
+            print(ele.level, " ", end='')
+        print("")
+        '''
+
         # If it is starting node, assign level 0;
         if u.level == -1:
             v.level = 0

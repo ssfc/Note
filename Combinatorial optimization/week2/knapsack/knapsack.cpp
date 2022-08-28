@@ -98,7 +98,22 @@ void knapsack(int capacity, vector<Item> arr)
         // Step 5.1: Extract an item from Q. Let the extracted item be u.
         u = Q[0]; 
         // cout<<"extract item is: "<<u.level<<endl; 
+
+        cout<<"queue: "; 
+        for(int i=0;i<Q.size();i++)
+        {
+            cout<<Q[i].level<<" ";
+        }
+        cout<<endl; 
+
         Q.erase(Q.begin());
+
+        cout<<"queue delete first element: "; 
+        for(int i=0;i<Q.size();i++)
+        {
+            cout<<Q[i].level<<" ";
+        }
+        cout<<endl; 
   
         // If it is starting node, assign level 0
         if (u.level == -1)
@@ -125,14 +140,30 @@ void knapsack(int capacity, vector<Item> arr)
         // Step 5.3: if bound of next level is more than max_profit, add next level node to Q.
         v.bound = bound(v, capacity, arr);
         if (v.bound > max_profit)
+        {
             Q.push_back(v);
+            cout<<"queue add next level: "; 
+            for(int i=0;i<Q.size();i++)
+            {
+                cout<<Q[i].level<<" ";
+            }
+            cout<<endl; 
+        }
   
         // Step 5.4: do the same thing, but without taking the item in knapsack
         v.weight = u.weight;
         v.profit = u.profit;
         v.bound = bound(v, capacity, arr);
         if (v.bound > max_profit)
+        {
             Q.push_back(v);
+            cout<<"queue not add next level: "; 
+            for(int i=0;i<Q.size();i++)
+            {
+                cout<<Q[i].level<<" ";
+            }
+            cout<<endl; 
+        }
     }
   
     cout<<"Max profit is: "<< max_profit<<endl;
