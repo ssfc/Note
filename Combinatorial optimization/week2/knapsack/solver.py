@@ -89,6 +89,10 @@ def brand_bound(capacity, items):
     # Step 3: make a queue for traversing the node
     queue = []
 
+    # Step 4.1: dummy node at starting. Profit and weight of dummy node are 0;
+    u = Node(-1, 0, 0, 0)
+    queue.append(u)  # Step 4.2: enqueue dummy node to Q;
+
 
 def solve_it(input_data):
     # Modify this code to run your optimization algorithm
