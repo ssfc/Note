@@ -10,10 +10,11 @@ Item = namedtuple("Item", ['index', 'value', 'weight', 'ratio'])
 
 
 class Node:
-    level = -1
-    profit = 0
-    bound = 0
-    weight = 0
+    def __init__(self, level, profit, bound, weight):
+        self.level = level
+        self.profit = profit
+        self.bound = bound
+        self.weight = weight
 
 
 def dynamic_recursive(i, j, items, taken):
@@ -99,9 +100,10 @@ def brand_bound(capacity, items):
     Q = []
 
     # Step 4.1: dummy node at starting. Profit and weight of dummy node are 0;
-    u = Node()
-    v = Node()
-    Q.append(u)  # Step 4.2: enqueue dummy node to Q;
+    u = Node(-1, 0, 0, 0)
+    v = Node(-1, 0, 0, 0)
+    Q.append(u)
+    # Q.append(Node(level = u.level, profit=u.profit, weight = u.weight, bound = u.bound))  # Step 4.2: enqueue dummy node to Q;
     print("Bound of root is: ", bound(u, capacity, items))
 
     iter_count = 0
@@ -174,6 +176,7 @@ def brand_bound(capacity, items):
             print("")
 
             Q.append(v)
+            # Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
             print("queue add next level (after append): ", end='')
             for ele in Q:
                 print(ele.level, " ", end='')
@@ -185,6 +188,7 @@ def brand_bound(capacity, items):
         v.bound = bound(v, capacity, items)
         if v.bound > max_profit:
             Q.append(v)
+            # Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
             print("queue not add next level: ", end='')
             for ele in Q:
                 print(ele.level, " ", end='')
@@ -238,7 +242,7 @@ def solve_it(input_data):
         opt = 1
         total_value = -1
 
-        u = Node()
+        u = Node(-1, 0, 0, 0)
         print("u: ", u)
         bound(u, capacity, items)
 
