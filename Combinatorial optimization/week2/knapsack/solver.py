@@ -12,10 +12,10 @@ def dynamic_recursive(i, j, items, taken):
         return 0
     else:
         if items[i].weight > j:
-            return dynamic_recursive(i-1, j, items, taken)
+            return dynamic_recursive(i - 1, j, items, taken)
         else:
-            return max(dynamic_recursive(i-1, j, items, taken),
-                       dynamic_recursive(i-1, j-items[i].weight, items, taken) + items[i].value)
+            return max(dynamic_recursive(i - 1, j, items, taken),
+                       dynamic_recursive(i - 1, j - items[i].weight, items, taken) + items[i].value)
 
 
 def dynamic_iterative(items, capacity):
@@ -24,31 +24,42 @@ def dynamic_iterative(items, capacity):
     matrix = [[0 for x in range(column_count)] for y in range(row_count)]
     for j in range(1, column_count):
         for i in range(1, row_count):
-            if items[i-1].weight > j:
-                matrix[i][j] = matrix[i-1][j]
+            if items[i - 1].weight > j:
+                matrix[i][j] = matrix[i - 1][j]
             else:
-                matrix[i][j] = max(matrix[i-1][j], matrix[i-1][j-items[i-1].weight] + items[i-1].value)
+                matrix[i][j] = max(matrix[i - 1][j], matrix[i - 1][j - items[i - 1].weight] + items[i - 1].value)
 
-#    print(matrix)
+    #    print(matrix)
     total_value = matrix[-1][-1]
 
     taken = [0] * len(items)
     i = row_count
     current_value = total_value
 
-    for i in range(row_count-1, 0, -1):
+    for i in range(row_count - 1, 0, -1):
         for j in range(column_count):
             if matrix[i][j] == current_value:
                 index = j
                 break
 
-        if matrix[i][index] == matrix[i-1][index]:
-            taken[i-1] = 0
+        if matrix[i][index] == matrix[i - 1][index]:
+            taken[i - 1] = 0
         else:
             taken[i - 1] = 1
-            current_value = current_value - items[i-1].value
+            current_value = current_value - items[i - 1].value
 
     return total_value, taken
+
+
+def bound(u, capacity, items):
+    # if weight overcomes the knapsack capacity, return 0 as expected upper bound
+    if u.weight >= capacity:
+        return 0
+
+    # initialize upper bound on profit by current profit
+    profit_bound = u.profit
+
+    print("bound end")
 
 
 def brand_bound(items):
@@ -57,7 +68,6 @@ def brand_bound(items):
     # print(items)
     max_profit = 0
     queue = []
-
 
 
 def solve_it(input_data):
@@ -85,9 +95,9 @@ def solve_it(input_data):
     total_weight = 0
     taken = [0] * len(items)  # a way to create list of certain size;
 
-#    choice = "in_order"
-#    choice = "dynamic_recursive"
-#    choice = "dynamic_iterative"
+    #    choice = "in_order"
+    #    choice = "dynamic_recursive"
+    #    choice = "dynamic_iterative"
     choice = "brand_bound"
 
     if choice == "in_order":
@@ -97,13 +107,18 @@ def solve_it(input_data):
                 total_value += item.value
                 total_weight += item.weight
     elif choice == "dynamic_recursive":
-        total_value = dynamic_recursive(item_count-1, capacity, items, taken)
+        total_value = dynamic_recursive(item_count - 1, capacity, items, taken)
     elif choice == "dynamic_iterative":
         opt = 1
         total_value, taken = dynamic_iterative(items, capacity)
     elif choice == "brand_bound":
         opt = 1
         total_value = -1
+
+        u = Node(-1, 0, 0, 0)
+        print("u: ", u)
+#        bound()
+
         brand_bound(items)
 
     # prepare the solution in the specified output format
