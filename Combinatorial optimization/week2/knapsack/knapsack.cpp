@@ -91,10 +91,14 @@ void knapsack(int capacity, vector<Item> arr)
     // One by one extract an item from decision tree
     // compute profit of all children of extracted item and keep saving max_profit
     
+    int iter_count = 0;
     while (!Q.empty())  // Step 5.0: do following while Q is not empty; 
     {
+        cout<<"iter count: "<<iter_count<<endl;
+        iter_count++; 
         // Step 5.1: Extract an item from Q. Let the extracted item be u.
         u = Q.front(); 
+        cout<<"extract item is: "<<u.level<<endl; 
         Q.pop();
   
         // If it is starting node, assign level 0

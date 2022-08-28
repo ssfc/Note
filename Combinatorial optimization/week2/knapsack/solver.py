@@ -4,6 +4,8 @@
 from collections import namedtuple
 
 Item = namedtuple("Item", ['index', 'value', 'weight', 'ratio'])
+
+
 # Node = namedtuple("Node", ['level', 'profit', 'bound', 'weight'])
 
 
@@ -80,9 +82,9 @@ def bound(u, capacity, items):
     if j < len(items):
         profit_bound += (capacity - total_weight) * items[j].value / items[j].weight
 
-#    print("profit bound: ", profit_bound)
+    #    print("profit bound: ", profit_bound)
 
-    return profit_bound
+    return int(profit_bound)
 
 
 def brand_bound(capacity, items):
@@ -102,9 +104,13 @@ def brand_bound(capacity, items):
     queue.append(u)  # Step 4.2: enqueue dummy node to Q;
     print("Bound of root is: ", bound(u, capacity, items))
 
-    while len(queue)>0:  # Step 5.0: do following while Q is not empty;
+    iter_count = 0
+    while len(queue) > 0:  # Step 5.0: do following while Q is not empty;
+        print("iter count: ", iter_count)
+        iter_count += 1
         # Step 5.1: Extract an item from Q. Let the extracted item be u.
         u = queue[0]
+        print("extracted item is: ", u.level)
         queue.pop(0)
 
         # If it is starting node, assign level 0;
