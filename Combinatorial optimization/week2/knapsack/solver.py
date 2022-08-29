@@ -274,9 +274,9 @@ def solve_it(input_data):
 
     # choice = "in_order"
     # choice = "dynamic_recursive"
-    choice = "dynamic_iterative"
+    # choice = "dynamic_iterative"
     # choice = "depth_first"
-    # choice = "brand_bound"
+    choice = "brand_bound"
 
     if choice == "in_order":
         for item in items:
