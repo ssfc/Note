@@ -202,8 +202,12 @@ def brand_bound(capacity, items):
         # Step 5.2: If the profit of next value is more than max_profit, then update max_profit.
         if child_node.weight <= capacity and child_node.profit > max_profit:
             max_profit = child_node.profit
-            taken[items[child_node.level].index] = 1
             print("current max profit: ", max_profit)
+
+            for i in range(len(items)):
+                taken[i] = current_node.taken[i]
+            taken[items[child_node.level].index] = 1
+            print("taken: ", taken)
 
         # Step 5.3: if bound of next level is more than max_profit, add next level node to queue.
         child_node.bound = bound(child_node, capacity, items)
@@ -270,9 +274,9 @@ def solve_it(input_data):
 
     # choice = "in_order"
     # choice = "dynamic_recursive"
-    # choice = "dynamic_iterative"
+    choice = "dynamic_iterative"
     # choice = "depth_first"
-    choice = "brand_bound"
+    # choice = "brand_bound"
 
     if choice == "in_order":
         for item in items:
