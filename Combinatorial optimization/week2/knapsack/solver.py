@@ -99,7 +99,7 @@ def depth_first(capacity, items):
     # Step 4.1: dummy node at starting. Profit and weight of dummy node are 0;
     u = Node(-1, 0, 0, 0)
     v = Node(-1, 0, 0, 0)
-    Q.append(Node(level = u.level, profit=u.profit, weight = u.weight, bound = u.bound))  # Step 4.2: enqueue dummy node to Q;
+    Q.append(Node(level=u.level, profit=u.profit, weight=u.weight, bound=u.bound))  # Step 4.2: enqueue dummy node to Q;
 
     # iter_count = 0
     taken = [0] * len(items)
@@ -135,12 +135,12 @@ def depth_first(capacity, items):
             print(items[v.level].value)
 
         # Step 5.3: if bound of next level is more than max_profit, add next level node to Q.
-        Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
+        Q.append(Node(level=v.level, profit=v.profit, weight=v.weight, bound=v.bound))
 
         # Step 5.4: do the same thing, but without taking the item in knapsack
         v.weight = u.weight
         v.profit = u.profit
-        Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
+        Q.append(Node(level=v.level, profit=v.profit, weight=v.weight, bound=v.bound))
 
     print("Max profit is: ", max_profit)
     return max_profit, taken
@@ -197,16 +197,16 @@ def brand_bound(capacity, items):
         # Step 5.3: if bound of next level is more than max_profit, add next level node to queue.
         child_node.bound = bound(child_node, capacity, items)
         if child_node.bound > max_profit:
-            queue.append(Node(level = child_node.level, profit=child_node.profit,
-                          weight = child_node.weight, bound = child_node.bound))
+            queue.append(Node(level=child_node.level, profit=child_node.profit,
+                              weight=child_node.weight, bound=child_node.bound))
 
         # Step 5.4: do the same thing, but without taking the item in knapsack
         child_node.weight = current_node.weight
         child_node.profit = current_node.profit
         child_node.bound = bound(child_node, capacity, items)
         if child_node.bound > max_profit:
-            queue.append(Node(level = child_node.level, profit=child_node.profit,
-                          weight = child_node.weight, bound = child_node.bound))
+            queue.append(Node(level=child_node.level, profit=child_node.profit,
+                              weight=child_node.weight, bound=child_node.bound))
 
     print("Max profit is: ", max_profit)
     return max_profit, taken
