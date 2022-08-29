@@ -247,7 +247,7 @@ def brand_bound(capacity, items):
                 print(ele.level, " ", end='')
             print("")
             '''
-    print("Max profit is: ", max_profit)
+    # print("Max profit is: ", max_profit)
     return max_profit, taken
 
 
