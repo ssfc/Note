@@ -160,7 +160,6 @@ def brand_bound(capacity, items):
     # Step 4.1: dummy node at starting. Profit and weight of dummy node are 0;
     u = Node(-1, 0, 0, 0)
     v = Node(-1, 0, 0, 0)
-    # Q.append(u)
     Q.append(Node(level = u.level, profit=u.profit, weight = u.weight, bound = u.bound))  # Step 4.2: enqueue dummy node to Q;
     print("Bound of root is: ", bound(u, capacity, items))
 
@@ -200,8 +199,6 @@ def brand_bound(capacity, items):
         # Step 5.3: if bound of next level is more than max_profit, add next level node to Q.
         v.bound = bound(v, capacity, items)
         if v.bound > max_profit:
-
-            # Q.append(v)
             Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
 
         # Step 5.4: do the same thing, but without taking the item in knapsack
@@ -209,7 +206,6 @@ def brand_bound(capacity, items):
         v.profit = u.profit
         v.bound = bound(v, capacity, items)
         if v.bound > max_profit:
-            # Q.append(v)
             Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
 
     print("Max profit is: ", max_profit)
@@ -244,8 +240,8 @@ def solve_it(input_data):
     # choice = "in_order"
     # choice = "dynamic_recursive"
     # choice = "dynamic_iterative"
-    choice = "depth_first"
-    # choice = "brand_bound"
+    # choice = "depth_first"
+    choice = "brand_bound"
 
     if choice == "in_order":
         for item in items:
