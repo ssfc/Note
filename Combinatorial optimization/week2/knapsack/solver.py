@@ -198,10 +198,11 @@ def solve_it(input_data):
         opt = 1
         total_value, taken = dynamic_iterative(items, capacity)
     elif choice == "depth_first":
+        print(choice)
         opt = 1
-        u = Node(-1, 0, 0, 0)
-        print("u: ", u)
-        bound(u, capacity, items)
+        # u = Node(-1, 0, 0, 0)
+        # print("u: ", u)
+        # bound(u, capacity, items)
 
         total_value, taken = brand_bound(capacity, items)
     elif choice == "brand_bound":
