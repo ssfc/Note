@@ -7,11 +7,12 @@ Item = namedtuple("Item", ['index', 'value', 'weight', 'ratio'])
 
 
 class Node:
-    def __init__(self, level, profit, bound, weight):
+    def __init__(self, level, profit, bound, weight, item_count):
         self.level = level
         self.profit = profit
         self.bound = bound
         self.weight = weight
+        self.taken = [0] * item_count
 
 
 def dynamic_recursive(i, j, items, taken):
@@ -158,7 +159,7 @@ def brand_bound(capacity, items):
     # Step 4.1: dummy node at starting. Profit and weight of dummy node are 0;
     # Step 4.2: enqueue dummy node to queue;
     queue = [Node(level=-1, profit=0, weight=0, bound=0)]
-    print("Bound of root is: ", bound(queue[0], capacity, items))
+    # print("Bound of root is: ", bound(queue[0], capacity, items))
 
     iter_count = 0
     taken = [0] * len(items)
@@ -202,7 +203,7 @@ def brand_bound(capacity, items):
         if child_node.weight <= capacity and child_node.profit > max_profit:
             max_profit = child_node.profit
             taken[items[child_node.level].index] = 1
-            print(items[child_node.level].value)
+            print("current max profit: ", max_profit)
 
         # Step 5.3: if bound of next level is more than max_profit, add next level node to queue.
         child_node.bound = bound(child_node, capacity, items)
