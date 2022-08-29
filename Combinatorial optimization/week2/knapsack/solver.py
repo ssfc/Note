@@ -158,12 +158,12 @@ def brand_bound(capacity, items):
     # Step 3: make a queue for traversing the node
     # Step 4.1: dummy node at starting. Profit and weight of dummy node are 0;
     # Step 4.2: enqueue dummy node to queue;
-    queue = [Node(level=-1, profit=0, weight=0, bound=0)]
+    queue = [Node(level=-1, profit=0, weight=0, bound=0, item_count=len(items))]
     # print("Bound of root is: ", bound(queue[0], capacity, items))
 
     iter_count = 0
     taken = [0] * len(items)
-    child_node = Node(-1, 0, 0, 0)  # initialize child node;
+    child_node = Node(-1, 0, 0, 0, len(items))  # initialize child node;
     while len(queue) > 0:  # Step 5.0: do following while queue is not empty;
         print("iter count: ", iter_count)
         iter_count += 1
@@ -209,7 +209,8 @@ def brand_bound(capacity, items):
         child_node.bound = bound(child_node, capacity, items)
         if child_node.bound > max_profit:
             queue.append(Node(level=child_node.level, profit=child_node.profit,
-                              weight=child_node.weight, bound=child_node.bound))
+                              weight=child_node.weight, bound=child_node.bound,
+                              item_count=len(items)))
 
             print("queue add next level: ", end='')
             for ele in queue:
@@ -222,7 +223,8 @@ def brand_bound(capacity, items):
         child_node.bound = bound(child_node, capacity, items)
         if child_node.bound > max_profit:
             queue.append(Node(level=child_node.level, profit=child_node.profit,
-                              weight=child_node.weight, bound=child_node.bound))
+                              weight=child_node.weight, bound=child_node.bound,
+                              item_count=len(items)))
 
             print("queue not add next level: ", end='')
             for ele in queue:
