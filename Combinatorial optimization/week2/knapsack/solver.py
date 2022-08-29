@@ -162,7 +162,7 @@ def brand_bound(capacity, items):
 
     # iter_count = 0
     taken = [0] * len(items)
-    v = Node(-1, 0, 0, 0)
+    child_node = Node(-1, 0, 0, 0)  # initialize child node;
     while len(Q) > 0:  # Step 5.0: do following while Q is not empty;
         # print("iter count: ", iter_count)
         # iter_count += 1
@@ -174,37 +174,39 @@ def brand_bound(capacity, items):
 
         # If it is starting node, assign level 0;
         if current_node.level == -1:
-            v.level = 0
+            child_node.level = 0
 
         # If there is nothing on next level, means reaching the last item;
         if current_node.level == len(items) - 1:
             continue
 
         # Else if not last node, then increment level, and compute profit of children nodes.
-        v.level = current_node.level + 1
+        child_node.level = current_node.level + 1
 
         # Taking child level's item add child level's weight and value to current node's weight and value
         # print("items: ", items)
-        v.weight = current_node.weight + items[v.level].weight
-        v.profit = current_node.profit + items[v.level].value
+        child_node.weight = current_node.weight + items[child_node.level].weight
+        child_node.profit = current_node.profit + items[child_node.level].value
 
         # Step 5.2: If the profit of next value is more than max_profit, then update max_profit.
-        if v.weight <= capacity and v.profit > max_profit:
-            max_profit = v.profit
-            taken[items[v.level].index] = 1
-            print(items[v.level].value)
+        if child_node.weight <= capacity and child_node.profit > max_profit:
+            max_profit = child_node.profit
+            taken[items[child_node.level].index] = 1
+            print(items[child_node.level].value)
 
         # Step 5.3: if bound of next level is more than max_profit, add next level node to Q.
-        v.bound = bound(v, capacity, items)
-        if v.bound > max_profit:
-            Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
+        child_node.bound = bound(child_node, capacity, items)
+        if child_node.bound > max_profit:
+            Q.append(Node(level = child_node.level, profit=child_node.profit,
+                          weight = child_node.weight, bound = child_node.bound))
 
         # Step 5.4: do the same thing, but without taking the item in knapsack
-        v.weight = current_node.weight
-        v.profit = current_node.profit
-        v.bound = bound(v, capacity, items)
-        if v.bound > max_profit:
-            Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
+        child_node.weight = current_node.weight
+        child_node.profit = current_node.profit
+        child_node.bound = bound(child_node, capacity, items)
+        if child_node.bound > max_profit:
+            Q.append(Node(level = child_node.level, profit=child_node.profit,
+                          weight = child_node.weight, bound = child_node.bound))
 
     print("Max profit is: ", max_profit)
     return max_profit, taken
