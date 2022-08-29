@@ -100,7 +100,6 @@ def depth_first(capacity, items):
     u = Node(-1, 0, 0, 0)
     v = Node(-1, 0, 0, 0)
     Q.append(Node(level = u.level, profit=u.profit, weight = u.weight, bound = u.bound))  # Step 4.2: enqueue dummy node to Q;
-    print("Bound of root is: ", bound(u, capacity, items))
 
     # iter_count = 0
     taken = [0] * len(items)
@@ -136,16 +135,12 @@ def depth_first(capacity, items):
             print(items[v.level].value)
 
         # Step 5.3: if bound of next level is more than max_profit, add next level node to Q.
-        v.bound = bound(v, capacity, items)
-        if v.bound > max_profit:
-            Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
+        Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
 
         # Step 5.4: do the same thing, but without taking the item in knapsack
         v.weight = u.weight
         v.profit = u.profit
-        v.bound = bound(v, capacity, items)
-        if v.bound > max_profit:
-            Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
+        Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
 
     print("Max profit is: ", max_profit)
     return max_profit, taken
