@@ -160,7 +160,8 @@ def brand_bound(capacity, items):
     # Step 4.1: dummy node at starting. Profit and weight of dummy node are 0;
     u = Node(-1, 0, 0, 0)
     v = Node(-1, 0, 0, 0)
-    Q.append(Node(level = u.level, profit=u.profit, weight = u.weight, bound = u.bound))  # Step 4.2: enqueue dummy node to Q;
+    # Step 4.2: enqueue dummy node to Q;
+    Q.append(Node(level = u.level, profit=u.profit, weight = u.weight, bound = u.bound))
     print("Bound of root is: ", bound(u, capacity, items))
 
     # iter_count = 0
