@@ -277,7 +277,7 @@ def solve_it(input_data):
         total_value, taken = depth_first(capacity, items)
     elif choice == "brand_bound":
         opt = 1
-        u = Node(-1, 0, 0, 0)
+        # u = Node(-1, 0, 0, 0)
         # print("u: ", u)
         # bound(u, capacity, items)
 
