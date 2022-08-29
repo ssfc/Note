@@ -212,6 +212,10 @@ def brand_bound(capacity, items):
                               weight=child_node.weight, bound=child_node.bound,
                               item_count=len(items)))
 
+            for i in range(len(items)):
+                queue[-1].taken[i] = current_node.taken[i]
+            queue[-1].taken[items[child_node.level].index] = 1
+
             print("queue add next level: ", end='')
             for ele in queue:
                 print(ele.level, " ", end='')
