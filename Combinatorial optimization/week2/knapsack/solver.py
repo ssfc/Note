@@ -169,26 +169,26 @@ def brand_bound(capacity, items):
         # print("iter count: ", iter_count)
         # iter_count += 1
         # Step 5.1: Extract an item from Q. Let the extracted item be current node.
-        u = Q[0]
-        # print("extracted item is: ", u.level)
+        current_node = Q[0]
+        # print("extracted item is: ", current_node.level)
 
         Q.pop(0)
 
         # If it is starting node, assign level 0;
-        if u.level == -1:
+        if current_node.level == -1:
             v.level = 0
 
         # If there is nothing on next level, means reaching the last item;
-        if u.level == len(items) - 1:
+        if current_node.level == len(items) - 1:
             continue
 
         # Else if not last node, then increment level, and compute profit of children nodes.
-        v.level = u.level + 1
+        v.level = current_node.level + 1
 
-        # Taking current level's item add current level's weight and value to node u's weight and value
+        # Taking child level's item add child level's weight and value to current node's weight and value
         # print("items: ", items)
-        v.weight = u.weight + items[v.level].weight
-        v.profit = u.profit + items[v.level].value
+        v.weight = current_node.weight + items[v.level].weight
+        v.profit = current_node.profit + items[v.level].value
 
         # Step 5.2: If the profit of next value is more than max_profit, then update max_profit.
         if v.weight <= capacity and v.profit > max_profit:
@@ -202,8 +202,8 @@ def brand_bound(capacity, items):
             Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
 
         # Step 5.4: do the same thing, but without taking the item in knapsack
-        v.weight = u.weight
-        v.profit = u.profit
+        v.weight = current_node.weight
+        v.profit = current_node.profit
         v.bound = bound(v, capacity, items)
         if v.bound > max_profit:
             Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
