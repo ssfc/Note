@@ -48,8 +48,10 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 19. profit is not single node value, but total value from root node to current node; (2022年8月27日)
 20. Python没有C语言中的变量。在C语言中，变量不止是个名字，它是字节集合并真实存在于内存某个位置上。而在Python中，变量仅仅是指向对象的标签。如果你修改a，那你就同时修改了b，因为它们指向同一个列表。(2022年8月29日)
 21. Set time limits, no need to try all possible combinations; (2022年8月29日)
-22. 
 
+
+## Week 2
+### CP 1 - intuition, computational paradigm, map coloring, n-queens
 
 
 
