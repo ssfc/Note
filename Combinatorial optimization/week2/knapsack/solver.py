@@ -85,6 +85,76 @@ def bound(u, capacity, items):
     return int(profit_bound)
 
 
+def depth_first(capacity, items):
+    # Step 1: sorting Item on basis of value per unit weight.
+    items.sort(key=lambda x: x.ratio, reverse=True)
+    # print(items)
+
+    # Step 2: Initialize maximum profit, max_profit = 0
+    max_profit = 0
+
+    # Step 3: make a queue for traversing the node
+    Q = []
+
+    # Step 4.1: dummy node at starting. Profit and weight of dummy node are 0;
+    u = Node(-1, 0, 0, 0)
+    v = Node(-1, 0, 0, 0)
+    # Q.append(u)
+    Q.append(Node(level = u.level, profit=u.profit, weight = u.weight, bound = u.bound))  # Step 4.2: enqueue dummy node to Q;
+    print("Bound of root is: ", bound(u, capacity, items))
+
+    # iter_count = 0
+    taken = [0] * len(items)
+    while len(Q) > 0:  # Step 5.0: do following while Q is not empty;
+        # print("iter count: ", iter_count)
+        # iter_count += 1
+        # Step 5.1: Extract an item from Q. Let the extracted item be u.
+        u = Q[0]
+        # print("extracted item is: ", u.level)
+
+        Q.pop(0)
+
+        # If it is starting node, assign level 0;
+        if u.level == -1:
+            v.level = 0
+
+        # If there is nothing on next level, means reaching the last item;
+        if u.level == len(items) - 1:
+            continue
+
+        # Else if not last node, then increment level, and compute profit of children nodes.
+        v.level = u.level + 1
+
+        # Taking current level's item add current level's weight and value to node u's weight and value
+        # print("items: ", items)
+        v.weight = u.weight + items[v.level].weight
+        v.profit = u.profit + items[v.level].value
+
+        # Step 5.2: If the profit of next value is more than max_profit, then update max_profit.
+        if v.weight <= capacity and v.profit > max_profit:
+            max_profit = v.profit
+            taken[items[v.level].index] = 1
+            print(items[v.level].value)
+
+        # Step 5.3: if bound of next level is more than max_profit, add next level node to Q.
+        v.bound = bound(v, capacity, items)
+        if v.bound > max_profit:
+
+            # Q.append(v)
+            Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
+
+        # Step 5.4: do the same thing, but without taking the item in knapsack
+        v.weight = u.weight
+        v.profit = u.profit
+        v.bound = bound(v, capacity, items)
+        if v.bound > max_profit:
+            # Q.append(v)
+            Q.append(Node(level = v.level, profit=v.profit, weight = v.weight, bound = v.bound))
+
+    print("Max profit is: ", max_profit)
+    return max_profit, taken
+
+
 def brand_bound(capacity, items):
     # Step 1: sorting Item on basis of value per unit weight.
     items.sort(key=lambda x: x.ratio, reverse=True)
@@ -204,7 +274,7 @@ def solve_it(input_data):
         # print("u: ", u)
         # bound(u, capacity, items)
 
-        total_value, taken = brand_bound(capacity, items)
+        total_value, taken = depth_first(capacity, items)
     elif choice == "brand_bound":
         opt = 1
         u = Node(-1, 0, 0, 0)
