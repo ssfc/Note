@@ -158,18 +158,17 @@ def brand_bound(capacity, items):
     Q = []
 
     # Step 4.1: dummy node at starting. Profit and weight of dummy node are 0;
-    u = Node(-1, 0, 0, 0)
     v = Node(-1, 0, 0, 0)
     # Step 4.2: enqueue dummy node to Q;
-    Q.append(Node(level = u.level, profit=u.profit, weight = u.weight, bound = u.bound))
-    print("Bound of root is: ", bound(u, capacity, items))
+    Q.append(Node(level=-1, profit=0, weight = 0, bound = 0))
+    print("Bound of root is: ", bound(Q[0], capacity, items))
 
     # iter_count = 0
     taken = [0] * len(items)
     while len(Q) > 0:  # Step 5.0: do following while Q is not empty;
         # print("iter count: ", iter_count)
         # iter_count += 1
-        # Step 5.1: Extract an item from Q. Let the extracted item be u.
+        # Step 5.1: Extract an item from Q. Let the extracted item be current node.
         u = Q[0]
         # print("extracted item is: ", u.level)
 
