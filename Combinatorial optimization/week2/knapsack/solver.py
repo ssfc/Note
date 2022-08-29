@@ -162,12 +162,12 @@ def brand_bound(capacity, items):
     queue = [Node(level=-1, profit=0, weight=0, bound=0, item_count=len(items))]
     # print("Bound of root is: ", bound(queue[0], capacity, items))
 
-    # iter_count = 0
+    iter_count = 0
     taken = [0] * len(items)
     child_node = Node(-1, 0, 0, 0, len(items))  # initialize child node;
-    while len(queue) > 0:  # Step 5.0: do following while queue is not empty;
+    while len(queue) > 0 and iter_count < 99999:  # Step 5.0: do following while queue is not empty;
         # print("iter count: ", iter_count)
-        # iter_count += 1
+        iter_count += 1
         # Step 5.1: Extract an item from queue. Let the extracted item be current node.
         current_node = queue[0]
         # print("extracted item is: ", current_node.level)
