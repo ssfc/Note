@@ -170,7 +170,17 @@ def brand_bound(capacity, items):
         current_node = queue[0]
         # print("extracted item is: ", current_node.level)
 
+        print("queue at beginning: ", end='')
+        for ele in queue:
+            print(ele.level, " ", end='')
+        print("")
+
         queue.pop(0)
+
+        print("queue after pop: ", end='')
+        for ele in queue:
+            print(ele.level, " ", end='')
+        print("")
 
         # If it is starting node, assign level 0;
         if current_node.level == -1:
@@ -200,6 +210,11 @@ def brand_bound(capacity, items):
             queue.append(Node(level=child_node.level, profit=child_node.profit,
                               weight=child_node.weight, bound=child_node.bound))
 
+            print("queue add next level: ", end='')
+            for ele in queue:
+                print(ele.level, " ", end='')
+            print("")
+
         # Step 5.4: do the same thing, but without taking the item in knapsack
         child_node.weight = current_node.weight
         child_node.profit = current_node.profit
@@ -207,6 +222,11 @@ def brand_bound(capacity, items):
         if child_node.bound > max_profit:
             queue.append(Node(level=child_node.level, profit=child_node.profit,
                               weight=child_node.weight, bound=child_node.bound))
+
+            print("queue not add next level: ", end='')
+            for ele in queue:
+                print(ele.level, " ", end='')
+            print("")
 
     print("Max profit is: ", max_profit)
     return max_profit, taken
