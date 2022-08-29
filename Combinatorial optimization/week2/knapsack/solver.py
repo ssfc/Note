@@ -161,27 +161,31 @@ def brand_bound(capacity, items):
     queue = [Node(level=-1, profit=0, weight=0, bound=0, item_count=len(items))]
     # print("Bound of root is: ", bound(queue[0], capacity, items))
 
-    iter_count = 0
+    # iter_count = 0
     taken = [0] * len(items)
     child_node = Node(-1, 0, 0, 0, len(items))  # initialize child node;
     while len(queue) > 0:  # Step 5.0: do following while queue is not empty;
-        print("iter count: ", iter_count)
-        iter_count += 1
+        # print("iter count: ", iter_count)
+        # iter_count += 1
         # Step 5.1: Extract an item from queue. Let the extracted item be current node.
         current_node = queue[0]
         # print("extracted item is: ", current_node.level)
 
+        '''
         print("queue at beginning: ", end='')
         for ele in queue:
             print(ele.level, " ", end='')
         print("")
+        '''
 
         queue.pop(0)
 
+        '''
         print("queue after pop: ", end='')
         for ele in queue:
             print(ele.level, " ", end='')
         print("")
+        '''
 
         # If it is starting node, assign level 0;
         if current_node.level == -1:
@@ -202,12 +206,12 @@ def brand_bound(capacity, items):
         # Step 5.2: If the profit of next value is more than max_profit, then update max_profit.
         if child_node.weight <= capacity and child_node.profit > max_profit:
             max_profit = child_node.profit
-            print("current max profit: ", max_profit)
+            # print("current max profit: ", max_profit)
 
             for i in range(len(items)):
                 taken[i] = current_node.taken[i]
             taken[items[child_node.level].index] = 1
-            print("taken: ", taken)
+            # print("taken: ", taken)
 
         # Step 5.3: if bound of next level is more than max_profit, add next level node to queue.
         child_node.bound = bound(child_node, capacity, items)
@@ -219,12 +223,12 @@ def brand_bound(capacity, items):
             for i in range(len(items)):
                 queue[-1].taken[i] = current_node.taken[i]
             queue[-1].taken[items[child_node.level].index] = 1
-
+            '''
             print("queue add next level: ", end='')
             for ele in queue:
                 print(ele.level, " ", end='')
             print("")
-
+            '''
         # Step 5.4: do the same thing, but without taking the item in knapsack
         child_node.weight = current_node.weight
         child_node.profit = current_node.profit
@@ -237,12 +241,12 @@ def brand_bound(capacity, items):
             for i in range(len(items)):
                 queue[-1].taken[i] = current_node.taken[i]
             queue[-1].taken[items[child_node.level].index] = 0
-
+            '''
             print("queue not add next level: ", end='')
             for ele in queue:
                 print(ele.level, " ", end='')
             print("")
-
+            '''
     print("Max profit is: ", max_profit)
     return max_profit, taken
 
