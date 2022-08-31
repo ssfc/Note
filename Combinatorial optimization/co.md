@@ -52,10 +52,15 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 
 ## Week 2
 ### CP 1 - intuition, computational paradigm, map coloring, n-queens
-1. use constraint to reduce number of trials; (2022年8月30日)
-2. 
+1. use constraint to reduce the search space; (2022年8月30日)
+2. 8-queen problem; the 4-color theorem; (1) feasibility checking; (2) pruning; 
 
+### CP 2 - propagation, arithmetic constraints, send+more=money
 
+### CP 3 - reification, element constraint, magic series, stable marriage
+1. magic series; (2022年8月31日)
+2. stable marriage; (2022年8月31日)
+3. 
 
 
 
