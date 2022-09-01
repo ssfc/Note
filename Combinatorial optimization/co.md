@@ -65,8 +65,9 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 ### CP 4 - global constraint intuition, table constraint, sudoku
 
 ### CP 5 - symmetry breaking, BIBD, scene allocation
-1. symmetry break; 
+1. symmetry break; (2022年9月1日)
 
+### CP 6 - redundant constraints, magic series, market split
 
 
 
