@@ -60,7 +60,13 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 ### CP 3 - reification, element constraint, magic series, stable marriage
 1. magic series; (2022年8月31日)
 2. stable marriage; (2022年8月31日)
-3. sudoku; 
+3. sudoku; (2022年9月1日)
+   
+### CP 4 - global constraint intuition, table constraint, sudoku
+
+### CP 5 - symmetry breaking, BIBD, scene allocation
+
+
 
 
 
