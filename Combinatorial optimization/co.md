@@ -78,7 +78,10 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 2. backward phase; (2022年9月2日)
 3. alldifferent representation; (2022年9月2日)
 4. find maximum matching; (2022年9月2日)
-5. 
+5. how to prune; (2022年9月2日)
+
+### CP 9 - search, first-fail, euler knight, ESDD
+1. 
 
 
 
