@@ -68,9 +68,16 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 1. symmetry break; (2022年9月1日)
 
 ### CP 6 - redundant constraints, magic series, market split
+1. magic series; (2022年9月1日)
 
+### CP 7 - car sequencing, dual modeling
+1. dual modeling; (2022年9月2日)
 
-
+### CP 8 - global constraints in detail, knapsack, alldifferent
+1. forward phase; (2022年9月2日)
+2. backward phase; (2022年9月2日)
+3. alldifferent representation; (2022年9月2日)
+4. 
 
 
 
