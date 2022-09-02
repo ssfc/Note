@@ -81,7 +81,12 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 5. how to prune; (2022年9月2日)
 
 ### CP 9 - search, first-fail, euler knight, ESDD
-1. 
+1. Euler knight; (2022年9月2日)
+
+### CP 10 - value/variable labeling, domain splitting, symmetry breaking in search
+
+
+
 
 
 
