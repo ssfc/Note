@@ -87,7 +87,8 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 1. the perfect square problem; (2022年9月3日)
 
 ### Graph Coloring
-
+1. Write an algorithm to minimize the coloring of a graph; (2022年9月3日)
+2. 
 
 
 
