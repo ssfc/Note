@@ -1,5 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+def compute_conflict(graph, sol):
+    conflict = 0
+    for i in range(len(graph)):
+        for j in range(i + 1, len(graph)):
+            if graph[i][j] == 1 and sol[i] == sol[j]:
+                conflict += 1
+
+    return conflict
 
 
 def solve_it(input_data):
