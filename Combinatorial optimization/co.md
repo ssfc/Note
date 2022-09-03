@@ -84,6 +84,9 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 1. Euler knight; (2022年9月2日)
 
 ### CP 10 - value/variable labeling, domain splitting, symmetry breaking in search
+1. the perfect square problem; (2022年9月3日)
+
+### Graph Coloring
 
 
 
