@@ -112,6 +112,7 @@ def tabucol(graph, num_color, reps=100, max_iterations=30000):
     if current_num_conflict != 0:
         return None
     else:
+        print("solution: ", solution)
         return solution
 
 
@@ -136,7 +137,7 @@ def solve_it(input_data):
 
     # build a trivial solution every node has its own color
     # solution = range(0, node_count)
-    solution = tabucol(graph, num_color=10, reps=100, max_iterations=30000)
+    solution = tabucol(graph, num_color=3, reps=100, max_iterations=30000)
 
     # prepare the solution in the specified output format
     output_data = str(node_count) + ' ' + str(1) + '\n'
