@@ -136,12 +136,17 @@ def solve_it(input_data):
         graph[int(parts[1])][int(parts[0])] = 1
 
     # build a trivial solution every node has its own color
-    # solution = range(0, node_count)
-    solution = tabucol(graph, num_color=3, reps=100, max_iterations=30000)
+    solution = range(0, node_count)
+    previous_solution = range(0, node_count)
+    color_count = node_count
+    while color_count > 0 and solution is not None:
+        color_count -= 1
+        previous_solution = solution
+        solution = tabucol(graph, num_color=color_count, reps=100, max_iterations=300)
 
     # prepare the solution in the specified output format
-    output_data = str(node_count) + ' ' + str(1) + '\n'
-    output_data += ' '.join(map(str, solution))
+    output_data = str(color_count+1) + ' ' + str(1) + '\n'
+    output_data += ' '.join(map(str, previous_solution))
 
     return output_data
 
