@@ -149,15 +149,16 @@ def solve_it(input_data):
     while color_count > 3 and solution is not None:
         color_count -= 1
         previous_solution = solution
-        solution = tabucol(graph, num_color=color_count, reps=5, max_iterations=10)
+        solution = tabucol(graph, num_color=color_count, reps=50, max_iterations=100)
 
     # print("test: ", tabucol(graph, num_color=2, reps=5, max_iterations=10))
 
     # prepare the solution in the specified output format
-    output_data = str(color_count + 1) + ' ' + str(1) + '\n'
     if solution is None:
+        output_data = str(color_count + 1) + ' ' + str(1) + '\n'
         output_data += ' '.join(map(str, previous_solution))
     else:
+        output_data = str(color_count) + ' ' + str(1) + '\n'
         output_data += ' '.join(map(str, solution))
 
     return output_data
