@@ -38,6 +38,7 @@ def tabucol(graph, num_color, reps=100, max_iterations=30000):
     aspiration_criterion = len(graph)
 
     while iterations < max_iterations:
+        print("iteration: ", iterations)
         # Count vertex pairs (i,j) which are adjacent and have the same color.
         conflict_vertex = set()  # use a set to avoid duplicates
         current_num_conflict = 0
@@ -47,9 +48,9 @@ def tabucol(graph, num_color, reps=100, max_iterations=30000):
                     conflict_vertex.add(i)
                     conflict_vertex.add(j)
                     current_num_conflict += 1
-#        print("set conflict_vertex: ", conflict_vertex)
+        #        print("set conflict_vertex: ", conflict_vertex)
         conflict_vertex = list(conflict_vertex)  # convert to list for array indexing
-#        print("list conflict_vertex: ", conflict_vertex)
+        #        print("list conflict_vertex: ", conflict_vertex)
 
         if current_num_conflict == 0:
             # Found a valid coloring.
@@ -58,6 +59,7 @@ def tabucol(graph, num_color, reps=100, max_iterations=30000):
         # Generate neighbor solutions.
         new_solution = None
         for r in range(reps):
+            print("reps: ", r)
             # Choose a vertex to change color.
             vertex_changed = conflict_vertex[randrange(0, len(conflict_vertex))]
 
@@ -71,7 +73,9 @@ def tabucol(graph, num_color, reps=100, max_iterations=30000):
             new_solution[vertex_changed] = new_color
             # Count adjacent pairs with the same color in the new solution.
             new_num_conflict = compute_conflict(graph, new_solution)
+
             if new_num_conflict < current_num_conflict:  # found an improved solution
+                # print("check 1")
                 # if f(s') <= A(f(s)) [where A(z) defaults to z - 1]
                 if new_num_conflict < aspiration_criterion:
                     # set A(f(s) = f(s') - 1
@@ -89,6 +93,8 @@ def tabucol(graph, num_color, reps=100, max_iterations=30000):
 
                 print("Iteration ", iterations, ": ", current_num_conflict, "->", new_num_conflict)
                 break
+            # else:
+            # print("check 2")
 
         # At this point, either found a better solution,
         # or ran out of reps, using the last solution generated
@@ -103,7 +109,6 @@ def tabucol(graph, num_color, reps=100, max_iterations=30000):
             for j in range(tabu_tenure_table.shape[1]):
                 if tabu_tenure_table[i][j] > 0:
                     tabu_tenure_table[i][j] = tabu_tenure_table[i][j] - 1
-
 
     # print("Aspiration Levels:\n" + "\n".join([str((k,v)) for k,v in aspiration_criterion.items() if k-v > 1]))
 
@@ -136,16 +141,20 @@ def solve_it(input_data):
         graph[int(parts[1])][int(parts[0])] = 1
 
     # build a trivial solution every node has its own color
+
     solution = range(0, node_count)
     previous_solution = range(0, node_count)
     color_count = node_count
-    while color_count > 2 and solution is not None:
+
+    while color_count > 3 and solution is not None:
         color_count -= 1
         previous_solution = solution
         solution = tabucol(graph, num_color=color_count, reps=5, max_iterations=10)
 
+    # print("test: ", tabucol(graph, num_color=2, reps=5, max_iterations=10))
+
     # prepare the solution in the specified output format
-    output_data = str(color_count+1) + ' ' + str(1) + '\n'
+    output_data = str(color_count + 1) + ' ' + str(1) + '\n'
     if solution is None:
         output_data += ' '.join(map(str, previous_solution))
     else:
@@ -158,6 +167,7 @@ import sys
 
 if __name__ == '__main__':
     import sys
+
     if len(sys.argv) > 1:
         file_location = sys.argv[1].strip()
         with open(file_location, 'r') as input_data_file:
@@ -166,4 +176,3 @@ if __name__ == '__main__':
     else:
         print('This test requires an input file.  Please select one from the data directory. (i.e. python solver.py '
               './data/gc_4_1)')
-
