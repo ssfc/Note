@@ -124,18 +124,22 @@ def solve_it(input_data):
     first_line = lines[0].split()
     node_count = int(first_line[0])
     edge_count = int(first_line[1])
+    graph = np.zeros((node_count, node_count), dtype=int)
 
     edges = []
     for i in range(1, edge_count + 1):
         line = lines[i]
         parts = line.split()
         edges.append((int(parts[0]), int(parts[1])))
+        graph[int(parts[0])][int(parts[1])] = 1
+        graph[int(parts[1])][int(parts[0])] = 1
 
     # build a trivial solution every node has its own color
-    solution = range(0, node_count)
+    # solution = range(0, node_count)
+    solution = tabucol(graph, num_color=3, reps=100, max_iterations=30000)
 
     # prepare the solution in the specified output format
-    output_data = str(node_count) + ' ' + str(0) + '\n'
+    output_data = str(node_count) + ' ' + str(1) + '\n'
     output_data += ' '.join(map(str, solution))
 
     return output_data
