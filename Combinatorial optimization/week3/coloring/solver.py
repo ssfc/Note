@@ -38,7 +38,7 @@ def tabucol(graph, num_color, reps=100, max_iterations=30000):
     aspiration_criterion = len(graph)
 
     while iterations < max_iterations:
-        print("iteration: ", iterations)
+        # print("iteration: ", iterations)
         # Count vertex pairs (i,j) which are adjacent and have the same color.
         conflict_vertex = set()  # use a set to avoid duplicates
         current_num_conflict = 0
@@ -59,7 +59,7 @@ def tabucol(graph, num_color, reps=100, max_iterations=30000):
         # Generate neighbor solutions.
         new_solution = None
         for r in range(reps):
-            print("reps: ", r)
+            # print("reps: ", r)
             # Choose a vertex to change color.
             vertex_changed = conflict_vertex[randrange(0, len(conflict_vertex))]
 
@@ -83,7 +83,7 @@ def tabucol(graph, num_color, reps=100, max_iterations=30000):
 
                     if tabu_tenure_table[vertex_changed][new_color] > 0:  # permit tabu move if it is better any prior
                         tabu_tenure_table[vertex_changed][new_color] = 0
-                        print("tabu permitted;", current_num_conflict, "->", new_num_conflict)
+                        # print("tabu permitted;", current_num_conflict, "->", new_num_conflict)
                         break
 
                 else:
@@ -91,7 +91,7 @@ def tabucol(graph, num_color, reps=100, max_iterations=30000):
                         # tabu move isn't good enough
                         continue
 
-                print("Iteration ", iterations, ": ", current_num_conflict, "->", new_num_conflict)
+                # print("Iteration ", iterations, ": ", current_num_conflict, "->", new_num_conflict)
                 break
             # else:
             # print("check 2")
