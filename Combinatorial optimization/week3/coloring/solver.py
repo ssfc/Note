@@ -139,14 +139,17 @@ def solve_it(input_data):
     solution = range(0, node_count)
     previous_solution = range(0, node_count)
     color_count = node_count
-    while color_count > 0 and solution is not None:
+    while color_count > 2 and solution is not None:
         color_count -= 1
         previous_solution = solution
-        solution = tabucol(graph, num_color=color_count, reps=100, max_iterations=300)
+        solution = tabucol(graph, num_color=color_count, reps=5, max_iterations=30)
 
     # prepare the solution in the specified output format
     output_data = str(color_count+1) + ' ' + str(1) + '\n'
-    output_data += ' '.join(map(str, previous_solution))
+    if solution is None:
+        output_data += ' '.join(map(str, previous_solution))
+    else:
+        output_data += ' '.join(map(str, solution))
 
     return output_data
 
