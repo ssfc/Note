@@ -141,25 +141,27 @@ def solve_it(input_data):
         graph[int(parts[1])][int(parts[0])] = 1
 
     # build a trivial solution every node has its own color
+    choice = "tabucol"
 
-    solution = range(0, node_count)
-    previous_solution = range(0, node_count)
-    color_count = node_count
+    if choice == "tabucol":
+        solution = range(0, node_count)
+        previous_solution = range(0, node_count)
+        color_count = node_count
 
-    while color_count > 3 and solution is not None:
-        color_count -= 1
-        previous_solution = solution
-        solution = tabucol(graph, num_color=color_count, reps=30, max_iterations=500)
+        while color_count > 3 and solution is not None:
+            color_count -= 1
+            previous_solution = solution
+            solution = tabucol(graph, num_color=color_count, reps=30, max_iterations=500)
 
-    # print("test: ", tabucol(graph, num_color=2, reps=5, max_iterations=10))
+        # print("test: ", tabucol(graph, num_color=2, reps=5, max_iterations=10))
 
-    # prepare the solution in the specified output format
-    if solution is None:
-        output_data = str(color_count + 1) + ' ' + str(1) + '\n'
-        output_data += ' '.join(map(str, previous_solution))
-    else:
-        output_data = str(color_count) + ' ' + str(1) + '\n'
-        output_data += ' '.join(map(str, solution))
+        # prepare the solution in the specified output format
+        if solution is None:
+            output_data = str(color_count + 1) + ' ' + str(1) + '\n'
+            output_data += ' '.join(map(str, previous_solution))
+        else:
+            output_data = str(color_count) + ' ' + str(1) + '\n'
+            output_data += ' '.join(map(str, solution))
 
     return output_data
 
