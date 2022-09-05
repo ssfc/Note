@@ -88,7 +88,8 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 
 ### Graph Coloring
 1. Write an algorithm to minimize the coloring of a graph; (2022年9月3日)
-2. 
+2. Tabucol takes such a long time, try other method; (2022年9月5日)
+3. 
 
 
 
