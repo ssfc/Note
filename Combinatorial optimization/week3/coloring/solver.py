@@ -149,7 +149,7 @@ def solve_it(input_data):
     while color_count > 3 and solution is not None:
         color_count -= 1
         previous_solution = solution
-        solution = tabucol(graph, num_color=color_count, reps=50, max_iterations=100)
+        solution = tabucol(graph, num_color=color_count, reps=30, max_iterations=500)
 
     # print("test: ", tabucol(graph, num_color=2, reps=5, max_iterations=10))
 
