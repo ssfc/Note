@@ -90,7 +90,8 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 1. Write an algorithm to minimize the coloring of a graph; (2022年9月3日)
 2. Tabucol takes such a long time, try other method; (2022年9月5日)
 3. Calculate python running time: start = time.time() ; (2022年9月6日)
-4. Ideal answer: (1) 6; (2) 17; (3) 16; (4) 95; 
+4. Create a list made of random integers: solution = np.random.randint(len(colors), size=len(graph)) ; (2022年9月6日)
+5. Ideal answer: (1) 6; (2) 17; (3) 16; (4) 95; 
 
 
 
