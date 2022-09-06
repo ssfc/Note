@@ -31,9 +31,7 @@ def tabucol(graph, num_color, reps=100, max_iterations=30000):
 
     # solution is a map of vertices to colors
     # Generate a random solution:
-    solution = np.zeros((len(graph),), dtype=int)
-    for i in range(len(graph)):
-        solution[i] = colors[randrange(0, len(colors))]
+    solution = np.random.randint(len(colors), size=len(graph))
 
     # Aspiration level A(z), represented by a mapping: f(s) -> best f(s') seen so far
     aspiration_criterion = len(graph)
@@ -144,7 +142,7 @@ def solve_it(input_data):
     # build a trivial solution every node has its own color
 
     start = time.time()
-    
+
     choice = "tabucol"
     # choice = "naive"
 
