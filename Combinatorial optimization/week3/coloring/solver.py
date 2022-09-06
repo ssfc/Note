@@ -142,6 +142,7 @@ def solve_it(input_data):
 
     # build a trivial solution every node has its own color
     choice = "tabucol"
+    # choice = "naive"
 
     if choice == "tabucol":
         solution = range(0, node_count)
