@@ -89,7 +89,8 @@ https://www.coursera.org/learn/discrete-optimization/home/week/2
 ### Graph Coloring
 1. Write an algorithm to minimize the coloring of a graph; (2022年9月3日)
 2. Tabucol takes such a long time, try other method; (2022年9月5日)
-3. Ideal answer: (1) 6; (2) 17; (3) 16; (4) 95; 
+3. Calculate python running time: start = time.time() ; (2022年9月6日)
+4. Ideal answer: (1) 6; (2) 17; (3) 16; (4) 95; 
 
 
 
