@@ -30,9 +30,9 @@ def tabucol(graph, num_color, reps=100, max_iterations=30000):
 
     # solution is a map of vertices to colors
     # Generate a random solution:
-    solution = []
+    solution = np.zeros((len(graph),), dtype=int)
     for i in range(len(graph)):
-        solution.append(colors[randrange(0, len(colors))])
+        solution[i] = colors[randrange(0, len(colors))]
 
     # Aspiration level A(z), represented by a mapping: f(s) -> best f(s') seen so far
     aspiration_criterion = len(graph)
