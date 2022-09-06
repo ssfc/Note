@@ -4,6 +4,7 @@ from collections import deque
 from random import randint
 from random import randrange
 import numpy as np
+import time
 
 
 def compute_conflict(graph, sol):
@@ -141,6 +142,9 @@ def solve_it(input_data):
         graph[int(parts[1])][int(parts[0])] = 1
 
     # build a trivial solution every node has its own color
+
+    start = time.time()
+    
     choice = "tabucol"
     # choice = "naive"
 
@@ -152,7 +156,7 @@ def solve_it(input_data):
         while color_count > 3 and solution is not None:
             color_count -= 1
             previous_solution = solution
-            solution = tabucol(graph, num_color=color_count, reps=30, max_iterations=500)
+            solution = tabucol(graph, num_color=color_count, reps=50, max_iterations=1000)
 
         # print("test: ", tabucol(graph, num_color=2, reps=5, max_iterations=10))
 
@@ -163,6 +167,9 @@ def solve_it(input_data):
         else:
             output_data = str(color_count) + ' ' + str(1) + '\n'
             output_data += ' '.join(map(str, solution))
+
+    end = time.time()
+    print("running time: ", end - start)
 
     return output_data
 
