@@ -104,7 +104,9 @@ def tabucol(graph, num_color, reps=100, max_iterations=30000):
         # Move to next iteration of tabucol with new solution
         solution = new_solution
         iterations += 1
+        print("tabu table before:" , tabu_tenure_table)
         tabu_tenure_table = np.where(tabu_tenure_table>0, tabu_tenure_table-1, tabu_tenure_table)
+        print("tabu table after:", tabu_tenure_table)
 
     # print("Aspiration Levels:\n" + "\n".join([str((k,v)) for k,v in aspiration_criterion.items() if k-v > 1]))
 
