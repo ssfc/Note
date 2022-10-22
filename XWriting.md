@@ -2,16 +2,23 @@
 2. -
 
 # Note of class
+## first class
 1. linguistic features(古典视角): (1) rhetorical choices; (2) selection of lexical; (2022年10月22日)
 2. generic features 文体风格(现代视角): construct, organization, presentaion; (2022年10月22日)
 3. argumentation development(后现代视角): (1) claim and support; (2) problem and solution; (3) credibility and authority; (2022年10月22日)
+4. data report: 用逻辑分层描述, 数据报告的语言, 3级报告; 
+5. (1) 主语--定语从句--分词--不定式; show, revealed, etc; (2) 通用概念受专业概念限定; claim->support, with用来提供数据, 而不是结论; 
 
 ## Assignment 1: 
 1. translation & credibility; 2 papers; 信度评价; 
 2. (1) hard-copy in English; (2) no conference or survey; (3) 2 papers have some relations; 顶级期刊, 计算机可以conference; 时效性 within 2 years; (4) data-based outline 数据支撑; (5) contrast/comparision; 对比p1和p2的不同点，相同点；
 3. translate abstract. According to Chapter 2 Node 2 9 examination criteria; 
 4. 信度报告--为什么值得读--data report格式; familiar with 投稿&审稿; 
-5. 
+5. Format: title之下, p1: 全称、期刊、发表时间等; p2同理; 后文用p1和p2指代; 
+
+## Presentation: 
+
+
 
 # A Bridge to Creditability and Authority
 ## Preface
