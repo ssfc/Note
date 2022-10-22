@@ -14,7 +14,9 @@
 2. Appropriate focus; 眼珠; 期刊定位, 文章是否匹配; 评价在领域中的贡献程度, 研究目前所处阶段; (2022年10月22日)
 3. Sufficient coverage; 眼白; 支撑, backup, data, method, etc. (2022年10月22日)
 4. Impact factor: 综合性, 子刊; (2022年10月22日)
-5. 
+5. Affiliation or sponsorship: list of 赞助商; (2022年10月22日)
+6. Currentness: 引用频率, 正态分布, 是否经典研究, latest; (2022年10月22日)
+7. 
 
 
 ## Assignment 1: 
