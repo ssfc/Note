@@ -21,11 +21,33 @@
 9. Appropriateness: writing skill; native(good sentence), expert or new-comer(bad sentence); (2022年10月22日)
 
 ## 3rd class
+### Linguistic features
 1. 30 questions in file; (2022年10月22日)
 2. claim and support; 
 3. Group: linguistic (10 questions), generic (10 questions), argument (10 questions); 每个人负责一个单项的一个问题, but cite all 4 papers; 
 4. 参考徐喜文2022EAP, 从中寻找support; (2022年10月22日)
-5. 
+5. 避免考试中固化的结构, as we all know, with the development of, in order to, etc. (2022年10月22日)
+6. "因为"只用because, 为了plainness; 
+7. Precision: in a word, 后面只能有一句话; 
+8. Objectivity: as we all know, 不客观; 
+9. 话题切换用什么? 
+10. use/employ/utilize, 什么时候简单(通用)动词, 什么时候复杂(专用)动词?
+11. balance between formal vs readable; persuasive vs objectivity; 
+12. Negation: I don't know用什么表达; wrong=>questionable; 
+13. 术语缩写适用范围; 
+14. 同义词替换; 
+15. long sentence由logic决定, 而非字数; 
+16. It depends. 不知道。
+17. 主动 vs 被动, 体现身份标识; 
+18. 时态选择; 
+### Generic features
+1. 不同门类的文章构成要件不同; 
+2. difference between abstract and conclusion; 
+3. reference list; 和EndNote等软件相关; 
+4. claim and support; 文章内部思路, meta-knowledge; 
+   
+## 4th class; 
+### Generic features
 
 
 
@@ -38,6 +60,12 @@
 
 ## Presentation: 
 1. 5 minutes, provide claim and support of all 4 papers; (2022年10月22日)
+2. First person should do introduction, 说明出处和基本信息; 
+3. Slides划线格式, 不要花哨; 5 pages each person; 
+4. P1 P2 P3 P4 指代文章; 
+5. claims and conclusion; 
+6. 注明问题L10, G7, A6; 
+
 
 
 # A Bridge to Creditability and Authority
