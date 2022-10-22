@@ -32,10 +32,10 @@
 ### 5.2 Frequently misused words
 ### 5.3 Articles
 
-
-
-
-
+## Chapter 6, Reference, Editing and Submitting
+### 6.1 Reference Styles
+### 6.2	 Editing
+### 6.3	 Submitting
 
 
 
