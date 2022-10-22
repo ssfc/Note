@@ -1,6 +1,10 @@
 1. "30 Questions-Phd writing class" is the presentation we should made to the whole class; (2022年10月21日)
 2. -
 
+# Note of class
+1. linguistic features(古典视角): (1) rhetorical choices; (2) selection of lexical; (2022年10月22日)
+2. generic features 文体风格(现代视角): 
+
 # A Bridge to Creditability and Authority
 ## Preface
 ## Chapter 1, Features and Techniques of Academic Writing in English
