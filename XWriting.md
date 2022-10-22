@@ -3,7 +3,13 @@
 
 # Note of class
 1. linguistic features(古典视角): (1) rhetorical choices; (2) selection of lexical; (2022年10月22日)
-2. generic features 文体风格(现代视角): 
+2. generic features 文体风格(现代视角): construct, organization, presentaion; (2022年10月22日)
+3. argumentation development(后现代视角): (1) claim and support; (2) problem and solution; (3) credibility and authority; (2022年10月22日)
+
+## Assignment 1: 
+1. translation & credibility; 2 papers; 信度评价; 
+2. (1) In English; (2) no conference or survey; (3) 2 papers have some relations; 顶级期刊, 计算机可以conference; 时效性 within 2 years; 
+3. translate abstract. According to Chapter 2 Node 2 9 examination criteria; 
 
 # A Bridge to Creditability and Authority
 ## Preface
