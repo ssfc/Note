@@ -2,14 +2,14 @@
 2. -
 
 # Note of class
-## First class
+## 1st class
 1. linguistic features(古典视角): (1) rhetorical choices; (2) selection of lexical; (2022年10月22日)
 2. generic features 文体风格(现代视角): construct, organization, presentation; (2022年10月22日)
 3. argumentation development(后现代视角): (1) claim and support; (2) problem and solution; (3) credibility and authority; (2022年10月22日)
 4. data report: 用逻辑分层描述, 数据报告的语言, 3级报告; 
 5. (1) 主语--定语从句--分词--不定式; show, revealed, etc; (2) 通用概念受专业概念限定; claim->support, with用来提供数据, 而不是结论; (2022年10月22日)
 
-## Second class
+## 2nd class
 1. Author's credential; 对三个作者分别描述研究方向; VIP; 背后支撑; 通信作者; (2022年10月22日)
 2. Appropriate focus; 眼珠; 期刊定位, 文章是否匹配; 评价在领域中的贡献程度, 研究目前所处阶段; (2022年10月22日)
 3. Sufficient coverage; 眼白; 支撑, backup, data, method, etc. (2022年10月22日)
@@ -20,7 +20,13 @@
 8. Availability: 什么信息成为reference, 几十个reference, 低级期刊才允许多的self-citation; (2022年10月22日)
 9. Appropriateness: writing skill; native(good sentence), expert or new-comer(bad sentence); (2022年10月22日)
 
-## 
+## 3rd class
+1. 30 questions in file; (2022年10月22日)
+2. claim and support; 
+3. Group: linguistic (10 questions), generic (10 questions), argument (10 questions); 每个人负责一个单项的一个问题, but cite all 4 papers; 
+4. 参考徐喜文2022EAP, 从中寻找support; (2022年10月22日)
+5. 
+
 
 
 ## Assignment 1: 
