@@ -16,7 +16,11 @@
 4. Impact factor: 综合性, 子刊; (2022年10月22日)
 5. Affiliation or sponsorship: list of 赞助商; (2022年10月22日)
 6. Currentness: 引用频率, 正态分布, 是否经典研究, latest; (2022年10月22日)
-7. 
+7. Documentation: 原创性originality, method; (2022年10月22日)
+8. Availability: 什么信息成为reference, 几十个reference, 低级期刊才允许多的self-citation; (2022年10月22日)
+9. Appropriateness: writing skill; native(good sentence), expert or new-comer(bad sentence); (2022年10月22日)
+
+## 
 
 
 ## Assignment 1: 
