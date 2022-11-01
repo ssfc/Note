@@ -80,7 +80,8 @@
 9.  functional texts; 
 10. Tips: one sentence for one thought; 说明立场; 
 11. EGP is narrative or reflective, EAP is argumentative and convincing; 
-12. 
+12. According to XXX, we know that XXX (Treat reader like idiot) => As such, lizards are defined as cold blooded. 
+13. 
 
 
 ## Assignment 1: 
