@@ -68,6 +68,9 @@
 18. Book 信度与权威 Chapter 1, ending exercise; (1) wrong logic; (2) grammar is correct, but not acceptable; 
 19. Previous writing is reading;  
 
+## 5th class Oct 24th, 2022;
+1.  
+
 
 ## Assignment 1: 
 1. translation & credibility; 2 papers; 信度评价; 
