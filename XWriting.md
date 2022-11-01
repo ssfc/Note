@@ -71,7 +71,11 @@
 ## 5th class Oct 24th, 2022;
 1.  Writing for EAP & EGP;
 2.  L1, mother tongue; L2, foreign language (English); 
-3.  
+3.  What is academic? (1) format required; (2) prevent to be like translation or notice; (3) prevent to be descriptive or picturing writing; 
+4.  故事性, 强调个性 (奇数?性别歧视?);
+5.  Today we saw 5 fish in the lab. All information points to gold fish; 
+6.  直入结论, 围绕结论展开; 
+7.  
 
 
 ## Assignment 1: 
