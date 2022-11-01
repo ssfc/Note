@@ -75,7 +75,8 @@
 4.  故事性, 强调个性 (奇数?性别歧视?);
 5.  Today we saw 5 fish in the lab. All information points to gold fish; 
 6.  直入结论, 围绕结论展开; 
-7.  
+7.  口语中的average具有情感色彩, 学术论文中的average则是严格的平均数; 
+8.  
 
 
 ## Assignment 1: 
