@@ -76,7 +76,11 @@
 5.  Today we saw 5 fish in the lab. All information points to gold fish; 
 6.  直入结论, 围绕结论展开; 
 7.  口语中的average具有情感色彩, 学术论文中的average则是严格的平均数; 
-8.  
+8.  purpose; 
+9.  functional texts; 
+10. Tips: one sentence for one thought; 说明立场; 
+11. EGP is narrative or reflective, EAP is argumentative and convincing; 
+12. 
 
 
 ## Assignment 1: 
@@ -87,6 +91,11 @@
 5. Format: title之下, p1: 全称、期刊、发表时间等; p2同理; 后文用p1和p2指代; 
 6. 打印稿最晚周三交; 
 7. 
+
+## Assignment 2: 
+1. Due Date: last group; 
+2. book review -> bibliography; 
+3. 
 
 ## Presentation: 
 1. 5 minutes, provide claim and support of all 4 papers; (2022年10月22日)
