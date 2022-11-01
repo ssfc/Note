@@ -20,7 +20,7 @@
 8. Availability: 什么信息成为reference, 几十个reference, 低级期刊才允许多的self-citation; (2022年10月22日)
 9. Appropriateness: writing skill; native(good sentence), expert or new-comer(bad sentence); (2022年10月22日)
 
-## 3rd class
+## 3rd class October 17th, 2022
 ### Linguistic features
 1. 30 questions in file; (2022年10月22日)
 2. claim and support; 
@@ -46,7 +46,7 @@
 3. reference list; 和EndNote等软件相关; 
 4. claim and support; 文章内部思路, meta-knowledge; 
    
-## 4th class; 
+## 4th class October 19th, 2022; 
 ### Generic features
 1. organization: purpose, paragraph, 多长一段; 
 2. 归纳method典型顺序, 非典型顺序; 
