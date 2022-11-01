@@ -60,7 +60,11 @@
 10. limitation (further work) & application; 
 11. skill to validate; 
 12. problem & solution; 
-13. 
+13. research domain, capture the real world; 
+14. still reliable? reading角度; 
+15. still replicable? 可以只谈自己, 不引证别人; 
+16. frequently cited? IF&CF; 信度评价综合体; 
+17. 
 
 
 ## Assignment 1: 
@@ -69,7 +73,7 @@
 3. translate abstract. According to Chapter 2 Node 2 9 examination criteria; 
 4. 信度报告--为什么值得读--data report格式; familiar with 投稿&审稿; 
 5. Format: title之下, p1: 全称、期刊、发表时间等; p2同理; 后文用p1和p2指代; 
-6. 
+6. 打印稿最晚周三交; 
 7. 
 
 ## Presentation: 
