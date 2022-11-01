@@ -48,7 +48,9 @@
    
 ## 4th class; 
 ### Generic features
-
+1. organization: purpose, paragraph, 多长一段; 
+2. 归纳method典型顺序, 非典型顺序; 
+3. 
 
 
 ## Assignment 1: 
