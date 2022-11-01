@@ -52,6 +52,10 @@
 2. 归纳method典型顺序, 非典型顺序; 
 3. 是否有discussion OR combine discussion with conclusion? 
 4. Title is important idea; 
+5. 大概念有时候变成小概念, 变换词汇证明自己对topic的了解, 常识和专业表述的平衡; housing problem 变换 house problem; 
+6. 符号表述, conciseness; 
+7.  Argumentation development; 
+8.  
 
 
 ## Assignment 1: 
