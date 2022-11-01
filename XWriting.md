@@ -91,7 +91,10 @@
 2. A3: 草蛇灰线, 伏脉千里; 
 3. Chapter 1 Exercise 2: 
 4. (1) 多个(不是同级别)的介词分化, 导致句子碎片化, 修改应把about放在discussion之后; 
-5. 
+5. (2) 介词次序紊乱, 需要有等级概念, 把in the wester提前; 
+6. (3) 概念中心紊乱, 定义漂移; 
+7. (4) 头重脚轻, arise提前, 放到disagreement之后; 
+8. 
 
 
 ## Assignment 1: 
