@@ -56,7 +56,11 @@
 6. 符号表述, conciseness; 
 7.  Argumentation development; 
 8.  谋篇布局: previous study -- present -- further; P1-P2-P1-P2-F; 
-9.  
+9.  需要跳出段落看整体; scope --(path)-- contribution; 
+10. limitation (further work) & application; 
+11. skill to validate; 
+12. problem & solution; 
+13. 
 
 
 ## Assignment 1: 
