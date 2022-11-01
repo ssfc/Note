@@ -89,7 +89,9 @@
 ## 6th class Oct 26th, 2022;
 1. G3: difference between abstract and conclusion; 
 2. A3: 草蛇灰线, 伏脉千里; 
-3. 
+3. Chapter 1 Exercise 2: 
+4. (1) 多个(不是同级别)的介词分化, 导致句子碎片化, 修改应把about放在discussion之后; 
+5. 
 
 
 ## Assignment 1: 
