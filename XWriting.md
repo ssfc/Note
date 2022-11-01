@@ -63,8 +63,10 @@
 13. research domain, capture the real world; 
 14. still reliable? reading角度; 
 15. still replicable? 可以只谈自己, 不引证别人; 
-16. frequently cited? IF&CF; 信度评价综合体; 
-17. 
+16. frequently cited? IF & CF; 信度评价综合体; 
+17. writing for EAP (academic) & EGP (general); 
+18. Book 信度与权威 Chapter 1, ending exercise; (1) wrong logic; (2) grammar is correct, but not acceptable; 
+19. Previous writing is reading;  
 
 
 ## Assignment 1: 
@@ -85,6 +87,8 @@
 6. 注明问题L10, G7, A6; 
 7. Paper不能换; 
 
+## Examination
+1. 考试开卷, 不能查电子版; 
 
 
 # A Bridge to Creditability and Authority
