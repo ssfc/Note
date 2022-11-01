@@ -69,7 +69,9 @@
 19. Previous writing is reading;  
 
 ## 5th class Oct 24th, 2022;
-1.  
+1.  Writing for EAP & EGP;
+2.  L1, mother tongue; L2, foreign language (English); 
+3.  
 
 
 ## Assignment 1: 
