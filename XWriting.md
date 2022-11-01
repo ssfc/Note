@@ -94,7 +94,8 @@
 5. (2) 介词次序紊乱, 需要有等级概念, 把in the wester提前; 
 6. (3) 概念中心紊乱, 定义漂移; 
 7. (4) 头重脚轻, arise提前, 放到disagreement之后; 
-8. 
+8. Exercise in Slides Page 18: (2) Y, 主体变agreement; (3) N, 具有情感色彩; (14) Now that... a must 高调, 情绪化; (15) Y, plainness. 
+9. 
 
 
 ## Assignment 1: 
