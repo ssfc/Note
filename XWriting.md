@@ -50,7 +50,8 @@
 ### Generic features
 1. organization: purpose, paragraph, 多长一段; 
 2. 归纳method典型顺序, 非典型顺序; 
-3. 
+3. 是否有discussion OR combine discussion with conclusion? 
+4. Title is important idea; 
 
 
 ## Assignment 1: 
@@ -59,6 +60,8 @@
 3. translate abstract. According to Chapter 2 Node 2 9 examination criteria; 
 4. 信度报告--为什么值得读--data report格式; familiar with 投稿&审稿; 
 5. Format: title之下, p1: 全称、期刊、发表时间等; p2同理; 后文用p1和p2指代; 
+6. 
+7. 
 
 ## Presentation: 
 1. 5 minutes, provide claim and support of all 4 papers; (2022年10月22日)
@@ -67,6 +70,7 @@
 4. P1 P2 P3 P4 指代文章; 
 5. claims and conclusion; 
 6. 注明问题L10, G7, A6; 
+7. Paper不能换; 
 
 
 
