@@ -87,7 +87,9 @@
 16. Exercise in Slides Page 23: (4) N, 时间概念; (9) 情绪强烈, descriptive; (10) Y, 真同时; 
     
 ## 6th class Oct 26th, 2022;
-
+1. G3: difference between abstract and conclusion; 
+2. A3: 草蛇灰线, 伏脉千里; 
+3. 
 
 
 ## Assignment 1: 
@@ -99,11 +101,6 @@
 6. 打印稿最晚周三交; 
 7. 
 
-## Assignment 2: 
-1. Due Date: last group; 
-2. book review -> bibliography; 
-3. 
-
 ## Presentation: 
 1. 5 minutes, provide claim and support of all 4 papers; (2022年10月22日)
 2. First person should do introduction, 说明出处和基本信息; 
@@ -112,6 +109,13 @@
 5. claims and conclusion; 
 6. 注明问题L10, G7, A6; 
 7. Paper不能换; 
+8. 说明具体在文章里的引用和摘录部位; 
+
+## Assignment 2: 
+1. Due Date: last group; 
+2. book review -> bibliography; 
+3. 
+
 
 ## Examination
 1. 考试开卷, 不能查电子版; 
