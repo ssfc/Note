@@ -86,6 +86,7 @@
 15. 不做时间转移, 因为模糊; 
 16. Exercise in Slides Page 23: (4) N, 时间概念; (9) 情绪强烈, descriptive; (10) Y, 真同时; 
     
+## 6th class Oct 26th, 2022;
 
 
 
