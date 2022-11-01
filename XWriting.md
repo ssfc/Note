@@ -55,7 +55,8 @@
 5. 大概念有时候变成小概念, 变换词汇证明自己对topic的了解, 常识和专业表述的平衡; housing problem 变换 house problem; 
 6. 符号表述, conciseness; 
 7.  Argumentation development; 
-8.  
+8.  谋篇布局: previous study -- present -- further; P1-P2-P1-P2-F; 
+9.  
 
 
 ## Assignment 1: 
