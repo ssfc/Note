@@ -81,7 +81,8 @@
 10. Tips: one sentence for one thought; 说明立场; 
 11. EGP is narrative or reflective, EAP is argumentative and convincing; 
 12. According to XXX, we know that XXX (Treat reader like idiot) => As such, lizards are defined as cold blooded. 
-13. 
+13. Book 信度与权威 Chapter 1, ending exercise; (1) in contrast to, 大炮打蚊子; (2) it was assumed that ... 不是; (3) birth rate; (4) (5) 参数定位, 词的位置; 
+14. 
 
 
 ## Assignment 1: 
