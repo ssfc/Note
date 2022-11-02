@@ -97,7 +97,11 @@
 8. Exercise in Slides Page 18: (2) Y, 主体变agreement; (3) N, 具有情感色彩; (14) Now that... a must 高调, 情绪化; (15) Y, plainness. 
 9. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
 10. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
-11.  
+11. EAP should use certain and clear message with factual accuracy. 
+12. HW: Exercise in Slides Page 27:  
+    
+## 7th class Oct 31st, 2022;
+
 
 
 ## Assignment 1: 
