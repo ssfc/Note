@@ -132,10 +132,12 @@
 ## Assignment 3: 
 1. Due Date: examination day; 
 2. 基于两篇信度评价的文章; 
-3. 独立出来research gap, 也就是要研究的问题; 
-4. 压缩method, 只做两项; 
-5. grants, 规模, funding; support, 团队, 联合, 导师; potential risks, 什么情况下会失败, 成本问题, 时间不够, 被抢先发表; 
-6. 
+3. research background, 文献引用; 
+4. 独立出来research gap, 也就是要研究的问题; 
+5. 压缩method, 只做两项; 
+6. grants, 规模, funding; support, 团队, 联合, 导师; potential risks, 什么情况下会失败, 成本问题, 时间不够, 被抢先发表; 
+7. reference, 读的两篇用粗体标注, 列举reference; 
+8. 电子版上传; 
 
 ## Examination
 1. 考试开卷, 不能查电子版; 
