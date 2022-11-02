@@ -126,7 +126,8 @@
 ## Assignment 2: 
 1. Due Date: last group; 
 2. book review -> bibliography; 
-3. 
+3. requirements on Slides Page 8: (1) notes for the references; (2) to list the basic information related to the journal and the article; (3) to outline the study and its main theoretical supporting; (4) to summarize the main findings and contributions; (5) to offer comments and reflections on the articles;   
+4. 
 
 
 ## Examination
