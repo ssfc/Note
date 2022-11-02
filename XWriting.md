@@ -33,7 +33,7 @@
 9. 话题切换用什么? 
 10. use/employ/utilize, 什么时候简单(通用)动词, 什么时候复杂(专用)动词?
 11. balance between formal vs readable; persuasive vs objectivity; 
-12. Negation: I don't know用什么表达; wrong=>questionable; 
+12. Negation: I don't know用什么表达; wrong=>questionable OR however OR although, 比较委婉; 
 13. 术语缩写适用范围; 
 14. 同义词替换; 
 15. long sentence由logic决定, 而非字数; 
@@ -101,7 +101,7 @@
 12. HW: Exercise in Slides Page 27:  
     
 ## 7th class Oct 31st, 2022;
-
+否定句
 
 
 ## Assignment 1: 
