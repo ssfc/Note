@@ -85,9 +85,11 @@
 14. To illustrate this => then; 
 15. 不做时间转移, 因为模糊; 
 16. Exercise in Slides Page 23: 
-17. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
-18. (9) 情绪强烈, descriptive; 
-19. (10) Y, 真同时; 
+17. (1) N, 粘连句, 应分成两句话; attempt to具有情绪性; 
+18. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
+19. (6) that is not the answer in the long run口语化 => but unhelpful in the long run; 
+20. (9) 情绪强烈, descriptive; 
+21. (10) Y, 真同时; 
 
 ## 6th class Oct 26th, 2022;
 1. G3: difference between abstract and conclusion; 
