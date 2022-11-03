@@ -120,8 +120,9 @@
 4. greatly=>significantly; apparent=>obvious; 
 5. EAP的目的在于engage建立圈层, enlighten启蒙读者; 
 6. EGP emphasize process, while EAP deliver key concept; 
-7. Chinese is driven by verb, while English is driven by noun; 
-8. 
+7. Chinese is driven by verb, while English is driven by noun; 你去哪 == How are you, 寒暄的功能; 
+8. 毫不夸张地说 == Therefore, in practice; 表达强调; 
+9. HW slides Page 31; 
 
 ## Assignment 1: 
 1. translation & credibility; 2 papers; 信度评价; 
