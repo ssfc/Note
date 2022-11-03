@@ -119,7 +119,9 @@
 3. obvious是最大能接受的表达情感的词汇, apparent不行; 
 4. greatly=>significantly; apparent=>obvious; 
 5. EAP的目的在于engage建立圈层, enlighten启蒙读者; 
-
+6. EGP emphasize process, while EAP deliver key concept; 
+7. Chinese is driven by verb, while English is driven by noun; 
+8. 
 
 ## Assignment 1: 
 1. translation & credibility; 2 papers; 信度评价; 
