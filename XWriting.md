@@ -84,8 +84,11 @@
 13. Book 信度与权威 Chapter 1, ending exercise; (1) in contrast to, 大炮打蚊子; (2) it was assumed that ... 不是; (3) birth rate; (4) (5) 参数定位, 词的位置; 
 14. To illustrate this => then; 
 15. 不做时间转移, 因为模糊; 
-16. Exercise in Slides Page 23: (4) N, 时间概念; (9) 情绪强烈, descriptive; (10) Y, 真同时; 
-    
+16. Exercise in Slides Page 23: 
+17. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
+18. (9) 情绪强烈, descriptive; 
+19. (10) Y, 真同时; 
+
 ## 6th class Oct 26th, 2022;
 1. G3: difference between abstract and conclusion; 
 2. A3: 草蛇灰线, 伏脉千里; 
@@ -97,13 +100,12 @@
 8. Exercise in Slides Page 18: 
 9. (2) Y, 主体变agreement; 
 10. (3) N, to our surprise和so quickly具有情感色彩; => There is an **obvious** fact that XXX have been **widely** applied... 
-11. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
-12. (14) N, Now that... a must 高调, 情绪化, 其中不定冠词a表达强调; 
-13. (15) Y, plainness. 
-14. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
-15. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
-16. EAP should use certain and clear message with factual accuracy. 
-17. HW: Exercise in Slides Page 27:  
+11. (14) N, Now that... a must 高调, 情绪化, 其中不定冠词a表达强调; 
+12. (15) Y, plainness. 
+13. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
+14. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
+15. EAP should use certain and clear message with factual accuracy. 
+16. HW: Exercise in Slides Page 27:  
     
 ## 7th class Oct 31st, 2022;
 1. 表达否定, 用however和although比较委婉; 
