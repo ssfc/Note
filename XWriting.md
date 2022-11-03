@@ -101,7 +101,10 @@
 12. HW: Exercise in Slides Page 27:  
     
 ## 7th class Oct 31st, 2022;
-否定句
+1. 表达否定, 用however和although比较委婉; 
+
+## 8th class Nov 11th, 2022; 
+
 
 
 ## Assignment 1: 
@@ -126,7 +129,7 @@
 ## Assignment 2: 
 1. Due Date: last group; 
 2. book review -> bibliography; 
-3. requirements on Slides Page 8: (1) notes for the references; (2) to list the basic information related to the journal and the article; (3) to outline the study and its main theoretical supporting; (4) to summarize the main findings and contributions; (5) to offer comments and reflections on the articles;   
+3. requirements on Slides Page 8: (1) notes for the references; (note就是笔记, 把自己做过的活合起来) (2) to list the basic information related to the journal and the article; (3) to outline the study and its main theoretical supporting; (4) to summarize the main findings and contributions; (5) to offer comments and reflections on the articles;   
 4. 
 
 ## Assignment 3: 
