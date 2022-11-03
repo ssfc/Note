@@ -86,10 +86,11 @@
 15. 不做时间转移, 因为模糊; 
 16. Exercise in Slides Page 23: 
 17. (1) N, 粘连句, 应分成两句话; attempt to具有情绪性; 
-18. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
-19. (6) that is not the answer in the long run口语化 => but unhelpful in the long run; 
-20. (9) 情绪强烈, descriptive; 
-21. (10) Y, 真同时; 
+18. (2) N, ignored具有情绪性, 换成overlooked; 
+19. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
+20. (6) that is not the answer in the long run口语化 => but unhelpful in the long run; 
+21. (9) 情绪强烈, descriptive; 
+22. (10) Y, 真同时; 
 
 ## 6th class Oct 26th, 2022;
 1. G3: difference between abstract and conclusion; 
@@ -116,7 +117,8 @@
 1. EGP, 强调empathy(移情); EAP, avoid empathy; (科普和专业的差异)
 2. as we know/with the development都是共情; 
 3. obvious是最大能接受的表达情感的词汇, apparent不行; 
-4. 
+4. greatly=>significantly; apparent=>obvious; 
+5. EAP的目的在于engage建立圈层, enlighten启蒙读者; 
 
 
 ## Assignment 1: 
