@@ -94,7 +94,7 @@
 5. (2) 介词次序紊乱, 需要有等级概念, 把in the wester提前; 
 6. (3) 概念中心紊乱, 定义漂移; 
 7. (4) 头重脚轻, arise提前, 放到disagreement之后; 
-8. Exercise in Slides Page 18: (2) Y, 主体变agreement; (3) N, 具有情感色彩; (14) Now that... a must 高调, 情绪化; (15) Y, plainness. 
+8. Exercise in Slides Page 18: (2) Y, 主体变agreement; (3) N, 具有情感色彩; (14) Now that... a must 高调, 情绪化, 其中不定冠词a表达强调; (15) Y, plainness. 
 9. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
 10. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
 11. EAP should use certain and clear message with factual accuracy. 
@@ -104,7 +104,8 @@
 1. 表达否定, 用however和although比较委婉; 
 
 ## 8th class Nov 11th, 2022; 
-
+1. EGP, 强调empathy(移情); EAP, avoid empathy; (科普和专业的差异)
+2. 
 
 
 ## Assignment 1: 
