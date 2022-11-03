@@ -97,12 +97,13 @@
 8. Exercise in Slides Page 18: 
 9. (2) Y, 主体变agreement; 
 10. (3) N, to our surprise和so quickly具有情感色彩; => There is an **obvious** fact that XXX have been **widely** applied... 
-11. (14) Now that... a must 高调, 情绪化, 其中不定冠词a表达强调; 
-12. (15) Y, plainness. 
-13. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
-14. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
-15. EAP should use certain and clear message with factual accuracy. 
-16. HW: Exercise in Slides Page 27:  
+11. (4) N, 错在at the same time, EAP不接受时序概念; 
+12. (14) N, Now that... a must 高调, 情绪化, 其中不定冠词a表达强调; 
+13. (15) Y, plainness. 
+14. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
+15. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
+16. EAP should use certain and clear message with factual accuracy. 
+17. HW: Exercise in Slides Page 27:  
     
 ## 7th class Oct 31st, 2022;
 1. 表达否定, 用however和although比较委婉; 
