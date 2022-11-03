@@ -105,7 +105,8 @@
 
 ## 8th class Nov 11th, 2022; 
 1. EGP, 强调empathy(移情); EAP, avoid empathy; (科普和专业的差异)
-2. 
+2. as we know/with the development都是共情; 
+3. 
 
 
 ## Assignment 1: 
