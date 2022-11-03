@@ -96,7 +96,7 @@
 7. (4) 头重脚轻, arise提前, 放到disagreement之后; 
 8. Exercise in Slides Page 18: 
 9. (2) Y, 主体变agreement; 
-10. (3) N, to our surprise和so quickly具有情感色彩; 
+10. (3) N, to our surprise和so quickly具有情感色彩; => There is an **obvious** fact that XXX have been **widely** applied... 
 11. (14) Now that... a must 高调, 情绪化, 其中不定冠词a表达强调; 
 12. (15) Y, plainness. 
 13. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
