@@ -27,7 +27,7 @@
 3. Group: linguistic (10 questions), generic (10 questions), argument (10 questions); 每个人负责一个单项的一个问题, but cite all 4 papers; 
 4. 参考徐喜文2022EAP, 从中寻找support; (2022年10月22日)
 5. 避免考试中固化的结构, as we all know, with the development of, in order to, etc. (2022年10月22日)
-6. "因为"只用because, 为了plainness; 
+6. "因为"只用because和for, 为了plainness; as/owing to/thanks to都有共情色彩; 
 7. Precision: in a word, 后面只能有一句话; 
 8. Objectivity: as we all know, 不客观; 
 9. 话题切换用什么? 
