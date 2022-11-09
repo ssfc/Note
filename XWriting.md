@@ -140,7 +140,11 @@
 8. In order to => To; 
 9. As a matter of fact (读者会质疑matter是什么) => In fact; 
 10. in terms of... 
-11. 
+11. Chapter 3 Exercise 1: 
+12. (1) given => listed; provided => sorted; 
+13. (2) show => track; offer => set up; 
+14. (3) put => have; be => fall; 
+15. 
 
 
 
