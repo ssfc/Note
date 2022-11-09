@@ -86,7 +86,7 @@
 15. (2) it was assumed that ... 不是; 
 16. (3) B; owing to 带有情感色彩; 
 17. (4) 
-18. (5) 参数定位, 词的位置; 
+18. (5) B; 介词堆砌没有分层次; 
 19. To illustrate this => then; 
 20. 不做时间转移, 因为模糊; 
 21. Exercise in Slides Page 23: 
