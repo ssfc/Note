@@ -150,7 +150,11 @@
 18. EAP中动词的目的不是强调动作的过程, 而是逻辑的连接; 
 
 ## 10th class Nov 7th, 2022; 
-
+1. Journal article aims to engage and enlighten, acting as textbook, focusing on credibility and discourse; 
+2. spell disaster or chaos, spell可用于表达负面的动词; 
+3. Let A to be B; 数学中的设用let; 
+4. yield vs get, reduce vs change/turn; 
+5. EAP考虑内容语言的可适性, 不是必须用强的verb; 
 
 
 ## Assignment 1: 
