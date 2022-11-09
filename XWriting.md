@@ -143,8 +143,9 @@
 11. Chapter 3 Exercise 1: 
 12. (1) given => listed; provided => sorted; 
 13. (2) show => track; offer => set up; 
-14. (3) put => have; be => fall; 
-15. 
+14. (3) show => convey; give => submit; 
+15. (4) put => have; be => fall; 
+16. (5) tell => indicate; deal with => handle; 
 
 
 
