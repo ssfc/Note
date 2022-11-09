@@ -131,7 +131,12 @@
 
 ## 9th class Nov 7th, 2022; 
 1. similarity matrix网站查看关联论文; 
-2. 
+2. Exercise in Slides Page 27: 
+3. (2) N. With the rapid developement of...
+4. (3) N. 试图共情; 
+5. (7) N. 口语化; 
+6. (8) N. worse still 情感浓厚; 
+7. (9) N. ????
 
 
 
