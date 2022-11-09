@@ -149,7 +149,7 @@
 17. easy word并不一定weak, 很多用法下非常strong; 
 18. EAP中动词的目的不是强调动作的过程, 而是逻辑的连接; 
 
-
+## 10th class Nov 7th, 2022; 
 
 
 
