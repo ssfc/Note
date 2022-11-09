@@ -82,7 +82,7 @@
 11. EGP is narrative or reflective, EAP is argumentative and convincing; 
 12. According to XXX, we know that XXX (Treat reader like idiot) => As such, lizards are defined as cold blooded. 
 13. Book 信度与权威 Chapter 1, ending exercise; 
-14. (1) in contrast to, 大炮打蚊子; 
+14. (1) A; in contrast to是一个点, in contrast是面, 太大了; 
 15. (2) it was assumed that ... 不是; 
 16. (3) B; owing to 带有情感色彩; 
 17. (4) 
