@@ -85,7 +85,7 @@
 14. (1) A; in contrast to是一个点, in contrast是面, 太大了; 
 15. (2) B; it assumes that是通用描述, it was assumed that是具体描述; 
 16. (3) B; owing to 带有情感色彩; 
-17. (4) 
+17. (4) B; 汉语是动词过程(raised)的语言, EAP是名词逻辑的连接; 
 18. (5) B; 介词堆砌没有分层次; 
 19. To illustrate this => then; 
 20. 不做时间转移, 因为模糊; 
