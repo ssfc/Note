@@ -81,16 +81,21 @@
 10. Tips: one sentence for one thought; 说明立场; 
 11. EGP is narrative or reflective, EAP is argumentative and convincing; 
 12. According to XXX, we know that XXX (Treat reader like idiot) => As such, lizards are defined as cold blooded. 
-13. Book 信度与权威 Chapter 1, ending exercise; (1) in contrast to, 大炮打蚊子; (2) it was assumed that ... 不是; (3) birth rate; (4) (5) 参数定位, 词的位置; 
-14. To illustrate this => then; 
-15. 不做时间转移, 因为模糊; 
-16. Exercise in Slides Page 23: 
-17. (1) N, 粘连句, 应分成两句话; attempt to具有情绪性; 
-18. (2) N, ignored具有情绪性, 换成overlooked; 
-19. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
-20. (6) that is not the answer in the long run口语化 => but unhelpful in the long run; 
-21. (9) 情绪强烈, descriptive; 
-22. (10) Y, 真同时; 
+13. Book 信度与权威 Chapter 1, ending exercise; 
+14. (1) in contrast to, 大炮打蚊子; 
+15. (2) it was assumed that ... 不是; 
+16. (3) B; owing to 带有情感色彩; 
+17. (4) 
+18. (5) 参数定位, 词的位置; 
+19. To illustrate this => then; 
+20. 不做时间转移, 因为模糊; 
+21. Exercise in Slides Page 23: 
+22. (1) N, 粘连句, 应分成两句话; attempt to具有情绪性; 
+23. (2) N, ignored具有情绪性, 换成overlooked; 
+24. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
+25. (6) that is not the answer in the long run口语化 => but unhelpful in the long run; 
+26. (9) 情绪强烈, descriptive; 
+27. (10) Y, 真同时; 
 
 ## 6th class Oct 26th, 2022;
 1. G3: difference between abstract and conclusion; 
