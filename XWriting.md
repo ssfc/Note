@@ -146,6 +146,10 @@
 14. (3) show => convey; give => submit; 
 15. (4) put => have; be => fall; 
 16. (5) tell => indicate; deal with => handle; 
+17. easy word并不一定weak, 很多用法下非常strong; 
+18. EAP中动词的目的不是强调动作的过程, 而是逻辑的连接; 
+
+
 
 
 
