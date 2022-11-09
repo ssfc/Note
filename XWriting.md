@@ -113,7 +113,7 @@
 13. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
 14. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
 15. EAP should use certain and clear message with factual accuracy. 
-16. HW: Exercise in Slides Page 27:  
+16. HW: Exercise in Slides Page 27; Answer is in 9th class; 
     
 ## 7th class Oct 31st, 2022;
 1. 表达否定, 用however和although比较委婉; 
@@ -137,6 +137,10 @@
 5. (7) N. 口语化; 
 6. (8) N. worse still 情感浓厚; 
 7. (9) N. ????
+8. In order to => To; 
+9. As a matter of fact (读者会质疑matter是什么) => In fact; 
+10. in terms of... 
+11. 
 
 
 
