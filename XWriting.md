@@ -129,6 +129,12 @@
 8. 毫不夸张地说 == Therefore, in practice; 表达强调; 
 9. HW slides Page 31; 
 
+## 9th class Nov 7th, 2022; 
+1. similarity matrix网站查看关联论文; 
+2. 
+
+
+
 ## Assignment 1: 
 1. translation & credibility; 2 papers; 信度评价; 
 2. (1) hard-copy in English; (2) no conference or survey; (3) 2 papers have some relations; 顶级期刊, 计算机可以conference; 时效性 within 2 years; (4) data-based outline 数据支撑; (5) contrast/comparison; 对比p1和p2的不同点，相同点；
