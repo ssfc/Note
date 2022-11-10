@@ -162,7 +162,10 @@
 10. (4) B. conclusion转名词被凸显, 但是显得粗暴; 
 11. (5) B. must太口语化; 
 12. Exercise in Slides Page 31: 
-13. 
+13. (2) N. opinion转fact; 
+14. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
+15. (6) N. 
+16. 
 
 
 ## Assignment 1: 
