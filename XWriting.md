@@ -164,7 +164,7 @@
 12. Exercise in Slides Page 31: 
 13. (2) N. opinion转fact; 
 14. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
-15. (6) N. 
+15. (6) N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
 16. 
 
 
