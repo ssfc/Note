@@ -149,12 +149,16 @@
 17. easy word并不一定weak, 很多用法下非常strong; 
 18. EAP中动词的目的不是强调动作的过程, 而是逻辑的连接; 
 
-## 10th class Nov 7th, 2022; 
+## 10th class Nov 9th, 2022; 
 1. Journal article aims to engage and enlighten, acting as textbook, focusing on credibility and discourse; 
 2. spell disaster or chaos, spell可用于表达负面的动词; 
 3. Let A to be B; 数学中的设用let; 
 4. yield vs get, reduce vs change/turn; 
 5. EAP考虑内容语言的可适性, 不是必须用强的verb; 
+6. Chapter 3 Exercise 2: 
+7. (1) B. A中的use作为动词, 显得口语化; B中use转名词, 更显EAP; 
+8. (2) B. limit转名词被凸显, 但是显得粗暴; 因为重要的内容在后面, 所以没必要用这么强的语气; 
+9. 
 
 
 ## Assignment 1: 
