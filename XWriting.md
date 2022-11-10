@@ -127,7 +127,7 @@
 6. EGP emphasize process, while EAP deliver key concept; 
 7. Chinese is driven by verb, while English is driven by noun; 你去哪 == How are you, 寒暄的功能; 
 8. 毫不夸张地说 == Therefore, in practice; 表达强调; 
-9. HW slides Page 31; 
+9. HW slides Page 31; Answers in 10th class; 
 
 ## 9th class Nov 7th, 2022; 
 1. similarity matrix网站查看关联论文; 
@@ -161,6 +161,8 @@
 9. (3) A. citation是名词, 更规范; 
 10. (4) B. conclusion转名词被凸显, 但是显得粗暴; 
 11. (5) B. must太口语化; 
+12. Exercise in Slides Page 31: 
+13. 
 
 
 ## Assignment 1: 
