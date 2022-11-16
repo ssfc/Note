@@ -170,8 +170,9 @@
 1. research ethics 学术道德; research integrity 学术伦理; 
 2. avoid many self-citation (自引) and group citation (群引); 
 3. Format: APA, MLA, etc; 
-4. 
-5. 
+4. citation style: paraphrasing (usually in letters/transactions/proceedings), quoting (直接原文), summarizing (usually used in review article, invited paper); 
+5. In Book Writing Academic English Chapter 7, quotations can be classified as direct quotation and indirect quotation; 
+6. 
 
 
 ## Assignment 1: 
