@@ -177,7 +177,10 @@
 8. Step 2: Write your paraphrase from memory. InClude as much of the information as you remember. Don't look at the original while you are writing. 
 9. Step 3: Check your paraphrase against the original for accuracy and completeness. If necessary, add points you have missed. 
 10. Step 4: Name the source of the original passage in parentheses at the end of your paraphrase. (Refer to Documenting Sources of Information on pages 95-97.) 
-11. 
+11. Exercise 1 of Chapter 4 in Book A Bridge to Creditability and Authority: 
+12. This paper examines the causes and satisfaction consequences of work-to-family and family-to-work synergy for a sample of organizationally-employed parents while controlling two types of work-family conflict: work interfering with family and family interfering with work. Participants included 1193 respondents from the 2002 National Study of the Changing Workforce who had a child under the age of 18 years at home. Work-family synergy is the frequency of experiencing positive energy and mood states from participating in both work and family. Synergy was significantly related to attitude toward employer, learning opportunities, autonomy, job pressure, supervisor support, dependent care, family income, mental health, self-rated health, and satisfaction outcomes. Gender similarities and differences in work-family synergy were identified. Implications and directions for future research are discussed. 
+13. 
+14. 
 
 
 ## Assignment 1: 
