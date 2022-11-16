@@ -172,7 +172,10 @@
 3. Format: APA, MLA, etc; 
 4. citation style: paraphrasing (usually in letters/transactions/proceedings), quoting (直接原文), summarizing (usually used in review article, invited paper); 
 5. In Book Writing Academic English Chapter 7, quotations can be classified as direct quotation and indirect quotation; 
-6. 
+6. Paraphrasing (转述别人的观点): 
+7. Step 1: Read the original passage several times until you understand it fully. Look up unfamiliar words. and find synonyms for them. If you need to take notes. write down only one or two words for each idea-not complete sentences. 
+8. Step 2: Write your paraphrase from memory. InClude as much of the information as you remember. Don't look at the original while you are writing. 
+9. 
 
 
 ## Assignment 1: 
