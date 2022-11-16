@@ -166,6 +166,9 @@
 14. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
 15. (6) N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
 
+# 11th class Nov 14th, 2022; 
+1. research ethics 学术道德; research integrity 学术伦理; 
+2. 
 
 
 ## Assignment 1: 
