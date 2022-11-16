@@ -168,7 +168,8 @@
 
 # 11th class Nov 14th, 2022; 
 1. research ethics 学术道德; research integrity 学术伦理; 
-2. 
+2. avoid many self-citation (自引) and group citation (群引); 
+3. 
 
 
 ## Assignment 1: 
