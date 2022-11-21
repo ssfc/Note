@@ -184,7 +184,10 @@
 
 ## 12th class Nov 16th, 2022; 
 1. Page 92 in Book Writing Academic English; 世界语; 
-2. 
+2. Since the time of Descartes,I it is estimated that no fewer than five hundred at.tempts have been made to create artificial languages for international use. The most successful by far has been Esperanto, ala.ngu&ge constructed around the end of the nineteenth century by Dr. Zamenhof of Poland. Esperanto 1s a language that is extremely easy to learn and speak, with its words drawn mainly from English, German, the Romance languages, Latin, and Greek. 
+3. A more recent arrival on the international scene is Interlingua, scientifically constructed by a group of language experts out of Latin, the Romance
+10 languages, and English. But whereas Esperanto has a large body of people who actually speak it scattered throughout the world, InterlingUa has not yet achieved much popularity (Pei 175-176). 
+3. 
 
 
 
