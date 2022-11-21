@@ -166,7 +166,7 @@
 14. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
 15. (6) N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
 
-# 11th class Nov 14th, 2022; 
+## 11th class Nov 14th, 2022; 
 1. research ethics 学术道德; research integrity 学术伦理; 
 2. avoid many self-citation (自引) and group citation (群引); 
 3. Format: APA, MLA, etc; 
@@ -179,8 +179,13 @@
 10. Step 4: Name the source of the original passage in parentheses at the end of your paraphrase. (Refer to Documenting Sources of Information on pages 95-97.) 
 11. Exercise 1 of Chapter 4 in Book A Bridge to Creditability and Authority: 
 12. This paper examines the causes and satisfaction consequences of work-to-family and family-to-work synergy for a sample of organizationally-employed parents while controlling two types of work-family conflict: work interfering with family and family interfering with work. Participants included 1193 respondents from the 2002 National Study of the Changing Workforce who had a child under the age of 18 years at home. Work-family synergy is the frequency of experiencing positive energy and mood states from participating in both work and family. Synergy was significantly related to attitude toward employer, learning opportunities, autonomy, job pressure, supervisor support, dependent care, family income, mental health, self-rated health, and satisfaction outcomes. Gender similarities and differences in work-family synergy were identified. Implications and directions for future research are discussed. 
-13. 
-14. 
+13. 抓住two "conflicts"展开; two conflicts were included ... ; 保有整体结构(原有逻辑顺序)和具体数据; 
+14. 注意accuracy & completeness; author name, 链接要件, 期刊; empirical study(定量研究)模式; 
+
+## 12th class Nov 16th, 2022; 
+1. Page 92 in Book Writing Academic English; 世界语; 
+2. 
+
 
 
 ## Assignment 1: 
