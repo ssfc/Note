@@ -191,7 +191,8 @@
 6. (2) with its words drawn mainly from English, German, the Romance languages, Latin, and Greek. 这些具体组成细节不需要; 
 7. (3) 必须包含实体(哲学概念): Artificial language, Esperanto, Interlingua; 
 8. (4) 必须包含第一性质(哲学概念, 任何时刻都不能和物体相分离, 核心特征): Esperanto, successful=>widely accepted, easy=>accessible; Interlingua, not as mus as OR less influential; 
-9. 
+9. Page 93 and 94 in Book Writing Academic English: summary model; 
+10. 
 
 
 
