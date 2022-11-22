@@ -197,7 +197,7 @@
 12. Practices of teacher education: a call for common languages. call是名词, 不定冠词a表示强调, call和practice构成并列关系; 
 13. 注意名词和动名词的表达差异; 
 14. Page 42 in Book Writing Academic English; 
-15. it作为指代之外的另外三种用法: (1) nature element 时间天气; (2) 
+15. it作为指代之外的另外三种用法: (1) nature element 时间天气; (2) functional 强调句, 形式主语; (3) 
 
 
 
