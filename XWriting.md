@@ -197,10 +197,18 @@
 12. Practices of teacher education: a call for common languages. call是名词, 不定冠词a表示强调, call和practice构成并列关系; 
 13. 注意名词和动名词的表达差异; 
 14. it作为指代之外的另外三种用法: (1) nature element 时间天气; (2) functional 强调句, 形式主语; (3) the unknown; 
-15. Page 42 in Book Writing Academic English; 
+15. Page 42 in Book Writing Academic English: it指代问题; 
 16. English has almost become an international language. Except for Chinese, more people speak **it** than any other language. Spanish is the official language of more countries in the world, but more countries have **it** as their official or unofficial second language. More than 70 percent of the world's mall is written in **it**. It is the primary language on the Internet. In international business, it is used more than any other language, and it is the language of airline pilots and air traffic controllers all over the world. Moreover, although French used to be the language of diplomacy, it has displaced it throughout the world. Therefore, unless you plan to spend your life alone on a desert island in the middle of the Pacific Ocean, it is a useful language to know. 
 17. Key: (1) speak it => speak English, 因为下文提到了Spanish, 使用it会造成指代混乱; 除非使用Moreover重建概念; 
-18. (2) have it => have English, 中间夹杂了其他语言; 
+18. (2) have it => have English, 中间夹杂了其他语言, 使用it会造成指代混乱; 
+19. (3) In international business, it => English, 因为提到了any other language; ??? 
+20. (4) it has displaced it => English, 因为提到了French; 
+21. (5) it is a useful language => English, 因为提到了French; ???
+
+## 13th class Nov 21st, 2022; 
+1. Page 42 in Book Writing Academic English; 
+2. 
+
 
 
 
