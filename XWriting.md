@@ -196,6 +196,8 @@
 11. Page 5 of slides Definitions: using network, computer science papers; by network, medical papers; 
 12. Practices of teacher education calling for a common language. calling是分词, 作为practices的限定和补充, 重点在practice. 
 13. Practices of teacher education: a call for common languages. call是名词, 不定冠词a表示强调, call和practice构成并列关系; 
+14. 注意名词和动名词的表达差异; 
+15. 
 
 
 
