@@ -206,8 +206,8 @@
 21. (5) it is a useful language => English, 因为提到了French; ???
 
 ## 13th class Nov 21st, 2022; 
-1. Page 42 in Book Writing Academic English; 
-2. 
+1. Page 42 in Book Writing Academic English: 单复数变换; 
+2. Dolphins are interesting because they display almost human behavior at times. For example, they display the human emotions of joy and sadness. During training, when they do something correctly, they squeal excitedly and. race toward their trainer. When they make a mistake, however, they droops noticeably a.nd mope2 around their pool. Furthermore, they help each other when they are in trouble. If one is Sick, it sends out a. message, and others in the area swim to help it. They push it to the surface of the wa.ter so that it can breathe. They stay with it for days or weeks-until it recovers or dies. They have also helped trapped or lost whales· navigate their way safely out to the open sea. They are so intelligent and helpful, in fact, that the U.S. Navy is training them to become underwater bomb disposal experts.
 
 
 
