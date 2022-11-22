@@ -200,7 +200,7 @@
 15. Page 42 in Book Writing Academic English; 
 16. English has almost become an international language. Except for Chinese, more people speak **it** than any other language. Spanish is the official language of more countries in the world, but more countries have **it** as their official or unofficial second language. More than 70 percent of the world's mall is written in **it**. It is the primary language on the Internet. In international business, it is used more than any other language, and it is the language of airline pilots and air traffic controllers all over the world. Moreover, although French used to be the language of diplomacy, it has displaced it throughout the world. Therefore, unless you plan to spend your life alone on a desert island in the middle of the Pacific Ocean, it is a useful language to know. 
 17. Key: (1) speak it => speak English, 因为下文提到了Spanish, 使用it会造成指代混乱; 除非使用Moreover重建概念; 
-18. (2) have it => have English, 中间夹杂了其他
+18. (2) have it => have English, 中间夹杂了其他语言; 
 
 
 
