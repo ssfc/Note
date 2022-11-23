@@ -212,9 +212,8 @@
 
 ## 14th class Nov 23st, 2022; 
 1. Page 171 in Book Writing Academic English: 
-2. Male chauvinism extends even into the area. of automobile driving, it seems. Believing that they are far better drivers than women.:.l!'!en consider women drivers incompetent, inattentive, and even dangerous behind the wheel
-However, st&tistJ.t:s prove that women are, in fact, safer drivers th&n
-s men. For example, insurance rates. ln~1Urance rates for women are 20 percent lower than they are for men. Another proof is that more accidents are caused by male drivers between the ages of 18 &nd 25 than by any other group. Also, the greater percentage of a.coidents involving deaths caused by men. Although women are criticized for being too cautious. They are rea.lly just
+2. Male chauvinism extends even into the area. of automobile driving, it seems. Believing that they are far better drivers than women. Men consider women drivers incompetent, inattentive, and even dangerous behind the wheel. 
+However, statistics prove that women are, in fact, safer drivers than men. For example, insurance rates. lnsurance rates for women are 20 percent lower than they are for men. Another proof is that more accidents are caused by male drivers between the ages of 18 &nd 25 than by any other group. Also, the greater percentage of a.coidents involving deaths caused by men. Although women are criticized for being too cautious. They are rea.lly just
 10 being safe drivers.
 The reasons for women drivers' safer driving habits can perhaps be found in the differing attitudes of the sexes toward automobiles. On the one hand, women drivers who regard the automobile as a convenience. Like a washing machine. On the other hand, men regard the automobile as an extension of
 IS their egos.3 Using it as a weapon when they feel particularly aggressive. Or using it as a status symbol.
