@@ -208,6 +208,17 @@
 ## 13th class Nov 21st, 2022; 
 1. Page 42 in Book Writing Academic English: 单复数变换; 
 2. Dolphins are interesting because they display almost human behavior at times. For example, they display the human emotions of joy and sadness. During training, when they do something correctly, they squeal excitedly and. race toward their trainer. When they make a mistake, however, they droops noticeably and mope around their pool. Furthermore, they help each other when they are in trouble. If one is Sick, it sends out a. message, and others in the area swim to help it. They push it to the surface of the wa.ter so that it can breathe. They stay with it for days or weeks-until it recovers or dies. They have also helped trapped or lost whales navigate their way safely out to the open sea. They are so intelligent and helpful, in fact, that the U.S. Navy is training them to become underwater bomb disposal experts.
+3. 
+
+## 14th class Nov 23st, 2022; 
+1. Page 171 in Book Writing Academic English: 
+2. Male chauvinism extends even into the area. of automobile driving, it seems. Believing that they are far better drivers than women.:.l!'!en consider women drivers incompetent, inattentive, and even dangerous behind the wheel
+However, st&tistJ.t:s prove that women are, in fact, safer drivers th&n
+s men. For example, insurance rates. ln~1Urance rates for women are 20 percent lower than they are for men. Another proof is that more accidents are caused by male drivers between the ages of 18 &nd 25 than by any other group. Also, the greater percentage of a.coidents involving deaths caused by men. Although women are criticized for being too cautious. They are rea.lly just
+10 being safe drivers.
+The reasons for women drivers' safer driving habits can perhaps be found in the differing attitudes of the sexes toward automobiles. On the one hand, women drivers who regard the automobile as a convenience. Like a washing machine. On the other hand, men regard the automobile as an extension of
+IS their egos.3 Using it as a weapon when they feel particularly aggressive. Or using it as a status symbol.
+All in 8,11, women are safer drivers. Because of their attitude. Men can learn to become safe drivers. If they adopt the attitude that an automobile is merely a convenience.
 
 
 
