@@ -216,6 +216,8 @@
 3. However, statistics prove that women are, in fact, safer drivers than men. For example, insurance rates. Insurance rates for women are 20 percent lower than they are for men. Another proof is that more accidents are caused by male drivers between the ages of 18 &nd 25 than by any other group. Also, the greater percentage of a.coidents involving deaths caused by men. Although women are criticized for being too cautious. They are really just being safe drivers.
 4. The reasons for women drivers' safer driving habits can perhaps be found in the differing attitudes of the sexes toward automobiles. On the one hand, women drivers who regard the automobile as a convenience. Like a washing machine. On the other hand, men regard the automobile as an extension of their egos.3 Using it as a weapon when they feel particularly aggressive. Or using it as a status symbol. 
 5. All in all, women are safer drivers. Because of their attitude. Men can learn to become safe drivers. If they adopt the attitude that an automobile is merely a convenience. 
+6. 概念转换, 需要关注和积累; 
+7. 
 
 
 
