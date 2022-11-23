@@ -243,7 +243,20 @@ Key: Chinese traditional and iconic costumes
 10.因穷人无法得到治疗而导致差距扩大（widen; inaccessible）
 @：the widen gap due to inaccessible cure of the poor 
 11. research 是抽象概念, study是具体概念; 
-12. 
+12. investigation or exploration; 
+13. An instruction of authors; D
+14. C?
+15. a supply of British food
+16. B. a reduction of 20% in energy costs
+17. D. a practice of cheating at the exminations
+18. C. a small proprtion of participants
+19. D. the equal number of men and women
+20. D. a good learning atmosphere
+21. A. to confirm the timing of the announcement
+22. B.a decline of bird population
+23. Choppy sentences; 
+24. Practice 13 on Page 16 of Book Writing Academic English: 
+25. 
 
 
 
