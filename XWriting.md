@@ -217,7 +217,30 @@
 4. The reasons for women drivers' safer driving habits can perhaps be found in the differing attitudes of the sexes toward automobiles. On the one hand, women drivers who regard the automobile as a convenience. Like a washing machine. On the other hand, men regard the automobile as an extension of their egos.3 Using it as a weapon when they feel particularly aggressive. Or using it as a status symbol. 
 5. All in all, women are safer drivers. Because of their attitude. Men can learn to become safe drivers. If they adopt the attitude that an automobile is merely a convenience. 
 6. 概念转换, 需要关注和积累; 
-7. 
+7. a study 综合研究; studying 具体研究; 
+8. Exercise in Page 16 of Slides Definition
+9. 请根据括号内的提示词，翻译下列概念
+1.东西方经济文化交流的重要桥梁（bridge; exchange）
+@: the bridge of eastern and western culture exchange
+2.中国传统和标志性服饰 （tradition; icon）
+@: the clothes of Chinese tradition and icon
+3.“健康中国”的发展目标（development；healthy）
+@: the development objective of healthy China
+4.当代中国的历史进程 （history; contemporary）
+@ the history process of contemporary China
+5.医疗卫生水平的不断提升 (rising; medical)
+@: the continuous rising of medical level 
+6.融合了时尚和古典艺术的旗袍佳作（masterpieces;collaboration）
+@: masterpieces collaborating fashion and classic arts
+7.经济复苏的预兆 (economy; recovery)
+@：the sign of economy recovery 
+8.饮食失调和心理健康问题 （mental; disorder）
+@：the problem of diet disorder and mental illness
+9.用干细胞对老旧细胞组织的升级 （worn-out; stem cells）
+@：the upgrade of worn-out cell tissue using stem cells 
+10.因穷人无法得到治疗而导致差距扩大（widen; inaccessible）
+@：the widen gap due to inaccessible cure of the poor 
+
 
 
 
