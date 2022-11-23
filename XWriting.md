@@ -220,17 +220,19 @@
 7. a study 综合研究; studying 具体研究; 
 8. Exercise in Page 16 of Slides Definition
 9. 请根据括号内的提示词，翻译下列概念
-1.东西方经济文化交流的重要桥梁（bridge; exchange）
-@: the bridge of eastern and western culture exchange
+10. 1.东西方经济文化交流的重要桥梁（bridge; exchange）  
+@: the bridge of eastern and western culture exchange  
+Key: an important bridge of economic and cultural exchanges between the East and the West  
 2.中国传统和标志性服饰 （tradition; icon）
-@: the clothes of Chinese tradition and icon
-3.“健康中国”的发展目标（development；healthy）
-@: the development objective of healthy China
-4.当代中国的历史进程 （history; contemporary）
-@ the history process of contemporary China
-5.医疗卫生水平的不断提升 (rising; medical)
-@: the continuous rising of medical level 
-6.融合了时尚和古典艺术的旗袍佳作（masterpieces;collaboration）
+@: the clothes of Chinese tradition and icon  
+Key: Chinese traditional and iconic costumes  
+3.“健康中国”的发展目标（development；healthy）  
+@: the development objective of healthy China  
+4.当代中国的历史进程 （history; contemporary）  
+@ the history process of contemporary China  
+5.医疗卫生水平的不断提升 (rising; medical)  
+@: the continuous rising of medical level   
+6.融合了时尚和古典艺术的旗袍佳作（masterpieces;collaboration）  
 @: masterpieces collaborating fashion and classic arts
 7.经济复苏的预兆 (economy; recovery)
 @：the sign of economy recovery 
@@ -240,7 +242,8 @@
 @：the upgrade of worn-out cell tissue using stem cells 
 10.因穷人无法得到治疗而导致差距扩大（widen; inaccessible）
 @：the widen gap due to inaccessible cure of the poor 
-
+11. research 是抽象概念, study是具体概念; 
+12. 
 
 
 
