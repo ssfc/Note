@@ -256,7 +256,10 @@ Key: Chinese traditional and iconic costumes
 22. B.a decline of bird population
 23. Choppy sentences; 
 24. Practice 13 on Page 16 of Book Writing Academic English: 
-25. 
+25. (1) Gasoline became expensive. Automobile manufacturers began to produce smaller cars. Smaller cars use less gasoline. 
+26. (2) The computer has undoubtedly benefited humanity. The computer has also created problems for humanity. 
+27. exercise in Page 174 and 177; 
+28. 
 
 
 
