@@ -231,7 +231,7 @@ for ten or more years. In addition to being physically strong, he or she must al
 11. very powerful 不能用; 
 12. much more => convey more; 
 13. 短句会碎片化, 结构常常是fact+opinion; 长句借助parallelism, 把opinion也包装成facts (comments + opinion)
-14. Page 166-167 in Book Writing Academic English; 
+14. Parallelism: Page 166-167 in Book Writing Academic English; 
 15. 
 
 ## 14th class Nov 23st, 2022; 
