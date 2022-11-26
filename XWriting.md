@@ -215,10 +215,13 @@
 7. the students则加了限定; 
 8. noun+s是专业上的赋能, 是专有名词的特征表述; water泛指水, waters则是专有名词水域; 
 9. Page 43 in Book Writing Academic English: 视角稳定性; 
-10. Olympic athletes must be strong both physically and mentally. First of aJl, if you hope to compete in an Olympic sport, you must be physically strong. Furthermore, aspiring Olympians must train rigorously. for many years. For the most demanding sports, they train several hours a day, five or six days a week,
+10. one paragraph one perspective, 一段话只能有一个视角; 
+11. Olympic athletes must be strong both physically and mentally. First of aJl, if you hope to compete in an Olympic sport, you must be physically strong. Furthermore, aspiring Olympians must train rigorously. for many years. For the most demanding sports, they train several hours a day, five or six days a week,
 for ten or more years. In addition to being physically strong, he or she must also be mentally tough. This means that you have to be totally dedicated to your sport, often giving up a normal school, family, and social life. Being mentally strong also means that he or she must be able to withstand the intense pressure of international competition with its attendants media coverage. FinalJy, not everyone can win a medal, so they must possess the inner strength to live with defeat. 
-11. Key: 
-12. 
+1.  Key: 
+2.  (1) you => athletes, 视角应在athletes上, 而不是作为读者的you; 
+3.  (2) he or she => they, 单复数变化也属于视角不稳; 
+4.  (3) not everyone 模糊 => few 限定范围; 
 
 ## 14th class Nov 23st, 2022; 
 1. Page 171 in Book Writing Academic English: 
