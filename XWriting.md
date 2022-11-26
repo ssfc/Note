@@ -234,7 +234,6 @@ for ten or more years. In addition to being physically strong, he or she must al
 14. Parallelism: Page 166-167 in Book Writing Academic English; 
 15. Exercise on Page 169 in Book Writing Academic English; 
 16. Page 170 in Book Writing Academic English; 调整statements; 
-17. 
 
 ## 14th class Nov 23st, 2022; 
 1. Page 171 in Book Writing Academic English: 
