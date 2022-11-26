@@ -222,6 +222,9 @@ for ten or more years. In addition to being physically strong, he or she must al
 2.  (1) you => athletes, 视角应在athletes上, 而不是作为读者的you; 
 3.  (2) he or she => they, 单复数变化也属于视角不稳; 
 4.  (3) not everyone 模糊 => few 限定范围; 
+5.  复杂概念的名词化; 
+6.  Page 165 in Book Writing Academic English; 
+7.  Nonverbal communication, or body Ia.ngua.ge, is used everywhere in the world. 2It is a very powerful means of commun1ca.tion. ~t communioa.tes much more thari. spoken words. ·One example of nonverbal communication is what occurs between parents and child. Spa.rents smile at their child. &.rhey communicate love, a.cceptance, and reassurance. 7The child feels comfortable and safe. Borh.e smile sig'n1fles approval. 'The ch1ld 18 happy and weU-aQjusted.
 
 ## 14th class Nov 23st, 2022; 
 1. Page 171 in Book Writing Academic English: 
