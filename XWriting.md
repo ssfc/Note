@@ -225,7 +225,9 @@ for ten or more years. In addition to being physically strong, he or she must al
 5.  复杂概念的名词化; 
 6.  Page 165 in Book Writing Academic English; 
 7.  Nonverbal communication, or body language, is used everywhere in the world. It is a very powerful means of communication. It communicates much more than spoken words. One example of nonverbal communication is what occurs between parents and child. Parents smile at their child. They communicate love, acceptance, and reassurance. The child feels comfortable and safe. The smile signifies approval. The child is happy and well-adjusted. 
-8.  
+8.  Key: 
+9.  Replace weak word with strong word: communicate->covey or deliver; 
+10. 
 
 ## 14th class Nov 23st, 2022; 
 1. Page 171 in Book Writing Academic English: 
