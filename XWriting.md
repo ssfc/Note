@@ -207,8 +207,13 @@
 
 ## 13th class Nov 21st, 2022; 
 1. Page 42 in Book Writing Academic English: 单复数变换; 
-2. Dolphins are interesting because they display almost human behavior at times. For example, they display the human emotions of joy and sadness. During training, when they do something correctly, they squeal excitedly and. race toward their trainer. When they make a mistake, however, they droops noticeably and mope around their pool. Furthermore, they help each other when they are in trouble. If one is Sick, it sends out a. message, and others in the area swim to help it. They push it to the surface of the wa.ter so that it can breathe. They stay with it for days or weeks-until it recovers or dies. They have also helped trapped or lost whales navigate their way safely out to the open sea. They are so intelligent and helpful, in fact, that the U.S. Navy is training them to become underwater bomb disposal experts.
-3. 
+2. Dolphins are interesting because they display almost human behavior at times. For example, they display the human emotions of joy and sadness. During training, when they do something correctly, they squeal excitedly and. race toward their trainer. When they make a mistake, however, they droops noticeably and mope around their pool. Furthermore, they help each other when they are in trouble. If one is sick, it sends out a message, and others in the area swim to help it. They push it to the surface of the wa.ter so that it can breathe. They stay with it for days or weeks-until it recovers or dies. They have also helped trapped or lost whales navigate their way safely out to the open sea. They are so intelligent and helpful, in fact, that the U.S. Navy is training them to become underwater bomb disposal experts.
+3. Key: (1) they display => it displays; 对标下文的if one is sick; 
+4. (2) Furthermore, they => dolphins; Furthermore重建概念, 所以需要重新使用dolphins; 
+5. a student == all the students concerned, 具有最大范围; 
+6. the students则加了限定; 
+7. noun+s是专业上的赋能, 是专有名词的特征表述; water泛指水, waters则是专有名词水域; 
+8. 
 
 ## 14th class Nov 23st, 2022; 
 1. Page 171 in Book Writing Academic English: 
