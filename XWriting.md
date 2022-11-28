@@ -292,7 +292,11 @@ Key: Chinese traditional and iconic costumes
 3. The United States counts its population every ten years, and each census' reveals that the racial and ethnic mix is changing dramatically, so by the year 2050, the "average" American will not be descended from Europeans, but the majority of U.S. residents will trace their ancestry to Africa, Asia, the Hispanic world, the Pacific Islands, or the Middle East. Once the United States was a microcosm of European nationalities, today the United States is a microcosm of the world. (+Therefore, 逻辑连接) The United States is no longer considered a "melting pot" society by many of its residents. "Instead, many people prefer the term "salad bowl." (They use this term to describe American society.)(not need, 啰嗦) American society will soon be predominantly nonwhite. 
 4. 简约定义描述, 可用于科普, 不能用于学术写作; 学术定义必须繁琐, 不能简单; 
 5. Exercise on Page 50 of Book Writing Academic English;
-6. 
+6. The "women's lib" movement toward greater equality for women has produced some permanent changes In the vocabulary of English. New words have been added. The words feminist, sexist, and male chauvinist have become
+common during the past thirty-five years or so. Another new word is the title Ma., which is often used In pIa.oe of both Mias and Jlllrs. A change is that sex· iSt titles of many occupatriOns have been neutraliZed. A chairman is now a ch.airperaoD (or sometimes simply chair). a waiter/waitress is now a waitpencm, and a high school or college fresbmaD is now a first-year studeDt. A matJmaD is now a. man carrier, and an a:irliDe stewardess is now a tught
+'0 IS
+a1;teDd ant. In time, English pronouns ma.y also change as a result of women's desire for eqU&llty. Attempts to give equal treatment to masculine and feminine pronouns In English have led to the sea.rch for a new pronoun form to repl.a.ce J:t.e (such as he/she or ./he) when referring to neutral nouns like stuclaDt and maDager. Some of the new words such as Ms. a.re quite useful; you can use Ma. to address a woman when you don't know if she is married. The lack of a clea.r neutral pronoun can lead to awkward sentence construction.
+On the other hand; Further/moreover; For example; In fact, accordingly; 
 
 
 ## Assignment 1: 
