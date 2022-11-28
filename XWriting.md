@@ -290,6 +290,8 @@ Key: Chinese traditional and iconic costumes
 1. Page 37 of Slides Definitions: 秘诀在于分词转连字符; 
 2. Exercise on Page 177 of Book Writing Academic English; 
 3. The United States counts its population every ten years, and each census' reveals that the racial and ethnic mix is changing dramatically, so by the year 2050, the "average" American will not be descended from Europeans, but the majority of U.S. residents will trace their ancestry to Africa, Asia, the Hispanic world, the Pacific Islands, or the Middle East. Once the United States was a microcosm of European nationalities, today the United States is a microcosm of the world. (+Therefore, 逻辑连接) The United States is no longer considered a "melting pot" society by many of its residents. "Instead, many people prefer the term "salad bowl." (They use this term to describe American society.)(not need, 啰嗦) American society will soon be predominantly nonwhite. 
+4. 简约定义描述, 可用于科普, 不能用于学术写作; 学术定义必须繁琐, 不能简单; 
+5. 
 
 
 ## Assignment 1: 
@@ -329,7 +331,7 @@ Key: Chinese traditional and iconic costumes
 8. 电子版上传; 
 
 ## Examination
-1. 考试开卷, 不能查电子版; 
+1. 考试开卷, 不能查电子版; 12月8日, 下周四; 
 
 
 # A Bridge to Creditability and Authority
