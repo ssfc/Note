@@ -337,6 +337,8 @@ Key: Chinese traditional and iconic costumes
 
 ## Examination
 1. 考试开卷, 不能查电子版; 12月8日, 下周四; 
+2. 题型: 判断, 填词, 修改, 排序; 
+3. 
 
 
 # A Bridge to Creditability and Authority
