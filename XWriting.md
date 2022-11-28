@@ -293,7 +293,9 @@ Key: Chinese traditional and iconic costumes
 4. 简约定义描述, 可用于科普, 不能用于学术写作; 学术定义必须繁琐, 不能简单; 
 5. Exercise on Page 50 of Book Writing Academic English;
 6. The "women's lib" movement toward greater equality for women has produced some permanent changes in the vocabulary of English. New words have been added. (For example) The words feminist, sexist, and male chauvinist have become common during the past thirty-five years or so. Another new word is the title Ms., which is often used in place of both Miss and Mrs. (Furthermore) A change is that sexist titles of many occupations have been neutralized. (For example) A chairman is now a chairperson (or sometimes simply chair), a waiter/waitress is now a waitperson, and a high school or college freshman is now a first-year student. A mailman is now a mail carrier, and an airline stewardess is now a flight attendant. In time, English pronouns may also change as a result of women's desire for equality. (In fact) Attempts to give equal treatment to masculine and feminine pronouns in English have led to the search for a new pronoun form to replace he (such as he/she or s/he) when referring to neutral nouns like student and manager. Some of the new words such as Ms. are quite useful; you can use Ms. to address a woman when you don't know if she is married. The lack of a clear neutral pronoun can lead to awkward sentence construction. 
-7. On the other hand; Further/moreover; For example; In fact, accordingly; 
+7. On the other hand; Further/moreover; For example; In fact, accordingly; 概念转换一定要加连接词; 
+8. 
+9. 
 
 
 ## Assignment 1: 
