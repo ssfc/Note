@@ -286,7 +286,10 @@ Key: Chinese traditional and iconic costumes
 27. exercise in Page 174 and 177; 
 28. 
 
-
+## 15th class Nov 28th, 2022; 
+1. Page 37 of Slides Definitions: 秘诀在于分词转连字符; 
+2. Exercise on Page 177 of Book Writing Academic English; 
+3. 
 
 
 ## Assignment 1: 
