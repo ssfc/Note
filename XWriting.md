@@ -326,7 +326,7 @@ Key: Chinese traditional and iconic costumes
 4. 
 
 ## Assignment 3: 
-1. Due Date: examination day; 
+1. Due Date: Dec 23rd; 
 2. 基于两篇信度评价的文章; 
 3. research background, 文献引用; 
 4. 独立出来research gap, 也就是要研究的问题; 
