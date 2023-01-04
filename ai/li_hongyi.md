@@ -131,24 +131,24 @@ https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php
 103.	P103, metric-based 2; binary classification; 不同角度的同一张人脸投影到相似位置; learn to ignore the background; (2021-12-27)
 104.	P104, metric-based 3; 5-way 1-shot; prototypical network; learn by cross-entropy as typical classification; matching network; relation network; few-shot learning for imaginary data; add generator; (2021-12-27)
 105.	P105, train + test as RNN; MANN; SNAIL; (2021-12-27)
-133.	P106, END; looking for function; input, matrix & sequence; METHOD: GAN, BERT, domain adaption, RL, attack & defense, explainable, network compression, life-long learning, meta learning; APPLICATION: CV, NLP(translation, QA), speech recognition, RL; find a problem you care about and try to solve it; NIPS, ICLR, AAAI, ICML; 范例程序稍微改改就能用在其他地方; (2021-12-27)
+106.	P106, END; looking for function; input, matrix & sequence; METHOD: GAN, BERT, domain adaption, RL, attack & defense, explainable, network compression, life-long learning, meta learning; APPLICATION: CV, NLP(translation, QA), speech recognition, RL; find a problem you care about and try to solve it; NIPS, ICLR, AAAI, ICML; 范例程序稍微改改就能用在其他地方; (2021-12-27)
 134.	HW15: Meta Learning
-135.	
-136.	
-137.	李宏毅2020机器学习深度学习(完整版)国语 https://www.bilibili.com/video/BV1JE411g7XF?from=search&seid=4463720420343295823&spm_id_from=333.337.0.0 
-138	P1, 机器学习; python is good; ML == looking for a function minimizing loss; what kind of function do you want? (1) Regression wants scalar; (2) binary classification; multi-class classification; (3) generation; supervised learning; supervised v.s. reinforcement; unsupervised learning; 寻找方法: gradient descent; (2022-1-8)
-139	P2, Rule; (2022-1-8)
-140	P3, regression; step 1, model; step 2, goodness of function; step 3, best function; gradient descent; unilinear function; model selection; overfit; what are the hidden factors? Back to step 1, redesign the model; back to step 2, regularization; (2022-1-8)
-141	P4, basic concept; estimator; bias and variance of estimator; bias v.s. variance; deal with large bias; more feature, more complex; deal with large variance; more data; regularization; model selection; public testing set, private testing set; cross validation; N-fold validation; (2022-1-8)
-142	P5, gradient descent 1; learning rate; adaptive learning rate; adagrad; stochastic gradient descent; feature scaling; gradient descent theory; (2022-1-9)
-143	P6, gradient descent 2; (2022-1-9)
-144	P7, gradient descent 3; (2022-1-9)
-145	P8, optimization for DL 1; background; SGD; SGDM; adagrad; RMSProp; Adam; (2022-1-9)
-146	P9, optimization for DL 2; RAdam v.s. SWATS; normalization; CV用SGDM, NLP用Adam; (2022-1-9)
-147	P10, classification; how to do classification; two boxes; prior; probability from class - feature; max likelihood; modifying model; 用mean和covariance衡量模型的好坏; probability distribution; 假设所有feature相互独立, 就是naïve Bayes classifier; posterior probability; (2022-1-20)
-148	P11, logistic regression; step 1, function set; step 2, goodness of a function; cross entropy; step 3, find the best function; cross entropy v.s. square error (梯度下降更快); discriminative v.s. generative; benefit of generative model; 善于脑补, 适用于数据较少的场合; multi-class classification; limitation of logistic regression; feature transformation; cascading logistic regression models; (2022-1-31)
-149	P12, deep learning; ups and downs of deep learning; multi-layer perceptron; step 1, function set; step 2, goodness of a function; step 3, find the best function; fully connected feedforward network; deep = many hidden layers; 需要使用ResNet才能搞定100多层的network, Fully connected根本train不起来; matrix operation; hidden layer可以看作feature extractor; 以图像识别举例, 浅层提取边缘信息, 深层提取高维抽象信息; trial & error and intuition; loss for an example; total loss; gradient descent; backprop; deeper is better? (2022-2-3)
-150	P13, backprop; gradient descent; chain rule; forward pass; backward pass; (2022-2-3)
+	
+#	李宏毅2020机器学习深度学习(完整版)国语 
+https://www.bilibili.com/video/BV1JE411g7XF?from=search&seid=4463720420343295823&spm_id_from=333.337.0.0 
+1. 	P1, 机器学习; python is good; ML == looking for a function minimizing loss; what kind of function do you want? (1) Regression wants scalar; (2) binary classification; multi-class classification; (3) generation; supervised learning; supervised v.s. reinforcement; unsupervised learning; 寻找方法: gradient descent; (2022-1-8)
+2.	P2, Rule; (2022-1-8)
+3.	P3, regression; step 1, model; step 2, goodness of function; step 3, best function; gradient descent; unilinear function; model selection; overfit; what are the hidden factors? Back to step 1, redesign the model; back to step 2, regularization; (2022-1-8)
+4.	P4, basic concept; estimator; bias and variance of estimator; bias v.s. variance; deal with large bias; more feature, more complex; deal with large variance; more data; regularization; model selection; public testing set, private testing set; cross validation; N-fold validation; (2022-1-8)
+5.	P5, gradient descent 1; learning rate; adaptive learning rate; adagrad; stochastic gradient descent; feature scaling; gradient descent theory; (2022-1-9)
+6.	P6, gradient descent 2; (2022-1-9)
+7.	P7, gradient descent 3; (2022-1-9)
+8.	P8, optimization for DL 1; background; SGD; SGDM; adagrad; RMSProp; Adam; (2022-1-9)
+9.	P9, optimization for DL 2; RAdam v.s. SWATS; normalization; CV用SGDM, NLP用Adam; (2022-1-9)
+10.	P10, classification; how to do classification; two boxes; prior; probability from class - feature; max likelihood; modifying model; 用mean和covariance衡量模型的好坏; probability distribution; 假设所有feature相互独立, 就是naïve Bayes classifier; posterior probability; (2022-1-20)
+11.	P11, logistic regression; step 1, function set; step 2, goodness of a function; cross entropy; step 3, find the best function; cross entropy v.s. square error (梯度下降更快); discriminative v.s. generative; benefit of generative model; 善于脑补, 适用于数据较少的场合; multi-class classification; limitation of logistic regression; feature transformation; cascading logistic regression models; (2022-1-31)
+12.	P12, deep learning; ups and downs of deep learning; multi-layer perceptron; step 1, function set; step 2, goodness of a function; step 3, find the best function; fully connected feedforward network; deep = many hidden layers; 需要使用ResNet才能搞定100多层的network, Fully connected根本train不起来; matrix operation; hidden layer可以看作feature extractor; 以图像识别举例, 浅层提取边缘信息, 深层提取高维抽象信息; trial & error and intuition; loss for an example; total loss; gradient descent; backprop; deeper is better? (2022-2-3)
+13.	P13, backprop; gradient descent; chain rule; forward pass; backward pass; (2022-2-3)
 151	P14, tips for deep learning; do not always blame overfitting; vanishing gradient; ReLU; maxout; hard to find optimal parameters; momentum; adam; early stopping; regularization; L1; weight decay; dropout; dropout is a kind of ensemble; testing of dropout; (2022-2-4)
 152	P15, why deep; 高瘦强于矮胖; 因为分层有利于模组化, 不同层提取不同层次的信息; modularization - speech; phoneme; Gaussian Mixture Model; 所有函数都可以用一层神经网络表示; deeper means less parameters; analogy; hidden layers相当于剪窗花的对折; end-to-end learning; less engineering labor, machine learns more; (2022-2-1)
 153	P16, pytorch tutorial; tensors and numpy; tensor([1, 2]); tensor.view == numpy.reshape; broadcasting; computing graph; cuda; 自动微分; linear regression; sequential; convolution; (2022-2-6)
