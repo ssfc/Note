@@ -161,4 +161,5 @@ https://www.bilibili.com/video/BV1JE411g7XF?from=search&seid=4463720420343295823
 160	-
 #	李宏毅对ChatGPT的解读
 https://www.bilibili.com/video/BV1U84y167i3/?spm_id_from=333.337.search-card.all.click&vd_source=3ef4175721f926fbf390a069da19b0ca
-1.  
+1. InstructGPT论文; 阶段1, 学习文字接龙, 不需要人工标注; 文字接龙可以回答问题, 但是每次产生的回答有所不同; 
+2. - 
