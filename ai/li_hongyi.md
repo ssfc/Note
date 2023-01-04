@@ -78,16 +78,16 @@ https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php
 62.	P62, HW8; anomaly detection; (2021-12-21)
 	
 ##	Chapter 8, explainable AI / adversarial attack; 
-80.	P63, adversarial attack上; robust; example of attack; 加入小noise, 把cat识别成star fish; noise越小越好, 识别差越大越好; L2-norm; L-infinity; attack approach; update input, not parameters; FGSM; (2021-12-21)
-81.	P64, adversarial attack下; white box v.s. black box; 知道参数的攻击是white box; black box attack; train a proxy network; 挺容易成功的; the attack is so easy! Adversarial examples are not bugs, they are features; 原因不在Model, 而在data; one pixel attack; universal adversarial attack; beyond image; attack in the physical world; backdoor in model; Defense; passive defense; smoothing; image compression; generator; 随机防御方法; adversarial training; 给攻击成功的图片标上正确的label; data augmentation; (2021-12-21)
-82.	P65, explainable ML上; correct is not clever; interpretable v.s. powerful; decision tree; make people comfortable; which component is crucial? Saliency map; smooth grad, 给图片加上不同的noise; gradient saturation; how NN process input data? Visualization; probing; (2021-12-22)
-83.	P66, explainable ML下; global explanation; what does a filter detect? What does a digit look like for CNN? Constraint from generator; 让人开心而不是机器开心; 用linear model模仿未知model (哪怕模拟一小部分); LIME; (2021-12-22)
-84.	P67, more about adversarial attack上; attack on image; one pixel attack; how do we find the exact pixel and value? Differential evolution; one pixel attack recap; DE used in one pixel attack; (2021-12-22)
-85.	P68, more about adversarial attack下; attacks on ASR; attacks on ASV; wake up words; hidden voice attack; 听声辨位; signal preprocessing; perturbation; time domain inversion; random phase generation; high frequency addition; time scaling; (2021-12-22)
-86.	P69, HW9; Explainable AI; (2021-12-30)
-87.	P70, HW10; Adversarial Attack; (2021-12-30)
-88.	
-89.	Chapter 9, domain adaption; 
+63.	P63, adversarial attack上; robust; example of attack; 加入小noise, 把cat识别成star fish; noise越小越好, 识别差越大越好; L2-norm; L-infinity; attack approach; update input, not parameters; FGSM; (2021-12-21)
+64.	P64, adversarial attack下; white box v.s. black box; 知道参数的攻击是white box; black box attack; train a proxy network; 挺容易成功的; the attack is so easy! Adversarial examples are not bugs, they are features; 原因不在Model, 而在data; one pixel attack; universal adversarial attack; beyond image; attack in the physical world; backdoor in model; Defense; passive defense; smoothing; image compression; generator; 随机防御方法; adversarial training; 给攻击成功的图片标上正确的label; data augmentation; (2021-12-21)
+65.	P65, explainable ML上; correct is not clever; interpretable v.s. powerful; decision tree; make people comfortable; which component is crucial? Saliency map; smooth grad, 给图片加上不同的noise; gradient saturation; how NN process input data? Visualization; probing; (2021-12-22)
+66.	P66, explainable ML下; global explanation; what does a filter detect? What does a digit look like for CNN? Constraint from generator; 让人开心而不是机器开心; 用linear model模仿未知model (哪怕模拟一小部分); LIME; (2021-12-22)
+67.	P67, more about adversarial attack上; attack on image; one pixel attack; how do we find the exact pixel and value? Differential evolution; one pixel attack recap; DE used in one pixel attack; (2021-12-22)
+68.	P68, more about adversarial attack下; attacks on ASR; attacks on ASV; wake up words; hidden voice attack; 听声辨位; signal preprocessing; perturbation; time domain inversion; random phase generation; high frequency addition; time scaling; (2021-12-22)
+69.	P69, HW9; Explainable AI; (2021-12-30)
+70.	P70, HW10; Adversarial Attack; (2021-12-30)
+	
+##	Chapter 9, domain adaption; 
 90.	P71, domain adaption; 当测试资料和训练资料有差异时, 怎样保证accuracy; transfer learning; domain shift; knowledge of target domain; (1) little but labeled, train by source data, fine-tune by target data; (2) large amount of unlabeled data; feature extractor, learn to ignore colors; domain adversarial training; feature extractor (generator) + label predictor; 让feature extractor的结果分不出差异, 骗过domain classifier; limitation; outlook; universal domain adaption; (3) little & unlabeled; domain generalization; (2021-12-22)
 91.	P72, HW11; Adaptation; (2021-12-30)
 92.	
