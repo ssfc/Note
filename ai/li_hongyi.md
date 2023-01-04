@@ -57,11 +57,11 @@ https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php
 43.	P43, cycle GAN; learning from unpaired data; image style transfer; 真人头像转成二次元人物头像; cycle GAN, 经过两次转换, 输入输出越接近越好; Network很懒, 基本就生成最像的; StarGAN; text style transfer; (2021-12-17)
 44.	P44, deep generative model上; PixelRNN; 创造很难evaluate; 难以确定最佳的生成顺序, 生成速度很慢; drawing from scratch needs some randomness; variational autoencoder(VAE); 可以固定向量中的某几维; VAE写诗; (2021-12-17)
 45.	 P45, deep generative model下; why VAE? VAE加上了noise, 使一个点变成了一个范围区间; loss加上限制不能太小; estimate the probability distribution; P(x) = sum(P(m)*P(x|m)); EM algorithm; maximizing likelihood; connection with network; conditional VAE; 根据一个数字画出其他风格相近的数字; problems of VAE; VAE does not try to simulate real image; GAN; 拟态的演化; evolution of generation; generator可以产生database从未有过的image; GAN -- toy example; GAN is difficult to optimize; (2021-12-18)
-59.	P46, Flow-based generative model; 最大似然估计==最小KL散度; flow-based model可以直接maximize likelihood; Jacobian matrix; determinant; 行列式是高维空间中的体积; change of variable theorem; p(x’)*|det(Jf)| = pai(z’); dim(z) = dim(x); 多个G叠加; 训练的实际是G-1; coupling layer; 交替使用; 1*1 convolution; W can shuffle channels; (2021-12-18)
-60.	P47, HW6; GAN; (2021-12-18)
-61.	P48, HW6, English version; (2021-12-19)
-62.	
-63.	Chapter 7, self-supervised learning; 
+46.	P46, Flow-based generative model; 最大似然估计==最小KL散度; flow-based model可以直接maximize likelihood; Jacobian matrix; determinant; 行列式是高维空间中的体积; change of variable theorem; p(x’)*|det(Jf)| = pai(z’); dim(z) = dim(x); 多个G叠加; 训练的实际是G-1; coupling layer; 交替使用; 1*1 convolution; W can shuffle channels; (2021-12-18)
+47.	P47, HW6; GAN; (2021-12-18)
+48.	P48, HW6, English version; (2021-12-19)
+	
+##	Chapter 7, self-supervised learning; 
 64.	P49, 芝麻街与进击的巨人; 自监督模型都是以芝麻街命名; BERT是非常巨大的模型, 340 million参数; (2021-12-19)
 65.	P50, BERT简介; self-supervised learning; 一部分作为模型的输入, 另一部分作为模型的标注; 没有label就是unsupervised learning; masking input; transformer encoder就是Bert架构, Bert训练的是encoder; randomly mask/replace some tokens; 输出接近被遮挡的word; next sentence prediction; 判断两个句子是否相接; 这一招不太有用, 可能因为此任务太简单了; sentence order prediction; downstream task可能和天空没有关系; pre-train->fine-tune; GLUE scores; how to use Bert? Case 1, 判断句子正面还是负面; pre-train better than random; Case 2, 词性标注; Case 3, 自然语言推断; case 4, 问答(答案一定在文章里), 找出正确答案在文章中的起始位置和结束位置; training Bert is expensive; BERT胚胎学;  pre-training a seq2seq model; MASS/BART; T5 - comparison; (2021-12-19)
 66.	P51, Bert的奇闻异事; why does Bert work? Embedding vector代表了word的意思; similar embedding has similar meaning, context is being considered; You shall know a word by the company it keeps; Bert是复杂版本的CBOW, 而且Bert还可以考虑上下文, 所以Bert抽取的word是contextualized word embedding; apply Bert to protein&DNA, 效果也很好; cross-lingual alignment; 只有资料量足够大才有效; 语言差异可以用向量表示; (2021-12-19)
