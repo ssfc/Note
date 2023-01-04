@@ -43,14 +43,14 @@ https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php
 ##	Chapter 4, Theory of ML (Prof. Pei-Yuan Wu)
 
 ##	Chapter 5, transformer; 
-45.	P34, transformer上; seq2seq; output length is determined by model; speech recognition; machine translation; 硬train一发; text-to-speech; seq2seq for chatbot; NLP == QA, QA == seq2seq; seq2seq for multi-label classification; seq2seq for object detection; input -> encoder -> decoder -> output; encoder is vec2vec; block = self-attention + FC; 残差网络, 输入+输出; layer norm; Add&Norm == residual + layer normalization; 原有block可以换一下顺序; (2021-12-16)
-46.	P35, transformer下; decoder; auto-regressive(由自己的过去推出自己的未来); begin token; 除了中间部分, encoder和decoder是一样的; masked self-attention, 只能考虑已有的(过去的/左边的)资讯;  decoder怎样知道输出的长度? 推文接龙; 需要加上end token; non-autoregressive decoder(NAT); (1) another predictor for output length; (2) ignore after END token; Advantage: parallel; usually worse than AT; encoder-decoder; cross_attention, q from decoder, k and v from encoder; training; teacher forcing: using ground truth as input; copy mechanism; summarization; 可能会犯低级错误; guided attention; beam search; decoder needs randomness when generating sequence; 不知道怎样优化, 就用强化学习; scheduled sampling, training set不仅有正确的, 还有错误的; (2021-12-16)
-47.	P36, non-autoregressive sequence generation; RNN is auto-regressive; Vanilla NAT; fertility; sequence-level knowledge distillation; noisy parallel decoding; evolution of NAT; NAT with iterative refinement; mask-predict; insertion transformer; multiple target words to predict? 
-48.	P37, HW5; transformer; (2021-12-16)
-49.	P38, HW5; (2021-12-16)
-50.	P39, HW5; (2021-12-16)
-51.	
-52.	Chapter 6, generative model; 
+34.	P34, transformer上; seq2seq; output length is determined by model; speech recognition; machine translation; 硬train一发; text-to-speech; seq2seq for chatbot; NLP == QA, QA == seq2seq; seq2seq for multi-label classification; seq2seq for object detection; input -> encoder -> decoder -> output; encoder is vec2vec; block = self-attention + FC; 残差网络, 输入+输出; layer norm; Add&Norm == residual + layer normalization; 原有block可以换一下顺序; (2021-12-16)
+35.	P35, transformer下; decoder; auto-regressive(由自己的过去推出自己的未来); begin token; 除了中间部分, encoder和decoder是一样的; masked self-attention, 只能考虑已有的(过去的/左边的)资讯;  decoder怎样知道输出的长度? 推文接龙; 需要加上end token; non-autoregressive decoder(NAT); (1) another predictor for output length; (2) ignore after END token; Advantage: parallel; usually worse than AT; encoder-decoder; cross_attention, q from decoder, k and v from encoder; training; teacher forcing: using ground truth as input; copy mechanism; summarization; 可能会犯低级错误; guided attention; beam search; decoder needs randomness when generating sequence; 不知道怎样优化, 就用强化学习; scheduled sampling, training set不仅有正确的, 还有错误的; (2021-12-16)
+36.	P36, non-autoregressive sequence generation; RNN is auto-regressive; Vanilla NAT; fertility; sequence-level knowledge distillation; noisy parallel decoding; evolution of NAT; NAT with iterative refinement; mask-predict; insertion transformer; multiple target words to predict? 
+37.	P37, HW5; transformer; (2021-12-16)
+38.	P38, HW5; (2021-12-16)
+39.	P39, HW5; (2021-12-16)
+	
+##	Chapter 6, generative model; 
 53.	P40, GAN基本概念介绍; Network as generator; y = Net(x+random); video distribution; 让输出不再是单一的输出, 而是一个概率分布; 当任务需要一点创造力的时候, 就要random distribution; 对话中, 每个人可能有不同的答案; GAN; anime face generation; unconditional generation; y = Net(random); discriminator, 越像的输入, 则输出数值越大; generator和discriminator相互进化; (1) fix generator, update discriminator; (2) fix discriminator, update generator; 生成动画人物; 可以生成从未看过的人脸; 两张脸图片的内插; (2021-12-16)
 54.	P41, 理论介绍与WGAN; 使PG和Pdata距离越近越好; sampling is good enough; GAN is difficult to train; tips for GAN; JS divergence is not suitable; PG and Pdata are not overlapped; Wasserstein distance; 取最小的推土值; WGAN; 怎样求解Wasserstein distance; D has to be smooth enough; (2021-12-17)
 55.	P42, 生成效能评估与条件式生成; GAN is still challenging; GAN for sequence generation; 不能gradient descent的, 就用reinforcement learning做; scratchGAN; variational autoencoder; flow-based model; 用监督学习做生成模型; evaluation of generation; 靠image classification产生的分布来辨识; diversity -- mode collapse; mode dropping; diversity越多越好; inception score = good quality + large diversity; FID; we don’t want memory GAN; GAN的评估是非常困难的(SSFC的评估也是非常困难的, 谁知道生成的程序有没有用?); conditional generation; text-to-image; 需要文字和图片成对的资料; image-to-image; sound-to-image; GAN生成会动的图片; (2021-12-17)
