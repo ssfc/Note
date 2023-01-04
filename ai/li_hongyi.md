@@ -162,5 +162,5 @@ https://www.bilibili.com/video/BV1JE411g7XF?from=search&seid=4463720420343295823
 #	李宏毅对ChatGPT的解读
 https://www.bilibili.com/video/BV1U84y167i3/?spm_id_from=333.337.search-card.all.click&vd_source=3ef4175721f926fbf390a069da19b0ca
 1. InstructGPT论文; 阶段1, 学习文字接龙, 不需要人工标注; 文字接龙可以回答问题, 但是每次产生的回答有所不同; 阶段2, 人类老师引导文字接龙的方向; 不需要穷尽所有的问题, 只需要告诉它人类的偏好; 阶段3, GPT模仿人类老师的喜好; 人类老师给答案打分; 阶段4, 用RL向模拟老师学习; (2023年1月4日)
-2. 来自猎人暗黑大陆的模型GPT3; 非常巨大; few-shot learning, one-shot learning, zero-shot learning (GPT的野望); 
+2. 来自猎人暗黑大陆的模型GPT3; 非常巨大; few-shot learning, one-shot learning, zero-shot learning (GPT的野望); closed-book QA; 根据题目写新闻; 简单加减法; 将GPT中的文字接龙应用到图像(把相邻的像素视为相邻的文字); 
 3. - 
