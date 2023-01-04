@@ -13,20 +13,20 @@ https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php
 9.	P9, 反向传播; gradient descent; chain rule; (2021-12-10)
 	
 ##	Chapter 2, deep learning; 
-15.	P10, 机器学习任务攻略; framework of ML; model bias; optimization issue; 先跑一些比较小的network或者非深度学习方法; overfitting; CNN是FC针对image任务的特化; public testing set; private testing set; N-fold cross validation; mismatch; (2021-12-13)
-16.	P11, 类神经网络训练不起来怎么办(1); when gradient is small; optimization fails because... ; local minima; saddle point; Tayler series approximation; saddle point(高维空间) vs local minima(低维空间); (2021-12-13)
-17.	P12, 类神经网络训练不起来怎么办(2); batch; 大batch不一定时间长; (1) small batch is better; (2) noisy update is better; small batch vs large batch; momentum; gradient descent+momentum; (2021-12-13)
-18.	P13, 类神经网络训练不起来怎么办(3); customized learning rate; root mean square; learning rate adapts dynamically; RMSProp; learning rate decay; (2021-12-13)
-19.	P14, 类神经网络训练不起来怎么办(4); classification; classification as regression? Class as one-hot vector; softmax; loss of classification; MSE; CE; (2021-12-13)
-20.	P15, 类神经网络训练不起来怎么办(5); change landscape; feature normalization; consider deep learning; batch normalization, 适用于big batch; internal covariate shift; (2021-12-14)
-21.	P16, optimization for deep learning 1; background knowledge; SGD with momentum; why momentum? Adagrad; optimizer, real application; adam vs SGDM; (2021-12-14)
-22.	P17, optimization for deep learning 2; does Adam need warm-up? Of course! K step forward, one step back; momentum recap; NAG; L2 regularization; something helps optimization--shuffling, dropout, gradient noise, warm-up, curriculum learning, fine-tuning; SGDM和ADAM各自适用情况; no universal optimizer; (2021-12-14)
-23.	P18, classification; Gaussian distribution; maximum likelihood; probability distribution; 后验概率; (2021-12-14)
-24.	P19, logistic regression; Step 1, function set; Step 2, goodness of a function; 逻辑回归vs线性回归; Step 3, find the best function; logistic regression + square error; cross entropy better than square error; discriminative vs generative; multi-class classification; limitation of logistic regression, boundary是一条直线; (2021-12-14)
-25.	P20, 作业说明HW2; classification; (2021-12-30)
-26.	P21, 作业说明HW2(English version); (2021-12-14)
-27.	
-28.	Chapter 3, CNN & self-attention; 
+10.	P10, 机器学习任务攻略; framework of ML; model bias; optimization issue; 先跑一些比较小的network或者非深度学习方法; overfitting; CNN是FC针对image任务的特化; public testing set; private testing set; N-fold cross validation; mismatch; (2021-12-13)
+11.	P11, 类神经网络训练不起来怎么办(1); when gradient is small; optimization fails because... ; local minima; saddle point; Tayler series approximation; saddle point(高维空间) vs local minima(低维空间); (2021-12-13)
+12.	P12, 类神经网络训练不起来怎么办(2); batch; 大batch不一定时间长; (1) small batch is better; (2) noisy update is better; small batch vs large batch; momentum; gradient descent+momentum; (2021-12-13)
+13.	P13, 类神经网络训练不起来怎么办(3); customized learning rate; root mean square; learning rate adapts dynamically; RMSProp; learning rate decay; (2021-12-13)
+14.	P14, 类神经网络训练不起来怎么办(4); classification; classification as regression? Class as one-hot vector; softmax; loss of classification; MSE; CE; (2021-12-13)
+15.	P15, 类神经网络训练不起来怎么办(5); change landscape; feature normalization; consider deep learning; batch normalization, 适用于big batch; internal covariate shift; (2021-12-14)
+16.	P16, optimization for deep learning 1; background knowledge; SGD with momentum; why momentum? Adagrad; optimizer, real application; adam vs SGDM; (2021-12-14)
+17.	P17, optimization for deep learning 2; does Adam need warm-up? Of course! K step forward, one step back; momentum recap; NAG; L2 regularization; something helps optimization--shuffling, dropout, gradient noise, warm-up, curriculum learning, fine-tuning; SGDM和ADAM各自适用情况; no universal optimizer; (2021-12-14)
+18.	P18, classification; Gaussian distribution; maximum likelihood; probability distribution; 后验概率; (2021-12-14)
+19.	P19, logistic regression; Step 1, function set; Step 2, goodness of a function; 逻辑回归vs线性回归; Step 3, find the best function; logistic regression + square error; cross entropy better than square error; discriminative vs generative; multi-class classification; limitation of logistic regression, boundary是一条直线; (2021-12-14)
+20.	P20, 作业说明HW2; classification; (2021-12-30)
+21.	P21, 作业说明HW2(English version); (2021-12-14)
+	
+##	Chapter 3, CNN & self-attention; 
 29.	P22, 卷积神经网络; image classification; 识别关键pattern即可; simplification 1, typical setting; 每个neuron输入一个receptive field; padding是为了补全; simplification 2, 共享参数; benefit of CNN; CNN类似filter;  multiple convolutional layer; observation 3; neuron vs filter; pooling -- max pooling, 把图片变小(减小运算量, 可有可无); convolution和pooling交替使用; alphaGo; 围棋和image有共同的特性; alpha Go没用pooling; CNN不可以放缩和旋转图片, 所以需要data augmentation; (2021-12-15)
 30.	P23, self-attention上; input is a set of vectors, 而且长度会改变; word embedding; what is output? Label; seq2seq; sequence labeling; consider the context? FC can consider the neighbor; how to consider the whole sequence? A window consider the whole sequence? Self-attention; 考虑了整个句子; can be either input or hidden layer; dot-product or addictive; (2021-12-15)
 31.	P24, self-attention下; 只有WQ, WK, WV三个矩阵是需要学习的; multi-head self-attention; 不同的q负责不同种类的相关性, 关注不同的方面; position encoding; self-attention for speech; self-attention for image; CNN is simplified self-attention; CNN is better for less data, self-attention is better for more data; self-attention vs RNN; RNN遗忘久远的内容, self-attention不会; RNN无法并行化处理, self-attention可以, 所以更有效率; RNN可以被self-attention取代了; self-attention for graph; 减小self-attention的计算量是未来的重点; (2021-12-15)
