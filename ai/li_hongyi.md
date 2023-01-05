@@ -165,5 +165,5 @@ https://www.bilibili.com/video/BV1U84y167i3/?spm_id_from=333.337.search-card.all
 2. 来自猎人暗黑大陆的模型GPT3; 非常巨大; few-shot learning, one-shot learning, zero-shot learning (GPT的野望); closed-book QA; 根据题目写新闻; 简单加减法; 将GPT中的文字接龙应用到图像(把相邻的像素视为相邻的文字); (2023年1月5日)
 3. InstructGPT: Step 1, supervised fine-tuning via collected demonstration; Step 2, reward model training; a human-labeled ranking; Step 3, RL via PPO; Evaluation: truthful QA; harmful words; (2023年1月5日)
 4. ChatGPT, 惊艳众人的会话AI: 3 steps are the same as InstructGPT; (2023年1月5日)
-5. webGPT, 会搜寻证据的GPT: 
+5. webGPT, 会搜寻证据的GPT: 3 steps are the same as InstructGPT; (2023年1月5日)
 6. - 
