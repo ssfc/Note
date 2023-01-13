@@ -5,12 +5,16 @@
 #	前言;
 #	序言; 
 9.	
-10.	Chapter 1, 绪论;
-11.	1.1, 引言; (2019-7-24)
-12.	1.2, 基本术语; data set; instance; sample; feature vector; hypothesis; label; supervised learning, classification, regression; testing; unsupervised learning, clustering; generalization; distribution; (2019-7-25)
-13.	1.3, 假设空间; induction; deduction; version space; (2019-7-25)
-14.	1.4, 归纳偏好; no free lunch theorem; (2019-7-25)
-15.	1.5, 发展历程; 学习过程涉及大量参数, 而参数的设置缺乏理论指导, 主要靠手工调参数; (2019-7-25)
+#	Chapter 1, 绪论;
+##	1.1, 引言; (2019-7-24)
+##	1.2, 基本术语; 
+data set; instance; sample; feature vector; hypothesis; label; supervised learning, classification, regression; testing; unsupervised learning, clustering; generalization; distribution; (2019-7-25)
+##	1.3, 假设空间; 
+induction; deduction; version space; (2019-7-25)
+##	1.4, 归纳偏好; 
+no free lunch theorem; (2019-7-25)
+##	1.5, 发展历程; 
+学习过程涉及大量参数, 而参数的设置缺乏理论指导, 主要靠手工调参数; (2019-7-25)
 16.	1.6, 应用现状; data mining; (2019-7-25)
 17.	1.7, 阅读材料; 机器学习, 不显式编程地赋予计算机能力; (2019-7-25)
 18.	啃书指导P2, 绪论; 机器学习是什么, 利用经验改善系统性能; 模型决定上限, 数据决定下限; 机器学习做什么; 图片识别; 互联网推荐; 自动驾驶; 古文献修复; 帮助竞选; 监督学习VS无监督学习; 分类, 回归, 聚类; 四个特征组成一个特征向量; 版本空间; 没有最好的算法, 只有最适合的算法; (2020-11-12)
