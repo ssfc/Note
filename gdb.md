@@ -23,5 +23,9 @@ https://www.bilibili.com/video/BV1EK411g7Li/?spm_id_from=333.788.recommend_more_
 ## EP5, watchpoint设置
 1. gdb可以写shell命令: shell ls
 2. 开启日志功能: set logging on ; 记录所有输出;
-3. 查看变量是否变化: watchpoint 
-4. 
+3. 查看变量是否变化: watch 地址 ;
+4. 查看所有观察点: info watchpoints 
+
+## EP6, 调试core文件
+1. a.out原来是二进制文件; 
+2. 
