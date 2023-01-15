@@ -8,5 +8,6 @@ https://www.bilibili.com/video/BV1EK411g7Li/?spm_id_from=333.788.recommend_more_
 2. 在main函数(函数名)放置断点: b main (函数名)
 3. 查看源代码: list
 4. 在14行设置断点: b 14
-5. 
+5. 查看所有断点: info b
+6. 
 
