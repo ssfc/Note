@@ -19,3 +19,8 @@ https://www.bilibili.com/video/BV1EK411g7Li/?spm_id_from=333.788.recommend_more_
 1. 显示变量当前值: p(print) arr[0] (变量名) ; $后的数值每次加一; 
 2. 显示变量当前地址: p(print) &arr[0] (&变量名) 
 3. 进入main引用的函数内部: s(step) 
+
+## EP5, watchpoint设置
+1. gdb可以写shell命令: shell ls
+2. 
+3. 
