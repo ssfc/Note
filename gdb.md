@@ -22,5 +22,5 @@ https://www.bilibili.com/video/BV1EK411g7Li/?spm_id_from=333.788.recommend_more_
 
 ## EP5, watchpoint设置
 1. gdb可以写shell命令: shell ls
-2. 
+2. 开启日志功能: set logging on ; 记录所有输出;
 3. 
