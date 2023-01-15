@@ -5,5 +5,6 @@ https://www.bilibili.com/video/BV1EK411g7Li/?spm_id_from=333.788.recommend_more_
 ## EP2: Install GDB; 
 ## EP3: gdb的quickstart; 
 1. 编译并启动gdb: g++ -g learn_gdb.cpp; gdb a.out 
-2. 
+2. 在main函数(函数名)放置断点: b main (函数名)
+3. 
 
