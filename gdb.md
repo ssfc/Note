@@ -16,4 +16,5 @@ https://www.bilibili.com/video/BV1EK411g7Li/?spm_id_from=333.788.recommend_more_
 7. 执行下一步程序: n(next)
 
 ## EP4: print & step使用
-1. 
+1. 显示变量当前值: p(print) arr[0] (变量名)
+2. 
