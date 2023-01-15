@@ -9,5 +9,7 @@ https://www.bilibili.com/video/BV1EK411g7Li/?spm_id_from=333.788.recommend_more_
 3. 查看源代码: list
 4. 在14行设置断点: b 14
 5. 查看所有断点: info b
-6. 
+6. 执行程序, 在断点停止: r
+7. 执行下一步程序: n
+8. 
 
