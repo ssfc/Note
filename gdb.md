@@ -28,4 +28,8 @@ https://www.bilibili.com/video/BV1EK411g7Li/?spm_id_from=333.788.recommend_more_
 
 ## EP6, 调试core文件
 1. a.out原来是二进制文件; 
-2. 
+2. gdb can stop at the position of segment fault; 
+3. 设置产生core文件: ulimit -c unlimited ; 纳尼? 为什么产生不了? 但是好像也不影响。直接gdb a.out也可以停在泄露的地方。
+
+## 
+
