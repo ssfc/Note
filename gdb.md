@@ -32,5 +32,6 @@ https://www.bilibili.com/video/BV1EK411g7Li/?spm_id_from=333.788.recommend_more_
 3. 设置产生core文件: ulimit -c unlimited ; 纳尼? 为什么产生不了? 但是好像也不影响。直接gdb a.out也可以停在泄露的地方。
 
 ## EP7, 调试正在运行的程序
-
+1. gdb -p 47477(进程号)
+2. 
 
