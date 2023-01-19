@@ -61,6 +61,7 @@
 ### G3: What is the main difference between the abstract and the conclusion? And what are repeated in both parts?
 1. ChatGPT: Both the abstract and the conclusion summarize the main points and findings of the paper, but the abstract is usually **shorter and more general**, while the conclusion is **more detailed and specific**. Additionally, the conclusion often includes **recommendations for future research** or implications of the study's findings.
 
-### 
+### G4: What are the features of the in-text citations and the reference list? 
+
 
 
