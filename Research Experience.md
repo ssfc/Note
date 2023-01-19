@@ -3,7 +3,7 @@
 
 29. Consult Pro Yang his ratio of spending time on read news, doing his own job and communicating with students and coworkers. It depends. (2017-05-28)
 
-28. According to Pro Yang, not all project group could be top, but they are still meaningful; 没准哪一天突然就顶尖了. (2017-06-01)
+28. According to Pro Yang, not all project group could be top, but they are still meaningful; maybe one day it will suddenly become a top research achievement. (2023年1月19日)
 
 27. According to Pro Yang, 不要怕折腾；方向变来变去危害很大；会不会有永动机问题？不会，因为理论已经证实了. (2017-05-28)
 
