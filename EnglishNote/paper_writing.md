@@ -28,6 +28,7 @@
 ## Linguistic features
 ### L1: How to achieve plainness, precision and objectivity while following the stereotype of writing in English as writers did in preparation for some L2 testing essays? 
 1. Pay attention to **plain, precise and objective expression**; (2023年1月19日)
+2. chatGPT: To achieve plainness, precision, and objectivity in writing, it is important to use **clear** and simple language, avoid using overly complex sentence structures, and provide **evidence and examples** to support any claims made. To follow the stereotype of writing in English as used in preparation for L2 testing essays, it is important to adhere to **standard grammar** and punctuation rules, use a **formal and academic tone**, and avoid using colloquial or idiomatic expressions. Additionally, it is important to be objective and avoid using personal bias or opinion in the writing. 
 
 ### L2: May the writer’s preferences of some single verbs, like “find” or ”look into” instead of “identify” “or investigate”, remind readers of an immature writer? 
 1. Pay attention to **more formal expression**. (2023年1月19日)
