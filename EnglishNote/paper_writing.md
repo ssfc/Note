@@ -31,5 +31,10 @@
 4. L4: Could a new writer follow the use of informal expressions as the professional writers and expert writers did in their papers? NO NEED, because I am new writer; (2023年1月19日)
 5. L5: How to acquire some appropriate words which make more sense in editor or reviewers’ stands, like the use of “questionable” instead of “wrong” when presenting arguments ? **Our presentation**; (2023年1月19日)
 6. L6: Why are some terminologies preferable in some disciplines, like method Vs methodology, while others are dynamic in different research areas? NO NEED, because we only focus on computer science; (2023年1月19日)
-7. L7: 
+7. L7: Does the ignorance of the nuance of some nominalizations, like discourse and language, acquisition and learning, cause any extent of bias among the reviewers? Same as L1; (2023年1月19日)
+8. L8: Does the pursuit of accuracy always demand use of long sentences? Or does complexity of sentence structure mean complicated ideas? Pay attention to **structure of sentences**. (2023年1月19日)
+9. L9: Does high frequency using of passive voice always help build up high quality paper while enhancing the persuasiveness and achieving objectivity? Pay attention to **passive voice**. (2023年1月19日)
+10. L10: 
+11. 
+
 
