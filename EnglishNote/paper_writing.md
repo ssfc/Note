@@ -25,11 +25,11 @@
 24. tbc
 
 # Xu's question to pay attention to
-1. L1: How to achieve plainness, precision and objectivity while following the stereotype of writing in English as writers did in preparation for some L2 testing essays? NO NEED; (2023年1月19日)
+1. L1: How to achieve plainness, precision and objectivity while following the stereotype of writing in English as writers did in preparation for some L2 testing essays? Pay attention to **plain, precise and objective expression**; (2023年1月19日)
 2. L2: May the writer’s preferences of some single verbs, like “find” or ”look into” instead of “identify” “or investigate”, remind readers of an immature writer? Pay attention to **more formal expression**. (2023年1月19日)
 3. L3: To what extent should a writer invite “self (say I or we)” into text while constructing a voice of authority in the paper? NO NEED; 
 4. L4: Could a new writer follow the use of informal expressions as the professional writers and expert writers did in their papers? NO NEED; 
 5. L5: How to acquire some appropriate words which make more sense in editor or reviewers’ stands, like the use of “questionable” instead of “wrong” when presenting arguments ? **Our presentation**; 
-6. L6: 
+6. L6: Why are some terminologies preferable in some disciplines, like method Vs methodology, while others are dynamic in different research areas? NO NEED, because we only focus on computer science; 
 7. L7: 
 
