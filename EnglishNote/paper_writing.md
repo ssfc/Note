@@ -36,6 +36,16 @@
 
 ### L3: To what extent should a writer invite “self (say I or we)” into text while constructing a voice of authority in the paper? 
 1. NO NEED, because our paper contain at least two people; (2023年1月19日)
+2. chatGPT: The use of "self" (such as "I" or "we") in a text can be a tricky balancing act when constructing a voice of authority in a paper. On one hand, the use of "I" or "we" can make the writing feel more personal and approachable, which can be beneficial for certain genres or audiences. On the other hand, the use of "I" or "we" can also weaken the author's authority and objectivity if used excessively. // It is generally best to use "I" or "we" sparingly and strategically, especially in academic and professional writing where objectivity and authority are highly valued. When using "I" or "we", it is important to make sure that it is clear that the author is speaking from their own perspective and not making universal claims. // It is also important to use "I" or "we" when it is necessary to provide context or background information about the author's own experiences or research. In many cases, it is more appropriate to use third person point of view in academic or professional writing, as it emphasizes the research and the evidence rather than the writer's personal opinions. // Overall, it is important to consider the purpose and audience of the writing when deciding to use "I" or "we" and use it in a way that supports the author's credibility and authority.
+3. 
+
+
+
+
+
+
+
+
 
 ### L4: Could a new writer follow the use of informal expressions as the professional writers and expert writers did in their papers? 
 1. NO NEED, because I am new writer; (2023年1月19日)
