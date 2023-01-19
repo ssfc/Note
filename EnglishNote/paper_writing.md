@@ -40,15 +40,9 @@
 3. 
 
 
-
-
-
-
-
-
-
 ### L4: Could a new writer follow the use of informal expressions as the professional writers and expert writers did in their papers? 
 1. NO NEED, because I am new writer; (2023年1月19日)
+2. 
 
 ### L5: How to acquire some appropriate words which make more sense in editor or reviewers’ stands, like the use of “questionable” instead of “wrong” when presenting arguments ? 
 1. **Our presentation**; (2023年1月19日)
