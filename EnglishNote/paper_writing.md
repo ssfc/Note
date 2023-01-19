@@ -42,7 +42,7 @@
 
 ### L4: Could a new writer follow the use of informal expressions as the professional writers and expert writers did in their papers? 
 1. NO NEED, because I am new writer; (2023年1月19日)
-2. 
+2. chatGPT: It is possible for a new writer to use informal expressions in their writing, but it is important to keep in mind that the use of informal language is generally more appropriate for certain types of writing, such as creative writing or casual writing, rather than academic or professional writing. In these types of writing, a more **formal and professional tone** is usually expected, and the use of informal language can weaken the writer's authority and credibility. // If a new writer is writing in an academic or professional setting, it is best to stick to formal language and avoid using overly casual or colloquial expressions. However, it is important to note that writing style and tone can vary depending on the field, the audience and the purpose of the writing. Therefore, it is always important to familiarize oneself with conventions and expectations of the type of writing you are doing. // If a new writer wants to use informal expressions in their writing, they should do it with caution and consider the context of their writing, it's audience and the tone they want to convey. They should also be aware that the use of informal expressions may make the writing less formal and less persuasive, and the writer should be prepared to explain the reason for the use of informal language.
 
 ### L5: How to acquire some appropriate words which make more sense in editor or reviewers’ stands, like the use of “questionable” instead of “wrong” when presenting arguments ? 
 1. **Our presentation**; (2023年1月19日)
