@@ -29,5 +29,7 @@
 2. L2: May the writer’s preferences of some single verbs, like “find” or ”look into” instead of “identify” “or investigate”, remind readers of an immature writer? NO NEED; 
 3. L3: To what extent should a writer invite “self (say I or we)” into text while constructing a voice of authority in the paper? NO NEED; 
 4. L4: Could a new writer follow the use of informal expressions as the professional writers and expert writers did in their papers? NO NEED; 
-5. 
+5. L5: How to acquire some appropriate words which make more sense in editor or reviewers’ stands, like the use of “questionable” instead of “wrong” when presenting arguments ? Our presentation; 
+6. L6: 
+7. L7: 
 
