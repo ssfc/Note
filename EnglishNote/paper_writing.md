@@ -96,6 +96,9 @@ Participants or subjects: This section should describe the population that was s
 1. chatGPT: The discussion and conclusion sections of a paper may be combined in some cases, but it depends on the specific research design and the focus of the study. In general, the discussion section is used to **interpret the results** of the study, and the conclusion is used to **summarize the main findings and their implications**. // 
 When the discussion and conclusion are combined, the section usually begins by **summarizing the main findings** and then proceeds to **interpret and discuss their implications**. The combined section should also connect the findings to the broader literature and **state the limitations** of the study. // The discussion is not always a necessary part in a paper, it depends on the type of research and the purpose of the paper. For example, in some experimental studies, the results and their implications are **clear and straightforward**, and a separate discussion section is **not needed**. In other cases, a separate discussion section is necessary to **interpret the results and their implications in more detail**. 
 
+### G8: How does the writer emphasize his important ideas? What writing techniques, such as repetition of words or punctuations, are used?
+
+
 
 
 
