@@ -92,6 +92,9 @@ Reference list: This is a list of the sources that the writer has cited in the p
 1. chatGPT: The typical order to present methodology in a paper is: (1) Research design: This section should describe **the overall approach** that was used for the study, including the type of research design, such as experimental, observational, or case study. (2) 
 Participants or subjects: This section should describe the population that was studied, including characteristics such as age, gender, and any other relevant demographic information. (3) **Data collection**: This section should describe the methods used to collect data, such as surveys, interviews, observations, or experiments. It should also include information about the instruments or tools used, such as questionnaires or interview protocols. (4) **Data analysis**: This section should describe the methods used to analyze the data, such as statistical techniques, qualitative analysis, or content analysis. It should also include information about the software or tools used for the analysis. (5) Ethical considerations: This section should describe any ethical considerations that were taken into account during the study, such as informed consent, confidentiality, and protection of vulnerable populations. (6) **Limitations**: This section should describe any limitations of the study, such as small sample size, lack of generalizability, or limitations of the data collection or analysis methods.
 
+### G7: In which cases will the discussion be combined into the conclusion? And is the discussion always a necessary part in a paper?
+1. chatGPT: 
+
 
 
 
