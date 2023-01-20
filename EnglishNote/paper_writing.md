@@ -66,10 +66,13 @@
 
 ### L10: Which is better in tense choice, the vivid, natural forms or the simple, timeless presentations? 
 1. Pay attention to **description** of framework. (2023年1月19日)
-2. 
+2. chatGPT: In academic paper writing, it is generally recommended to use the past tense when discussing completed research or studies, and the present tense when discussing existing theories or hypotheses. The use of the simple, timeless present tense can lend a sense of objectivity and permanence to the research being discussed. The use of the vivid, natural forms may be appropriate in certain cases, such as when describing the methodology of a study, but should be used with caution to ensure that the writing remains clear and objective. Ultimately, the choice of tense will depend on the specific context and purpose of the paper. 
+3. 
 
 ## Generic features 
 ### G1: What are the main functions of the body part of a paper? Which part is missing compared with the other papers from a different journal? (2023年1月19日)
+1. chatGPT: The body of a paper is the main section where the writer presents their ideas and arguments. The main functions of the body of a paper include: (1) **Developing the main argument**: The body is where the writer presents and develops their main argument or thesis. This includes providing evidence, examples and explanations to support the argument. (2) **Answering research questions** or **addressing the research problem**: The body is where the writer addresses the research questions or problem that was presented in the introduction. This includes providing evidence and examples to support the research findings. (3)
+**Analyzing and interpreting data**: The body is where the writer analyzes and interprets the data that was collected in the research. This includes describing the methods used to collect the data and discussing the results and findings. (4) Presenting counterarguments: The body is where the writer **addresses potential counterarguments** or alternative perspectives on the topic. This allows the writer to anticipate and address potential objections to their argument. (5) **Organizing ideas coherently**: The body is where the writer organizes their ideas in a logical and coherent manner, making sure that the ideas flow smoothly and are easy to follow. (6) Concluding the main points: The body is where the writer concludes the main points of their argument and presents a summary of the evidence they have presented. // Overall, the main function of the body of a paper is to **present, develop, and support the main argument** while **providing a logical and coherent structure**.
 
 ### G2: What are the essential **elements of the paper’s methodology?** (2023年1月19日)
 
