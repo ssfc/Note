@@ -64,7 +64,9 @@
 1. Pay attention to **passive voice**. (2023年1月19日)
 2. chatGPT: The use of passive voice can be a useful tool in writing, but it is not always the best choice for building a high-quality paper or enhancing persuasiveness and objectivity. // Passive voice can be used to shift the focus away from the person or group performing an action, which can be useful for **achieving objectivity** in scientific or technical writing. For example, in a scientific study, it is more appropriate to report the results without highlighting the person or group who conducted the study, because the focus is on the results themselves. // However, using passive voice excessively can make writing less clear, less concise, and less engaging. Passive voice can also make sentences longer, and it can make it harder for readers to understand who is performing an action. // Additionally, using passive voice can also make it **harder to build persuasive arguments** because it can reduce the sense of agency and accountability. Passive voice can also make it harder to identify the actors in the text and that can make it harder for the readers to understand the text. // In summary, while passive voice can be a useful tool in some cases, such as in scientific or technical writing to **achieve objectivity**, it is not always the best choice for building a high-quality paper or **enhancing persuasiveness**. It's important to use it appropriately and in balance with other sentence structures.
 
-### L10: Which is better in tense choice, the vivid, natural forms or the simple, timeless presentations? Pay attention to **description** of framework. (2023年1月19日)
+### L10: Which is better in tense choice, the vivid, natural forms or the simple, timeless presentations? 
+1. Pay attention to **description** of framework. (2023年1月19日)
+2. 
 
 ## Generic features 
 ### G1: What are the main functions of the body part of a paper? Which part is missing compared with the other papers from a different journal? (2023年1月19日)
