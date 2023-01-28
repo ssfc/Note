@@ -143,7 +143,7 @@
 32. 向右出库与向左出库雷同；(2019-4-2)
 33. 
 34. ----------------------------项目2，侧方停车---------------------------
-35. https://www.bilibili.com/video/BV1sY4y1T7nq/?spm_id_from=333.788.recommend_more_video.-1&vd_source=3ef4175721f926fbf390a069da19b0ca
+35. https://www.bilibili.com/video/BV1KR4y1c7oD/?spm_id_from=333.337.search-card.all.click&vd_source=3ef4175721f926fbf390a069da19b0ca
 36. 进(右一, 左一, 左二)：
 37. 前进至“车”盖住指路箭头；(2019-4-2)
 38. 踩死离合，挂倒挡；(2019-4-2)
