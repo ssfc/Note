@@ -479,7 +479,20 @@ Highlighting: Highlighting key findings or conclusions in **bold or italic font*
 ### A3: Why does the writer always present his reflections on the research with limitations or applications? 
 1. chatGPT: In academic writing, it is common for writers to present their reflections on the research with limitations or applications. This is done to provide a more **complete picture of the research** and its potential impact or usefulness, as well as to acknowledge any potential shortcomings or limitations of the research. // Presenting limitations of the research is important because it helps to contextualize the results and conclusions of the study. It acknowledges that there are areas where the research may not be fully applicable or where the findings may be less strong or conclusive. By doing so, the writer can **demonstrate a level of transparency and honesty**, which is important in building credibility and trust in the research. // Similarly, presenting applications of the research can help to **highlight the potential practical value** of the research. This is particularly important for applied research, which is research that is intended to solve real-world problems. By presenting potential applications, the writer can demonstrate the relevance and importance of the research and its potential to make a real-world impact. // Overall, presenting limitations and applications of the research is an important aspect of academic writing. It helps to provide a more complete and nuanced understanding of the research, and can help to demonstrate its potential impact and practical value.
 
+### A4: What skills are used in the paper to validating the research design?
+1. chatGPT: In academic writing, several skills can be used to validate the research design, such as: (1)     Critical thinking: Critical thinking skills are used to evaluate the quality and reliability of research methods and results, identify potential biases and limitations, and assess the generalizability of the findings. (2)     Analytical skills: Analytical skills are used to examine and interpret the data, identify patterns and trends, and draw conclusions based on the evidence. (3) Statistical skills: Statistical skills are used to analyze and interpret quantitative data, such as using statistical software to run regression analyses or other statistical tests to validate the research design. (4) Writing skills: Writing skills are used to effectively communicate the research design and methodology, as well as the results and conclusions, in a clear and concise manner that adheres to academic writing conventions. (5) Problem-solving skills: Problem-solving skills are used to identify potential issues or challenges in the research design and develop appropriate solutions to address these challenges. // Overall, the skills used in academic writing to validate the research design may vary depending on the discipline and methodology used, but generally involve a combination of critical thinking, analysis, statistics, writing, and problem-solving skills.
 
+### A5: What is the research domain of this paper? Does the problem claimed in the paper really capture the real-world issues in this domain?
+
+### A6: Is the solution presented in the paper still reliable in the updated research context? Are there any other solutions to the problem?
+
+### A7: Is the research to find out the solution in the paper still replicable in the present research background?
+
+### A8: Is the paper frequently cited by others? What’s the paper’s citation frequency? (IF & CF: research domain)
+
+### A9: Does the author’s credential make sense comparing his or her claimed authority on the research topic with the organizations funding the study? Are there any other follow-up studies or papers published?
+
+### A10: Among other similar studies on the same research topics, is this one on the top list of the authority?
 
 
 
