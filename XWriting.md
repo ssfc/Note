@@ -112,7 +112,7 @@
 37. 
 38. To illustrate this => then; 
 39. 不做时间转移, 因为模糊; 
-40. Exercise in Slides Page 23: 
+40. Exercise on Page 23 of Slides "徐喜文EAP writing VS EGP writing （2022 S版）": 
 41. (1) N, 粘连句, 应分成两句话; attempt to具有情绪性; 
 42. (2) N, ignored具有情绪性, 换成overlooked; 
 43. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
