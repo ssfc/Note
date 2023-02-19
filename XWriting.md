@@ -120,9 +120,11 @@
 45. (4) The Internet makes our life easier and richer. At the same time, it changes our sense of time in many aspects. 
 46. N, 错在at the same time, EAP不接受时序概念; => while; 
 47. chatGPT: The connection "At the same time" is often used in spoken language to indicate a contrast or a simultaneous occurrence of events. In academic writing, it is recommended to use more formal and specific connectives such as "**Furthermore**," "**Moreover**," "**In addition**," "**Additionally**," "**Conversely**," etc. to make the relationship between sentences clearer and more precise. // A possible revision for this example could be: "The Internet has **not only** improved the convenience and abundance of our daily life **but also** exerted significant influences on our temporal perception. **Moreover**, the changes are pervasive and multifaceted."
-48. (6) that is not the answer in the long run口语化 => but unhelpful in the long run; 
-49. (9) 情绪强烈, descriptive; 
-50. (10) Y, 真同时; 
+48. (6) Emergency aid can help in the short term, but that is not the answer in the long run. 
+49. that is not the answer in the long run口语化 => but unhelpful in the long run; 
+50. (9) In our daily life, the Internet provides us many interesting things like games, movies, music and so on which make us happy and relaxed. And also, it can make our life and work easy and efficient. 
+51. 情绪强烈, descriptive; 
+52. (10) Y, 真同时; 
 
 ## 6th class Oct 26th, 2022;
 1. G3: difference between abstract and conclusion; 
