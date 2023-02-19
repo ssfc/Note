@@ -86,20 +86,31 @@
 11. EGP is narrative or reflective, EAP is argumentative and convincing; 
 12. According to XXX, we know that XXX (Treat reader like idiot) => As such, lizards are defined as cold blooded. 
 13. Book 信度与权威 Chapter 1, ending exercise; 
-14. (1) A; in contrast to是一个点, in contrast是面, 太大了; 
-15. (2) B; it assumes that是通用描述, it was assumed that是具体描述; 
-16. (3) B; owing to 带有情感色彩; 
-17. (4) B; 汉语是动词过程(raised)的语言, EAP是名词逻辑的连接; 
-18. (5) B; 介词堆砌没有分层次; 
-19. To illustrate this => then; 
-20. 不做时间转移, 因为模糊; 
-21. Exercise in Slides Page 23: 
-22. (1) N, 粘连句, 应分成两句话; attempt to具有情绪性; 
-23. (2) N, ignored具有情绪性, 换成overlooked; 
-24. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
-25. (6) that is not the answer in the long run口语化 => but unhelpful in the long run; 
-26. (9) 情绪强烈, descriptive; 
-27. (10) Y, 真同时; 
+14. (1) 
+15. A. In Britain only 9% of over sixties live with their families, in contrast to 29% in Japan.
+16. B. In Britain only 9% of over sixties live with their families, in contrast, 29% in Japan.
+17. Key: A; in contrast to是一个点, in contrast是面, 太大了; 
+18. chatGPT: Option A is the better statement. The use of "**in contrast to**" is more appropriate than "in contrast," as the former is a preposition that is commonly used to introduce a contrast between two things, while the latter is a phrase that can be confusing to some readers. (2023年2月19日)
+19. (2) 
+20. A. It was assumed that computer users with better computer confidence tend to have favorable perception of computer tasks. 
+21. B. It assumes that computer users with better computer confidence tend to have favorable perception of computer tasks.
+22. Key: B; it assumes that是通用描述, it was assumed that是具体描述; (2023年2月19日)
+23. (3) 
+24. A. The birth rate has reduced over the past ten years owing to the economic stagflation.
+25. B. The birth rate has dropped over the past ten years because of the stagflation.
+26. Key B; owing to 带有情感色彩; 
+27. chatGPT: "**Dropped**" is a more precise verb than "reduced," and "**because of**" is clearer and simpler than "owing to." Additionally, "economic stagflation" is redundant because stagflation inherently refers to an economic condition. (2023年2月19日)
+28. (4) B; 汉语是动词过程(raised)的语言, EAP是名词逻辑的连接; 
+29. (5) B; 介词堆砌没有分层次; 
+30. To illustrate this => then; 
+31. 不做时间转移, 因为模糊; 
+32. Exercise in Slides Page 23: 
+33. (1) N, 粘连句, 应分成两句话; attempt to具有情绪性; 
+34. (2) N, ignored具有情绪性, 换成overlooked; 
+35. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
+36. (6) that is not the answer in the long run口语化 => but unhelpful in the long run; 
+37. (9) 情绪强烈, descriptive; 
+38. (10) Y, 真同时; 
 
 ## 6th class Oct 26th, 2022;
 1. G3: difference between abstract and conclusion; 
