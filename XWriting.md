@@ -34,15 +34,16 @@
 10. Precision: in a word, 后面只能有一句话; 
 11. Objectivity: as we all know, 不客观; 
 12. 话题切换用什么? 
-13. use/employ/utilize, 什么时候简单(通用)动词, 什么时候复杂(专用)动词?
-14. balance between formal vs readable; persuasive vs objectivity; 
-15. Negation: I don't know用什么表达; wrong=>questionable OR however OR although, 比较委婉; 
-16. 术语缩写适用范围; 
-17. 同义词替换; 
-18. long sentence由logic决定, 而非字数; 
-19. It depends. 不知道。
-20. 主动 vs 被动, 体现身份标识; 
-21. 时态选择; 
+13. chatGPT:  Transition words or phrases can signal to the reader that you are shifting to a new topic. Examples include "**in addition**", "**furthermore**", "**on the other hand**", "**in contrast**", "**moreover**", and "**meanwhile**". These words or phrases help to create a logical flow between the different topics.
+14. use/employ/utilize, 什么时候简单(通用)动词, 什么时候复杂(专用)动词?
+15. balance between formal vs readable; persuasive vs objectivity; 
+16. Negation: I don't know用什么表达; wrong=>questionable OR however OR although, 比较委婉; 
+17. 术语缩写适用范围; 
+18. 同义词替换; 
+19. long sentence由logic决定, 而非字数; 
+20. It depends. 不知道。
+21. 主动 vs 被动, 体现身份标识; 
+22. 时态选择; 
 ### Generic features
 1. 不同门类的文章构成要件不同; 
 2. difference between abstract and conclusion; 
