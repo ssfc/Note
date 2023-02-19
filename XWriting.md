@@ -27,19 +27,21 @@
 3. Group: linguistic (10 questions), generic (10 questions), argument (10 questions); 每个人负责一个单项的一个问题, but cite all 4 papers; 
 4. 参考徐喜文2022EAP, 从中寻找support; (2022年10月22日)
 5. 避免考试中固化的结构, as we all know, with the development of, in order to, etc. (2022年10月22日)
-6. "因为"只用because和for, 为了plainness; as/owing to/thanks to都有共情色彩; 
-7. Precision: in a word, 后面只能有一句话; 
-8. Objectivity: as we all know, 不客观; 
-9. 话题切换用什么? 
-10. use/employ/utilize, 什么时候简单(通用)动词, 什么时候复杂(专用)动词?
-11. balance between formal vs readable; persuasive vs objectivity; 
-12. Negation: I don't know用什么表达; wrong=>questionable OR however OR although, 比较委婉; 
-13. 术语缩写适用范围; 
-14. 同义词替换; 
-15. long sentence由logic决定, 而非字数; 
-16. It depends. 不知道。
-17. 主动 vs 被动, 体现身份标识; 
-18. 时态选择; 
+6. chatGPT: It is generally not recommended to use the phrase "**as we all know**" in academic writing. This is because it can be seen as making assumptions about the reader's knowledge or implying that there is a consensus on the topic being discussed, which may not be the case. It is better to provide evidence and support for any claims or information presented in the paper. (2023年2月19日)
+7. chatGPT: it is often recommended to use a more concise alternative such as "**to**" or "for" to improve the clarity and flow of your writing. "**In order to**" can sometimes be seen as wordy or unnecessary. (2023年2月19日)
+8. "因为"只用because和for, 为了plainness; as/owing to/thanks to都有共情色彩; 
+9. Precision: in a word, 后面只能有一句话; 
+10. Objectivity: as we all know, 不客观; 
+11. 话题切换用什么? 
+12. use/employ/utilize, 什么时候简单(通用)动词, 什么时候复杂(专用)动词?
+13. balance between formal vs readable; persuasive vs objectivity; 
+14. Negation: I don't know用什么表达; wrong=>questionable OR however OR although, 比较委婉; 
+15. 术语缩写适用范围; 
+16. 同义词替换; 
+17. long sentence由logic决定, 而非字数; 
+18. It depends. 不知道。
+19. 主动 vs 被动, 体现身份标识; 
+20. 时态选择; 
 ### Generic features
 1. 不同门类的文章构成要件不同; 
 2. difference between abstract and conclusion; 
