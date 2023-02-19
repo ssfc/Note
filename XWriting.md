@@ -113,12 +113,14 @@
 38. To illustrate this => then; 
 39. 不做时间转移, 因为模糊; 
 40. Exercise on Page 23 of Slides "徐喜文EAP writing VS EGP writing （2022 S版）": 
-41. (1) N, 粘连句, 应分成两句话; attempt to具有情绪性; 
-42. (2) N, ignored具有情绪性, 换成overlooked; 
-43. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
-44. (6) that is not the answer in the long run口语化 => but unhelpful in the long run; 
-45. (9) 情绪强烈, descriptive; 
-46. (10) Y, 真同时; 
+41. (1) We quantified the extent of forest damage in the region, and we attempted to explain why trees died. 
+42. N, 粘连句, 应分成两句话; attempt to具有情绪性; 
+43. (2) N, ignored具有情绪性, 换成overlooked; 
+44. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
+45. chatGPT: The connection "At the same time" is often used in spoken language to indicate a contrast or a simultaneous occurrence of events. In academic writing, it is recommended to use more formal and specific connectives such as "**Furthermore**," "**Moreover**," "**In addition**," "**Additionally**," "**Conversely**," etc. to make the relationship between sentences clearer and more precise. // A possible revision for this example could be: "The Internet has **not only** improved the convenience and abundance of our daily life **but also** exerted significant influences on our temporal perception. **Moreover**, the changes are pervasive and multifaceted."
+46. (6) that is not the answer in the long run口语化 => but unhelpful in the long run; 
+47. (9) 情绪强烈, descriptive; 
+48. (10) Y, 真同时; 
 
 ## 6th class Oct 26th, 2022;
 1. G3: difference between abstract and conclusion; 
