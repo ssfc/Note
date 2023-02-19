@@ -85,32 +85,40 @@
 10. Tips: one sentence for one thought; 说明立场; 
 11. EGP is narrative or reflective, EAP is argumentative and convincing; 
 12. According to XXX, we know that XXX (Treat reader like idiot) => As such, lizards are defined as cold blooded. 
-13. Book 信度与权威 Chapter 1, ending exercise; 
-14. (1) 
-15. A. In Britain only 9% of over sixties live with their families, in contrast to 29% in Japan.
-16. B. In Britain only 9% of over sixties live with their families, in contrast, 29% in Japan.
-17. Key: A; in contrast to是一个点, in contrast是面, 太大了; 
-18. chatGPT: Option A is the better statement. The use of "**in contrast to**" is more appropriate than "in contrast," as the former is a preposition that is commonly used to introduce a contrast between two things, while the latter is a phrase that can be confusing to some readers. (2023年2月19日)
-19. (2) 
-20. A. It was assumed that computer users with better computer confidence tend to have favorable perception of computer tasks. 
-21. B. It assumes that computer users with better computer confidence tend to have favorable perception of computer tasks.
-22. Key: B; it assumes that是通用描述, it was assumed that是具体描述; (2023年2月19日)
-23. (3) 
-24. A. The birth rate has reduced over the past ten years owing to the economic stagflation.
-25. B. The birth rate has dropped over the past ten years because of the stagflation.
-26. Key B; owing to 带有情感色彩; 
-27. chatGPT: "**Dropped**" is a more precise verb than "reduced," and "**because of**" is clearer and simpler than "owing to." Additionally, "economic stagflation" is redundant because stagflation inherently refers to an economic condition. (2023年2月19日)
-28. (4) B; 汉语是动词过程(raised)的语言, EAP是名词逻辑的连接; 
-29. (5) B; 介词堆砌没有分层次; 
-30. To illustrate this => then; 
-31. 不做时间转移, 因为模糊; 
-32. Exercise in Slides Page 23: 
-33. (1) N, 粘连句, 应分成两句话; attempt to具有情绪性; 
-34. (2) N, ignored具有情绪性, 换成overlooked; 
-35. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
-36. (6) that is not the answer in the long run口语化 => but unhelpful in the long run; 
-37. (9) 情绪强烈, descriptive; 
-38. (10) Y, 真同时; 
+13. 
+14. Book 信度与权威 Chapter 1, ending exercise; 
+15. (1) 
+16. A. In Britain only 9% of over sixties live with their families, in contrast to 29% in Japan.
+17. B. In Britain only 9% of over sixties live with their families, in contrast, 29% in Japan.
+18. Key: A; in contrast to是一个点, in contrast是面, 太大了; 
+19. chatGPT: Option A is the better statement. The use of "**in contrast to**" is more appropriate than "in contrast," as the former is a preposition that is commonly used to introduce a contrast between two things, while the latter is a phrase that can be confusing to some readers. (2023年2月19日)
+20. (2) 
+21. A. It was assumed that computer users with better computer confidence tend to have favorable perception of computer tasks. 
+22. B. It assumes that computer users with better computer confidence tend to have favorable perception of computer tasks.
+23. Key: B; it assumes that是通用描述, it was assumed that是具体描述; (2023年2月19日)
+24. (3) 
+25. A. The birth rate has reduced over the past ten years owing to the economic stagflation.
+26. B. The birth rate has dropped over the past ten years because of the stagflation.
+27. Key B; owing to 带有情感色彩; 
+28. chatGPT: "**Dropped**" is a more precise verb than "reduced," and "**because of**" is clearer and simpler than "owing to." Additionally, "economic stagflation" is redundant because stagflation inherently refers to an economic condition. (2023年2月19日)
+29. (4) 
+30. A. House prices have raised by 70% in the past 5 years in most big cities of China.
+31. B. In the past 5 years, there has been a rise of 70% in house prices in most big cities of China. 
+32. Key: B; 汉语是动词过程(raised)的语言, EAP是名词逻辑的连接; 
+33. (5) 
+34. A. The measurement of experience normal is as shown in Fig. 3 equal to the distance between the best position and average estimates. 
+35. B. The measurement of experience normal as shown in Fig. 3 is equal to the distance between the best position and average estimates.
+36. Key B; 介词堆砌没有分层次; 
+37. 
+38. To illustrate this => then; 
+39. 不做时间转移, 因为模糊; 
+40. Exercise in Slides Page 23: 
+41. (1) N, 粘连句, 应分成两句话; attempt to具有情绪性; 
+42. (2) N, ignored具有情绪性, 换成overlooked; 
+43. (4) N, 错在at the same time, EAP不接受时序概念; => while; 
+44. (6) that is not the answer in the long run口语化 => but unhelpful in the long run; 
+45. (9) 情绪强烈, descriptive; 
+46. (10) Y, 真同时; 
 
 ## 6th class Oct 26th, 2022;
 1. G3: difference between abstract and conclusion; 
