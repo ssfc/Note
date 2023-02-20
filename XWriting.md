@@ -186,7 +186,7 @@
 16. N. 
 17. chatGPT: The use of "just" may imply a casual tone, and the phrase "access and research" may be seen as overly informal. // A possible revision for the sentence to be more suitable for academic writing could be: Free-diving is a valuable method for researching some of the ocean's most enigmatic creatures because of its effectiveness and efficiency beyond being just a sport.
 18. In order to => To; 
-19. As a matter of fact (读者会质疑matter是什么) => In fact; 
+19. As a matter of fact (读者会质疑matter是什么) => In fact OR indeed; 
 20. in terms of... 
 21. Chapter 3 Exercise 1: 
 22. (1) given => listed; provided => sorted; 
