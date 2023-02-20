@@ -143,12 +143,15 @@
 14. (2) Y, 主体变agreement; 
 15. (3) To our surprise, these techniques were so quickly applied into practice. 
 16. Key: N, to our surprise和so quickly具有情感色彩; => There is an **obvious** fact that XXX have been **widely** applied... 
-17. (14) N, Now that... a must 高调, 情绪化, 其中不定冠词a表达强调; 
-18. (15) Y, plainness. 
-19. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
-20. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
-21. EAP should use certain and clear message with factual accuracy. 
-22. HW: Exercise in Slides Page 27; Answer is in 9th class; 
+17. chatGPT: They could also rephrase the sentence to be more objective and less personal by omitting "to our surprise" and using a more formal phrase such as "**remarkably**" or "**unexpectedly**."
+18. (14) Now that globalization has become a must, we are supposed to adapt to and take full advantage of it rather than escape from it.  
+19. Key: N, Now that... a must 高调, 情绪化, 其中不定冠词a表达强调; 
+20. chatGPT: The use of "must" and "supposed to" may suggest a personal or informal opinion, rather than a supported and objective argument. Additionally, the phrase "take full advantage of it" lacks specificity and precision. // In academic writing, it is important to use precise language and to present arguments based on research and evidence, rather than personal opinions or assumptions. Therefore, the sentence could be revised to better align with academic writing standards, such as: "**Given the prevalence** of globalization, **there is a need** for **individuals and organizations** to **adapt to its effects and leverage its opportunities** through strategic actions and policies, **supported by empirical research**."
+21. (15) Y, plainness. 
+22. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
+23. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
+24. EAP should use certain and clear message with factual accuracy. 
+25. HW: Exercise in Slides Page 27; Answer is in 9th class; 
     
 ## 7th class Oct 31st, 2022;
 1. 表达否定, 用however和although比较委婉; 
