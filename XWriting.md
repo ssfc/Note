@@ -169,23 +169,28 @@
 
 ## 9th class Nov 7th, 2022; 
 1. similarity matrix网站查看关联论文; 
-2. Exercise in Slides Page 27: 
-3. (2) N. With the rapid developement of...
-4. (3) N. 试图共情; 
-5. (7) N. 口语化; 
-6. (8) N. worse still 情感浓厚; 
-7. (9) N. ????
-8. In order to => To; 
-9. As a matter of fact (读者会质疑matter是什么) => In fact; 
-10. in terms of... 
-11. Chapter 3 Exercise 1: 
-12. (1) given => listed; provided => sorted; 
-13. (2) show => track; offer => set up; 
-14. (3) show => convey; give => submit; 
-15. (4) put => have; be => fall; 
-16. (5) tell => indicate; deal with => handle; 
-17. easy word并不一定weak, 很多用法下非常strong; 
-18. EAP中动词的目的不是强调动作的过程, 而是逻辑的连接; 
+2. Exercise on Page 27 of Slides "徐喜文EAP writing VS EGP writing （2022 S版）": : 
+3. (2) By and large, our conception of time has changed a lot along with the rapid development of the Internet.
+4. N. With the rapid developement of...
+5. chatGPT: The phrase "by and large" is more commonly used in informal or conversational language, and its use in academic writing can sound too casual. Similarly, "a lot" is often considered too informal for academic writing and can be replaced with a more precise term that conveys the intended meaning. // Additionally, the sentence lacks specific evidence or data to support the claim that the conception of time has changed greatly due to the development of the Internet. In academic writing, it is important to provide evidence and specific examples to support claims and arguments. // Revised version: The rapid development of the Internet has significantly altered our conception of time. (2023年2月20日)
+6. (3) From my perspective, it is high time we joined in the globalization tendency and put it forward in the meantime. 
+7. Key: N. 试图共情; 
+8. chatGPT: The phrase "from my perspective" is subjective and does not add any academic value to the sentence. Additionally, the phrase "it is high time" is somewhat colloquial and may not be appropriate in formal academic writing. // A more appropriate version of this sentence in academic writing could be: "The current trend towards globalization **presents an opportunity to** actively engage with and contribute to the global community."
+9. 
+10. (7) N. 口语化; 
+11. (8) N. worse still 情感浓厚; 
+12. (9) N. ????
+13. In order to => To; 
+14. As a matter of fact (读者会质疑matter是什么) => In fact; 
+15. in terms of... 
+16. Chapter 3 Exercise 1: 
+17. (1) given => listed; provided => sorted; 
+18. (2) show => track; offer => set up; 
+19. (3) show => convey; give => submit; 
+20. (4) put => have; be => fall; 
+21. (5) tell => indicate; deal with => handle; 
+22. easy word并不一定weak, 很多用法下非常strong; 
+23. EAP中动词的目的不是强调动作的过程, 而是逻辑的连接; 
 
 ## 10th class Nov 9th, 2022; 
 1. Journal article aims to engage and enlighten, acting as textbook, focusing on credibility and discourse; 
