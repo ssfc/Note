@@ -130,19 +130,25 @@
 1. G3: difference between abstract and conclusion; 
 2. A3: 草蛇灰线, 伏脉千里; 
 3. Chapter 1 Exercise 2: 
-4. (1) 多个(不是同级别)的介词分化, 导致句子碎片化, 修改应把about放在discussion之后; 
-5. (2) 介词次序紊乱, 需要有等级概念, 把in the wester提前; 
-6. (3) 概念中心紊乱, 定义漂移; 
-7. (4) 头重脚轻, arise提前, 放到disagreement之后; 
-8. Exercise in Slides Page 18: 
-9. (2) Y, 主体变agreement; 
-10. (3) N, to our surprise和so quickly具有情感色彩; => There is an **obvious** fact that XXX have been **widely** applied... 
-11. (14) N, Now that... a must 高调, 情绪化, 其中不定冠词a表达强调; 
-12. (15) Y, plainness. 
-13. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
-14. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
-15. EAP should use certain and clear message with factual accuracy. 
-16. HW: Exercise in Slides Page 27; Answer is in 9th class; 
+4. (1) In the field of second language (L2) writing, about the development of culturally diverse L2 students’ critical thinking ability, there have been considerable discussions. 
+5. 多个(不是同级别)的介词分化, 导致句子碎片化, 修改应把about放在discussion之后; 
+6. (2) Critical thinking is frequently seen in Western tertiary context as a necessary component of academic writing in subject guide-lines, assessment criteria and in written feedback on student’s assignments (Woodward-Kron, 2002). 
+7. 介词次序紊乱, 需要有等级概念, 把in the wester提前; 
+8. (3) The widely accepted assumption in the current debate over critical thinking pedagogies (Atkinson, 1997) is based on extensive investigations of ESL students’ difficulties with argumentative /analytical writing assignments (Ballard and Clanchy, 1991; Fox, 1994; Pally,1997, 2001; Spack, 1997; Stapleton, 2001;Woodward-Kron, 2002).
+9. 概念中心紊乱, 定义漂移; 
+10. (4) However, disagreements about whether critical thinking pedagogies should be adopted in the L2 writing classroom, and how ESL students could be guided towards critical thinking in academic writing arise.
+11. 头重脚轻, arise提前, 放到disagreement之后; 
+12. 
+13. Exercise on Page 18 of Slides "徐喜文EAP writing VS EGP writing （2022 S版）": 
+14. (2) Y, 主体变agreement; 
+15. (3) To our surprise, these techniques were so quickly applied into practice. 
+16. Key: N, to our surprise和so quickly具有情感色彩; => There is an **obvious** fact that XXX have been **widely** applied... 
+17. (14) N, Now that... a must 高调, 情绪化, 其中不定冠词a表达强调; 
+18. (15) Y, plainness. 
+19. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
+20. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
+21. EAP should use certain and clear message with factual accuracy. 
+22. HW: Exercise in Slides Page 27; Answer is in 9th class; 
     
 ## 7th class Oct 31st, 2022;
 1. 表达否定, 用however和although比较委婉; 
