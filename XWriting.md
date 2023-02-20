@@ -176,21 +176,25 @@
 6. (3) From my perspective, it is high time we joined in the globalization tendency and put it forward in the meantime. 
 7. Key: N. 试图共情; 
 8. chatGPT: The phrase "from my perspective" is subjective and does not add any academic value to the sentence. Additionally, the phrase "it is high time" is somewhat colloquial and may not be appropriate in formal academic writing. // A more appropriate version of this sentence in academic writing could be: "The current trend towards globalization **presents an opportunity to** actively engage with and contribute to the global community."
-9. 
-10. (7) N. 口语化; 
-11. (8) N. worse still 情感浓厚; 
-12. (9) N. ????
-13. In order to => To; 
-14. As a matter of fact (读者会质疑matter是什么) => In fact; 
-15. in terms of... 
-16. Chapter 3 Exercise 1: 
-17. (1) given => listed; provided => sorted; 
-18. (2) show => track; offer => set up; 
-19. (3) show => convey; give => submit; 
-20. (4) put => have; be => fall; 
-21. (5) tell => indicate; deal with => handle; 
-22. easy word并不一定weak, 很多用法下非常strong; 
-23. EAP中动词的目的不是强调动作的过程, 而是逻辑的连接; 
+9.  (7) There is one more thing: Try not to act toward your coworkers and bosses as you have acted toward us. 
+10. Key: N. 口语化; 
+11. chatGPT: The sentence does not fully meet the standards of English academic writing because it is too informal and contains imperative language, which can come across as rude or confrontational. In academic writing, it is important to use formal language and maintain a respectful and professional tone. A more appropriate way to express this idea might be: "It is important to maintain professional and respectful behavior with coworkers and superiors, avoiding any actions that might cause offense or disrupt workplace harmony."
+12. (8) Worse still, when you were boring in class, professors acted as if you were saying something important. 
+13. N. worse still 情感浓厚; 
+14. chatGPT: This sentence does not fully conform to the standards of English academic writing. The use of the word "worse still" and the informal tone of the phrase "when you were boring in class" may be considered too casual or colloquial for academic writing. In addition, the phrasing of "professors acted as if you were saying something important" lacks clarity and precision. A more suitable academic phrasing would be "Despite a lack of engagement, professors often responded to students' contributions in class with an assumption of importance."
+15. (9) 
+16. N. ????
+17. In order to => To; 
+18. As a matter of fact (读者会质疑matter是什么) => In fact; 
+19. in terms of... 
+20. Chapter 3 Exercise 1: 
+21. (1) given => listed; provided => sorted; 
+22. (2) show => track; offer => set up; 
+23. (3) show => convey; give => submit; 
+24. (4) put => have; be => fall; 
+25. (5) tell => indicate; deal with => handle; 
+26. easy word并不一定weak, 很多用法下非常strong; 
+27. EAP中动词的目的不是强调动作的过程, 而是逻辑的连接; 
 
 ## 10th class Nov 9th, 2022; 
 1. Journal article aims to engage and enlighten, acting as textbook, focusing on credibility and discourse; 
