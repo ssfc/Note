@@ -226,11 +226,15 @@
 21. A: A conclusion with the acceptance of your paper for publication in this journal may be based on a successful review process. 
 22. B: A successful review process may conclude with the acceptance in this journal. 
 23. Key: B. conclusion转名词被凸显, 但是显得粗暴; 
-24. (5) B. must太口语化; 
-25. Exercise in Slides Page 31: 
-26. (2) N. opinion转fact; 
-27. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
-28. (6) N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
+24. (5) 
+25. A: You must always properly acknowledge other’s work. And you mustn’t use private information obtained from conversation, correspondence, or discussion with third parties, without explicit, written permission from the source.
+26. B: Proper acknowledgement of the work of others must always be given. And information obtained privately, as in conversation, correspondence, or discussion with third parties, must not be used without explicit, written permission from the source.
+27. Key: B. must太口语化; 
+28. 
+29. Exercise in Slides Page 31: 
+30. (2) N. opinion转fact; 
+31. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
+32. (6) N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
 
 ## 11th class Nov 14th, 2022; 
 1. research ethics 学术道德; research integrity 学术伦理; 
