@@ -183,19 +183,23 @@
 13. N. worse still 情感浓厚; 
 14. chatGPT: This sentence does not fully conform to the standards of English academic writing. The use of the word "worse still" and the informal tone of the phrase "when you were boring in class" may be considered too casual or colloquial for academic writing. In addition, the phrasing of "professors acted as if you were saying something important" lacks clarity and precision. A more suitable academic phrasing would be "Despite a lack of engagement, professors often responded to students' contributions in class with an assumption of importance."
 15. (9) Free-diving is more than just a sport; it is also a quick and efficient way to access and research some of the ocean’s most mysterious animals. 
-16. N. 
+16. Key: N. 
 17. chatGPT: The use of "just" may imply a casual tone, and the phrase "access and research" may be seen as overly informal. // A possible revision for the sentence to be more suitable for academic writing could be: Free-diving is a valuable method for researching some of the ocean's most enigmatic creatures because of its effectiveness and efficiency beyond being just a sport.
 18. In order to => To; 
 19. As a matter of fact (读者会质疑matter是什么) => In fact OR indeed; 
 20. in terms of... 
 21. Chapter 3 Exercise 1: 
-22. (1) given => listed; provided => sorted; 
-23. (2) show => track; offer => set up; 
-24. (3) show => convey; give => submit; 
-25. (4) put => have; be => fall; 
-26. (5) tell => indicate; deal with => handle; 
-27. easy word并不一定weak, 很多用法下非常strong; 
-28. EAP中动词的目的不是强调动作的过程, 而是逻辑的连接; 
+22. (1) References should be **given** first alphabetically and then further **provided** chronologically if necessary. 
+23. Key: given => listed; provided => sorted; 
+24. (2) The Author Gateway also provides the facility to **check** accepted articles and **offer** email alerts to tell you when an article’s status has changed.
+25. Key: show => track; offer => set up; 
+26. (3) Research highlights are a short collection of bullet points that **show** the core findings of the article. Research highlights are optional and should be **given** in a separate file in the online submission system.
+27. Key: show => convey; give => submit; 
+28. (4) We do not **put** a fixed limit of paper length, however, your manuscript should **be** between 4000-8000 words or 15-25 pages in a double spaced, one-inch margins and 11-12 point font format. 
+29. put => have; be => fall; 
+30. (5) tell => indicate; deal with => handle; 
+31. easy word并不一定weak, 很多用法下非常strong; 
+32. EAP中动词的目的不是强调动作的过程, 而是逻辑的连接; 
 
 ## 10th class Nov 9th, 2022; 
 1. Journal article aims to engage and enlighten, acting as textbook, focusing on credibility and discourse; 
