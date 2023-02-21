@@ -214,14 +214,17 @@
 9. A: Do not use entire phrases as keywords, and do not repeat words that were already used in the title. 
 10. B: Avoid the use of entire phrase as keywords and the repetition of the words that were already used in the title.
 11. Key: B. A中的use作为动词, 显得口语化; B中use转名词, 更显EAP; 
-12. (2) B. limit转名词被凸显, 但是显得粗暴; 因为重要的内容在后面, 所以没必要用这么强的语气; 
-13. (3) A. citation是名词, 更规范; 
-14. (4) B. conclusion转名词被凸显, 但是显得粗暴; 
-15. (5) B. must太口语化; 
-16. Exercise in Slides Page 31: 
-17. (2) N. opinion转fact; 
-18. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
-19. (6) N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
+12. (2) 
+13. A: The limit of authorship should be set within the range among the significant contribution to the conception, design, execution, or interpretation of the reported study.
+14. B: Authorship should be limited to those who have made a significant contribution to the conception, design, execution, or interpretation of the reported study.
+15. Key: B. limit转名词被凸显, 但是显得粗暴; 因为重要的内容在后面, 所以没必要用这么强的语气; 
+16. (3) A. citation是名词, 更规范; 
+17. (4) B. conclusion转名词被凸显, 但是显得粗暴; 
+18. (5) B. must太口语化; 
+19. Exercise in Slides Page 31: 
+20. (2) N. opinion转fact; 
+21. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
+22. (6) N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
 
 ## 11th class Nov 14th, 2022; 
 1. research ethics 学术道德; research integrity 学术伦理; 
