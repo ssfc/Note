@@ -222,12 +222,15 @@
 17. A: Citation of a reference as “in press” means that the item has been accepted for publication.
 18. B: To cite a reference labeled “in press” is to consider the reference cited as published. 
 19. Key: A. citation是名词, 更规范; 
-20. (4) B. conclusion转名词被凸显, 但是显得粗暴; 
-21. (5) B. must太口语化; 
-22. Exercise in Slides Page 31: 
-23. (2) N. opinion转fact; 
-24. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
-25. (6) N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
+20. (4) 
+21. A: A conclusion with the acceptance of your paper for publication in this journal may be based on a successful review process. 
+22. B: A successful review process may conclude with the acceptance in this journal. 
+23. Key: B. conclusion转名词被凸显, 但是显得粗暴; 
+24. (5) B. must太口语化; 
+25. Exercise in Slides Page 31: 
+26. (2) N. opinion转fact; 
+27. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
+28. (6) N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
 
 ## 11th class Nov 14th, 2022; 
 1. research ethics 学术道德; research integrity 学术伦理; 
