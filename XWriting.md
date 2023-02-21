@@ -197,9 +197,10 @@
 27. Key: show => convey; give => submit; 
 28. (4) We do not **put** a fixed limit of paper length, however, your manuscript should **be** between 4000-8000 words or 15-25 pages in a double spaced, one-inch margins and 11-12 point font format. 
 29. put => have; be => fall; 
-30. (5) tell => indicate; deal with => handle; 
-31. easy word并不一定weak, 很多用法下非常strong; 
-32. EAP中动词的目的不是强调动作的过程, 而是逻辑的连接; 
+30. (5) In the section of “Corresponding author”, please clearly **tell** who is the corresponding author willing to **deal with** correspondence at all stages of refereeing and publication, also post-publication.
+31. tell => indicate; deal with => handle; 
+32. easy word并不一定weak, 很多用法下非常strong; 
+33. EAP中动词的目的不是强调动作的过程, 而是逻辑的连接; 
 
 ## 10th class Nov 9th, 2022; 
 1. Journal article aims to engage and enlighten, acting as textbook, focusing on credibility and discourse; 
