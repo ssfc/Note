@@ -188,19 +188,20 @@
 18. In order to => To; 
 19. As a matter of fact (读者会质疑matter是什么) => In fact OR indeed; 
 20. in terms of... 
-21. Chapter 3 Exercise 1: 
-22. (1) References should be **given** first alphabetically and then further **provided** chronologically if necessary. 
-23. Key: given => listed; provided => sorted; 
-24. (2) The Author Gateway also provides the facility to **check** accepted articles and **offer** email alerts to tell you when an article’s status has changed.
-25. Key: show => track; offer => set up; 
-26. (3) Research highlights are a short collection of bullet points that **show** the core findings of the article. Research highlights are optional and should be **given** in a separate file in the online submission system.
-27. Key: show => convey; give => submit; 
-28. (4) We do not **put** a fixed limit of paper length, however, your manuscript should **be** between 4000-8000 words or 15-25 pages in a double spaced, one-inch margins and 11-12 point font format. 
-29. put => have; be => fall; 
-30. (5) In the section of “Corresponding author”, please clearly **tell** who is the corresponding author willing to **deal with** correspondence at all stages of refereeing and publication, also post-publication.
-31. tell => indicate; deal with => handle; 
-32. easy word并不一定weak, 很多用法下非常strong; 
-33. EAP中动词的目的不是强调动作的过程, 而是逻辑的连接; 
+21. 
+22. Chapter 3 Exercise 1: 
+23. (1) References should be **given** first alphabetically and then further **provided** chronologically if necessary. 
+24. Key: given => listed; provided => sorted; 
+25. (2) The Author Gateway also provides the facility to **check** accepted articles and **offer** email alerts to tell you when an article’s status has changed.
+26. Key: show => track; offer => set up; 
+27. (3) Research highlights are a short collection of bullet points that **show** the core findings of the article. Research highlights are optional and should be **given** in a separate file in the online submission system.
+28. Key: show => convey; give => submit; 
+29. (4) We do not **put** a fixed limit of paper length, however, your manuscript should **be** between 4000-8000 words or 15-25 pages in a double spaced, one-inch margins and 11-12 point font format. 
+30. put => have; be => fall; 
+31. (5) In the section of “Corresponding author”, please clearly **tell** who is the corresponding author willing to **deal with** correspondence at all stages of refereeing and publication, also post-publication.
+32. tell => indicate; deal with => handle; 
+33. easy word并不一定weak, 很多用法下非常strong; 
+34. EAP中动词的目的不是强调动作的过程, 而是逻辑的连接; 
 
 ## 10th class Nov 9th, 2022; 
 1. Journal article aims to engage and enlighten, acting as textbook, focusing on credibility and discourse; 
@@ -231,10 +232,16 @@
 26. B: Proper acknowledgement of the work of others must always be given. And information obtained privately, as in conversation, correspondence, or discussion with third parties, must not be used without explicit, written permission from the source.
 27. Key: B. must太口语化; 
 28. 
-29. Exercise in Slides Page 31: 
-30. (2) N. opinion转fact; 
-31. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
-32. (6) N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
+29. Exercise on Page 31 of Slides "徐喜文EAP writing VS EGP writing （2022 S版）": 
+30. (2) No one can deny that the computer has had a great effect upon the business world. 
+31. Key: N. opinion转fact; 
+32. chatGPT: "The widespread use of computers has significantly impacted the operations and management of businesses across various industries."
+33. (5) It is highly advisable for learners to be immense in a challenging contexts. 
+34. Key: N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
+35. chatGPT: "It is recommended that learners fully immerse themselves in challenging learning environments to maximize their language acquisition." 
+36. (6) The past decades have witnessed the epic changes in all aspects of our society since the Internet is deeply rooted into our life. 
+37. Key: N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
+38. chatGPT: "Epic changes" is not an objective or precise term to use in academic writing. It is better to use more specific and factual words. // The phrase "all aspects of our society" is too broad and vague. It is better to be specific about which aspects of society are being referred to. // The use of the phrase "since the Internet is deeply rooted into our life" is not grammatically correct. It would be better to say "since the Internet has become deeply rooted in our lives" or "since the widespread adoption of the Internet." // A possible revised sentence could be: Over the past few decades, the **adoption of** the Internet has **led to significant changes** in various aspects of society, including communication, education, and business.
 
 ## 11th class Nov 14th, 2022; 
 1. research ethics 学术道德; research integrity 学术伦理; 
