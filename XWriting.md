@@ -218,13 +218,16 @@
 13. A: The limit of authorship should be set within the range among the significant contribution to the conception, design, execution, or interpretation of the reported study.
 14. B: Authorship should be limited to those who have made a significant contribution to the conception, design, execution, or interpretation of the reported study.
 15. Key: B. limit转名词被凸显, 但是显得粗暴; 因为重要的内容在后面, 所以没必要用这么强的语气; 
-16. (3) A. citation是名词, 更规范; 
-17. (4) B. conclusion转名词被凸显, 但是显得粗暴; 
-18. (5) B. must太口语化; 
-19. Exercise in Slides Page 31: 
-20. (2) N. opinion转fact; 
-21. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
-22. (6) N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
+16. (3) 
+17. A: Citation of a reference as “in press” means that the item has been accepted for publication.
+18. B: To cite a reference labeled “in press” is to consider the reference cited as published. 
+19. Key: A. citation是名词, 更规范; 
+20. (4) B. conclusion转名词被凸显, 但是显得粗暴; 
+21. (5) B. must太口语化; 
+22. Exercise in Slides Page 31: 
+23. (2) N. opinion转fact; 
+24. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
+25. (6) N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
 
 ## 11th class Nov 14th, 2022; 
 1. research ethics 学术道德; research integrity 学术伦理; 
