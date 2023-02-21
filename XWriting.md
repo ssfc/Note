@@ -210,15 +210,18 @@
 5. EAP考虑内容语言的可适性, 不是必须用强的verb; 
 6. Chapter 3 Exercise 2: 
 7. To compare the following groups of sentences with and without nominalizations, and tell whether they are necessary.
-8. (1) B. A中的use作为动词, 显得口语化; B中use转名词, 更显EAP; 
-9. (2) B. limit转名词被凸显, 但是显得粗暴; 因为重要的内容在后面, 所以没必要用这么强的语气; 
-10. (3) A. citation是名词, 更规范; 
-11. (4) B. conclusion转名词被凸显, 但是显得粗暴; 
-12. (5) B. must太口语化; 
-13. Exercise in Slides Page 31: 
-14. (2) N. opinion转fact; 
-15. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
-16. (6) N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
+8. (1) 
+9. A: Do not use entire phrases as keywords, and do not repeat words that were already used in the title. 
+10. B: Avoid the use of entire phrase as keywords and the repetition of the words that were already used in the title.
+11. Key: B. A中的use作为动词, 显得口语化; B中use转名词, 更显EAP; 
+12. (2) B. limit转名词被凸显, 但是显得粗暴; 因为重要的内容在后面, 所以没必要用这么强的语气; 
+13. (3) A. citation是名词, 更规范; 
+14. (4) B. conclusion转名词被凸显, 但是显得粗暴; 
+15. (5) B. must太口语化; 
+16. Exercise in Slides Page 31: 
+17. (2) N. opinion转fact; 
+18. (5) N. advisable包含评论和判断, 应改成中性陈述, 如necessary/important; 
+19. (6) N. deeply rooted是描述性行为 => closely related; our => the people's; epic => significant; 
 
 ## 11th class Nov 14th, 2022; 
 1. research ethics 学术道德; research integrity 学术伦理; 
