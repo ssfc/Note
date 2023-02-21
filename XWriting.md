@@ -251,7 +251,7 @@
 5. In Book Writing Academic English Chapter 7, quotations can be classified as direct quotation and indirect quotation; 
 6. Paraphrasing (转述别人的观点), Page 91 of Book Writing Academic English: 
 7. Step 1: Read the original passage several times until you understand it fully. Look up unfamiliar words. and find synonyms for them. If you need to take notes. write down only one or two words for each idea-not complete sentences. 
-8. Step 2: Write your paraphrase from memory. InClude as much of the information as you remember. Don't look at the original while you are writing. 
+8. Step 2: Write your paraphrase from memory. Include as much of the information as you remember. Don't look at the original while you are writing. 
 9. Step 3: Check your paraphrase against the original for accuracy and completeness. If necessary, add points you have missed. 
 10. Step 4: Name the source of the original passage in parentheses at the end of your paraphrase. (Refer to Documenting Sources of Information on pages 95-97.) 
 11. Exercise 1 of Chapter 4 in Book A Bridge to Creditability and Authority: 
