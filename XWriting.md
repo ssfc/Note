@@ -270,18 +270,25 @@
 7. (3) 必须包含实体(哲学概念): Artificial language, Esperanto, Interlingua; 
 8. (4) 必须包含第一性质(哲学概念, 任何时刻都不能和物体相分离, 核心特征): Esperanto, successful=>widely accepted, easy=>accessible; Interlingua, not as mus as OR less influential; 
 9. Page 93 and 94 in Book Writing Academic English: summary model; 
-10. Page 5 of slides Definitions: using network, computer science papers; by network, medical papers; 
-11. Practices of teacher education calling for a common language. calling是分词, 作为practices的限定和补充, 重点在practice. 
-12. Practices of teacher education: a call for common languages. call是名词, 不定冠词a表示强调, call和practice构成并列关系; 
-13. 注意名词和动名词的表达差异; 
-14. it作为指代之外的另外三种用法: (1) nature element 时间天气; (2) functional 强调句, 形式主语; (3) the unknown; 
-15. Page 42 in Book Writing Academic English: it指代问题; 
-16. English has almost become an international language. Except for Chinese, more people speak **it** than any other language. Spanish is the official language of more countries in the world, but more countries have **it** as their official or unofficial second language. More than 70 percent of the world's mall is written in **it**. It is the primary language on the Internet. In international business, it is used more than any other language, and it is the language of airline pilots and air traffic controllers all over the world. Moreover, although French used to be the language of diplomacy, it has displaced it throughout the world. Therefore, unless you plan to spend your life alone on a desert island in the middle of the Pacific Ocean, it is a useful language to know. 
-17. Key: (1) speak it => speak English, 因为下文提到了Spanish, 使用it会造成指代混乱; 除非使用Moreover重建概念; 
-18. (2) have it => have English, 中间夹杂了其他语言, 使用it会造成指代混乱; 
-19. (3) In international business, it => English, 因为提到了any other language; ??? 
-20. (4) it has displaced it => English, 因为提到了French; 
-21. (5) it is a useful language => English, 因为提到了French; ???
+10. Page 5 of slides Definition: using network, computer science papers; by network, medical papers; 
+11. 
+12. Page 6 of slides Definition: 
+13. Practices of teacher education calling for a common language. calling是分词, 作为practices的限定和补充, 重点在practice. 
+14. Practices of teacher education: a call for common languages. call是名词, 不定冠词a表示强调, call和practice构成并列关系; 
+15. chatGPT: 
+16. (1) In sentence A, "the cultural discovery of ‘Chinese Values’" refers to the act of discovering or uncovering Chinese values as a cultural phenomenon. In sentence B, "discovering the cultures in ‘Chinese Values’" refers to the act of exploring and learning about the different cultures that are encompassed within Chinese values.
+17. (2) In sentence A, "exploring the new subject in depth" refers to **the act of investigating** and studying the new subject with a high level of detail and thoroughness. In sentence B, "the in-depth explorations of the new subject" refers to **the results of the act** of exploring the new subject, which are the detailed and comprehensive knowledge acquired about it.
+18. (3) In sentence A, "the construct of a research paper" refers to the **idea or concept** of a research paper, including its structure, format, and components. In sentence B, "constructing a research paper" refers to the **process of creating** a research paper, which involves writing, organizing, and formatting its contents.
+19. 
+20. 注意名词和动名词的表达差异; 
+21. it作为指代之外的另外三种用法: (1) nature element 时间天气; (2) functional 强调句, 形式主语; (3) the unknown; 
+22. Page 42 in Book Writing Academic English: it指代问题; 
+23. English has almost become an international language. Except for Chinese, more people speak **it** than any other language. Spanish is the official language of more countries in the world, but more countries have **it** as their official or unofficial second language. More than 70 percent of the world's mall is written in **it**. It is the primary language on the Internet. In international business, it is used more than any other language, and it is the language of airline pilots and air traffic controllers all over the world. Moreover, although French used to be the language of diplomacy, it has displaced it throughout the world. Therefore, unless you plan to spend your life alone on a desert island in the middle of the Pacific Ocean, it is a useful language to know. 
+24. Key: (1) speak it => speak English, 因为下文提到了Spanish, 使用it会造成指代混乱; 除非使用Moreover重建概念; 
+25. (2) have it => have English, 中间夹杂了其他语言, 使用it会造成指代混乱; 
+26. (3) In international business, it => English, 因为提到了any other language; ??? 
+27. (4) it has displaced it => English, 因为提到了French; 
+28. (5) it is a useful language => English, 因为提到了French; ???
 
 ## 13th class Nov 21st, 2022; 
 1. Page 42 in Book Writing Academic English: 单复数变换; 
