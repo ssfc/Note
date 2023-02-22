@@ -320,7 +320,7 @@
 26. very powerful 不能用; 
 27. much more => convey more; 
 28. 短句会碎片化, 结构常常是fact+opinion; 长句借助parallelism, 把opinion也包装成facts (comments + opinion)
-29. chatGPT: Nonverbal communication, or body language, is a powerful means of communication used worldwide, conveying much more than spoken words. One example of nonverbal communication is the exchange between parents and their child, where parents use a smile to communicate love, acceptance, and reassurance, making the child feel comfortable and safe. In this case, the smile signifies approval, contributing to the child's happiness and well-adjustment.
+29. chatGPT: Nonverbal communication, or body language, is a powerful means of communication used worldwide, **conveying** much more than spoken words. One example of nonverbal communication is the exchange between parents and their child, **where** parents use a smile to communicate love, acceptance, and reassurance, **making** the child feel comfortable and safe. **In this case**, the smile signifies approval, contributing to the child's happiness and well-adjustment.
 30. 
 31. Parallelism: Page 166-167 in Book Writing Academic English; 
 32. Exercise on Page 169 in Book Writing Academic English; 
