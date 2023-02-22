@@ -312,16 +312,19 @@
 18. (3) not everyone 模糊 => few 限定范围; 
 19. 复杂概念的名词化; 
 20. Page 165 in Book Writing Academic English; 
-21. Nonverbal communication, or body language, is used everywhere in the world. It is a very powerful means of communication. It communicates much more than spoken words. One example of nonverbal communication is what occurs between parents and child. Parents smile at their child. They communicate love, acceptance, and reassurance. The child feels comfortable and safe. The smile signifies approval. The child is happy and well-adjusted. 
-22. Key: 
-23. Replace weak word with strong word: communicate->covey or deliver; 
-24. everywhere 模糊, 不能用; 
-25. very powerful 不能用; 
-26. much more => convey more; 
-27. 短句会碎片化, 结构常常是fact+opinion; 长句借助parallelism, 把opinion也包装成facts (comments + opinion)
-28. Parallelism: Page 166-167 in Book Writing Academic English; 
-29. Exercise on Page 169 in Book Writing Academic English; 
-30. Page 170 in Book Writing Academic English; 调整statements; 
+21. Improve the following paragraph, which contains too many short, simple sentences. Use different methods of combining the sentences. 
+22. Nonverbal communication, or body language, is used everywhere in the world. It is a very powerful means of communication. It communicates much more than spoken words. One example of nonverbal communication is what occurs between parents and child. Parents smile at their child. They communicate love, acceptance, and reassurance. The child feels comfortable and safe. The smile signifies approval. The child is happy and well-adjusted. 
+23. Key: 
+24. Replace weak word with strong word: communicate->covey or deliver; 
+25. everywhere 模糊, 不能用; 
+26. very powerful 不能用; 
+27. much more => convey more; 
+28. 短句会碎片化, 结构常常是fact+opinion; 长句借助parallelism, 把opinion也包装成facts (comments + opinion)
+29. chatGPT: Nonverbal communication, or body language, is a powerful means of communication used worldwide, conveying much more than spoken words. One example of nonverbal communication is the exchange between parents and their child, where parents use a smile to communicate love, acceptance, and reassurance, making the child feel comfortable and safe. In this case, the smile signifies approval, contributing to the child's happiness and well-adjustment.
+30. 
+31. Parallelism: Page 166-167 in Book Writing Academic English; 
+32. Exercise on Page 169 in Book Writing Academic English; 
+33. Page 170 in Book Writing Academic English; 调整statements; 
 
 ## 14th class Nov 23st, 2022; 
 1. Exercise on Page 171 in Book Writing Academic English: 
