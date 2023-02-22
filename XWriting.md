@@ -297,12 +297,14 @@
 3. Key: 
 4. (1) they display => it displays; 对标下文的if one is sick; 
 5. (2) Furthermore, they => dolphins; Furthermore重建概念, 所以需要重新使用dolphins; 
-6. a student == all the students concerned, 具有最大范围; 
-7. the students则加了限定; 
-8. noun+s是专业上的赋能, 是专有名词的特征表述; water泛指水, waters则是专有名词水域; 
-9. Page 43 in Book Writing Academic English: 视角稳定性; 
-10. one paragraph one perspective, 一段话只能有一个视角; 
-11. Olympic athletes must be strong both physically and mentally. First of aJl, if you hope to compete in an Olympic sport, you must be physically strong. Furthermore, aspiring Olympians must train rigorously. for many years. For the most demanding sports, they train several hours a day, five or six days a week,
+6. 
+7. a student == all the students concerned, 具有最大范围; 
+8. the students则加了限定; 
+9. noun+s是专业上的赋能, 是专有名词的特征表述; water泛指水, waters则是专有名词水域; 
+10. Page 43 in Book Writing Academic English: 视角稳定性; 
+11. one paragraph one perspective, 一段话只能有一个视角; 
+12. In the following paragraph, the pronouns are not consistent. Correct them to make this paragraph more coherent.
+13. Olympic athletes must be strong both physically and mentally. First of aJl, if you hope to compete in an Olympic sport, you must be physically strong. Furthermore, aspiring Olympians must train rigorously. for many years. For the most demanding sports, they train several hours a day, five or six days a week,
 for ten or more years. In addition to being physically strong, he or she must also be mentally tough. This means that you have to be totally dedicated to your sport, often giving up a normal school, family, and social life. Being mentally strong also means that he or she must be able to withstand the intense pressure of international competition with its attendants media coverage. FinalJy, not everyone can win a medal, so they must possess the inner strength to live with defeat. 
 1.  Key: 
 2.  (1) you => athletes, 视角应在athletes上, 而不是作为读者的you; 
