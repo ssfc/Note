@@ -7,7 +7,7 @@
 6. 
 7. or == otherwise; (Oshima 2020)
 8. 
-9. 
+9. so == accordingly == consequently == hence == therefore == thus; (Oshima 2020)
 10. 
 11. 
 12. 
