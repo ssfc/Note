@@ -362,20 +362,24 @@ Key: Chinese traditional and iconic costumes
 12. investigation or exploration; 
 13. An instruction of authors; D
 14. C?
-15. a supply of British food
-16. B. a reduction of 20% in energy costs
-17. D. a practice of cheating at the exminations
-18. C. a small proprtion of participants
-19. D. the equal number of men and women
-20. D. a good learning atmosphere
-21. A. to confirm the timing of the announcement
-22. B.a decline of bird population
-23. Choppy sentences; 
-24. Practice 13 on Page 16 of Book Writing Academic English: 
-25. (1) Gasoline became expensive. Automobile manufacturers began to produce smaller cars. Smaller cars use less gasoline. 
-26. (2) The computer has undoubtedly benefited humanity. The computer has also created problems for humanity. 
-27. exercise in Page 174 and 177; 
-28. 
+15. 
+16. a supply of British food
+17. B. a reduction of 20% in energy costs
+18. D. a practice of cheating at the exminations
+19. C. a small proprtion of participants
+20. D. the equal number of men and women
+21. 
+22. D. a good learning atmosphere
+23. 
+24. A. to confirm the timing of the announcement
+25. B.a decline of bird population
+26. 
+27. Choppy sentences; 
+28. Practice 13 on Page 16 of Book Writing Academic English: 
+29. (1) Gasoline became expensive. Automobile manufacturers began to produce smaller cars. Smaller cars use less gasoline. 
+30. (2) The computer has undoubtedly benefited humanity. The computer has also created problems for humanity. 
+31. exercise in Page 174 and 177; 
+32. 
 
 ## 15th class Nov 28th, 2022; 
 1. Page 37 of Slides Definitions: 秘诀在于分词转连字符; 
