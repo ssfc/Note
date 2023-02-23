@@ -437,9 +437,9 @@ Key: Chinese traditional and iconic costumes
 
 ## Examination
 1. 考试开卷, 不能查电子版; 12月8日, 下周四; 
-2. 题型: 判断(学术道德), 选择, paraphrase, 填空, 修改; 
+2. 题型: 判断(学术道德), 选择, paraphrase, 填词, 修改, 排序; 
 3. 学术道德, polish writing, 加连接词(furthermore, in fact), 结构判断, 句子排序; (2023年2月23日)
-4. 
+4. 题量有点大; 放在上下文中; (2023年2月23日)
 
 
 # A Bridge to Creditability and Authority
