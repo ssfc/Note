@@ -392,10 +392,11 @@ Key: Chinese traditional and iconic costumes
 8. On the other hand; Further/moreover; For example; In fact, accordingly; 首先划分出文章的逻辑层次, 然后给不同的逻辑层次(概念转换)加上连接词; 
 9. 概念定义从内涵到外延的拓展工具: 定语从句, 分词等; 
 10. Polish the writing: 
-11. (1) Emotion which has been regarded as an irrational factor in second language acquisition has long been overlooked in second language research and foreign language anxiety is the only emotion which has been extensively studied by second language researcher because it is regarded as playing a profound negative role in second language learning processes.
-12. chatGPT: Emotions have been considered an irrational factor in second language acquisition, **leading to** their neglect in second language research. **Among the limited** research on emotions in second language learning, foreign language anxiety has been extensively studied **due to** its perceived profound negative impact on the learning process. (Comment: 其实就是理顺句子逻辑关系, 用合适的逻辑连接词把句子重新组织)
-13. (2) Since the study conducted by Dewaele and MacIntyre (2014), which is situated within the Positive Psychology movement extended to second language acquisition and is the first to argue that we should adopt a holistic view on diverse emotions, a robust increase in attention has been paid to a great variety of emotions beyond anxiety. 
-14. chatGPT: Since Dewaele and MacIntyre's (2014) study, which **is grounded in** the Positive Psychology movement and **advocates for a holistic approach** to understanding diverse emotions in second language acquisition, **there has been a significant increase in attention given to** a wide range of emotions, beyond just anxiety.
+11. (1) **Emotion** which has been regarded as an irrational factor in second language acquisition has long been overlooked in second language research and **foreign language anxiety** is the only emotion which has been extensively studied by second language researcher because it is regarded as playing a profound negative role in second language learning processes.
+12. Key: emotion和foreign language anxiety这两个概念不能并列. 
+13. chatGPT: Emotions have been considered an irrational factor in second language acquisition, **leading to** their neglect in second language research. **Among the limited** research on emotions in second language learning, foreign language anxiety has been extensively studied **due to** its perceived profound negative impact on the learning process. (Comment: 其实就是理顺句子逻辑关系, 用合适的逻辑连接词把句子重新组织)
+14. (2) Since the study conducted by Dewaele and MacIntyre (2014), which is situated within the Positive Psychology movement extended to second language acquisition and is the first to argue that we should adopt a holistic view on diverse emotions, a robust increase in attention has been paid to a great variety of emotions beyond anxiety. 
+15. chatGPT: Since Dewaele and MacIntyre's (2014) study, which **is grounded in** the Positive Psychology movement and **advocates for a holistic approach** to understanding diverse emotions in second language acquisition, **there has been a significant increase in attention given to** a wide range of emotions, beyond just anxiety.
 
 
 ## Assignment 1: 
