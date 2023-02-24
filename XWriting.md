@@ -145,7 +145,8 @@
 49. that is not the answer in the long run口语化 => but unhelpful in the long run; 
 50. (9) In our daily life, the Internet provides us many interesting things like games, movies, music and so on which make us happy and relaxed. And also, it can make our life and work easy and efficient. 
 51. 情绪强烈, descriptive; 
-52. (10) Y, 真同时; 
+52. chatGPT: In contemporary society, the internet has become a ubiquitous presence in our daily lives, offering a diverse array of entertainment options, such as games, movies, and music, which contribute to our emotional well-being and relaxation. Moreover, the internet facilitates the accomplishment of daily tasks and enhances work efficiency.
+53. (10) Y, 真同时; 
 
 ## 6th class Oct 26th, 2022;
 1. G3: difference between abstract and conclusion; 
