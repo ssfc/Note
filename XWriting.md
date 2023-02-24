@@ -37,13 +37,17 @@
 13. chatGPT:  Transition words or phrases can signal to the reader that you are shifting to a new topic. Examples include "**in addition**", "**furthermore**", "**on the other hand**", "**in contrast**", "**moreover**", and "**meanwhile**". These words or phrases help to create a logical flow between the different topics.
 14. use/employ/utilize, 什么时候简单(通用)动词, 什么时候复杂(专用)动词?
 15. balance between formal vs readable; persuasive vs objectivity; 
-16. Negation: I don't know用什么表达; wrong=>questionable OR however OR although, 比较委婉; 
-17. 术语缩写适用范围; 
-18. 同义词替换; 
-19. long sentence由logic决定, 而非字数; 
-20. It depends. 不知道。
-21. 主动 vs 被动, 体现身份标识; 
-22. 时态选择; 
+16. 
+17. I don't know用什么表达?
+18. chatGPT: (1)"It is unclear at this time." (2)     "The current evidence is inconclusive" (3) "Further research is needed to determine." (4) "It is not yet fully understood." (5) "The answer to this question remains unknown." (6) "The available data is insufficient to draw a conclusion."
+19. 
+20. Negation: wrong=>questionable OR however OR although, 比较委婉; 
+21. 术语缩写适用范围; 
+22. 同义词替换; 
+23. long sentence由logic决定, 而非字数; 
+24. It depends. 不知道。
+25. 主动 vs 被动, 体现身份标识; 
+26. 时态选择; 
 ### Generic features
 1. 不同门类的文章构成要件不同; 
 2. difference between abstract and conclusion; 
@@ -395,7 +399,7 @@ Key: Chinese traditional and iconic costumes
 11. 具体地说 Specifically
 12. 特别是 In particular
 13. And == besides == furthermore == moreover == also == additionally == in addition to == meanwhile; (Oshima 2020)
-14. but == yet == however == nevertheless == nonetheless == on the other hand; (Oshima 2020)
+14. but == yet == however == nevertheless == nonetheless == on the other hand == in contrast; (Oshima 2020)
 15. or == otherwise; (Oshima 2020)
 16. so == accordingly == consequently == hence == therefore == thus; (Oshima 2020)
 17. 概念定义从内涵到外延的拓展工具: 定语从句, 分词等; 
