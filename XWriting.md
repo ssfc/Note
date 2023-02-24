@@ -399,6 +399,10 @@ Key: Chinese traditional and iconic costumes
 15. chatGPT: Since Dewaele and MacIntyre's (2014) study, which **is grounded in** the Positive Psychology movement and **advocates for a holistic approach** to understanding diverse emotions in second language acquisition, **there has been a significant increase in attention given to** a wide range of emotions, beyond just anxiety.
 16. (3) More specifically, the emotion spectrum has extended to include enjoyment, love, pride, hope, guilt, shame, boredom, anger, frustation and others (e.g., Li, 2018, 2021; MacIntyre & Vincze, 2017).
 17. chatGPT: In recent years, the **range** of emotions examined in the context of language learning **has expanded to encompass a more diverse spectrum**, **such as** enjoyment, love, pride, hope, guilt, shame, boredom, anger, and frustration (Li, 2018, 2021; MacIntyre & Vincze, 2017).
+18. (4) Extant studies have revealed that the variances in the experiences of these emotions could be attribute to both learner-internal factors and learner-external factors.
+19. chatGPT: no need to polish. 
+20. (5) & (6) 
+
 
 
 ## Assignment 1: 
