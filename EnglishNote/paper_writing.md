@@ -1,9 +1,9 @@
 # Synonym replacement
 1. 方法 model == framework == paradigm; (Pang 2020)
 2. 
-3. And == besides == furthermore == moreover == also; (Oshima 2020)
+3. And == besides == furthermore == moreover == also == additionally == in addition to; (Oshima 2020)
 4. 
-5. but == yet == however == nevertheless == nonetheless; (Oshima 2020)
+5. but == yet == however == nevertheless == nonetheless == on the other hand; (Oshima 2020)
 6. 
 7. or == otherwise; (Oshima 2020)
 8. 
