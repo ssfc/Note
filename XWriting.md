@@ -54,9 +54,9 @@
 30. P5: These machine learning methods are **appropriate for** most regression assignments, while they are **less effective to** consider the sequential data. (你好我更好, 转折词, 适用范围小)
 31. P5: **However**, the fixed dataset could **only be obtained** after the construction is completed. **Therefore**, a model that can … is in a high demand. (你好我更好, 转折词, 适用范围小)
 32. P6: **However**, each of these types of algorithm models **exhibits its limitations** … **therefore**, is **inappropriate for** extrapolation and low in prediction accuracy. (你好我更好, 转折词, 适用范围小)
-33. 
-34. 
-35. 
+33. 直接：旧方法缺点 + therefore/here + 新方法
+34. 婉转：旧方法优点 + however/although + 旧方法缺点 + therefore/here + 新方法
+35. Negation word: specialized for, difficult, not perform well, limited (limitations), challenge, not provide, problem, available only, cannot be applied to, less effective to, could only be obtained. 
 36. 
 37. 术语缩写适用范围; 
 38. 同义词替换; 
