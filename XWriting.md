@@ -390,22 +390,30 @@ Key: Chinese traditional and iconic costumes
 6. Exercise on Page 50 of Book Writing Academic English;
 7. The "women's lib" movement toward greater equality for women has produced some permanent changes in the vocabulary of English. New words have been added. (For example) The words feminist, sexist, and male chauvinist have become common during the past thirty-five years or so. Another new word is the title Ms., which is often used in place of both Miss and Mrs. (**Furthermore**, 第二层, 补充内容) A change is that sexist titles of many occupations have been neutralized. (For example, 举例子) A chairman is now a chairperson (or sometimes simply chair), a waiter/waitress is now a waitperson, and a high school or college freshman is now a first-year student. A mailman is now a mail carrier, and an airline stewardess is now a flight attendant. In time, English pronouns may also change as a result of women's desire for equality. (**In fact**, 事实性陈述) Attempts to give equal treatment to masculine and feminine pronouns in English have led to the search for a new pronoun form to replace he (such as he/she or s/he) when referring to neutral nouns like student and manager. Some of the new words such as Ms. are quite useful; you can use Ms. to address a woman when you don't know if she is married. The lack of a clear neutral pronoun can lead to awkward sentence construction. 
 8. On the other hand; Further/moreover; For example; In fact, accordingly; 首先划分出文章的逻辑层次, 然后给不同的逻辑层次(概念转换)加上连接词; 
-9. 概念定义从内涵到外延的拓展工具: 定语从句, 分词等; 
-10. Polish the writing: 
-11. (1) **Emotion** which has been regarded as an irrational factor in second language acquisition has long been overlooked in second language research and **foreign language anxiety** is the only emotion which has been extensively studied by second language researcher because it is regarded as playing a profound negative role in second language learning processes.
-12. Key: emotion和foreign language anxiety这两个概念不能并列. 
-13. chatGPT: Emotions have been considered an irrational factor in second language acquisition, **leading to** their neglect in second language research. **Among the limited** research on emotions in second language learning, foreign language anxiety has been extensively studied **due to** its perceived profound negative impact on the learning process. (Comment: 其实就是理顺多个句子和多个概念间逻辑关系, 用合适的逻辑连接词把句子和概念重新组织)
-14. (2) Since the study conducted by Dewaele and MacIntyre (2014), which is situated within the Positive Psychology movement extended to second language acquisition and is the first to argue that we should adopt a holistic view on diverse emotions, a robust increase in attention has been paid to a great variety of emotions beyond anxiety. 
-15. chatGPT: Since Dewaele and MacIntyre's (2014) study, which **is grounded in** the Positive Psychology movement and **advocates for a holistic approach** to understanding diverse emotions in second language acquisition, **there has been a significant increase in attention given to** a wide range of emotions, beyond just anxiety.
-16. (3) More specifically, the emotion spectrum has extended to include enjoyment, love, pride, hope, guilt, shame, boredom, anger, frustation and others (e.g., Li, 2018, 2021; MacIntyre & Vincze, 2017).
-17. chatGPT: In recent years, the **range** of emotions examined in the context of language learning **has expanded to encompass a more diverse spectrum**, **such as** enjoyment, love, pride, hope, guilt, shame, boredom, anger, and frustration (Li, 2018, 2021; MacIntyre & Vincze, 2017).
-18. (4) Extant studies have revealed that the variances in the experiences of these emotions could be attribute to both learner-internal factors and learner-external factors.
-19. chatGPT: no need to polish. 
-20. (5) It remains underexplored whether and how learner-internal and learner-external factors are combined and exert joint effects in predicting these emotions.
-21. chatGPT: The combined and joint effects of learner-internal and learner-external factors in predicting these emotions remain largely unexplored.
-22. (6) Because it may provide a better understanding of the sources for emotions and shed some original insights into emotion intervention, such investigations are significant.
-23. chatGPT: As investigations on the combined effects of learner-internal and learner-external factors in predicting emotions may offer a better understanding of their sources and provide valuable insights for emotion intervention, such studies hold significant importance.
-24. 
+9. 常用的逻辑连接词
+10. 结果 As a result
+11. 具体地说 Specifically
+12. 特别是 In particular
+13. And == besides == furthermore == moreover == also == additionally == in addition to == meanwhile; (Oshima 2020)
+14. but == yet == however == nevertheless == nonetheless == on the other hand; (Oshima 2020)
+15. or == otherwise; (Oshima 2020)
+16. so == accordingly == consequently == hence == therefore == thus; (Oshima 2020)
+17. 概念定义从内涵到外延的拓展工具: 定语从句, 分词等; 
+18. Polish the writing: 
+19. (1) **Emotion** which has been regarded as an irrational factor in second language acquisition has long been overlooked in second language research and **foreign language anxiety** is the only emotion which has been extensively studied by second language researcher because it is regarded as playing a profound negative role in second language learning processes.
+20. Key: emotion和foreign language anxiety这两个概念不能并列. 
+21. chatGPT: Emotions have been considered an irrational factor in second language acquisition, **leading to** their neglect in second language research. **Among the limited** research on emotions in second language learning, foreign language anxiety has been extensively studied **due to** its perceived profound negative impact on the learning process. (Comment: 其实就是理顺多个句子和多个概念间逻辑关系, 用合适的逻辑连接词把句子和概念重新组织)
+22. (2) Since the study conducted by Dewaele and MacIntyre (2014), which is situated within the Positive Psychology movement extended to second language acquisition and is the first to argue that we should adopt a holistic view on diverse emotions, a robust increase in attention has been paid to a great variety of emotions beyond anxiety. 
+23. chatGPT: Since Dewaele and MacIntyre's (2014) study, which **is grounded in** the Positive Psychology movement and **advocates for a holistic approach** to understanding diverse emotions in second language acquisition, **there has been a significant increase in attention given to** a wide range of emotions, beyond just anxiety.
+24. (3) More specifically, the emotion spectrum has extended to include enjoyment, love, pride, hope, guilt, shame, boredom, anger, frustation and others (e.g., Li, 2018, 2021; MacIntyre & Vincze, 2017).
+25. chatGPT: In recent years, the **range** of emotions examined in the context of language learning **has expanded to encompass a more diverse spectrum**, **such as** enjoyment, love, pride, hope, guilt, shame, boredom, anger, and frustration (Li, 2018, 2021; MacIntyre & Vincze, 2017).
+26. (4) Extant studies have revealed that the variances in the experiences of these emotions could be attribute to both learner-internal factors and learner-external factors.
+27. chatGPT: no need to polish. 
+28. (5) It remains underexplored whether and how learner-internal and learner-external factors are combined and exert joint effects in predicting these emotions.
+29. chatGPT: The combined and joint effects of learner-internal and learner-external factors in predicting these emotions remain largely unexplored.
+30. (6) Because it may provide a better understanding of the sources for emotions and shed some original insights into emotion intervention, such investigations are significant.
+31. chatGPT: As investigations on the combined effects of learner-internal and learner-external factors in predicting emotions may offer a better understanding of their sources and provide valuable insights for emotion intervention, such studies hold significant importance.
+32. 
 
 
 
