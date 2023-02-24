@@ -154,26 +154,28 @@
 3. Chapter 1 Exercise 2: 
 4. (1) In the field of second language (L2) writing, about the development of culturally diverse L2 students’ critical thinking ability, there have been considerable discussions. 
 5. 多个(不是同级别)的介词分化, 导致句子碎片化, 修改应把about放在discussion之后; 
-6. (2) Critical thinking is frequently seen in Western tertiary context as a necessary component of academic writing in subject guide-lines, assessment criteria and in written feedback on student’s assignments (Woodward-Kron, 2002). 
-7. 介词次序紊乱, 需要有等级概念, 把in the wester提前; 
-8. (3) The widely accepted assumption in the current debate over critical thinking pedagogies (Atkinson, 1997) is based on extensive investigations of ESL students’ difficulties with argumentative /analytical writing assignments (Ballard and Clanchy, 1991; Fox, 1994; Pally,1997, 2001; Spack, 1997; Stapleton, 2001;Woodward-Kron, 2002).
-9. 概念中心紊乱, 定义漂移; 
-10. (4) However, disagreements about whether critical thinking pedagogies should be adopted in the L2 writing classroom, and how ESL students could be guided towards critical thinking in academic writing arise.
-11. 头重脚轻, arise提前, 放到disagreement之后; 
-12. 
-13. Exercise on Page 18 of Slides "徐喜文EAP writing VS EGP writing （2022 S版）": 
-14. (2) Y, 主体变agreement; 
-15. (3) To our surprise, these techniques were so quickly applied into practice. 
-16. Key: N, to our surprise和so quickly具有情感色彩; => There is an **obvious** fact that XXX have been **widely** applied... 
-17. chatGPT: They could also rephrase the sentence to be more objective and less personal by omitting "to our surprise" and using a more formal phrase such as "**remarkably**" or "**unexpectedly**."
-18. (14) Now that globalization has become a must, we are supposed to adapt to and take full advantage of it rather than escape from it.  
-19. Key: N, Now that... a must 高调, 情绪化, 其中不定冠词a表达强调; 
-20. chatGPT: The use of "must" and "supposed to" may suggest a personal or informal opinion, rather than a supported and objective argument. Additionally, the phrase "take full advantage of it" lacks specificity and precision. // In academic writing, it is important to use precise language and to present arguments based on research and evidence, rather than personal opinions or assumptions. Therefore, the sentence could be revised to better align with academic writing standards, such as: "**Given the prevalence** of globalization, **there is a need** for **individuals and organizations** to **adapt to its effects and leverage its opportunities** through strategic actions and policies, **supported by empirical research**."
-21. (15) Y, plainness. 
-22. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
-23. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
-24. EAP should use certain and clear message with factual accuracy. 
-25. HW: Exercise in Slides Page 27; Answer is in 9th class; 
+6. Key: In the field of second language (L2) writing, there have been considerable discussions about the development of culturally diverse L2 students’ critical thinking ability. 
+7. (2) Critical thinking is frequently seen in Western tertiary context as a necessary component of academic writing in subject guide-lines, assessment criteria and in written feedback on student’s assignments (Woodward-Kron, 2002). 
+8. 介词次序紊乱, 需要有等级概念, 把in the wester提前; 
+9. Key: In Western tertiary context, Critical thinking is frequently seen as a necessary component of academic writing in subject guide-lines, assessment criteria and in written feedback on student’s assignments (Woodward-Kron, 2002). 
+10. (3) The widely accepted assumption in the current debate over critical thinking pedagogies (Atkinson, 1997) is based on extensive investigations of ESL students’ difficulties with argumentative /analytical writing assignments (Ballard and Clanchy, 1991; Fox, 1994; Pally,1997, 2001; Spack, 1997; Stapleton, 2001;Woodward-Kron, 2002).
+11. 概念中心紊乱, 定义漂移; 
+12. (4) However, disagreements about whether critical thinking pedagogies should be adopted in the L2 writing classroom, and how ESL students could be guided towards critical thinking in academic writing arise.
+13. 头重脚轻, arise提前, 放到disagreement之后; 
+14. 
+15. Exercise on Page 18 of Slides "徐喜文EAP writing VS EGP writing （2022 S版）": 
+16. (2) Y, 主体变agreement; 
+17. (3) To our surprise, these techniques were so quickly applied into practice. 
+18. Key: N, to our surprise和so quickly具有情感色彩; => There is an **obvious** fact that XXX have been **widely** applied... 
+19. chatGPT: They could also rephrase the sentence to be more objective and less personal by omitting "to our surprise" and using a more formal phrase such as "**remarkably**" or "**unexpectedly**."
+20. (14) Now that globalization has become a must, we are supposed to adapt to and take full advantage of it rather than escape from it.  
+21. Key: N, Now that... a must 高调, 情绪化, 其中不定冠词a表达强调; 
+22. chatGPT: The use of "must" and "supposed to" may suggest a personal or informal opinion, rather than a supported and objective argument. Additionally, the phrase "take full advantage of it" lacks specificity and precision. // In academic writing, it is important to use precise language and to present arguments based on research and evidence, rather than personal opinions or assumptions. Therefore, the sentence could be revised to better align with academic writing standards, such as: "**Given the prevalence** of globalization, **there is a need** for **individuals and organizations** to **adapt to its effects and leverage its opportunities** through strategic actions and policies, **supported by empirical research**."
+23. (15) Y, plainness. 
+24. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
+25. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
+26. EAP should use certain and clear message with factual accuracy. 
+27. HW: Exercise in Slides Page 27; Answer is in 9th class; 
     
 ## 7th class Oct 31st, 2022;
 1. 表达否定, 用however和although比较委婉; 
