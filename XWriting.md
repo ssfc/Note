@@ -174,10 +174,12 @@
 23. Key: N, Now that... a must 高调, 情绪化, 其中不定冠词a表达强调; 
 24. chatGPT: The use of "must" and "supposed to" may suggest a personal or informal opinion, rather than a supported and objective argument. Additionally, the phrase "take full advantage of it" lacks specificity and precision. // In academic writing, it is important to use precise language and to present arguments based on research and evidence, rather than personal opinions or assumptions. Therefore, the sentence could be revised to better align with academic writing standards, such as: "**Given the prevalence** of globalization, **there is a need** for **individuals and organizations** to **adapt to its effects and leverage its opportunities** through strategic actions and policies, **supported by empirical research**."
 25. (15) Y, plainness. 
-26. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ; 
-27. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
-28. EAP should use certain and clear message with factual accuracy. 
-29. HW: Exercise in Slides Page 27; Answer is in 9th class; 
+26. EGP often use metaphors and analogies (i.e. as old saying goes), which EAP should avoid. // delete SSFC like TRIZ or 易经; 
+27. chatGPT: It depends on the context and purpose of the writing. In some cases, metaphors and analogies can be effective tools for explaining complex ideas or making abstract concepts more concrete and relatable. However, in other cases, they may be seen as overly informal or distracting. // In general, it's important to use metaphors and analogies judiciously and with intention in academic writing. If you choose to use them, make sure they are relevant, accurate, and add value to the text. It's also important to avoid using overly clichéd or **culturally specific** metaphors and analogies that may not be universally understood. (2023年2月24日)
+28. EAP should avoid something/anything 等不定代词, 因为这属于模糊概念; 
+29. chatGPT: In general, it is not recommended to use "something/anything" in academic writing as they can be too vague and imprecise. It is better to use specific and precise language to convey your ideas clearly. (2023年2月24日)
+30. EAP should use certain and clear message with factual accuracy. 
+31. HW: Exercise in Slides Page 27; Answer is in 9th class; 
     
 ## 7th class Oct 31st, 2022;
 1. 表达否定, 用however和although比较委婉; 
