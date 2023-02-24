@@ -42,12 +42,13 @@
 18. chatGPT: (1)"It is unclear at this time." (2)     "The current evidence is inconclusive" (3) "Further research is needed to determine." (4) "It is not yet fully understood." (5) "The answer to this question remains unknown." (6) "The available data is insufficient to draw a conclusion."
 19. 
 20. Negation: wrong=>questionable OR however OR although, 比较委婉; 
-21. 术语缩写适用范围; 
-22. 同义词替换; 
-23. long sentence由logic决定, 而非字数; 
-24. It depends. 不知道。
-25. 主动 vs 被动, 体现身份标识; 
-26. 时态选择; 
+21. 
+22. 术语缩写适用范围; 
+23. 同义词替换; 
+24. long sentence由logic决定, 而非字数; 
+25. It depends. 不知道。
+26. 主动 vs 被动, 体现身份标识; 
+27. 时态选择; 
 ### Generic features
 1. 不同门类的文章构成要件不同; 
 2. difference between abstract and conclusion; 
