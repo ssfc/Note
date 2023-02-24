@@ -158,8 +158,8 @@
 7. (2) Critical thinking is frequently seen in Western tertiary context as a necessary component of academic writing in subject guide-lines, assessment criteria and in written feedback on student’s assignments (Woodward-Kron, 2002). 
 8. 介词次序紊乱, 需要有等级概念, 把in the wester提前; 
 9. Key: In Western tertiary context, Critical thinking is frequently seen as a necessary component of academic writing in subject guide-lines, assessment criteria and in written feedback on student’s assignments (Woodward-Kron, 2002). 
-10. (3) The widely accepted assumption in the current debate over critical thinking pedagogies (Atkinson, 1997) is based on extensive investigations of ESL students’ difficulties with argumentative /analytical writing assignments (Ballard and Clanchy, 1991; Fox, 1994; Pally,1997, 2001; Spack, 1997; Stapleton, 2001;Woodward-Kron, 2002).
-11. 概念中心紊乱, 定义漂移; 
+10. (3) The widely accepted **assumption** in the current debate over critical thinking pedagogies (Atkinson, 1997) **is based on** extensive **investigations** of ESL students’ difficulties with argumentative /analytical writing assignments (Ballard and Clanchy, 1991; Fox, 1994; Pally,1997, 2001; Spack, 1997; Stapleton, 2001;Woodward-Kron, 2002).
+11. 概念中心紊乱, 定义漂移; comment: 猜测错误是把两个引用源的概念混在了一个句子中; 
 12. chatGPT: In the current discourse on critical thinking pedagogies (Atkinson, 1997), it is **widely assumed** that ESL students encounter challenges with argumentative/analytical writing assignments based on extensive research (Ballard and Clanchy, 1991; Fox, 1994; Pally, 1997, 2001; Spack, 1997; Stapleton, 2001; Woodward-Kron, 2002).
 13. (4) However, disagreements about whether critical thinking pedagogies should be adopted in the L2 writing classroom, and how ESL students could be guided towards critical thinking in academic writing arise.
 14. 头重脚轻, arise提前, 放到disagreement之后; 
