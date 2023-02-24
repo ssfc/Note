@@ -50,15 +50,16 @@
 26. P2: Advances in microscopy **hold great promise for** …; **however**, the potential of this approach is **ultimately limited by** ... **Here**, we **present** … (你好我更好, 转折词, 适用范围小)
 27. P2: **Although** light microscopy is a valuable tool for …, quantitative analysis of microscopy images remains a persistent **challenge**. (你好我更好, 转折词)
 28. P2: **Although** many commonly studied bacteria are well …, there is **growing interest in** bacteria with more elaborate shapes. (你好我更好, 转折词, 适用范围小) (更加婉转)
-29. 
+29. P2: MiSiC was developed as a general solution for …; **however**, the authors of MiSiC did **not provide** ... **Here**, we evaluated the performance of ... . (你好我更好, 转折词, 适用范围小)
 30. 
 31. 
-32. 术语缩写适用范围; 
-33. 同义词替换; 
-34. long sentence由logic决定, 而非字数; 
-35. It depends. 不知道。
-36. 主动 vs 被动, 体现身份标识; 
-37. 时态选择; 
+32. 
+33. 术语缩写适用范围; 
+34. 同义词替换; 
+35. long sentence由logic决定, 而非字数; 
+36. It depends. 不知道。
+37. 主动 vs 被动, 体现身份标识; 
+38. 时态选择; 
 ### Generic features
 1. 不同门类的文章构成要件不同; 
 2. difference between abstract and conclusion; 
