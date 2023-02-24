@@ -42,13 +42,23 @@
 18. chatGPT: (1)"It is unclear at this time." (2)     "The current evidence is inconclusive" (3) "Further research is needed to determine." (4) "It is not yet fully understood." (5) "The answer to this question remains unknown." (6) "The available data is insufficient to draw a conclusion."
 19. 
 20. Negation: wrong=>questionable OR however OR although, 比较委婉; 
-21. 
-22. 术语缩写适用范围; 
-23. 同义词替换; 
-24. long sentence由logic决定, 而非字数; 
-25. It depends. 不知道。
-26. 主动 vs 被动, 体现身份标识; 
-27. 时态选择; 
+21. 目的: 你不好我好 OR 你好我更好
+22. 方式: 直接说问题 OR however/although/while, therefore, 
+23. 内容: 性能不好 OR 适用范围小
+24. P1: Previous approaches did **not perform well** on …. We **therefore** developed a new model .... (你不好我好, 无转折词，性能不好)
+25. P1: These methods **work well when** ... **However**, many types of cells are not blob-like… (你好我更好, 转折词, 适用范围小)
+26. P2: Advances in microscopy **hold great promise for** …; **however**, the potential of this approach is **ultimately limited by** ... **Here**, we **present** … (你好我更好, 转折词, 适用范围小)
+27. P2: **Although** light microscopy is a valuable tool for …, quantitative analysis of microscopy images remains a persistent **challenge**. (你好我更好, 转折词)
+28. P2: **Although** many commonly studied bacteria are well …, there is **growing interest in** bacteria with more elaborate shapes. (你好我更好, 转折词, 适用范围小) (更加婉转)
+29. 
+30. 
+31. 
+32. 术语缩写适用范围; 
+33. 同义词替换; 
+34. long sentence由logic决定, 而非字数; 
+35. It depends. 不知道。
+36. 主动 vs 被动, 体现身份标识; 
+37. 时态选择; 
 ### Generic features
 1. 不同门类的文章构成要件不同; 
 2. difference between abstract and conclusion; 
