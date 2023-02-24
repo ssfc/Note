@@ -42,28 +42,29 @@
 18. chatGPT: (1)"It is unclear at this time." (2)     "The current evidence is inconclusive" (3) "Further research is needed to determine." (4) "It is not yet fully understood." (5) "The answer to this question remains unknown." (6) "The available data is insufficient to draw a conclusion."
 19. 
 20. Negation: wrong=>questionable OR however OR although, 比较委婉; 
-21. 目的: 你不好我好 OR 你好我更好
-22. 方式: 直接说问题 OR however/although/while, therefore, 
-23. 内容: 性能不好 OR 适用范围小
-24. P1: Previous approaches did **not perform well** on …. We **therefore** developed a new model .... (你不好我好, 无转折词，性能不好)
-25. P1: These methods **work well when** ... **However**, many types of cells are not blob-like… (你好我更好, 转折词, 适用范围小)
-26. P2: Advances in microscopy **hold great promise for** …; **however**, the potential of this approach is **ultimately limited by** ... **Here**, we **present** … (你好我更好, 转折词, 适用范围小)
-27. P2: **Although** light microscopy is a valuable tool for …, quantitative analysis of microscopy images remains a persistent **challenge**. (你好我更好, 转折词)
-28. P2: **Although** many commonly studied bacteria are well …, there is **growing interest in** bacteria with more elaborate shapes. (你好我更好, 转折词, 适用范围小) (更加婉转)
-29. P2: MiSiC was developed as a general solution for …; **however**, the authors of MiSiC did **not provide** ... **Here**, we evaluated the performance of ... . (你好我更好, 转折词, 适用范围小)
-30. P5: These machine learning methods are **appropriate for** most regression assignments, while they are **less effective to** consider the sequential data. (你好我更好, 转折词, 适用范围小)
-31. P5: **However**, the fixed dataset could **only be obtained** after the construction is completed. **Therefore**, a model that can … is in a high demand. (你好我更好, 转折词, 适用范围小)
-32. P6: **However**, each of these types of algorithm models **exhibits its limitations** … **therefore**, is **inappropriate for** extrapolation and low in prediction accuracy. (你好我更好, 转折词, 适用范围小)
-33. 直接：旧方法缺点 + therefore/here + 新方法
-34. 婉转：旧方法优点 + however/although + 旧方法缺点 + therefore/here + 新方法
-35. Negation word: specialized for, difficult, not perform well, limited (limitations), challenge, not provide, problem, available only, cannot be applied to, less effective to, could only be obtained. 
-36. 
-37. 术语缩写适用范围; 
-38. 同义词替换; 
-39. long sentence由logic决定, 而非字数; 
-40. It depends. 不知道。
-41. 主动 vs 被动, 体现身份标识; 
-42. 时态选择; 
+21. My presentation about negation
+22. 目的: 你不好我好 OR 你好我更好
+23. 方式: 直接说问题 OR however/although/while, therefore, 
+24. 内容: 性能不好 OR 适用范围小
+25. P1: Previous approaches did **not perform well** on …. We **therefore** developed a new model .... (你不好我好, 无转折词，性能不好)
+26. P1: These methods **work well when** ... **However**, many types of cells are not blob-like… (你好我更好, 转折词, 适用范围小)
+27. P2: Advances in microscopy **hold great promise for** …; **however**, the potential of this approach is **ultimately limited by** ... **Here**, we **present** … (你好我更好, 转折词, 适用范围小)
+28. P2: **Although** light microscopy is a valuable tool for …, quantitative analysis of microscopy images remains a persistent **challenge**. (你好我更好, 转折词)
+29. P2: **Although** many commonly studied bacteria are well …, there is **growing interest in** bacteria with more elaborate shapes. (你好我更好, 转折词, 适用范围小) (更加婉转)
+30. P2: MiSiC was developed as a general solution for …; **however**, the authors of MiSiC did **not provide** ... **Here**, we evaluated the performance of ... . (你好我更好, 转折词, 适用范围小)
+31. P5: These machine learning methods are **appropriate for** most regression assignments, while they are **less effective to** consider the sequential data. (你好我更好, 转折词, 适用范围小)
+32. P5: **However**, the fixed dataset could **only be obtained** after the construction is completed. **Therefore**, a model that can … is in a high demand. (你好我更好, 转折词, 适用范围小)
+33. P6: **However**, each of these types of algorithm models **exhibits its limitations** … **therefore**, is **inappropriate for** extrapolation and low in prediction accuracy. (你好我更好, 转折词, 适用范围小)
+34. 直接：旧方法缺点 + therefore/here + 新方法
+35. 婉转：旧方法优点 + however/although + 旧方法缺点 + therefore/here + 新方法
+36. Negation word: specialized for, difficult, not perform well, limited (limitations), challenge, not provide, problem, available only, cannot be applied to, less effective to, could only be obtained. 
+37. 
+38. 术语缩写适用范围; 
+39. 同义词替换; 
+40. long sentence由logic决定, 而非字数; 
+41. It depends. 不知道。
+42. 主动 vs 被动, 体现身份标识; 
+43. 时态选择; 
 ### Generic features
 1. 不同门类的文章构成要件不同; 
 2. difference between abstract and conclusion; 
