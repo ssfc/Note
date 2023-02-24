@@ -401,7 +401,11 @@ Key: Chinese traditional and iconic costumes
 17. chatGPT: In recent years, the **range** of emotions examined in the context of language learning **has expanded to encompass a more diverse spectrum**, **such as** enjoyment, love, pride, hope, guilt, shame, boredom, anger, and frustration (Li, 2018, 2021; MacIntyre & Vincze, 2017).
 18. (4) Extant studies have revealed that the variances in the experiences of these emotions could be attribute to both learner-internal factors and learner-external factors.
 19. chatGPT: no need to polish. 
-20. (5) & (6) 
+20. (5) It remains underexplored whether and how learner-internal and learner-external factors are combined and exert joint effects in predicting these emotions.
+21. chatGPT: The combined and joint effects of learner-internal and learner-external factors in predicting these emotions remain largely unexplored.
+22. (6) Because it may provide a better understanding of the sources for emotions and shed some original insights into emotion intervention, such investigations are significant.
+23. chatGPT: As investigations on the combined effects of learner-internal and learner-external factors in predicting emotions may offer a better understanding of their sources and provide valuable insights for emotion intervention, such studies hold significant importance.
+24. 
 
 
 
