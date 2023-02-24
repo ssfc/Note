@@ -397,6 +397,8 @@ Key: Chinese traditional and iconic costumes
 13. chatGPT: Emotions have been considered an irrational factor in second language acquisition, **leading to** their neglect in second language research. **Among the limited** research on emotions in second language learning, foreign language anxiety has been extensively studied **due to** its perceived profound negative impact on the learning process. (Comment: 其实就是理顺多个句子和多个概念间逻辑关系, 用合适的逻辑连接词把句子和概念重新组织)
 14. (2) Since the study conducted by Dewaele and MacIntyre (2014), which is situated within the Positive Psychology movement extended to second language acquisition and is the first to argue that we should adopt a holistic view on diverse emotions, a robust increase in attention has been paid to a great variety of emotions beyond anxiety. 
 15. chatGPT: Since Dewaele and MacIntyre's (2014) study, which **is grounded in** the Positive Psychology movement and **advocates for a holistic approach** to understanding diverse emotions in second language acquisition, **there has been a significant increase in attention given to** a wide range of emotions, beyond just anxiety.
+16. (3) More specifically, the emotion spectrum has extended to include enjoyment, love, pride, hope, guilt, shame, boredom, anger, frustation and others (e.g., Li, 2018, 2021; MacIntyre & Vincze, 2017).
+17. chatGPT: In recent years, the **range** of emotions examined in the context of language learning **has expanded to encompass a more diverse spectrum**, **such as** enjoyment, love, pride, hope, guilt, shame, boredom, anger, and frustration (Li, 2018, 2021; MacIntyre & Vincze, 2017).
 
 
 ## Assignment 1: 
