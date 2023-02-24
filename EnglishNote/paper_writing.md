@@ -7,7 +7,7 @@
 6. 
 7. And == besides == furthermore == moreover == also == additionally == in addition to == meanwhile; (Oshima 2020)
 8. 
-9. but == yet == however == nevertheless == nonetheless == on the other hand; (Oshima 2020)
+9. but == yet == however == nevertheless == nonetheless == on the other hand == in fact(也有轻微转折的含义); (Oshima 2020)
 10. 
 11. or == otherwise; (Oshima 2020)
 12. 
