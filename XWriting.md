@@ -360,11 +360,14 @@
 3. However, statistics prove that women are, in fact, safer drivers than men. For example, insurance rates. Insurance rates for women are 20 percent lower than they are for men. Another proof is that more accidents are caused by male drivers between the ages of 18 &nd 25 than by any other group. Also, the greater percentage of a.coidents involving deaths caused by men. Although women are criticized for being too cautious. They are really just being safe drivers.
 4. The reasons for women drivers' safer driving habits can perhaps be found in the differing attitudes of the sexes toward automobiles. On the one hand, women drivers who regard the automobile as a convenience. Like a washing machine. On the other hand, men regard the automobile as an extension of their egos.3 Using it as a weapon when they feel particularly aggressive. Or using it as a status symbol. 
 5. All in all, women are safer drivers. Because of their attitude. Men can learn to become safe drivers. If they adopt the attitude that an automobile is merely a convenience. 
-6. 概念转换, 需要关注和积累; 
-7. a study 综合研究; studying 具体研究; 
-8. Exercise in Page 16 of Slides Definition
-9. 请根据括号内的提示词，翻译下列概念
-10. 1.东西方经济文化交流的重要桥梁（bridge; exchange）  
+6. chatGPT: Male chauvinism manifests in the realm of automobile driving, **as** men often believe themselves to be superior drivers compared to women. This perception, however, is not supported by statistics, **which demonstrate that** women are, in fact, safer drivers than men. For instance, insurance rates for women are 20% lower than those for men, and men between the ages of 18 and 25 cause more accidents than any other demographic. **Moreover**, the majority of fatal accidents **involve** male drivers. **Despite** being criticized for being overly cautious, women are simply practicing safe driving habits.
+7. The reasons for women's safer driving may **be attributed to** their different attitudes toward automobiles. Women tend to view the automobile as a convenience, **while** men often view it as an extension of their egos, wielding it as a weapon or status symbol.
+8. **In conclusion**, women are safer drivers due to their attitude toward driving. Men can learn to become safe drivers **if** they adopt a similar attitude of seeing the automobile as a mere convenience.
+9. 概念转换, 需要关注和积累; 
+10. a study 综合研究; studying 具体研究; 
+11. Exercise in Page 16 of Slides Definition
+12. 请根据括号内的提示词，翻译下列概念
+13. 1.东西方经济文化交流的重要桥梁（bridge; exchange）  
 @: the bridge of eastern and western culture exchange  
 Key: an important bridge of economic and cultural exchanges between the East and the West  
 2.中国传统和标志性服饰 （tradition; icon）
@@ -386,28 +389,28 @@ Key: Chinese traditional and iconic costumes
 @：the upgrade of worn-out cell tissue using stem cells 
 10.因穷人无法得到治疗而导致差距扩大（widen; inaccessible）
 @：the widen gap due to inaccessible cure of the poor 
-11. research 是抽象概念, study是具体概念; 
-12. investigation or exploration; 
-13. An instruction of authors; D
-14. C?
-15. 
-16. a supply of British food
-17. B. a reduction of 20% in energy costs
-18. D. a practice of cheating at the exminations
-19. C. a small proprtion of participants
-20. D. the equal number of men and women
-21. 
-22. D. a good learning atmosphere
-23. 
-24. A. to confirm the timing of the announcement
-25. B.a decline of bird population
-26. 
-27. Choppy sentences; 
-28. Practice 13 on Page 16 of Book Writing Academic English: 
-29. (1) Gasoline became expensive. Automobile manufacturers began to produce smaller cars. Smaller cars use less gasoline. 
-30. (2) The computer has undoubtedly benefited humanity. The computer has also created problems for humanity. 
-31. exercise in Page 174 and 177; 
-32. 
+1.  research 是抽象概念, study是具体概念; 
+2.  investigation or exploration; 
+3.  An instruction of authors; D
+4.  C?
+5.  
+6.  a supply of British food
+7.  B. a reduction of 20% in energy costs
+8.  D. a practice of cheating at the exminations
+9.  C. a small proprtion of participants
+10. D. the equal number of men and women
+11. 
+12. D. a good learning atmosphere
+13. 
+14. A. to confirm the timing of the announcement
+15. B.a decline of bird population
+16. 
+17. Choppy sentences; 
+18. Practice 13 on Page 16 of Book Writing Academic English: 
+19. (1) Gasoline became expensive. Automobile manufacturers began to produce smaller cars. Smaller cars use less gasoline. 
+20. (2) The computer has undoubtedly benefited humanity. The computer has also created problems for humanity. 
+21. exercise in Page 174 and 177; 
+22. 
 
 ## 15th class Nov 28th, 2022; 
 1. Page 37 of Slides Definitions: 秘诀在于分词转连字符以及名词化; 
