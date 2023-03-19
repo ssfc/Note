@@ -24,13 +24,14 @@
 23. 
 24. 
 25. 收录的同义替换词汇务求笔笔有来历, 句句有出处; 
-26. Reference: 
-27. Oshima, Alex, and Ann Hogue. Writing academic english. Longman, 2000.
-28. Pang, Richard Yuanzhe, and He He. "Text generation by learning from demonstrations." arXiv preprint arXiv:2009.07839 (2020).
-29. 
+26. ChatGPT can be used as translation tools. (2023年3月19日)
+27. Reference: 
+28. Oshima, Alex, and Ann Hogue. Writing academic english. Longman, 2000.
+29. Pang, Richard Yuanzhe, and He He. "Text generation by learning from demonstrations." arXiv preprint arXiv:2009.07839 (2020).
 30. 
 31. 
-32. tbc
+32. 
+33. tbc
 
 
 
