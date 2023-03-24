@@ -11,7 +11,7 @@
 ##	1.2, 基本术语; 
 data set; instance; sample; feature vector; hypothesis; label; supervised learning, classification, regression; testing; unsupervised learning, clustering; generalization; distribution; (2019-7-25)
 1. Q: 分类任务和回归任务的区别和联系是什么？  
-A: chatGPT: 分类任务和回归任务是机器学习中两种不同的任务类型，它们的区别和联系如下：  
+A from chatGPT: 分类任务和回归任务是机器学习中两种不同的任务类型，它们的区别和联系如下：  
 区别：  
 **分类任务**是将输入数据划分到不同的预定义类别中，每个类别都有一个标签。通常分类任务的输出是一个离散的值，例如二分类任务（有两个类别）、多分类任务（有多个类别）等。而**回归任务**是根据输入数据预测一个连续的数值，例如房价预测等。  
 在处理分类任务时，常用的评价指标是分类准确率，即分类正确的样本占总样本数的比例。而在回归任务中，通常使用均方误差（Mean Squared Error，MSE）或平均绝对误差（Mean Absolute Error，MAE）等指标来衡量模型的预测性能。  
@@ -19,7 +19,11 @@ A: chatGPT: 分类任务和回归任务是机器学习中两种不同的任务�
 无论是分类任务还是回归任务，都需要将输入数据映射到输出结果。在机器学习中，通常使用训练数据集来训练模型，并使用测试数据集来评估模型的性能。  
 一些模型可以**同时用于分类和回归**任务。例如，神经网络可以在输出层使用不同的激活函数来实现分类和回归任务。在深度学习中，一些模型，如卷积神经网络（Convolutional Neural Networks，CNNs）和循环神经网络（Recurrent Neural Networks，RNNs）也可以用于分类和回归任务。
 
-2. 
+2. Q: 有哪些可以同时用于分类任务和回归任务的模型？  
+A from chatGPT: (1) 神经网络（Neural Network）：可以使用不同的输出层，例如softmax输出层用于分类任务，线性输出层用于回归任务。 (2) 卷积神经网络（Convolutional Neural Network）：可以使用不同的输出层和损失函数，例如softmax输出层和交叉熵损失函数用于分类任务，线性输出层和均方误差损失函数用于回归任务。(3) 循环神经网络（Recurrent Neural Network）：可以使用不同的输出层和损失函数，例如softmax输出层和交叉熵损失函数用于分类任务，线性输出层和均方误差损失函数用于回归任务。(4) 决策树（Decision Tree）：可以使用不同的损失函数，例如交叉熵用于分类任务，均方误差用于回归任务。(5) 支持向量机（Support Vector Machine）：可以使用不同的损失函数和核函数，例如线性核用于分类任务，高斯核用于回归任务。(6) 随机森林（Random Forest）：可以使用不同的损失函数，例如交叉熵用于分类任务，均方误差用于回归任务。
+
+
+
 
 
 ##	1.3, 假设空间; 
