@@ -8,6 +8,8 @@ Input is a set of vectors 因为输入的一句话包含多个word, 每个word�
 
 Can be either input or a hidden layer. 如果是左下和右下的attention, a自然是input layer; 如果是右上的attention, a明显是hidden layer. (2023年7月3日)
 
+从纸上算一下page 15. 
+
 ### Q: 在线性代数中，一个一维向量一般横着写还是竖着写？
 
 一维向量是指只有一个分量的向量，它可以用一个实数来表示。一维向量可以横着写也可以竖着写，但是通常为了和矩阵相区分，我们会把一维向量写成列向量，即竖着写。例如，如果x是一个一维向量，那么我们可以写成
