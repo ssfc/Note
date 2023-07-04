@@ -8,4 +8,6 @@
 
 ### Introduction
 
+Comment: 吾人把重点放在如何使用transformer处理NLP任务，最后几章处理CV任务的不用看。
+
 ### Natural Language Processing
