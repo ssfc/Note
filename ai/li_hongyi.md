@@ -1,6 +1,7 @@
 #	(强推)李宏毅2021春机器学习课程 
 https://www.bilibili.com/video/BV1Wv411h7kN/?spm_id_from=333.788.recommend_more_video.1 
 https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php 
+
 ##	Chapter 1, introduction; 
 P1, 2021机器学习相关规定; deep learning; (2021-12-9)
 
@@ -282,6 +283,10 @@ P37, HW5; transformer; (2021-12-16)
 P38, HW5; (2021-12-16)
 
 P39, HW5; (2021-12-16)
+
+### Note
+
+Transformer中Nx的意思是那个block重复N次，目前是第Nx次。
 
 ##	Chapter 6, generative model; 
 P40, GAN基本概念介绍; Network as generator; y = Net(x+random); video distribution; 让输出不再是单一的输出, 而是一个概率分布; 当任务需要一点创造力的时候, 就要random distribution; 对话中, 每个人可能有不同的答案; GAN; anime face generation; unconditional generation; y = Net(random); discriminator, 越像的输入, 则输出数值越大; generator和discriminator相互进化; (1) fix generator, update discriminator; (2) fix discriminator, update generator; 生成动画人物; 可以生成从未看过的人脸; 两张脸图片的内插; (2021-12-16)
