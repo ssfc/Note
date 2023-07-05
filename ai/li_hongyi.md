@@ -54,15 +54,21 @@ P24, self-attention下; 只有WQ, WK, WV三个矩阵是需要学习的; multi-he
 
 P25, unsupervised learning -- word embedding; 1-of-N encoding; word class; generating word vector is unsupervised; a word can be understood by its context; exploit the context? (1) count based; (2) prediction based - sharing parameters; CBOW; skip-gram; 跨语言embedding; document embedding; beyond bag of word; (2021-12-15)
 
-22.	P26, spatial transformer; CNN无法放缩和旋转; 平移图片; image transformation(平移旋转缩放); (2021-12-15)
-23.	P27, RNN; slot filling; hidden layer is memory; Elman network & Jordan network; Bidirectional RNN; LSTM; RNN就是LSTM, GRU是简化版的LSTM; (2021-12-15)
-24.	P28, GNN1; classification; generation; spatial-based GNN; NN4G; DGCN; DGC; MoNET; graphSAGE; GAT; GIN; (2021-12-15)
-25.	P29, GNN2; spectral-based convolution; Fourier Series representation; Fourier transform; spectral graph theory; filtering; ChebNet; GCN; (2021-12-15)
-26.	P30, HW3; CNN; (2021-12-30)
-27.	P31, HW3(English version); (2021-12-15)
-28.	P32, HW4; self-attention; task introduction; Phoneme classification; Speaker classification; dataset; Data Preprocessing; Data formats; Data segmentation during training; sample code; requirements; grading; submission format; deadlines; grading—bonus; hints; regulation; (2021-12-30)
-29.	P33, HW4(English version); (2021-12-16)
+P26, spatial transformer; CNN无法放缩和旋转; 平移图片; image transformation(平移旋转缩放); (2021-12-15)
 
+P27, RNN; slot filling; hidden layer is memory; Elman network & Jordan network; Bidirectional RNN; LSTM; RNN就是LSTM, GRU是简化版的LSTM; (2021-12-15)
+
+P28, GNN1; classification; generation; spatial-based GNN; NN4G; DGCN; DGC; MoNET; graphSAGE; GAT; GIN; (2021-12-15)
+
+P29, GNN2; spectral-based convolution; Fourier Series representation; Fourier transform; spectral graph theory; filtering; ChebNet; GCN; (2021-12-15)
+
+P30, HW3; CNN; (2021-12-30)
+
+P31, HW3(English version); (2021-12-15)
+
+P32, HW4; self-attention; task introduction; Phoneme classification; Speaker classification; dataset; Data Preprocessing; Data formats; Data segmentation during training; sample code; requirements; grading; submission format; deadlines; grading—bonus; hints; regulation; (2021-12-30)
+
+P33, HW4(English version); (2021-12-16)
 
 ##	Chapter 4, Theory of ML (Prof. Pei-Yuan Wu)
 
