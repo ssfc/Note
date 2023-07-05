@@ -2,44 +2,68 @@
 https://www.bilibili.com/video/BV1Wv411h7kN/?spm_id_from=333.788.recommend_more_video.1 
 https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php 
 ##	Chapter 1, introduction; 
-1.	P1, 2021机器学习相关规定; deep learning; (2021-12-9)
-2.	P2, 机器学习基本概念简介上; machine learning == looking for function; regression(连续); classification(离散); (1) function with unknown parameters; (2) define loss from training data; (3) optimization; (2021-12-10)
-3.	P3, 机器学习基本概念简介下; linear model is too simple; sigmoid function; new model, more features; sigmoid->RELU; (2021-12-10)
-4.	P4, google colab教学; (2021-12-10)
-5.	P5, pytorch教学 part 1; tensor -- data type; constructor; operators; device; calculate gradient; dataset & DataLoader; torch.nn; MyModel, initialize your model & define layers; compute output of your NN; torch.optim; (2021-12-10)
-6.	P6, pytorch教学 part 2; cuda out of memory, batch size is too large; (2021-12-10)
-7.	P7, 作业说明HW1; objective; 疑似病例和确诊病例; task description; data, get from facebook; one-hot vector; training; evaluation metric; Kaggle; submission; grading; (2022-1-20)
-8.	P8, 深度学习简介; ups and downs of deep learning; (1) define a set of function; (2) goodness of function; (3) pick the best function; fully connected network; trail & error + intuition; backprop; (2021-12-10)
-9.	P9, 反向传播; gradient descent; chain rule; (2021-12-10)
-	
+P1, 2021机器学习相关规定; deep learning; (2021-12-9)
+
+P2, 机器学习基本概念简介上; machine learning == looking for function; regression(连续); classification(离散); (1) function with unknown parameters; (2) define loss from training data; (3) optimization; (2021-12-10)
+
+P3, 机器学习基本概念简介下; linear model is too simple; sigmoid function; new model, more features; sigmoid->RELU; (2021-12-10)
+
+P4, google colab教学; (2021-12-10)
+
+P5, pytorch教学 part 1; tensor -- data type; constructor; operators; device; calculate gradient; dataset & DataLoader; torch.nn; MyModel, initialize your model & define layers; compute output of your NN; torch.optim; (2021-12-10)
+
+P6, pytorch教学 part 2; cuda out of memory, batch size is too large; (2021-12-10)
+
+P7, 作业说明HW1; objective; 疑似病例和确诊病例; task description; data, get from facebook; one-hot vector; training; evaluation metric; Kaggle; submission; grading; (2022-1-20)
+
+P8, 深度学习简介; ups and downs of deep learning; (1) define a set of function; (2) goodness of function; (3) pick the best function; fully connected network; trail & error + intuition; backprop; (2021-12-10)
+
+P9, 反向传播; gradient descent; chain rule; (2021-12-10)
+
 ##	Chapter 2, deep learning; 
-10.	P10, 机器学习任务攻略; framework of ML; model bias; optimization issue; 先跑一些比较小的network或者非深度学习方法; overfitting; CNN是FC针对image任务的特化; public testing set; private testing set; N-fold cross validation; mismatch; (2021-12-13)
-11.	P11, 类神经网络训练不起来怎么办(1); when gradient is small; optimization fails because... ; local minima; saddle point; Tayler series approximation; saddle point(高维空间) vs local minima(低维空间); (2021-12-13)
-12.	P12, 类神经网络训练不起来怎么办(2); batch; 大batch不一定时间长; (1) small batch is better; (2) noisy update is better; small batch vs large batch; momentum; gradient descent+momentum; (2021-12-13)
-13.	P13, 类神经网络训练不起来怎么办(3); customized learning rate; root mean square; learning rate adapts dynamically; RMSProp; learning rate decay; (2021-12-13)
-14.	P14, 类神经网络训练不起来怎么办(4); classification; classification as regression? Class as one-hot vector; softmax; loss of classification; MSE; CE; (2021-12-13)
-15.	P15, 类神经网络训练不起来怎么办(5); change landscape; feature normalization; consider deep learning; batch normalization, 适用于big batch; internal covariate shift; (2021-12-14)
-16.	P16, optimization for deep learning 1; background knowledge; SGD with momentum; why momentum? Adagrad; optimizer, real application; adam vs SGDM; (2021-12-14)
-17.	P17, optimization for deep learning 2; does Adam need warm-up? Of course! K step forward, one step back; momentum recap; NAG; L2 regularization; something helps optimization--shuffling, dropout, gradient noise, warm-up, curriculum learning, fine-tuning; SGDM和ADAM各自适用情况; no universal optimizer; (2021-12-14)
-18.	P18, classification; Gaussian distribution; maximum likelihood; probability distribution; 后验概率; (2021-12-14)
-19.	P19, logistic regression; Step 1, function set; Step 2, goodness of a function; 逻辑回归vs线性回归; Step 3, find the best function; logistic regression + square error; cross entropy better than square error; discriminative vs generative; multi-class classification; limitation of logistic regression, boundary是一条直线; (2021-12-14)
-20.	P20, 作业说明HW2; classification; (2021-12-30)
-21.	P21, 作业说明HW2(English version); (2021-12-14)
-	
+P10, 机器学习任务攻略; framework of ML; model bias; optimization issue; 先跑一些比较小的network或者非深度学习方法; overfitting; CNN是FC针对image任务的特化; public testing set; private testing set; N-fold cross validation; mismatch; (2021-12-13)
+
+P11, 类神经网络训练不起来怎么办(1); when gradient is small; optimization fails because... ; local minima; saddle point; Tayler series approximation; saddle point(高维空间) vs local minima(低维空间); (2021-12-13)
+
+P12, 类神经网络训练不起来怎么办(2); batch; 大batch不一定时间长; (1) small batch is better; (2) noisy update is better; small batch vs large batch; momentum; gradient descent+momentum; (2021-12-13)
+
+P13, 类神经网络训练不起来怎么办(3); customized learning rate; root mean square; learning rate adapts dynamically; RMSProp; learning rate decay; (2021-12-13)
+
+P14, 类神经网络训练不起来怎么办(4); classification; classification as regression? Class as one-hot vector; softmax; loss of classification; MSE; CE; (2021-12-13)
+
+P15, 类神经网络训练不起来怎么办(5); change landscape; feature normalization; consider deep learning; batch normalization, 适用于big batch; internal covariate shift; (2021-12-14)
+
+P16, optimization for deep learning 1; background knowledge; SGD with momentum; why momentum? Adagrad; optimizer, real application; adam vs SGDM; (2021-12-14)
+
+P17, optimization for deep learning 2; does Adam need warm-up? Of course! K step forward, one step back; momentum recap; NAG; L2 regularization; something helps optimization--shuffling, dropout, gradient noise, warm-up, curriculum learning, fine-tuning; SGDM和ADAM各自适用情况; no universal optimizer; (2021-12-14)
+
+P18, classification; Gaussian distribution; maximum likelihood; probability distribution; 后验概率; (2021-12-14)
+
+P19, logistic regression; Step 1, function set; Step 2, goodness of a function; 逻辑回归vs线性回归; Step 3, find the best function; logistic regression + square error; cross entropy better than square error; discriminative vs generative; multi-class classification; limitation of logistic regression, boundary是一条直线; (2021-12-14)
+
+P20, 作业说明HW2; classification; (2021-12-30)
+
+P21, 作业说明HW2(English version); (2021-12-14)
+
 ##	Chapter 3, CNN & self-attention; 
-22.	P22, 卷积神经网络; image classification; 识别关键pattern即可; simplification 1, typical setting; 每个neuron输入一个receptive field; padding是为了补全; simplification 2, 共享参数; benefit of CNN; CNN类似filter;  multiple convolutional layer; observation 3; neuron vs filter; pooling -- max pooling, 把图片变小(减小运算量, 可有可无); convolution和pooling交替使用; alphaGo; 围棋和image有共同的特性; alpha Go没用pooling; CNN不可以放缩和旋转图片, 所以需要data augmentation; (2021-12-15)
-23.	P23, self-attention上; input is a set of vectors, 而且长度会改变; word embedding; what is output? Label; seq2seq; sequence labeling; consider the context? FC can consider the neighbor; how to consider the whole sequence? A window consider the whole sequence? Self-attention; 考虑了整个句子; can be either input or hidden layer; dot-product or addictive; (2021-12-15)
-24.	P24, self-attention下; 只有WQ, WK, WV三个矩阵是需要学习的; multi-head self-attention; 不同的q负责不同种类的相关性, 关注不同的方面; position encoding; self-attention for speech; self-attention for image; CNN is simplified self-attention; CNN is better for less data, self-attention is better for more data; self-attention vs RNN; RNN遗忘久远的内容, self-attention不会; RNN无法并行化处理, self-attention可以, 所以更有效率; RNN可以被self-attention取代了; self-attention for graph; 减小self-attention的计算量是未来的重点; (2021-12-15)
-25.	P25, unsupervised learning -- word embedding; 1-of-N encoding; word class; generating word vector is unsupervised; a word can be understood by its context; exploit the context? (1) count based; (2) prediction based - sharing parameters; CBOW; skip-gram; 跨语言embedding; document embedding; beyond bag of word; (2021-12-15)
-26.	P26, spatial transformer; CNN无法放缩和旋转; 平移图片; image transformation(平移旋转缩放); (2021-12-15)
-27.	P27, RNN; slot filling; hidden layer is memory; Elman network & Jordan network; Bidirectional RNN; LSTM; RNN就是LSTM, GRU是简化版的LSTM; (2021-12-15)
-28.	P28, GNN1; classification; generation; spatial-based GNN; NN4G; DGCN; DGC; MoNET; graphSAGE; GAT; GIN; (2021-12-15)
-29.	P29, GNN2; spectral-based convolution; Fourier Series representation; Fourier transform; spectral graph theory; filtering; ChebNet; GCN; (2021-12-15)
-30.	P30, HW3; CNN; (2021-12-30)
-31.	P31, HW3(English version); (2021-12-15)
-32.	P32, HW4; self-attention; task introduction; Phoneme classification; Speaker classification; dataset; Data Preprocessing; Data formats; Data segmentation during training; sample code; requirements; grading; submission format; deadlines; grading—bonus; hints; regulation; (2021-12-30)
-33.	P33, HW4(English version); (2021-12-16)
-	
+P22, 卷积神经网络; image classification; 识别关键pattern即可; simplification 1, typical setting; 每个neuron输入一个receptive field; padding是为了补全; simplification 2, 共享参数; benefit of CNN; CNN类似filter;  multiple convolutional layer; observation 3; neuron vs filter; pooling -- max pooling, 把图片变小(减小运算量, 可有可无); convolution和pooling交替使用; alphaGo; 围棋和image有共同的特性; alpha Go没用pooling; CNN不可以放缩和旋转图片, 所以需要data augmentation; (2021-12-15)
+
+P23, self-attention上; input is a set of vectors, 而且长度会改变; word embedding; what is output? Label; seq2seq; sequence labeling; consider the context? FC can consider the neighbor; how to consider the whole sequence? A window consider the whole sequence? Self-attention; 考虑了整个句子; can be either input or hidden layer; dot-product or addictive; (2021-12-15)
+
+P24, self-attention下; 只有WQ, WK, WV三个矩阵是需要学习的; multi-head self-attention; 不同的q负责不同种类的相关性, 关注不同的方面; position encoding; self-attention for speech; self-attention for image; CNN is simplified self-attention; CNN is better for less data, self-attention is better for more data; self-attention vs RNN; RNN遗忘久远的内容, self-attention不会; RNN无法并行化处理, self-attention可以, 所以更有效率; RNN可以被self-attention取代了; self-attention for graph; 减小self-attention的计算量是未来的重点; (2021-12-15)
+
+P25, unsupervised learning -- word embedding; 1-of-N encoding; word class; generating word vector is unsupervised; a word can be understood by its context; exploit the context? (1) count based; (2) prediction based - sharing parameters; CBOW; skip-gram; 跨语言embedding; document embedding; beyond bag of word; (2021-12-15)
+
+22.	P26, spatial transformer; CNN无法放缩和旋转; 平移图片; image transformation(平移旋转缩放); (2021-12-15)
+23.	P27, RNN; slot filling; hidden layer is memory; Elman network & Jordan network; Bidirectional RNN; LSTM; RNN就是LSTM, GRU是简化版的LSTM; (2021-12-15)
+24.	P28, GNN1; classification; generation; spatial-based GNN; NN4G; DGCN; DGC; MoNET; graphSAGE; GAT; GIN; (2021-12-15)
+25.	P29, GNN2; spectral-based convolution; Fourier Series representation; Fourier transform; spectral graph theory; filtering; ChebNet; GCN; (2021-12-15)
+26.	P30, HW3; CNN; (2021-12-30)
+27.	P31, HW3(English version); (2021-12-15)
+28.	P32, HW4; self-attention; task introduction; Phoneme classification; Speaker classification; dataset; Data Preprocessing; Data formats; Data segmentation during training; sample code; requirements; grading; submission format; deadlines; grading—bonus; hints; regulation; (2021-12-30)
+29.	P33, HW4(English version); (2021-12-16)
+
+
 ##	Chapter 4, Theory of ML (Prof. Pei-Yuan Wu)
 
 ##	Chapter 5, transformer; 
@@ -92,7 +116,7 @@ https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php
 72.	P72, HW11; Adaptation; (2021-12-30)
 	
 ##	Chapter 10, Privacy v.s. ML (Prof. Pei-Yuan Wu); 
-	
+
 ##	Chapter 11, Reinforcement learning; 
 73.	P73, Reinforcement learning 1; challenging to label data in some tasks; what is RL? Machine learning == looking for function; playing video game; (1) function with unknown; input, observation; output, actions; (2) define loss from training data; -reward; (3) optimization; reward之和越大越好; actor具有随机性, environment也有随机性; how  to control your actor; optimize cross entropy; (2021-12-22)
 74.	P74, Reinforcement learning 2; reward delay; Version 1, cumulative reward; Version 2, discount factor; Version 3, reward有正有负; policy gradient; data collection is in training process; theta can only update once; time-consuming; on-policy; off-policy; difference between actor to train and actor to interact; need randomness; (2021-12-22)
