@@ -28,7 +28,9 @@ B = (b1, b2, ..., bn)
 
 = (WqWkWv) * (a1a2 + a1a3 +...+ a1an, a2a1 + a2a3 + ... + a2an, ..., ana1 + ana2 + ... + anan) 
 
-= Wa * Wk * Wv * AttentionMatrix * input
+= Wa * Wk * Wv * AttentionMatrix * InputMatrix
+
+从中吾人看出，AttentionMatrix其实是把输入的一组向量彼此纠缠起来。
 
 ### Q: 在线性代数中，一个一维向量一般横着写还是竖着写？
 
