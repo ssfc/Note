@@ -10,13 +10,25 @@ Can be either input or a hidden layer. 如果是左下和右下的attention, a�
 
 从纸上算一下page 15. 
 
-a1,2 = q1*k2 = (Wqa1) * (Wka2) = (WqWk) * (a1a2)
+a12 = q1*k2 = (Wqa1) * (Wka2) = (WqWk) * (a1a2)
 
-a1,3 = q1*k3 = (Wqa1) * (Wka3) = (WqWk) * (a1a3)
+a13 = q1*k3 = (Wqa1) * (Wka3) = (WqWk) * (a1a3)
 
-a1,4 = q1*k4 = (Wqa1) * (Wka4) = (WqWk) * (a1a4)
+a14 = q1*k4 = (Wqa1) * (Wka4) = (WqWk) * (a1a4)
 
+b1 = a12v2 + a13v3 + a14v4
 
+= (WqWk) * (a1a2) * (Wva2) + (WqWk) * (a1a3) * (Wva3) + (WqWk) * (a1a4) * (Wva4)
+
+= (WqWkWv) * (a1a2 + a1a3 + a1a4)
+
+类似的，b2 = (WqWkWv) * (a2a1 + a2a3 + a2a4)
+
+B = (b1, b2, ..., bn) 
+
+= (WqWkWv) * (a1a2 + a1a3 +...+ a1an, a2a1 + a2a3 + ... + a2an, ..., ana1 + ana2 + ... + anan) 
+
+= Wa * Wk * Wv * AttentionMatrix
 
 ### Q: 在线性代数中，一个一维向量一般横着写还是竖着写？
 
