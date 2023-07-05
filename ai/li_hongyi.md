@@ -232,34 +232,62 @@ HW15: Meta Learning
 
 #	李宏毅2020机器学习深度学习(完整版)国语 
 https://www.bilibili.com/video/BV1JE411g7XF?from=search&seid=4463720420343295823&spm_id_from=333.337.0.0 
-1. 	P1, 机器学习; python is good; ML == looking for a function minimizing loss; what kind of function do you want? (1) Regression wants scalar; (2) binary classification; multi-class classification; (3) generation; supervised learning; supervised v.s. reinforcement; unsupervised learning; 寻找方法: gradient descent; (2022-1-8)
-2.	P2, Rule; (2022-1-8)
-3.	P3, regression; step 1, model; step 2, goodness of function; step 3, best function; gradient descent; unilinear function; model selection; overfit; what are the hidden factors? Back to step 1, redesign the model; back to step 2, regularization; (2022-1-8)
-4.	P4, basic concept; estimator; bias and variance of estimator; bias v.s. variance; deal with large bias; more feature, more complex; deal with large variance; more data; regularization; model selection; public testing set, private testing set; cross validation; N-fold validation; (2022-1-8)
-5.	P5, gradient descent 1; learning rate; adaptive learning rate; adagrad; stochastic gradient descent; feature scaling; gradient descent theory; (2022-1-9)
-6.	P6, gradient descent 2; (2022-1-9)
-7.	P7, gradient descent 3; (2022-1-9)
-8.	P8, optimization for DL 1; background; SGD; SGDM; adagrad; RMSProp; Adam; (2022-1-9)
-9.	P9, optimization for DL 2; RAdam v.s. SWATS; normalization; CV用SGDM, NLP用Adam; (2022-1-9)
-10.	P10, classification; how to do classification; two boxes; prior; probability from class - feature; max likelihood; modifying model; 用mean和covariance衡量模型的好坏; probability distribution; 假设所有feature相互独立, 就是naïve Bayes classifier; posterior probability; (2022-1-20)
-11.	P11, logistic regression; step 1, function set; step 2, goodness of a function; cross entropy; step 3, find the best function; cross entropy v.s. square error (梯度下降更快); discriminative v.s. generative; benefit of generative model; 善于脑补, 适用于数据较少的场合; multi-class classification; limitation of logistic regression; feature transformation; cascading logistic regression models; (2022-1-31)
-12.	P12, deep learning; ups and downs of deep learning; multi-layer perceptron; step 1, function set; step 2, goodness of a function; step 3, find the best function; fully connected feedforward network; deep = many hidden layers; 需要使用ResNet才能搞定100多层的network, Fully connected根本train不起来; matrix operation; hidden layer可以看作feature extractor; 以图像识别举例, 浅层提取边缘信息, 深层提取高维抽象信息; trial & error and intuition; loss for an example; total loss; gradient descent; backprop; deeper is better? (2022-2-3)
-13.	P13, backprop; gradient descent; chain rule; forward pass; backward pass; (2022-2-3)
-14.	P14, tips for deep learning; do not always blame overfitting; vanishing gradient; ReLU; maxout; hard to find optimal parameters; momentum; adam; early stopping; regularization; L1; weight decay; dropout; dropout is a kind of ensemble; testing of dropout; (2022-2-4)
-15.	P15, why deep; 高瘦强于矮胖; 因为分层有利于模组化, 不同层提取不同层次的信息; modularization - speech; phoneme; Gaussian Mixture Model; 所有函数都可以用一层神经网络表示; deeper means less parameters; analogy; hidden layers相当于剪窗花的对折; end-to-end learning; less engineering labor, machine learns more; (2022-2-1)
-16.	P16, pytorch tutorial; tensors and numpy; tensor([1, 2]); tensor.view == numpy.reshape; broadcasting; computing graph; cuda; 自动微分; linear regression; sequential; convolution; (2022-2-6)
-17.	P17, CNN; why CNN for image? A neuron connects to a small region; subsampling will not change object; the whole CNN; filter某个框中的数字 == FC中的一个weight; two neurons share weight; max pooling; what does CNN learn? Deep dream; deep style; playing go; speech; (2022-2-8)
-18.	P18, GNN1; NN; CNN; RNN; transformer; graph; classification; generation(开发新药); 从人物关系推断凶手; a node can learn from its neighbors; spatial-based; spectral-based; NN4G(neural network for graph); DCNN(diffusion-convolution neural network); MoNET(mixture model network); GraphSAGE; GAT(graph attention network); GIN(graph isomorphism network); (2022-3-3)
-19.	P19, GNN2; spectral-based convolution; N-dim vector space; Fourier Series representation; time domain basis; frequency domain basis; Fourier transform; spectral graph theory; eigenvectors; interpreting vertex frequency; filtering; ChebNet; GCN; benchmark tasks; results; application to GCN; drop edge; graph generation; VAE-based model; GAN-based model; AR-based model; GNN roadmap; (2022-4-29)
-20.	P20, RNN (Part I); slot filling; 1-of-N encoding; beyond 1-of-N encoding, 归于other; word hashing; example application; neural network needs memory; the output of hidden layer is stored in the memory; example; multiple hidden layer; Elman Network & Jordan Network; bidirectioinal RNN; LSTM; input gate, output gate, forget gate; (2022-4-30)
-21.	P21, RNN (Part II); learning target; RNN is not easy to train; the error surface is either very deep or very deep, 原因在于RNN把同一套参数在不同的位置反复使用; clipping; LSTM can handle gradient vanishing (not gradient explode); the influence never disappeared unless forget gate is closed; gated recurrent unit (GRU), simpler than LSTM; clockwise RNN; SCRN; more application; many-to-one; sentiment analysis; key term extraction; many-to-many; speech recognition; add an extra symbol to represent “null”; CTC; machine translation; don’t know when to stop; syntactic parsing; sequence to sequence auto-encoder; chat-bot; attention-based model; machine’s memory; neural Turing machine; reading comprehension; ask machine a question; visual machine answering; speech question answering; attention在文中划重点; simple baselines; RNN v.s. structured learning; 单向RNN没有考虑整个句子; cost and error are not related; DNN+HMM; is structured learning practical? GAN is a kind of structured learning; deep and structured will be the future; (2022-5-1)
-22.	P22, semi-supervised; introduction; 用data的feature不算偷, 用label才算偷; transductive learning,  unlabelled data is the testing data; inductive learning, unlabelled data is not the testing data; collecting data is easy, but collecting labelled data is expensive; the distribution of the unlabelled data tell us something; 聚类假设: 处于相同聚类的样本更可能具有相同标记; 流型假设: 处于很小的局部区域的样本更相似，更可能具有相同标记；; supervised generative model; semi-supervised generative model; low-density separation; self-training; slides中应该是加到训练好的data; self-training用硬标签, 生成模型用软标签; it looks like class 1, then it is class 1; entropy-based regularization; 看分布集中不集中; semi-supervised SVM; smoothness assumption; 近朱者赤近墨者黑; 文章分类; cluster and then label; graph-based approach; 启发式, 根据经验根据直觉怎么爽怎么来; graph construction: define similarity, add edge, edge weight equals to similarity; define the smoothness of label; graph Laplacian; L = D – W; looking for better representation; 
+
+P1, 机器学习; python is good; ML == looking for a function minimizing loss; what kind of function do you want? (1) Regression wants scalar; (2) binary classification; multi-class classification; (3) generation; supervised learning; supervised v.s. reinforcement; unsupervised learning; 寻找方法: gradient descent; (2022-1-8)
+
+P2, Rule; (2022-1-8)
+
+P3, regression; step 1, model; step 2, goodness of function; step 3, best function; gradient descent; unilinear function; model selection; overfit; what are the hidden factors? Back to step 1, redesign the model; back to step 2, regularization; (2022-1-8)
+
+P4, basic concept; estimator; bias and variance of estimator; bias v.s. variance; deal with large bias; more feature, more complex; deal with large variance; more data; regularization; model selection; public testing set, private testing set; cross validation; N-fold validation; (2022-1-8)
+
+P5, gradient descent 1; learning rate; adaptive learning rate; adagrad; stochastic gradient descent; feature scaling; gradient descent theory; (2022-1-9)
+
+P6, gradient descent 2; (2022-1-9)
+
+P7, gradient descent 3; (2022-1-9)
+
+P8, optimization for DL 1; background; SGD; SGDM; adagrad; RMSProp; Adam; (2022-1-9)
+
+P9, optimization for DL 2; RAdam v.s. SWATS; normalization; CV用SGDM, NLP用Adam; (2022-1-9)
+
+P10, classification; how to do classification; two boxes; prior; probability from class - feature; max likelihood; modifying model; 用mean和covariance衡量模型的好坏; probability distribution; 假设所有feature相互独立, 就是naïve Bayes classifier; posterior probability; (2022-1-20)
+
+P11, logistic regression; step 1, function set; step 2, goodness of a function; cross entropy; step 3, find the best function; cross entropy v.s. square error (梯度下降更快); discriminative v.s. generative; benefit of generative model; 善于脑补, 适用于数据较少的场合; multi-class classification; limitation of logistic regression; feature transformation; cascading logistic regression models; (2022-1-31)
+
+P12, deep learning; ups and downs of deep learning; multi-layer perceptron; step 1, function set; step 2, goodness of a function; step 3, find the best function; fully connected feedforward network; deep = many hidden layers; 需要使用ResNet才能搞定100多层的network, Fully connected根本train不起来; matrix operation; hidden layer可以看作feature extractor; 以图像识别举例, 浅层提取边缘信息, 深层提取高维抽象信息; trial & error and intuition; loss for an example; total loss; gradient descent; backprop; deeper is better? (2022-2-3)
+
+P13, backprop; gradient descent; chain rule; forward pass; backward pass; (2022-2-3)
+
+P14, tips for deep learning; do not always blame overfitting; vanishing gradient; ReLU; maxout; hard to find optimal parameters; momentum; adam; early stopping; regularization; L1; weight decay; dropout; dropout is a kind of ensemble; testing of dropout; (2022-2-4)
+
+P15, why deep; 高瘦强于矮胖; 因为分层有利于模组化, 不同层提取不同层次的信息; modularization - speech; phoneme; Gaussian Mixture Model; 所有函数都可以用一层神经网络表示; deeper means less parameters; analogy; hidden layers相当于剪窗花的对折; end-to-end learning; less engineering labor, machine learns more; (2022-2-1)
+
+P16, pytorch tutorial; tensors and numpy; tensor([1, 2]); tensor.view == numpy.reshape; broadcasting; computing graph; cuda; 自动微分; linear regression; sequential; convolution; (2022-2-6)
+
+P17, CNN; why CNN for image? A neuron connects to a small region; subsampling will not change object; the whole CNN; filter某个框中的数字 == FC中的一个weight; two neurons share weight; max pooling; what does CNN learn? Deep dream; deep style; playing go; speech; (2022-2-8)
+
+P18, GNN1; NN; CNN; RNN; transformer; graph; classification; generation(开发新药); 从人物关系推断凶手; a node can learn from its neighbors; spatial-based; spectral-based; NN4G(neural network for graph); DCNN(diffusion-convolution neural network); MoNET(mixture model network); GraphSAGE; GAT(graph attention network); GIN(graph isomorphism network); (2022-3-3)
+
+P19, GNN2; spectral-based convolution; N-dim vector space; Fourier Series representation; time domain basis; frequency domain basis; Fourier transform; spectral graph theory; eigenvectors; interpreting vertex frequency; filtering; ChebNet; GCN; benchmark tasks; results; application to GCN; drop edge; graph generation; VAE-based model; GAN-based model; AR-based model; GNN roadmap; (2022-4-29)
+
+P20, RNN (Part I); slot filling; 1-of-N encoding; beyond 1-of-N encoding, 归于other; word hashing; example application; neural network needs memory; the output of hidden layer is stored in the memory; example; multiple hidden layer; Elman Network & Jordan Network; bidirectioinal RNN; LSTM; input gate, output gate, forget gate; (2022-4-30)
+
+P21, RNN (Part II); learning target; RNN is not easy to train; the error surface is either very deep or very deep, 原因在于RNN把同一套参数在不同的位置反复使用; clipping; LSTM can handle gradient vanishing (not gradient explode); the influence never disappeared unless forget gate is closed; gated recurrent unit (GRU), simpler than LSTM; clockwise RNN; SCRN; more application; many-to-one; sentiment analysis; key term extraction; many-to-many; speech recognition; add an extra symbol to represent “null”; CTC; machine translation; don’t know when to stop; syntactic parsing; sequence to sequence auto-encoder; chat-bot; attention-based model; machine’s memory; neural Turing machine; reading comprehension; ask machine a question; visual machine answering; speech question answering; attention在文中划重点; simple baselines; RNN v.s. structured learning; 单向RNN没有考虑整个句子; cost and error are not related; DNN+HMM; is structured learning practical? GAN is a kind of structured learning; deep and structured will be the future; (2022-5-1)
+
+P22, semi-supervised; introduction; 用data的feature不算偷, 用label才算偷; transductive learning,  unlabelled data is the testing data; inductive learning, unlabelled data is not the testing data; collecting data is easy, but collecting labelled data is expensive; the distribution of the unlabelled data tell us something; 聚类假设: 处于相同聚类的样本更可能具有相同标记; 流型假设: 处于很小的局部区域的样本更相似，更可能具有相同标记；; supervised generative model; semi-supervised generative model; low-density separation; self-training; slides中应该是加到训练好的data; self-training用硬标签, 生成模型用软标签; it looks like class 1, then it is class 1; entropy-based regularization; 看分布集中不集中; semi-supervised SVM; smoothness assumption; 近朱者赤近墨者黑; 文章分类; cluster and then label; graph-based approach; 启发式, 根据经验根据直觉怎么爽怎么来; graph construction: define similarity, add edge, edge weight equals to similarity; define the smoothness of label; graph Laplacian; L = D – W; looking for better representation; 
 160	-
+
 #	李宏毅对ChatGPT的解读
 https://www.bilibili.com/video/BV1U84y167i3/?spm_id_from=333.337.search-card.all.click&vd_source=3ef4175721f926fbf390a069da19b0ca
-1. InstructGPT论文; 阶段1, 学习文字接龙, 不需要人工标注; 文字接龙可以回答问题, 但是每次产生的回答有所不同; 阶段2, 人类老师引导文字接龙的方向; 不需要穷尽所有的问题, 只需要告诉它人类的偏好; 阶段3, GPT模仿人类老师的喜好; 人类老师给答案打分; 阶段4, 用RL向模拟老师学习; (2023年1月4日)
-2. 来自猎人暗黑大陆的模型GPT3; 非常巨大; few-shot learning, one-shot learning, zero-shot learning (GPT的野望); closed-book QA; 根据题目写新闻; 简单加减法; 将GPT中的文字接龙应用到图像(把相邻的像素视为相邻的文字); (2023年1月5日)
-3. InstructGPT: Step 1, supervised fine-tuning via collected demonstration; Step 2, reward model training; a human-labeled ranking; Step 3, RL via PPO; Evaluation: truthful QA; harmful words; (2023年1月5日)
-4. ChatGPT, 惊艳众人的会话AI: 3 steps are the same as InstructGPT; (2023年1月5日)
-5. webGPT, 会搜寻证据的GPT: 3 steps are the same as InstructGPT; (2023年1月5日)
-6. tbc
+
+InstructGPT论文; 阶段1, 学习文字接龙, 不需要人工标注; 文字接龙可以回答问题, 但是每次产生的回答有所不同; 阶段2, 人类老师引导文字接龙的方向; 不需要穷尽所有的问题, 只需要告诉它人类的偏好; 阶段3, GPT模仿人类老师的喜好; 人类老师给答案打分; 阶段4, 用RL向模拟老师学习; (2023年1月4日)
+
+来自猎人暗黑大陆的模型GPT3; 非常巨大; few-shot learning, one-shot learning, zero-shot learning (GPT的野望); closed-book QA; 根据题目写新闻; 简单加减法; 将GPT中的文字接龙应用到图像(把相邻的像素视为相邻的文字); (2023年1月5日)
+
+InstructGPT: Step 1, supervised fine-tuning via collected demonstration; Step 2, reward model training; a human-labeled ranking; Step 3, RL via PPO; Evaluation: truthful QA; harmful words; (2023年1月5日)
+
+ChatGPT, 惊艳众人的会话AI: 3 steps are the same as InstructGPT; (2023年1月5日)
+
+webGPT, 会搜寻证据的GPT: 3 steps are the same as InstructGPT; (2023年1月5日)
+
