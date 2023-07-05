@@ -134,62 +134,102 @@ P61, HW7; BERT; (2021-12-21)
 P62, HW8; anomaly detection; (2021-12-21)
 
 ##	Chapter 8, explainable AI / adversarial attack; 
-63.	P63, adversarial attack上; robust; example of attack; 加入小noise, 把cat识别成star fish; noise越小越好, 识别差越大越好; L2-norm; L-infinity; attack approach; update input, not parameters; FGSM; (2021-12-21)
-64.	P64, adversarial attack下; white box v.s. black box; 知道参数的攻击是white box; black box attack; train a proxy network; 挺容易成功的; the attack is so easy! Adversarial examples are not bugs, they are features; 原因不在Model, 而在data; one pixel attack; universal adversarial attack; beyond image; attack in the physical world; backdoor in model; Defense; passive defense; smoothing; image compression; generator; 随机防御方法; adversarial training; 给攻击成功的图片标上正确的label; data augmentation; (2021-12-21)
-65.	P65, explainable ML上; correct is not clever; interpretable v.s. powerful; decision tree; make people comfortable; which component is crucial? Saliency map; smooth grad, 给图片加上不同的noise; gradient saturation; how NN process input data? Visualization; probing; (2021-12-22)
-66.	P66, explainable ML下; global explanation; what does a filter detect? What does a digit look like for CNN? Constraint from generator; 让人开心而不是机器开心; 用linear model模仿未知model (哪怕模拟一小部分); LIME; (2021-12-22)
-67.	P67, more about adversarial attack上; attack on image; one pixel attack; how do we find the exact pixel and value? Differential evolution; one pixel attack recap; DE used in one pixel attack; (2021-12-22)
-68.	P68, more about adversarial attack下; attacks on ASR; attacks on ASV; wake up words; hidden voice attack; 听声辨位; signal preprocessing; perturbation; time domain inversion; random phase generation; high frequency addition; time scaling; (2021-12-22)
-69.	P69, HW9; Explainable AI; (2021-12-30)
-70.	P70, HW10; Adversarial Attack; (2021-12-30)
-	
+P63, adversarial attack上; robust; example of attack; 加入小noise, 把cat识别成star fish; noise越小越好, 识别差越大越好; L2-norm; L-infinity; attack approach; update input, not parameters; FGSM; (2021-12-21)
+
+P64, adversarial attack下; white box v.s. black box; 知道参数的攻击是white box; black box attack; train a proxy network; 挺容易成功的; the attack is so easy! Adversarial examples are not bugs, they are features; 原因不在Model, 而在data; one pixel attack; universal adversarial attack; beyond image; attack in the physical world; backdoor in model; Defense; passive defense; smoothing; image compression; generator; 随机防御方法; adversarial training; 给攻击成功的图片标上正确的label; data augmentation; (2021-12-21)
+
+P65, explainable ML上; correct is not clever; interpretable v.s. powerful; decision tree; make people comfortable; which component is crucial? Saliency map; smooth grad, 给图片加上不同的noise; gradient saturation; how NN process input data? Visualization; probing; (2021-12-22)
+
+P66, explainable ML下; global explanation; what does a filter detect? What does a digit look like for CNN? Constraint from generator; 让人开心而不是机器开心; 用linear model模仿未知model (哪怕模拟一小部分); LIME; (2021-12-22)
+
+P67, more about adversarial attack上; attack on image; one pixel attack; how do we find the exact pixel and value? Differential evolution; one pixel attack recap; DE used in one pixel attack; (2021-12-22)
+
+P68, more about adversarial attack下; attacks on ASR; attacks on ASV; wake up words; hidden voice attack; 听声辨位; signal preprocessing; perturbation; time domain inversion; random phase generation; high frequency addition; time scaling; (2021-12-22)
+
+P69, HW9; Explainable AI; (2021-12-30)
+
+P70, HW10; Adversarial Attack; (2021-12-30)
+
 ##	Chapter 9, domain adaption; 
-71.	P71, domain adaption; 当测试资料和训练资料有差异时, 怎样保证accuracy; transfer learning; domain shift; knowledge of target domain; (1) little but labeled, train by source data, fine-tune by target data; (2) large amount of unlabeled data; feature extractor, learn to ignore colors; domain adversarial training; feature extractor (generator) + label predictor; 让feature extractor的结果分不出差异, 骗过domain classifier; limitation; outlook; universal domain adaption; (3) little & unlabeled; domain generalization; (2021-12-22)
-72.	P72, HW11; Adaptation; (2021-12-30)
-	
+P71, domain adaption; 当测试资料和训练资料有差异时, 怎样保证accuracy; transfer learning; domain shift; knowledge of target domain; (1) little but labeled, train by source data, fine-tune by target data; (2) large amount of unlabeled data; feature extractor, learn to ignore colors; domain adversarial training; feature extractor (generator) + label predictor; 让feature extractor的结果分不出差异, 骗过domain classifier; limitation; outlook; universal domain adaption; (3) little & unlabeled; domain generalization; (2021-12-22)
+
+P72, HW11; Adaptation; (2021-12-30)
+
 ##	Chapter 10, Privacy v.s. ML (Prof. Pei-Yuan Wu); 
 
 ##	Chapter 11, Reinforcement learning; 
-73.	P73, Reinforcement learning 1; challenging to label data in some tasks; what is RL? Machine learning == looking for function; playing video game; (1) function with unknown; input, observation; output, actions; (2) define loss from training data; -reward; (3) optimization; reward之和越大越好; actor具有随机性, environment也有随机性; how  to control your actor; optimize cross entropy; (2021-12-22)
-74.	P74, Reinforcement learning 2; reward delay; Version 1, cumulative reward; Version 2, discount factor; Version 3, reward有正有负; policy gradient; data collection is in training process; theta can only update once; time-consuming; on-policy; off-policy; difference between actor to train and actor to interact; need randomness; (2021-12-22)
-75.	P75, Reinforcement learning 3; actor critic; evaluating how good it is when observing s; value function, 需要在游戏结果之前预测; Monte-Carlo approach, 不适合永不结束的游戏; temporal-difference approach, 利用递推式训练; compared with average; Version 4, advantage actor-critic; parameters of actors and critics can be shared; deep Q network; (2021-12-23)
-76.	P76 Reinforcement learning 4; reward shaping; sparse reward, reward=0 in most cases; define extra reward; VizDoom; 扣血就惩罚; 加上了人类对知识的理解; curiosity-based, but meaningful; (2021-12-23)
-77.	P77, Reinforcement learning 5; sometimes reward is hard to define; imitation learning; 言传身教; behavior cloning; inverse RL; learn reward function from expert demonstration; the teacher is always the best; framework of IRL; actor == generator, reward == discriminator; (2021-12-23)
-78.	P78, HW12; RL; (2021-12-30)
-79.	P79, deep RL; agent observe environment, and act; supervised learning learn from teacher, RL learn from experience; learning a chat-bot; playing video game; difficulty of RL; reward delay; policy-based approach; learning an actor; RL is also looking for a function; neural network as actor; probability of taking an action; goodness of actor; gradient ascent; add a bias; critics; A3C; (2021-12-23)
-80.	P80, proximal policy optimization; on policy; off policy; issue of importance sampling; PPO is easier than TRPO; PPO2; experimental result; (2021-12-23)
-81.	P81, Q learning 1; critic related with actor; value, estimate critic; Monte-Carlo approach; Temporal-difference approach ; 不需要把游戏玩到底, 用递推式; TD比MC更常见; TD和MC估测结果不同; state-action value function, cumulated reward; loop: find a better actor; target network; exploration; epsilon (decay during training) greedy; Boltzmann Exploration; replay buffer; 利用过去的经验; (2021-12-28)
-82.	P82, Q learning 2; tips of Q-learning; double DQN; Q经常被高估; dueling DQN; 改network架构; prioritized replay; multi-step, balance between TD and MC; noisy net; noise on action OR parameters; distributional Q-function; rainbow; (2021-12-28)
-83.	P83, Q learning 3; Q learning for continuous actions; gradient ascent (因为是找最大值); design a network to make optimization easy; (2021-12-28)
-	
+P73, Reinforcement learning 1; challenging to label data in some tasks; what is RL? Machine learning == looking for function; playing video game; (1) function with unknown; input, observation; output, actions; (2) define loss from training data; -reward; (3) optimization; reward之和越大越好; actor具有随机性, environment也有随机性; how  to control your actor; optimize cross entropy; (2021-12-22)
+
+P74, Reinforcement learning 2; reward delay; Version 1, cumulative reward; Version 2, discount factor; Version 3, reward有正有负; policy gradient; data collection is in training process; theta can only update once; time-consuming; on-policy; off-policy; difference between actor to train and actor to interact; need randomness; (2021-12-22)
+
+P75, Reinforcement learning 3; actor critic; evaluating how good it is when observing s; value function, 需要在游戏结果之前预测; Monte-Carlo approach, 不适合永不结束的游戏; temporal-difference approach, 利用递推式训练; compared with average; Version 4, advantage actor-critic; parameters of actors and critics can be shared; deep Q network; (2021-12-23)
+
+P76 Reinforcement learning 4; reward shaping; sparse reward, reward=0 in most cases; define extra reward; VizDoom; 扣血就惩罚; 加上了人类对知识的理解; curiosity-based, but meaningful; (2021-12-23)
+
+P77, Reinforcement learning 5; sometimes reward is hard to define; imitation learning; 言传身教; behavior cloning; inverse RL; learn reward function from expert demonstration; the teacher is always the best; framework of IRL; actor == generator, reward == discriminator; (2021-12-23)
+
+P78, HW12; RL; (2021-12-30)
+
+P79, deep RL; agent observe environment, and act; supervised learning learn from teacher, RL learn from experience; learning a chat-bot; playing video game; difficulty of RL; reward delay; policy-based approach; learning an actor; RL is also looking for a function; neural network as actor; probability of taking an action; goodness of actor; gradient ascent; add a bias; critics; A3C; (2021-12-23)
+
+P80, proximal policy optimization; on policy; off policy; issue of importance sampling; PPO is easier than TRPO; PPO2; experimental result; (2021-12-23)
+
+P81, Q learning 1; critic related with actor; value, estimate critic; Monte-Carlo approach; Temporal-difference approach ; 不需要把游戏玩到底, 用递推式; TD比MC更常见; TD和MC估测结果不同; state-action value function, cumulated reward; loop: find a better actor; target network; exploration; epsilon (decay during training) greedy; Boltzmann Exploration; replay buffer; 利用过去的经验; (2021-12-28)
+
+P82, Q learning 2; tips of Q-learning; double DQN; Q经常被高估; dueling DQN; 改network架构; prioritized replay; multi-step, balance between TD and MC; noisy net; noise on action OR parameters; distributional Q-function; rainbow; (2021-12-28)
+
+P83, Q learning 3; Q learning for continuous actions; gradient ascent (因为是找最大值); design a network to make optimization easy; (2021-12-28)
+
 ##	Chapter 12, life long learning; 
-84.	P84, life long learning 1; 其实新旧任务差别不大; forget; 同时学能记住, 依次学就忘了; multi-learning是life long learning的upper bound; transfer learning只在意new model; evaluation; (2021-12-23)
-85.	P85, life long learning 2; selective synaptic plasticity; why forgetting? Error surface不同; only change unimportant parameters; each parameter has a guard; bi需要人为制定; 看看改变theta对结果的影响; not forget, but intransigence; bi可以算, 方法各不同; 任务学习顺序不同, 结果相差很大; gradient episodic memory; 改变gradient descent下降方向; GEM偷存了先前的资料; additional neural resource allocation; progressive NN; 不断新增额外的参数; PackNet; 每次只用一部分网络; CPG; memory reply; generating Task 1 and send to Task 2; curriculum learning; (2021-12-24)
-86.	P86, 神经网络压缩1; network pruning; 剪掉network的一些参数; 树大必有枯枝; importance of a weight; importance of a neuron; 一次剪掉一点参数; weight pruning; network becomes irregular, hard to implement and speed up; 补0并没有实际变小; 95%的参数可以归零, 但运算并没有加快; neuron pruning; large network is easier to optimize; 把大网络变小有可能, 直接训练小网络不可能; 大乐透解说; 正负号是初始化参数的关键; (2021-12-24)
-87.	P87, 神经网络压缩2; knowledge distillation; teacher net, student net; 让学生的输出逼近老师的输出, 哪怕老师是错的; 使用多个模型求平均; temperature for softmax; parameter quantization; using less bits to represent a value; weight clustering; binary weights; architecture design; depthwise convolution; filter number == input channel number; pointwise convolution, 1*1, 考虑channel之间的关系; 减少了参数; dynamic computation; NN自由调整运算量; dynamic depth; dynamic width; 可以同时用多个策略; (2021-12-24)
-88.	P88, HW13; network compression; (2021-12-30)
-89.	P89, HW14; lifelong learning; (2021-12-24)
-90.	P90, conjecture of deep learning; local minimum == global minimum; analyzing Hessian; 当参数多, local minimum概率极小; saddle在loss大的地方, local minimum在loss小的地方; (2021-12-24)
-	
+P84, life long learning 1; 其实新旧任务差别不大; forget; 同时学能记住, 依次学就忘了; multi-learning是life long learning的upper bound; transfer learning只在意new model; evaluation; (2021-12-23)
+
+P85, life long learning 2; selective synaptic plasticity; why forgetting? Error surface不同; only change unimportant parameters; each parameter has a guard; bi需要人为制定; 看看改变theta对结果的影响; not forget, but intransigence; bi可以算, 方法各不同; 任务学习顺序不同, 结果相差很大; gradient episodic memory; 改变gradient descent下降方向; GEM偷存了先前的资料; additional neural resource allocation; progressive NN; 不断新增额外的参数; PackNet; 每次只用一部分网络; CPG; memory reply; generating Task 1 and send to Task 2; curriculum learning; (2021-12-24)
+
+P86, 神经网络压缩1; network pruning; 剪掉network的一些参数; 树大必有枯枝; importance of a weight; importance of a neuron; 一次剪掉一点参数; weight pruning; network becomes irregular, hard to implement and speed up; 补0并没有实际变小; 95%的参数可以归零, 但运算并没有加快; neuron pruning; large network is easier to optimize; 把大网络变小有可能, 直接训练小网络不可能; 大乐透解说; 正负号是初始化参数的关键; (2021-12-24)
+
+P87, 神经网络压缩2; knowledge distillation; teacher net, student net; 让学生的输出逼近老师的输出, 哪怕老师是错的; 使用多个模型求平均; temperature for softmax; parameter quantization; using less bits to represent a value; weight clustering; binary weights; architecture design; depthwise convolution; filter number == input channel number; pointwise convolution, 1*1, 考虑channel之间的关系; 减少了参数; dynamic computation; NN自由调整运算量; dynamic depth; dynamic width; 可以同时用多个策略; (2021-12-24)
+
+P88, HW13; network compression; (2021-12-30)
+
+P89, HW14; lifelong learning; (2021-12-24)
+
+P90, conjecture of deep learning; local minimum == global minimum; analyzing Hessian; 当参数多, local minimum概率极小; saddle在loss大的地方, local minimum在loss小的地方; (2021-12-24)
+
 ##	Chapter 13, meta learning; 
-91.	P91, meta learning 1; learn to learn; learn hyperparameters; machine learning == looking for a function; (1) function with unknown parameters; (2) define loss from training data; training tasks containing training data & testing data; compute loss based on testing data of training task; (3) optimization; what is meta learning? Phi, learnable parameters; 用测试资料来计算Loss; 无法微分就用RL硬做; 测试集中只需要少量的标记数据; testing data中的资料是不能碰的; few-shot是目标, meta是手段; find a function F that finds a function f; across task (outer loop) training & testing; (2021-12-25)
-92.	P92, meta learning 2; review gradient descent; Case 1, learning to initialize; MAML, 训练任务和测试任务差距不大, 类似domain adaption & transfer learning; multi-task learning is baseline of MAML; rapid learning OR feature reuse? Almost No Inner Loop; Case 2, learn to optimize; Case 3, network architecture search (NAS); RL硬做; DARTS, differential architecture search; Case 4, data augmentation; sampling reweighting; beyond gradient descent; learning to compare; application; few-shot image classification; N-way K-shot, N classes, K examples; Omniglot; (2021-12-25)
-93.	P93, MAML 1; meta learning == learn to learn; life-long, one model for all tasks; meta, how to learn a new model; (2021-12-25)
-94.	P94, MAML 2; define a set of learning algorithm; network structure & init & update让机器自己来学, 之前是人为制定的超参数; meta learning就是学习超参数; 需要很多任务来评估; (2021-12-25)
-95.	P95, MAML 3; training tasks (training examples & testing examples); testing tasks (training examples & testing examples); few-shot是目的, meta是手段; L(F) = sum(l); (2021-12-25)
-96.	P96, MAML 4; Omniglot; N-way K-shot, N classes, K examples; (2021-12-25)
-97.	P97, MAML 5; MAML; 学习初始化参数init, 限制network structure必须一样; MAML(loss计算的是训练以后的表现) difference between pre-train (loss计算的是现在的表现); train update once, test update multiple times; 为了节省计算资源, 为了防止over-fitting; (2021-12-25)
-98.	P98, MAML 6; toy example; (2021-12-25)
-99.	P99, MAML 7; warning of math; 假装没有看到二次微分; (2021-12-26)
-100.	P100, MAML 8; implementation of MAML; translation; (2021-12-27)
-101.	P101, MAML 9; Reptile; 朝四步以后的方向走一步; 介于pre-traini和MAML之间; learn network structure OR learning rate; output parameter directly? (2021-12-27)
-102.	P102, metric-based 1; face verification; meta learning; siamese network; (2021-12-27)
-103.	P103, metric-based 2; binary classification; 不同角度的同一张人脸投影到相似位置; learn to ignore the background; (2021-12-27)
-104.	P104, metric-based 3; 5-way 1-shot; prototypical network; learn by cross-entropy as typical classification; matching network; relation network; few-shot learning for imaginary data; add generator; (2021-12-27)
-105.	P105, train + test as RNN; MANN; SNAIL; (2021-12-27)
-106.	P106, END; looking for function; input, matrix & sequence; METHOD: GAN, BERT, domain adaption, RL, attack & defense, explainable, network compression, life-long learning, meta learning; APPLICATION: CV, NLP(translation, QA), speech recognition, RL; find a problem you care about and try to solve it; NIPS, ICLR, AAAI, ICML; 范例程序稍微改改就能用在其他地方; (2021-12-27)
-134.	HW15: Meta Learning
-	
+P91, meta learning 1; learn to learn; learn hyperparameters; machine learning == looking for a function; (1) function with unknown parameters; (2) define loss from training data; training tasks containing training data & testing data; compute loss based on testing data of training task; (3) optimization; what is meta learning? Phi, learnable parameters; 用测试资料来计算Loss; 无法微分就用RL硬做; 测试集中只需要少量的标记数据; testing data中的资料是不能碰的; few-shot是目标, meta是手段; find a function F that finds a function f; across task (outer loop) training & testing; (2021-12-25)
+
+P92, meta learning 2; review gradient descent; Case 1, learning to initialize; MAML, 训练任务和测试任务差距不大, 类似domain adaption & transfer learning; multi-task learning is baseline of MAML; rapid learning OR feature reuse? Almost No Inner Loop; Case 2, learn to optimize; Case 3, network architecture search (NAS); RL硬做; DARTS, differential architecture search; Case 4, data augmentation; sampling reweighting; beyond gradient descent; learning to compare; application; few-shot image classification; N-way K-shot, N classes, K examples; Omniglot; (2021-12-25)
+
+P93, MAML 1; meta learning == learn to learn; life-long, one model for all tasks; meta, how to learn a new model; (2021-12-25)
+
+P94, MAML 2; define a set of learning algorithm; network structure & init & update让机器自己来学, 之前是人为制定的超参数; meta learning就是学习超参数; 需要很多任务来评估; (2021-12-25)
+
+P95, MAML 3; training tasks (training examples & testing examples); testing tasks (training examples & testing examples); few-shot是目的, meta是手段; L(F) = sum(l); (2021-12-25)
+
+P96, MAML 4; Omniglot; N-way K-shot, N classes, K examples; (2021-12-25)
+
+P97, MAML 5; MAML; 学习初始化参数init, 限制network structure必须一样; MAML(loss计算的是训练以后的表现) difference between pre-train (loss计算的是现在的表现); train update once, test update multiple times; 为了节省计算资源, 为了防止over-fitting; (2021-12-25)
+
+P98, MAML 6; toy example; (2021-12-25)
+
+P99, MAML 7; warning of math; 假装没有看到二次微分; (2021-12-26)
+
+P100, MAML 8; implementation of MAML; translation; (2021-12-27)
+
+P101, MAML 9; Reptile; 朝四步以后的方向走一步; 介于pre-traini和MAML之间; learn network structure OR learning rate; output parameter directly? (2021-12-27)
+
+P102, metric-based 1; face verification; meta learning; siamese network; (2021-12-27)
+
+P103, metric-based 2; binary classification; 不同角度的同一张人脸投影到相似位置; learn to ignore the background; (2021-12-27)
+
+P104, metric-based 3; 5-way 1-shot; prototypical network; learn by cross-entropy as typical classification; matching network; relation network; few-shot learning for imaginary data; add generator; (2021-12-27)
+
+P105, train + test as RNN; MANN; SNAIL; (2021-12-27)
+
+P106, END; looking for function; input, matrix & sequence; METHOD: GAN, BERT, domain adaption, RL, attack & defense, explainable, network compression, life-long learning, meta learning; APPLICATION: CV, NLP(translation, QA), speech recognition, RL; find a problem you care about and try to solve it; NIPS, ICLR, AAAI, ICML; 范例程序稍微改改就能用在其他地方; (2021-12-27)
+
+HW15: Meta Learning
+
 #	李宏毅2020机器学习深度学习(完整版)国语 
 https://www.bilibili.com/video/BV1JE411g7XF?from=search&seid=4463720420343295823&spm_id_from=333.337.0.0 
 1. 	P1, 机器学习; python is good; ML == looking for a function minimizing loss; what kind of function do you want? (1) Regression wants scalar; (2) binary classification; multi-class classification; (3) generation; supervised learning; supervised v.s. reinforcement; unsupervised learning; 寻找方法: gradient descent; (2022-1-8)
