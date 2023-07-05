@@ -70,6 +70,8 @@ P32, HW4; self-attention; task introduction; Phoneme classification; Speaker cla
 
 P33, HW4(English version); (2021-12-16)
 
+### Note of self-attention
+
 Input is a vector 很好理解，因为刚刚做完word-embedding. (2023年7月3日)
 
 Input is a set of vectors 因为输入的一句话包含多个word, 每个word是一个vector, 合起来自然是a set of vectors. => 那input就是Matrix了。(2023年7月3日)
