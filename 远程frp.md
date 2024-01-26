@@ -48,7 +48,7 @@ local_port = 22 # 需要暴露的内网机器的端口
 remote_port = 6000 # 暴露的内网机器的端口在vps上的端口
 ```
 
-## frp怎样在client开机启动和后台运行
+## 设置frp在client开机启动和后台运行
 
 https://github.com/fatedier/frp/issues/176
 
