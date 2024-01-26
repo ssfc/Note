@@ -3,13 +3,12 @@
 https://zhuanlan.zhihu.com/p/42071021
 
 1. 从[github](https://link.zhihu.com/?target=https%3A//github.com/fatedier/frp)下载最新的frp二进制文件。其中frps，frps.ini为服务端，供腾讯云使用；frpc，frpc.ini为客户端，供家里的电脑使用。
-2. 设置frps.ini，并服务器上运行 `./frps -c frps.ini`，注意frps需要持续运行，可以参考我之前的文章，使用screen后台运行frps
+2. 设置frps.ini，并在腾讯云上运行 `./frps -c frps.ini`，注意frps需要持续运行，可以专门开一个tmux窗口做这个。
 
 ```ini
 # frps.ini
 [common]
 bind_port = 7000 #frps服务监听的端口
-token = 123 # 链接口令
 ```
 
 3. 设置frpc.ini，并在工作站上运行，`./frpc -c frpc.ini`，同样，记得后台运行
