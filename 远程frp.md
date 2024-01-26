@@ -27,7 +27,7 @@ remote_port = 4090 # 暴露的内网机器的端口在vps上的端口
 ```
 
 4. 在需要登录工作站时，使用`ssh -p 4090 user@vps.ip`，`-p 4090`表示ssh链接server.ip上的4090口，对应着frpc.ini中的设定，因此会直接被frps转发到内网工作站的127.0.0.1的22端口，即内网工作站的sshd端口上
-5. 对于1660s, 我们设置另外一组frps.ini和frpc.ini。
+5. 对于client 1660s, 我们设置另外一组frps.ini和frpc.ini。
 
 ```ini
 # frps.ini
