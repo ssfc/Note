@@ -55,7 +55,7 @@ WantedBy=multi-user.target
 ```
 
 启用
-sudo systemctl start frpc
-sudo systemctl enable frpc
+`sudo systemctl start frpc`
+`sudo systemctl enable frpc`
 查看状态
-systemctl status frpc
+`systemctl status frpc`
