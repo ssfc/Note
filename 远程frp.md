@@ -16,9 +16,8 @@ bind_port = 7000 #frps服务监听的端口
 ```ini
 # frpc.ini
 [common]
-server_addr = x.x.x.x # 此处为 vps 的公网ip
-server_port = 7000 # vps上frps服务监听的端口
-token = 123 # 链接口令
+server_addr = 1.15.63.146 # 此处为 腾讯云 的公网ip
+server_port = 7000 # 服务器上frps服务监听的端口
 
 [ssh]
 type = tcp
