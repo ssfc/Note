@@ -81,3 +81,31 @@ WantedBy=multi-user.target
 `sudo systemctl enable frpc`
 查看状态
 `systemctl status frpc`
+
+## 通过内网连接
+
+使用命令`ifconfig`查看内网地址。比如在下一段中，内网ip就是192.168.0.102
+
+```shell
+enp3s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.102  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::5d7c:df6f:fa13:e655  prefixlen 64  scopeid 0x20<link>
+        ether 2c:f0:5d:eb:db:0d  txqueuelen 1000  (Ethernet)
+        RX packets 289566  bytes 379663920 (379.6 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 145638  bytes 11591608 (11.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 18010  bytes 2548450 (2.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 18010  bytes 2548450 (2.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+```
+
+默认端口是22. 
+
