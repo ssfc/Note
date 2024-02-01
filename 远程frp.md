@@ -91,6 +91,8 @@ WantedBy=multi-user.target
 
 `sudo systemctl enable frpc`
 
+Comment: 注意官网写的是frps.service, 吾人改成frpc.service了。道理大同小异。(2024年2月1日)
+
 ## 通过内网连接电脑
 
 使用命令`ifconfig`查看内网地址。比如在下一段中，内网ip就是192.168.0.102
