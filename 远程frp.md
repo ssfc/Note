@@ -82,7 +82,7 @@ WantedBy=multi-user.target
 查看状态
 `systemctl status frpc`
 
-## 通过内网连接
+## 通过内网连接电脑
 
 使用命令`ifconfig`查看内网地址。比如在下一段中，内网ip就是192.168.0.102
 
