@@ -58,7 +58,7 @@ https://github.com/fatedier/frp/issues/176
 
 `vim /etc/systemd/system/frpc.service`
 
-fprc.server写法：
+fprc.service写法：
 
 ```ini
 [Unit]
