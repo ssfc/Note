@@ -124,3 +124,4 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
 默认端口是22. 
 
+Comment:  frp仅仅用在公网连接电脑上，内网不需要，直接连就好了。(2024年2月1日)
