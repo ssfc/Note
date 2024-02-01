@@ -78,9 +78,18 @@ WantedBy=multi-user.target
 
 启用
 `sudo systemctl start frpc`
-`sudo systemctl enable frpc`
+
+重启
+
+`sudo systemctl restart frps`
+
 查看状态
+
 `systemctl status frpc`
+
+开机自启动
+
+`sudo systemctl enable frpc`
 
 ## 通过内网连接电脑
 
