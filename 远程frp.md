@@ -19,7 +19,7 @@ bindPort = 7000 #frps服务监听的端口
 3. 设置frpc.ini，并在client 4090上运行，`./frpc -c frpc.ini`，同样，记得后台运行
 
 ```ini
-# frpc.ini
+# frpc.toml
 [common]
 server_addr = 1.15.63.146 # 此处为 腾讯云 的公网ip
 server_port = 7000 # 服务器上frps服务监听的端口
