@@ -72,8 +72,8 @@ After=network.target
 Type=simple
 Restart=on-failure
 RestartSec=5s
-ExecStart=/home/ssfc/frp/frpc -c /home/ssfc/frp/frpc.ini
-ExecReload=/home/ssfc/frp/frpc reload -c /home/ssfc/frp/frpc.ini
+ExecStart=/home/ssfc/frp_0.54.0_linux_amd64/frpc -c /home/ssfc/frp_0.54.0_linux_amd64/frpc.toml
+ExecReload=/home/ssfc/frp_0.54.0_linux_amd64/frpc reload -c /home/ssfc/frp_0.54.0_linux_amd64/frpc.toml
 
 [Install]
 WantedBy=multi-user.target
