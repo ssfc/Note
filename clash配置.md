@@ -8,3 +8,4 @@ Linux启动clash命令 `./clash-linux-amd64-v3 -d ./`
 
 在windows上用浏览器找到订阅地址，保存为config.yaml. 
 
+Country.mmdb可以从这个网址下载：https://github.com/ghostxu97/clash-for-linux/issues/4
