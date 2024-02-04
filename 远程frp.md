@@ -59,7 +59,7 @@ https://github.com/fatedier/frp/issues/176
 
 在client新建文件frpc.service 
 
-`vim /etc/systemd/system/frpc.service`
+`sudo vim /etc/systemd/system/frpc.service`
 
 fprc.service写法：
 
@@ -84,7 +84,7 @@ WantedBy=multi-user.target
 
 重启
 
-`sudo systemctl restart frps`
+`sudo systemctl restart frpc`
 
 查看状态
 
