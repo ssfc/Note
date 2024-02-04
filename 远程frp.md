@@ -42,15 +42,15 @@ bind_port = 7100 #frps服务监听的端口
 
 ```ini
 # frpc.toml
-[common]
-server_addr = 1.15.63.146 # 此处为 腾讯云 的公网ip
-server_port = 7100 # 服务器上frps服务监听的端口
+serverAddr = "1.15.63.146"
+serverPort = 7100
 
-[ssh]
-type = tcp
-local_ip = 127.0.0.1 
-local_port = 22 # 需要暴露的内网机器的端口
-remote_port = 6000 # 暴露的内网机器的端口在vps上的端口
+[[proxies]]
+name = "test-tcp"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 22
+remotePort = 6000
 ```
 
 ## 设置frp在client开机启动和后台运行
