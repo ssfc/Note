@@ -14,6 +14,7 @@ Doc: https://gofrp.org/zh-cn/docs/setup/systemd/
 ```toml
 # frps.toml
 bindPort = 7000 #frps服务监听的端口
+vhostHTTPPort = 8080
 ```
 
 3. 设置frpc.ini，并在client 4090上运行，`./frpc -c frpc.toml`，同样，记得后台运行
