@@ -24,11 +24,18 @@ bindPort = 7000 #frps服务监听的端口
 server_addr = 1.15.63.146 # 此处为 腾讯云 的公网ip
 server_port = 7000 # 服务器上frps服务监听的端口
 
-[ssh]
-type = tcp
-local_ip = 127.0.0.1 
-local_port = 22 # 需要暴露的内网机器的端口
-remote_port = 4090 # 暴露的内网机器的端口在vps上的端口
+[[proxies]]
+name = "test-tcp"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 22  # 需要暴露的内网机器的端口
+remotePort = 4090 # 暴露的内网机器的端口在vps上的端口
+
+[[proxies]]
+name = "web"
+type = "http"
+localPort = 8080
+customDomains = ["www.4090spark.com"]
 ```
 
 4. 在需要登录工作站时，使用`ssh -p 4090 user@vps.ip`，`-p 4090`表示ssh链接server.ip上的4090口，对应着frpc.ini中的设定，因此会直接被frps转发到内网工作站的127.0.0.1的22端口，即内网工作站的sshd端口上
@@ -51,6 +58,12 @@ type = "tcp"
 localIP = "127.0.0.1"
 localPort = 22
 remotePort = 6000
+
+[[proxies]]
+name = "web"
+type = "http"
+localPort = 8080
+customDomains = ["www.4090spark.com"]
 ```
 
 ## 设置frp在client开机启动和后台运行
