@@ -36,7 +36,7 @@ remotePort = 4090 # 暴露的内网机器的端口在vps上的端口
 name = "web"
 type = "http"
 localPort = 8080
-customDomains = ["www.4090spark.com"]
+customDomains = ["4090spark.com"]
 ```
 
 4. 在需要登录工作站时，使用`ssh -p 4090 user@vps.ip`，`-p 4090`表示ssh链接server.ip上的4090口，对应着frpc.ini中的设定，因此会直接被frps转发到内网工作站的127.0.0.1的22端口，即内网工作站的sshd端口上
