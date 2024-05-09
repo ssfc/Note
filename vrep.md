@@ -124,7 +124,7 @@ ep 7, 传送带编程。
 
 ep 8, 传送带两种方式合并及区别说明。
 
-ep 9, 小车模型建立。
+ep 9, 小车模型建立。一个大球作为车体，两个圆柱作为后轮，两个圆柱作为轴承，一个球体作为前轮。(2024年5月9日)
 
 ### Q: V-REP中的local respondable mask和global respondable mask是什么意思？
 
