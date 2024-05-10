@@ -158,7 +158,7 @@ eulerAngles-lua.ttt。eulerAngles-lua.ttt 是 V-REP（Virtual Robot Experimentat
 
 eulerAngles-python.ttt。是Python版。(2024年5月10日)
 
-
+fabricationBlocks.ttt。fabricationBlocks.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了一个基于模块化部件的制造流程。// 在 fabricationBlocks.ttt 示例场景中，你可以看到一系列模块化的部件（例如方块、圆柱等），以及一个机器人模型和一些生产线设备。这个示例场景演示了机器人如何从模块化的部件中组装产品，并将其放置在指定位置。// 示例场景中的机器人通常会执行以下操作：1. **获取部件**：机器人会从生产线上获取模块化的部件，例如方块或圆柱。2. **组装产品**：机器人会根据预定的流程和顺序，将不同的部件组装成产品。这可能涉及到物体的移动、旋转、连接等操作。3. **放置产品**：一旦产品组装完成，机器人会将其放置在指定的位置，例如装配线上的下一道工序。// 通过 fabricationBlocks.ttt 示例场景，你可以学习如何在 V-REP 中模拟和仿真制造流程，以及如何使用机器人来执行产品的组装和生产任务。这对于学习制造流程规划、自动化生产等非常有帮助。(2024年5月10日)
 
 
 
