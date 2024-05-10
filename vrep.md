@@ -156,5 +156,5 @@ controlTypeExamples文件夹。
 
 controlledViaPlugin.ttt 三轮小车，具有避障功能，躲避几个静态立方体障碍物。(2024年5月10日)
 
-controlledViaRemoteApi.ttt 三轮小车，具有避障功能，躲避几个静态立方体障碍物。(2024年5月10日) => 猜测可能是通过远程API控制。(2024年5月10日)
+controlledViaRemoteApi.ttt 三轮小车，具有避障功能，躲避几个静态立方体障碍物。(2024年5月10日) => 猜测可能是通过远程API控制，这个可能仿真用得到，因为吾人就是给小车远程下令的。(2024年5月10日)
 
