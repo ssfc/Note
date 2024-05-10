@@ -182,6 +182,8 @@ mobileRobotVisualTraces-python.ttt。是Python版。(2024年5月10日)
 
 mouseTestScene.ttt。mouseTestScene.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景用于演示如何使用鼠标进行交互式操作。// 在 mouseTestScene.ttt 示例场景中，你可以看到一个环境模型和一个机器人模型。通过鼠标，用户可以与仿真环境进行交互，例如选择物体、移动物体、改变视角等操作。// 示例场景中的主要功能可能包括：1. **选择物体**：用户可以使用鼠标点击来选择仿真环境中的物体，以便进行操作或查看其属性。2. **移动物体**：通过鼠标拖拽，用户可以移动选择的物体到新的位置。3. **改变视角**：用户可以通过鼠标移动来改变视角，从不同的角度观察仿真场景。// 通过 mouseTestScene.ttt 示例场景，用户可以学习如何在 V-REP 中实现鼠标交互功能，这对于开发交互式仿真场景和用户界面设计非常有帮助。(2024年5月10日)
 
+movingAlongAPath-lua.ttt。可以让物体沿指定路径移动。(2024年5月10日)
+
 
 
 
