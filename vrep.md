@@ -172,6 +172,10 @@ iglDemo-python.ttt。是Python版。(2024年5月10日)
 
 minimumDistanceCalculationDemo-lua.ttt。minimumDistanceCalculationDemo-lua.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了如何使用 Lua 脚本计算机器人与障碍物之间的最小距离。// 在 minimumDistanceCalculationDemo-lua.ttt 示例场景中，你可以看到一个包含一个机器人模型和一些障碍物的环境。通过 Lua 脚本，机器人可以计算自身与周围障碍物的最小距离，并根据距离值采取相应的行动。// 示例场景中的 Lua 脚本通常包含以下功能：1. **检测障碍物**：通过感知或碰撞检测，机器人可以获取周围障碍物的位置和形状信息。2. **计算最小距离**：根据障碍物的位置和机器人的当前位置，计算机器人与障碍物之间的最小距离。3. **决策行动**：根据计算得到的最小距离值，机器人可以决定采取何种行动，例如避障、停止运动等。// 通过 minimumDistanceCalculationDemo-lua.ttt 示例场景，你可以学习如何使用 Lua 脚本计算机器人与障碍物之间的最小距离，并根据距离值实现智能决策和行动。这对于开发自主导航、避障算法等非常有帮助。(2024年5月10日)
 
+minimumDistanceCalculationDemo-python.ttt。是Python版。(2024年5月10日)
+
+
+
 
 
 
