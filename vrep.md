@@ -206,6 +206,10 @@ RRS-1 demo.ttt吗？显示不成功。(2024年5月10日)
 
 sceneObjectIndependentGeometricCalculationExample.ttt。衡量两个运动物体之间的距离。(2024年5月10日)
 
+simpleThreadedAndNonThreadedExample-lua.ttt。看起来像一堆字幕跑了。(2024年5月10日)
+
+simpleThreadedAndNonThreadedExample-python.ttt。是Python版。(2024年5月10日)
+
 
 
 
