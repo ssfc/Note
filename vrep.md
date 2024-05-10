@@ -182,10 +182,11 @@ mobileRobotVisualTraces-python.ttt。是Python版。(2024年5月10日)
 
 mouseTestScene.ttt。mouseTestScene.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景用于演示如何使用鼠标进行交互式操作。// 在 mouseTestScene.ttt 示例场景中，你可以看到一个环境模型和一个机器人模型。通过鼠标，用户可以与仿真环境进行交互，例如选择物体、移动物体、改变视角等操作。// 示例场景中的主要功能可能包括：1. **选择物体**：用户可以使用鼠标点击来选择仿真环境中的物体，以便进行操作或查看其属性。2. **移动物体**：通过鼠标拖拽，用户可以移动选择的物体到新的位置。3. **改变视角**：用户可以通过鼠标移动来改变视角，从不同的角度观察仿真场景。// 通过 mouseTestScene.ttt 示例场景，用户可以学习如何在 V-REP 中实现鼠标交互功能，这对于开发交互式仿真场景和用户界面设计非常有帮助。(2024年5月10日)
 
-movingAlongAPath-lua.ttt。可以让物体沿指定路径移动。(2024年5月10日)
+movingAlongAPath-lua.ttt。可以让物体沿指定路径移动。(2024年5月10日) => 可能用于AMHS。(2024年5月10日)
 
 movingAlongAPath-python.ttt。是Python版。(2024年5月10日)
 
+navigationWithinAPointCloud-lua.ttt。是V-REP（Virtual Robot Experimentation Platform）中一个示例场景文件。这个场景演示了如何在点云数据中进行导航。// 点云（PointCloud）是一种三维空间中离散点的集合，通常用于表示物体表面或环境的几何形状。navigationWithinAPointCloud-lua.ttt场景利用点云数据来模拟环境，并演示了一个机器人在点云数据中进行导航的过程。// 在这个示例场景中，你可以看到一个机器人模型和一个包含点云数据的环境模型。机器人需要根据点云数据来规划路径，并在环境中移动。示例场景演示了如何使用Lua脚本来实现机器人的路径规划和导航算法，以及如何利用点云数据进行环境感知和障碍物避开。// 通过导航WithinAPointCloud-lua.ttt示例场景，你可以学习如何在V-REP中使用点云数据进行机器人导航，以及如何编写Lua脚本来实现自定义的导航算法。这对于学习和理解机器人导航技术非常有帮助。(2024年5月10日)
 
 
 
@@ -198,7 +199,12 @@ movingAlongAPath-python.ttt。是Python版。(2024年5月10日)
 
 
 
-movingAlongAPath-lua.ttt可以让物体沿指定路径移动。(2024年5月10日)
+
+
+
+
+
+
 
 octreeGenerationDemo.ttt 三轮小车，具有避障功能，在迷宫中寻路。(2024年5月10日) => 可以调研一下这里用到的八叉树算法。(2024年5月10日)
 
