@@ -152,3 +152,9 @@ movingAlongAPath-lua.ttt可以让物体沿指定路径移动。(2024年5月10日
 
 octreeGenerationDemo.ttt 三轮小车，具有避障功能，在迷宫中寻路。(2024年5月10日) => 可以调研一下这里用到的八叉树算法。(2024年5月10日)
 
+controlTypeExamples文件夹。
+
+controlledViaPlugin.ttt 三轮小车，具有避障功能，躲避几个静态立方体障碍物。(2024年5月10日)
+
+controlledViaRemoteApi.ttt 三轮小车，具有避障功能，躲避几个静态立方体障碍物。(2024年5月10日) => 猜测可能是通过远程API控制。(2024年5月10日)
+
