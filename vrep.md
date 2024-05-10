@@ -190,6 +190,7 @@ navigationWithinAPointCloud-lua.ttt。是V-REP（Virtual Robot Experimentation P
 
 navigationWithinAPointCloud-python.ttt。是Python版。(2024年5月10日)
 
+**octreeGenerationDemo.ttt**。octreeGenerationDemo.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了如何使用八叉树（Octree）生成环境模型。// 在 octreeGenerationDemo.ttt 示例场景中，你可以看到一个环境模型，可能包含一些障碍物或物体。通过八叉树生成算法，可以将环境模型分割成多个立方体（或八叉树节点），以便于表示和处理。// 示例场景中的八叉树生成算法通常包括以下步骤：1. **环境建模**：首先，需要对环境进行建模，包括记录环境中的障碍物、物体等信息。2. **八叉树分割**：然后，通过八叉树生成算法，将环境模型进行分割，生成八叉树结构。3. **节点表示**：每个八叉树节点代表一个立方体区域，包含该区域内的环境信息（如障碍物、物体等）。4. **可视化显示**：最后，将生成的八叉树结构可视化显示在仿真环境中，以便用户观察和分析。// 通过 octreeGenerationDemo.ttt 示例场景，你可以学习如何使用八叉树生成算法对环境模型进行分割和表示，这对于机器人感知、碰撞检测、路径规划等应用非常有帮助。(2024年5月10日) => 三轮小车，具有避障功能，在迷宫中寻路。(2024年5月10日) => 可以调研一下这里用到的八叉树算法。**可能用于AMHS**。(2024年5月10日)
 
 
 
@@ -206,7 +207,6 @@ navigationWithinAPointCloud-python.ttt。是Python版。(2024年5月10日)
 
 
 
-octreeGenerationDemo.ttt 三轮小车，具有避障功能，在迷宫中寻路。(2024年5月10日) => 可以调研一下这里用到的八叉树算法。(2024年5月10日)
 
 controlTypeExamples文件夹。
 
