@@ -196,6 +196,12 @@ pickAndPlaceDemo.ttt。pickAndPlaceDemo.ttt 是 V-REP（Virtual Robot Experiment
 
 proximitySensorDemo.ttt。proximitySensorDemo.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了如何使用接近传感器（Proximity Sensor）进行环境感知和障碍物检测。// 在 proximitySensorDemo.ttt 示例场景中，你可以看到一个包含机器人模型和一些障碍物的环境。通过仿真中的接近传感器，可以模拟机器人对周围环境进行感知，并检测障碍物的位置和距离。// 示例场景中的主要功能可能包括：1. **接近传感器设置**：在机器人的适当位置安装接近传感器，并设置传感器的检测范围和参数。2. **障碍物检测**：通过接近传感器检测周围环境中的障碍物，包括墙壁、物体等。3. **距离测量**：接近传感器可以测量障碍物与机器人之间的距离，并将距离信息传递给控制系统进行处理。4. **碰撞避免**：根据接近传感器检测到的障碍物信息，机器人可以采取相应的措施，避免与障碍物发生碰撞。// 通过 proximitySensorDemo.ttt 示例场景，你可以学习如何使用接近传感器进行环境感知和障碍物检测，这对于自主导航、避障算法和安全控制非常有帮助。(2024年5月10日) => 一个蜘蛛机器人通过感知进行运动。(2024年5月10日)
 
+proximitySensorDemo2.ttt也差不多。(2024年5月10日)
+
+rendererDemo.ttt。一个机械臂搬运箱子。(2024年5月10日)
+
+
+
 
 
 
