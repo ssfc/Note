@@ -152,6 +152,10 @@ collisionDetectionDemo-python.ttt 。python版本。
 
 customUI-lua.ttt。customUI-lua.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了如何使用 Lua 脚本来创建自定义用户界面（Custom User Interface）。// 在 customUI-lua.ttt 示例场景中，你可以看到一个包含一个简单机器人模型和一些控件的用户界面。通过 Lua 脚本，用户可以与这些控件进行交互，并控制机器人的行为。// 示例场景中的 Lua 脚本通常包含以下功能：1. **创建界面**：通过 Lua 脚本创建用户界面，包括按钮、滑块、文本框等控件。2. **添加交互功能**：为界面中的控件添加交互功能，例如按钮点击事件、滑块数值变化事件等。3. **控制机器人**：根据用户界面的操作，控制机器人的运动、动作等。// 通过 customUI-lua.ttt 示例场景，你可以学习如何在 V-REP 中使用 Lua 脚本创建自定义用户界面，并实现与场景中模型的交互。这对于开发交互式仿真场景、用户界面设计等非常有帮助。(2024年5月10日)
 
+customUI-python.ttt。是Python版。(2024年5月10日)
+
+eulerAngles-lua.ttt。eulerAngles-lua.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了如何使用 Lua 脚本来控制机器人的欧拉角（Euler Angles）姿态。// 在 eulerAngles-lua.ttt 示例场景中，你可以看到一个简单的机器人模型，以及一些控制界面。通过 Lua 脚本，用户可以通过控制界面上的按钮来改变机器人的欧拉角姿态。// 示例场景中的 Lua 脚本通常包含以下功能：1. **获取和设置欧拉角**：通过 Lua 脚本获取机器人当前的欧拉角姿态，并根据用户的操作来修改姿态。2. **控制机器人姿态**：根据用户界面上的按钮点击事件，调整机器人的姿态，例如改变机器人的旋转角度、姿态方向等。// 通过 eulerAngles-lua.ttt 示例场景，你可以学习如何在 V-REP 中使用 Lua 脚本来控制机器人的姿态。这对于开发机器人控制算法、姿态控制器等非常有帮助。(2024年5月10日)
+
 
 
 
