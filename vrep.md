@@ -150,3 +150,5 @@ motorControllerExamples-lua.ttt可以控制速度、力、时间。(2024年5月1
 
 movingAlongAPath-lua.ttt可以让物体沿指定路径移动。(2024年5月10日)
 
+octreeGenerationDemo.ttt 三轮小车，具有避障功能，在迷宫中寻路。(2024年5月10日) => 可以调研一下这里用到的八叉树算法。(2024年5月10日)
+
