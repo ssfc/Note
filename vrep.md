@@ -166,6 +166,16 @@ gears.ttt。gears.ttt 是 V-REP（Virtual Robot Experimentation Platform）中�
 
 hapticRobot.ttt。hapticRobot.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了使用触觉反馈技术（Haptic Feedback）控制机器人的交互式仿真。// 在 hapticRobot.ttt 示例场景中，你可以看到一个包含一个机器人模型和一个触觉设备（可能是力反馈手柄或力觉传感器）的环境。通过触觉设备，用户可以与仿真场景进行交互，并感受到机器人运动时的力反馈。// 示例场景中的机器人通常会执行一些任务，例如在环境中移动物体、执行操作等。当用户通过触觉设备控制机器人时，他们可以感受到机器人在仿真环境中的力和运动，并根据反馈调整其行为。// 通过 hapticRobot.ttt 示例场景，你可以学习如何在 V-REP 中模拟和仿真触觉反馈技术，并探索交互式仿真的应用。这对于研究人机交互、虚拟现实、远程操作等领域非常有帮助。(2024年5月10日)
 
+iglDemo-lua.ttt吗？iglDemo-lua.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了如何使用 Lua 脚本结合 Interactive Graphical Lua（IGL）库创建交互式的图形用户界面（GUI）。// 在 iglDemo-lua.ttt 示例场景中，你可以看到一个包含一些基本控件（如按钮、滑块、文本框等）的图形界面，以及一个机器人模型。通过 Lua 脚本和 IGL 库，用户可以与这些控件进行交互，并控制机器人的运动和行为。// IGL 是一个用于创建图形用户界面的 Lua 库，它提供了一系列函数和工具，用于创建和管理 GUI 控件，并实现与控件的交互。通过 iglDemo-lua.ttt 示例场景，你可以学习如何使用 Lua 脚本和 IGL 库来创建自定义的图形界面，并将其集成到 V-REP 的仿真环境中。这对于开发交互式仿真场景、用户界面设计等非常有帮助。(2024年5月10日)
+
+iglDemo-python.ttt。是Python版。(2024年5月10日)
+
+
+
+
+
+
+
 
 
 
