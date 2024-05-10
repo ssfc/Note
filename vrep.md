@@ -178,6 +178,8 @@ mobileRobotVisualTraces-lua.ttt。mobileRobotVisualTraces-lua.ttt 是 V-REP（Vi
 
 motorControllerExamples-lua.ttt吗？CG: motorControllerExamples-lua.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了如何使用 Lua 脚本控制电机和执行器。// 在 motorControllerExamples-lua.ttt 示例场景中，你可以看到一个或多个电机或执行器模型，以及一个控制界面。通过 Lua 脚本，用户可以与控制界面上的控件交互，以控制电机或执行器的运动和行为。// 示例场景中的 Lua 脚本通常包含以下功能：1. **电机控制**：通过设置电机的转速、位置或力矩等参数，控制电机的运动。2. **执行器控制**：通过设置执行器的位置、速度或力矩等参数，控制执行器的运动。3. **用户交互**：通过控制界面上的按钮、滑块或文本框等控件，与 Lua 脚本进行交互，从而控制电机或执行器的运动和行为。// 通过 motorControllerExamples-lua.ttt 示例场景，你可以学习如何使用 Lua 脚本控制电机和执行器，这对于机器人运动控制、机械臂操作等领域非常有帮助。(2024年5月10日) => 可以控制速度、力、时间。可能用于AMHS。(2024年5月10日)
 
+mobileRobotVisualTraces-python.ttt。是Python版。(2024年5月10日)
+
 
 
 
