@@ -148,6 +148,14 @@ ep 9, 小车模型建立。一个大球作为车体，两个圆柱作为后轮�
 
 collisionDetectionDemo-lua.ttt。collisionDetectionDemo-lua.ttt是V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了如何使用Lua脚本来进行碰撞检测和响应。// 在collisionDetectionDemo-lua.ttt示例场景中，你可以看到一个包含多个物体的环境模型，以及一个用于控制机器人的Lua脚本。该示例演示了如何在V-REP中使用Lua脚本来检测物体之间的碰撞，并根据碰撞情况采取相应的行动。// 示例场景中的Lua脚本通常包含以下功能：1. **碰撞检测**：通过检测机器人与其他物体之间的碰撞来确定碰撞状态。2. **碰撞响应**：根据碰撞检测结果，采取相应的行动来避免碰撞或处理碰撞情况。这可能包括改变机器人的运动方向、速度或停止运动等。// 通过collisionDetectionDemo-lua.ttt示例场景，你可以学习如何在V-REP中使用Lua脚本来实现碰撞检测和响应功能。这对于开发机器人控制算法、避障算法等非常有帮助。(2024年5月10日)
 
+collisionDetectionDemo-python.ttt 。python版本。
+
+customUI-lua.ttt。customUI-lua.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了如何使用 Lua 脚本来创建自定义用户界面（Custom User Interface）。// 在 customUI-lua.ttt 示例场景中，你可以看到一个包含一个简单机器人模型和一些控件的用户界面。通过 Lua 脚本，用户可以与这些控件进行交互，并控制机器人的行为。// 示例场景中的 Lua 脚本通常包含以下功能：1. **创建界面**：通过 Lua 脚本创建用户界面，包括按钮、滑块、文本框等控件。2. **添加交互功能**：为界面中的控件添加交互功能，例如按钮点击事件、滑块数值变化事件等。3. **控制机器人**：根据用户界面的操作，控制机器人的运动、动作等。// 通过 customUI-lua.ttt 示例场景，你可以学习如何在 V-REP 中使用 Lua 脚本创建自定义用户界面，并实现与场景中模型的交互。这对于开发交互式仿真场景、用户界面设计等非常有帮助。(2024年5月10日)
+
+
+
+
+
 
 
 mobileRobotVisualTraces-lua.ttt 两轮小车，具有避障功能，并且显示轨迹。(2024年5月10日)
