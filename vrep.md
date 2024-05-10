@@ -144,7 +144,7 @@ ep 9, 小车模型建立。一个大球作为车体，两个圆柱作为后轮�
 
 ## 范例scene文件说明
 
-主文件夹
+### 主文件夹
 
 collisionDetectionDemo-lua.ttt。collisionDetectionDemo-lua.ttt是V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了如何使用Lua脚本来进行碰撞检测和响应。// 在collisionDetectionDemo-lua.ttt示例场景中，你可以看到一个包含多个物体的环境模型，以及一个用于控制机器人的Lua脚本。该示例演示了如何在V-REP中使用Lua脚本来检测物体之间的碰撞，并根据碰撞情况采取相应的行动。// 示例场景中的Lua脚本通常包含以下功能：1. **碰撞检测**：通过检测机器人与其他物体之间的碰撞来确定碰撞状态。2. **碰撞响应**：根据碰撞检测结果，采取相应的行动来避免碰撞或处理碰撞情况。这可能包括改变机器人的运动方向、速度或停止运动等。// 通过collisionDetectionDemo-lua.ttt示例场景，你可以学习如何在V-REP中使用Lua脚本来实现碰撞检测和响应功能。这对于开发机器人控制算法、避障算法等非常有帮助。(2024年5月10日)
 
@@ -219,6 +219,12 @@ ur5WithRg2Grasping-python.ttt。是Python版。(2024年5月10日)
 workspace.ttt。笼罩了一个圆球。(2024年5月10日)
 
 youBotAndHanoiTower.ttt。机械臂把立方体放到托盘上并搬运。(2024年5月10日)
+
+### 文件夹awsRobomaker。
+
+
+
+
 
 
 
