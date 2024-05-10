@@ -188,7 +188,7 @@ movingAlongAPath-python.ttt。是Python版。(2024年5月10日)
 
 navigationWithinAPointCloud-lua.ttt。是V-REP（Virtual Robot Experimentation Platform）中一个示例场景文件。这个场景演示了如何在点云数据中进行导航。// 点云（PointCloud）是一种三维空间中离散点的集合，通常用于表示物体表面或环境的几何形状。navigationWithinAPointCloud-lua.ttt场景利用点云数据来模拟环境，并演示了一个机器人在点云数据中进行导航的过程。// 在这个示例场景中，你可以看到一个机器人模型和一个包含点云数据的环境模型。机器人需要根据点云数据来规划路径，并在环境中移动。示例场景演示了如何使用Lua脚本来实现机器人的路径规划和导航算法，以及如何利用点云数据进行环境感知和障碍物避开。// 通过导航WithinAPointCloud-lua.ttt示例场景，你可以学习如何在V-REP中使用点云数据进行机器人导航，以及如何编写Lua脚本来实现自定义的导航算法。这对于学习和理解机器人导航技术非常有帮助。(2024年5月10日)
 
-
+navigationWithinAPointCloud-python.ttt。是Python版。(2024年5月10日)
 
 
 
