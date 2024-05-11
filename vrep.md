@@ -352,6 +352,10 @@ stateValidationCallback-python.ttt。是Python版。(2024年5月10日)
 
 stateValidityCheckingResolution.ttt。This scene demonstrates how the choice of state validity checking resolution affects the found solutions. A too high value can produce solutions that collide with obstacles. A too low value can slow down the search. 一个球跳过墙面到达目的地。(2024年5月11日)
 
+### trajectoryAndMotion文件夹
+
+onlineTrajectoryGeneratorExample-lua.ttt。圆柱体上升，机械臂扭动。(2024年5月11日)
+
 
 
 
