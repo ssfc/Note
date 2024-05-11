@@ -228,7 +228,19 @@ aws_robomaker_warehouse.ttt。一个有架子的大仓库。(2024年5月10日)
 
 ### 文件夹controlTypeExamples
 
+controlledViaPlugin.ttt 三轮小车，具有避障功能，躲避几个静态立方体障碍物。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
 
+controlledViaRos.ttt 估计是通过ROS控制。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
+
+controlledViaRemoteApi.ttt。估计是远程API控制。 => **可能用于AMHS**。(2024年5月10日)
+
+controlledViaRos2.ttt 估计是另一种ROS控制。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
+
+controlledViaScript.ttt 估计是通过脚本控制。 => **可能用于AMHS**。(2024年5月10日)
+
+controlledViaTcp.ttt 估计是通过网络控制。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
+
+controlledViaZmq.ttt。通过zmq控制。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
 
 
 
