@@ -358,6 +358,8 @@ onlineTrajectoryGeneratorExample-lua.ttt。圆柱体上升，机械臂扭动。(
 
 onlineTrajectoryGeneratorExample-python.ttt。是Python版。(2024年5月10日)
 
+pathToTrajectory.ttt。This scene illustrates 3 different ways to generate a trajectory from a path (in task- or configuration space)。两个graph在显示效果。(2024年5月11日)
+
 
 
 
