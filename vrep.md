@@ -362,6 +362,8 @@ pathToTrajectory.ttt。This scene illustrates 3 different ways to generate a tra
 
 ruckigOnlineTrajectoryGeneratorDemo.ttt。机械臂把绿色方块移动到红色位置，把红色方块移动到绿色位置，表格显示速度和加速度。(2024年5月11日)
 
+ruckigOnlineTrajectoryGeneratorExamples.ttt。This scene illustrates various ways to use the Ruckig Online Trajectory Generation functions available in CoppeliaSim。圆柱体绕着柱子转。(2024年5月11日)
+
 
 
 
