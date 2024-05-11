@@ -380,7 +380,7 @@ bubbleRob-lua.ttt。有避障功能的小车一堆圆柱中寻路。(2024年5月
 
 redundantRobot-lua.ttt。机械臂夹着绿色的球。(2024年5月11日)
 
-
+redundantRobot-python.ttt。是Python版。(2024年5月10日)
 
 
 
