@@ -400,6 +400,10 @@ imageProcessingDemo2-python.ttt。是Python版。(2024年5月10日)
 
 objectTracking.ttt。一个扫地机器人在迷宫中移动。=> **可能用于AMHS**。(2024年5月10日)
 
+ocTreeAcquiredByVisionSensor-lua.ttt。一个摄像头绕着花盆移动。(2024年5月11日)
+
+ocTreeAcquiredByVisionSensor-python.ttt。是Python版。(2024年5月10日)
+
 
 
 
