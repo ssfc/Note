@@ -236,7 +236,7 @@ controlledViaRemoteApi.ttt 三轮小车，具有避障功能，躲避几个静�
 
 controlledViaRos2.ttt 估计是另一种ROS控制。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
 
-controlledViaScript.ttt 估计是通过脚本控制。 => **可能用于AMHS**。(2024年5月10日)
+controlledViaScript.ttt 三轮小车*3，具有避障功能，躲避几个静态立方体障碍物。(2024年5月10日) => 猜测是通过脚本控制，这个可能仿真用得到，因为吾人可以把轨迹写成script，交给小车执行。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
 
 controlledViaTcp.ttt 估计是通过网络控制。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
 
@@ -257,15 +257,3 @@ obstacleAvoidanceAndIk.ttt。多个小球彼此避障。(2024年5月10日)
 
 
 
-
-
-
-
-
-controlTypeExamples文件夹。
-
-controlledViaPlugin.ttt 三轮小车，具有避障功能，躲避几个静态立方体障碍物。(2024年5月10日)
-
-controlledViaRemoteApi.ttt 三轮小车，具有避障功能，躲避几个静态立方体障碍物。(2024年5月10日) => 猜测可能是通过远程API控制，这个可能仿真用得到，因为吾人就是给小车远程下令的。(2024年5月10日)
-
-controlledViaScript.ttt 三轮小车*3，具有避障功能，躲避几个静态立方体障碍物。(2024年5月10日) => 猜测是通过脚本控制，这个可能仿真用得到，因为吾人可以把轨迹写成script，交给小车执行。(2024年5月10日)
