@@ -392,6 +392,8 @@ lineFollowingBubbleRob-python.ttt。是Python版。(2024年5月10日)
 
 imageProcessingDemo1-lua.ttt。机器人走路。
 
+imageProcessingDemo1-python.ttt。是Python版。(2024年5月10日)
+
 
 
 
