@@ -382,6 +382,8 @@ redundantRobot-lua.ttt。机械臂夹着绿色的球。(2024年5月11日)
 
 redundantRobot-python.ttt。是Python版。(2024年5月10日)
 
+#### LineFollowingBubbleRob文件夹
 
+lineFollowingBubbleRob-lua.ttt。有避障功能的小车一堆圆柱中寻路，然后沿着指定路线行驶。(2024年5月11日) => **可能用于AMHS**。(2024年5月10日)
 
 
