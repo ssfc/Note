@@ -330,9 +330,13 @@ stringsRopesClothsAndSoftBodies.ttt。This scene features various specificities 
 
 ### pathPlanning文件夹
 
+1     holonomicPathPlanning3dof-lua.ttt。直角板在迷宫中寻路。(2024年5月10日)
 
+2     holonomicPathPlanning3dof-python.ttt。估计差不多。(2024年5月10日)
 
+3     holonomicPathPlanning6dof.ttt直角板穿过圆洞。(2024年5月10日)
 
+mobileRobotPathPlanning.ttt。小车通过一堵墙寻路。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
 
 
 
