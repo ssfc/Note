@@ -300,9 +300,11 @@ rosInterfaceTopicPublisherAndSubscriber-python.ttt。是Python版。(2024年5月
 
 8  zeromqDemo-python.ttt。是Python版。(2024年5月10日)
 
+### mujoco文件夹
 
+compositeAndOtherCallbacks.ttt。This scene illustrates how composites and other XML injections can be dynamically updated during simulation。(2024年5月10日)
 
-
+stringsRopesClothsAndSoftBodies.ttt。This scene features various specificities of the Mujoco engine, and thus, will not run as expected with a different engine. (2024年5月10日) => 测试Mujoco物理引擎的。
 
 
 
