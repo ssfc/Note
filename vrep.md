@@ -252,6 +252,42 @@ nDoFKinematicChain.ttt。一根竖直的棒子。(2024年5月10日)
 
 obstacleAvoidanceAndIk.ttt。多个小球彼此避障。(2024年5月10日)
 
+smoothMovementsInFkAndIk.ttt。一个操纵杆平滑移动小球，并生成轨迹。(2024年5月10日)
+
+twoRobotsIK.ttt。两个robot面对面。(2024年5月10日)
+
+#### 子文件夹simpleExamples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
