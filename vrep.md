@@ -232,7 +232,7 @@ controlledViaPlugin.ttt 三轮小车，具有避障功能，躲避几个静态�
 
 controlledViaRos.ttt 估计是通过ROS控制。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
 
-controlledViaRemoteApi.ttt。估计是远程API控制。 => **可能用于AMHS**。(2024年5月10日)
+controlledViaRemoteApi.ttt 三轮小车，具有避障功能，躲避几个静态立方体障碍物。(2024年5月10日) => 猜测可能是通过远程API控制，这个可能仿真用得到，因为吾人就是给小车远程下令的。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
 
 controlledViaRos2.ttt 估计是另一种ROS控制。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
 
