@@ -258,7 +258,25 @@ twoRobotsIK.ttt。两个robot面对面。(2024年5月10日)
 
 #### 子文件夹simpleExamples
 
+1-singleIkGroupWithSingleIkElement-undamped.ttt计算 IK链条。(2024年5月10日)
 
+2-singleIkGroupWithSingleIkElement-damped.ttt 也是计算IK. (2024年5月10日)
+
+3-singleIkGroupWithTwoIkElements.ttt 估计也是计算IK。(2024年5月10日)
+
+4-singleIkGroupWithTwoIkElements-weightedAndDampedResolution.ttt 估计也是计算IK。(2024年5月10日)
+
+5-twoIkGroupsWithEachOneIkElement-resolutionOrderIsNotRelevant.ttt 估计也是计算IK。(2024年5月10日)
+
+6-twoIkGroupsWithEachOneIkElement-resolutionOrderIsRelevant.ttt 估计也是计算IK。(2024年5月10日)
+
+7-fkAndIkResolutionForParallelMechanisms.ttt 果然也是计算IK。(2024年5月10日)
+
+8-computingJointAnglesForRandomPoses.ttt 计算连接的关节。(2024年5月10日)
+
+9-prioritizedGroupsAndNullSpaceProjection.ttt 也是计算关节。(2024年5月10日)
+
+10-visuallyDebuggingIkGroups.ttt 也是计算关节。(2024年5月10日)
 
 
 
