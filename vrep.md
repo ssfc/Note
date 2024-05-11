@@ -348,6 +348,10 @@ simpleManipulatorPathPlanning.ttt。机械臂在迷宫中扭动。(2024年5月11
 
 stateValidationCallback-lua.ttt。This scene illustrates how to use a state validation callback with OMPL. The task is to bring the first 'L' onto the second 'L' while keeping a distance of at least 10 mm, and at most 25 mm from the walls. (2024年5月11日)
 
+stateValidationCallback-python.ttt。是Python版。(2024年5月10日)
+
+stateValidityCheckingResolution.ttt。This scene demonstrates how the choice of state validity checking resolution affects the found solutions. A too high value can produce solutions that collide with obstacles. A too low value can slow down the search. 一个球跳过墙面到达目的地。(2024年5月11日)
+
 
 
 
