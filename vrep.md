@@ -246,6 +246,12 @@ controlledViaZmq.ttt。通过zmq控制。(2024年5月10日) => **可能用于AMH
 
 abbFantaCanChallenge.ttt。托盘机器人。
 
+ikPathGeneration.ttt。活动关节的机械臂产生了轨迹。(2024年5月10日)
+
+nDoFKinematicChain.ttt。一根竖直的棒子。(2024年5月10日)
+
+obstacleAvoidanceAndIk.ttt。多个小球彼此避障。(2024年5月10日)
+
 
 
 
