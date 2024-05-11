@@ -308,7 +308,25 @@ stringsRopesClothsAndSoftBodies.ttt。This scene features various specificities 
 
 ### otherScenes文件夹
 
+1     arucoMarkerDetection.ttt。地面有些莫名其妙的图案，可能涉及图像识别。(2024年5月10日)
 
+2     buoyancyExample.ttt。空中的小球坠落地面。(2024年5月10日)
+
+3     dynamic4BarLinkage.ttt。一个移动的四框架。(2024年5月10日)
+
+4     frame-frameInterpolation.ttt。坐标轴飘走了。(2024年5月10日)
+
+5     pureTubeExtraction.ttt。管道把球吸走了。(2024年5月10日)
+
+6     ropeTest.ttt. 滑杆经过垂绳子。(2024年5月10日)
+
+7     simpleMagnetDemo.ttt。三轮车在墙面行走。(2024年5月10日)
+
+8     visionSensorOverTerrain.ttt。小车在迷宫中寻路。(2024年5月10日)
+
+9     worm.ttt。毛毛虫蠕动。(2024年5月10日)
+
+10   X_Y_graph_laserScanner.ttt。激光扫描探测寻路。(2024年5月10日)
 
 
 
