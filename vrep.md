@@ -338,6 +338,8 @@ stringsRopesClothsAndSoftBodies.ttt。This scene features various specificities 
 
 mobileRobotPathPlanning.ttt。小车通过一堵墙寻路。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
 
+nonHolonomicPathPlanning.ttt。小车在迷宫中先寻路，再沿着轨迹行驶。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
+
 
 
 
