@@ -322,7 +322,7 @@ stringsRopesClothsAndSoftBodies.ttt。This scene features various specificities 
 
 7     simpleMagnetDemo.ttt。三轮车在墙面行走。(2024年5月10日)
 
-8     visionSensorOverTerrain.ttt。小车在迷宫中寻路。(2024年5月10日)
+8     visionSensorOverTerrain.ttt。小车在迷宫中寻路。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
 
 9     worm.ttt。毛毛虫蠕动。(2024年5月10日)
 
