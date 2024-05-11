@@ -398,7 +398,7 @@ imageProcessingDemo2-lua.ttt。正方体在两个扇形前移来移去。（2024
 
 imageProcessingDemo2-python.ttt。是Python版。(2024年5月10日)
 
-
+objectTracking.ttt。一个扫地机器人在迷宫中移动。=> **可能用于AMHS**。(2024年5月10日)
 
 
 
