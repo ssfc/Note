@@ -394,6 +394,8 @@ imageProcessingDemo1-lua.ttt。机器人走路。
 
 imageProcessingDemo1-python.ttt。是Python版。(2024年5月10日)
 
+imageProcessingDemo2-lua.ttt。正方体在两个扇形前移来移去。（2024年5月11日）
+
 
 
 
