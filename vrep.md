@@ -340,6 +340,14 @@ mobileRobotPathPlanning.ttt。小车通过一堵墙寻路。(2024年5月10日) =
 
 nonHolonomicPathPlanning.ttt。小车在迷宫中先寻路，再沿着轨迹行驶。(2024年5月10日) => **可能用于AMHS**。(2024年5月10日)
 
+pathPlanningAndGrasping.ttt。两个机械臂抓起水杯互相倒水。(2024年5月11日)
+
+roadmapMultiquery.ttt。直角板穿越迷宫。(2024年5月11日)
+
+simpleManipulatorPathPlanning.ttt。机械臂在迷宫中扭动。(2024年5月11日)
+
+stateValidationCallback-lua.ttt。This scene illustrates how to use a state validation callback with OMPL. The task is to bring the first 'L' onto the second 'L' while keeping a distance of at least 10 mm, and at most 25 mm from the walls. (2024年5月11日)
+
 
 
 
