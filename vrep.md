@@ -404,6 +404,10 @@ ocTreeAcquiredByVisionSensor-lua.ttt。一个摄像头绕着花盆移动。(2024
 
 ocTreeAcquiredByVisionSensor-python.ttt。是Python版。(2024年5月10日)
 
+pointCloudAcquiredByVisionSensor-lua.ttt。一个摄像头绕着花盆移动。(2024年5月11日)
+
+pointCloudAcquiredByVisionSensor-python.ttt。是Python版。(2024年5月10日)
+
 
 
 
