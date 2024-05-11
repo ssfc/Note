@@ -294,7 +294,7 @@ twoRobotsIK.ttt。两个robot面对面。(2024年5月10日)
 
 7     zeromqDemo-lua.ttt。看来通过ZeroMQ通信的是真的多。(2024年5月10日)
 
-zeromqDemo-python.ttt。是Python版。(2024年5月10日)
+8  zeromqDemo-python.ttt。是Python版。(2024年5月10日)
 
 
 
