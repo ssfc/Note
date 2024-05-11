@@ -286,15 +286,15 @@ twoRobotsIK.ttt。两个robot面对面。(2024年5月10日)
 
 3     pControllerViaRemoteApi.ttt。This scene illustrates an external motor controller via the ZeroMQ remote API. (2024年5月10日)
 
-4     ros2InterfaceTopicPublisherAndSubscriber-lua.ttt 一堆形状各异的立方体移动。(2024年5月10日)
+4     ros2InterfaceTopicPublisherAndSubscriber-lua.ttt。一堆形状各异的立方体移动。(2024年5月10日)
 
-5     ros2InterfaceTopicPublisherAndSubscriber-python.ttt 估计差不多。(2024年5月10日)
+5     ros2InterfaceTopicPublisherAndSubscriber-python.ttt。是Python版。(2024年5月10日)
 
 6     synchronousImageTransmissionViaRemoteApi.ttt。This scene illustrates image transmissing via the ZeroMQ remote API. (2024年5月10日)
 
 7     zeromqDemo-lua.ttt。看来通过ZeroMQ通信的是真的多。(2024年5月10日)
 
-
+zeromqDemo-python.ttt。是Python版。(2024年5月10日)
 
 
 
