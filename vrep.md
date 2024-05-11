@@ -222,6 +222,12 @@ youBotAndHanoiTower.ttt。机械臂把立方体放到托盘上并搬运。(2024�
 
 ### 文件夹awsRobomaker。
 
+aws_robomaker_house.ttt。一个有各种家具的大房间。(2024年5月10日)
+
+aws_robomaker_warehouse.ttt。一个有架子的大仓库。(2024年5月10日)
+
+
+
 
 
 
