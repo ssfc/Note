@@ -368,7 +368,7 @@ ruckigOnlineTrajectoryGeneratorExamples.ttt。This scene illustrates various way
 
 #### BubbleRob文件夹
 
-bubbleRob-lua.ttt。有避障功能的小车一堆圆柱中寻路。(2024年5月11日)
+bubbleRob-lua.ttt。有避障功能的小车一堆圆柱中寻路。(2024年5月11日) => **可能用于AMHS**。(2024年5月10日)
 
 
 
