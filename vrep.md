@@ -360,7 +360,7 @@ onlineTrajectoryGeneratorExample-python.ttt。是Python版。(2024年5月10日)
 
 pathToTrajectory.ttt。This scene illustrates 3 different ways to generate a trajectory from a path (in task- or configuration space)。两个graph在显示效果。(2024年5月11日)
 
-
+ruckigOnlineTrajectoryGeneratorDemo.ttt。机械臂把绿色方块移动到红色位置，把红色方块移动到绿色位置，表格显示速度和加速度。(2024年5月11日)
 
 
 
