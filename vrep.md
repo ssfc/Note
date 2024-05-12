@@ -485,6 +485,7 @@ function path.shaping(path, pathIsClosed, upVector)
     if pathIsClosed then  -- 根据路径是否封闭的标志位 pathIsClosed，设置 options 变量。
         options = options | 4
     end
+    -- 根据给定的路径、横截面、选项和方向向量生成一个沿着路径延伸的形状。生成的形状存储在 shape 变量中。
     local shape = sim.generateShapeFromPath(path, section, options, upVector)
     sim.setShapeColor(shape, nil, sim.colorcomponent_ambient_diffuse, color)
     return shape
