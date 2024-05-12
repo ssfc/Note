@@ -414,6 +414,8 @@ pointCloudAcquiredByVisionSensor-python.ttt。是Python版。(2024年5月10日)
 
 位置C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\scenes\tutorials\LineFollowingBubbleRob。视频解读https://www.bilibili.com/video/BV1kS4y1G7Ct/?p=9&vd_source=3ef4175721f926fbf390a069da19b0ca 
 
+sensingNose中的Detection parameters可以设定检测区域。(2024年5月13日)
+
 ### Q: v-rep的path is closed是什么意思？
 
 CG: "Path is closed" 意味着在 V-REP 中的路径（Path）对象是封闭的，也就是说路径的起点和终点相连，形成一个闭环。
