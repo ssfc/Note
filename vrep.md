@@ -559,6 +559,7 @@ function sysCall_init()
     simUI.setSliderValue(ui, 1, 100 * (speed - minMaxSpeed[1]) / (minMaxSpeed[2] - minMaxSpeed[1]))
 end
 
+-- 在仿真过程中对机器人的感知进行处理
 function sysCall_sensing()
     local p = sim.getObjectPosition(bubbleRobBase)
     sim.addDrawingObjectItem(robotTrace, p)
