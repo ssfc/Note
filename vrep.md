@@ -566,6 +566,7 @@ function sysCall_sensing()
 end 
 
 function speedChange_callback(ui, id, newVal)
+    -- 据新的滑块数值 newVal，计算了新的速度值 speed。
     speed = minMaxSpeed[1] + (minMaxSpeed[2] - minMaxSpeed[1]) * newVal / 100
 end
 
