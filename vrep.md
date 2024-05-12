@@ -580,7 +580,7 @@ function sysCall_actuation()
     end
     
     -- read the line detection sensors:
-    sensorReading = {false, false, false}
+    sensorReading = {false, false, false} -- 初始化了一个数组 sensorReading，用于存储地面传感器的检测结果
     for i = 1, 3, 1 do
         local result, data = sim.readVisionSensor(floorSensorHandles[i])
         if result >= 0 then
