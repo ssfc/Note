@@ -605,7 +605,7 @@ function sysCall_actuation()
     end
     
     -- 根据当前时间和后退时间的比较，决定机器人是前进还是后退。
-    if backUntilTime < sim.getSimulationTime() then
+    if backUntilTime < sim.getSimulationTime() then -- 如果当前时间超过了后退时间，则执行前进动作；否则执行后退动作。
         -- When in forward mode, we simply move forward at the desired speed
         sim.setJointTargetVelocity(leftMotor, leftV)
         sim.setJointTargetVelocity(rightMotor, rightV)
