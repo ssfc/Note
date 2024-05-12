@@ -128,6 +128,10 @@ ep 9, 小车模型建立。这个视频的文件在C:\Program Files\CoppeliaRobo
 
 一个大球作为车体，两个圆柱作为后轮，两个圆柱作为轴承，一个球体作为前轮。(2024年5月9日)
 
+ep 10, 小车简单避障编程实现。
+
+如果需要碰撞检测，需要勾上Collidable, Measurable和Detectable. (2024年5月13日)
+
 ### Q: V-REP中的local respondable mask和global respondable mask是什么意思？
 
 在V-REP中，local respondable mask和global respondable mask是用来控制物体之间碰撞检测的一种机制。它们定义了每个物体与其他物体之间的碰撞检测的规则。
