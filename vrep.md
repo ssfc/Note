@@ -573,6 +573,7 @@ end
 
 -- 动作执行函数，用于在仿真过程中执行机器人的控制动作。
 function sysCall_actuation() 
+    -- 使用 sim.readProximitySensor 函数读取鼻子传感器的状态，返回值 result 表示检测到的障碍物距离。
     local result = sim.readProximitySensor(noseSensor)
     if result > 0 then
         backUntilTime = sim.getSimulationTime() + 4
