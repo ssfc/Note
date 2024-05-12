@@ -584,7 +584,7 @@ function sysCall_actuation()
     for i = 1, 3, 1 do  -- 通过一个循环遍历三个地面传感器
         -- 使用 sim.readVisionSensor 函数读取地面传感器的状态
         local result, data = sim.readVisionSensor(floorSensorHandles[i])
-        if result >= 0 then
+        if result >= 0 then -- 传感器读取成功，将检测到的地面亮度数据存储在 data 中。
             sensorReading[i] = (data[11] < 0.5) -- data[11] is the average of intensity of the image
         end
     end
