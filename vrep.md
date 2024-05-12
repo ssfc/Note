@@ -581,7 +581,7 @@ function sysCall_actuation()
     
     -- read the line detection sensors:
     sensorReading = {false, false, false} -- 初始化了一个数组 sensorReading，用于存储地面传感器的检测结果
-    for i = 1, 3, 1 do
+    for i = 1, 3, 1 do  -- 通过一个循环遍历三个地面传感器
         local result, data = sim.readVisionSensor(floorSensorHandles[i])
         if result >= 0 then
             sensorReading[i] = (data[11] < 0.5) -- data[11] is the average of intensity of the image
