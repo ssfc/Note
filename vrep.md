@@ -412,11 +412,29 @@ pointCloudAcquiredByVisionSensor-python.ttt。是Python版。(2024年5月10日)
 
 位置C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\scenes\tutorials\LineFollowingBubbleRob
 
+### Q: v-rep的path is closed是什么意思？
 
+CG: "Path is closed" 意味着在 V-REP 中的路径（Path）对象是封闭的，也就是说路径的起点和终点相连，形成一个闭环。
 
+在 V-REP 中，路径可以用于定义机器人或其他物体的运动轨迹。当路径被标记为封闭时，它表示路径的起点和终点相连，形成了一个闭合的循环。这通常意味着物体沿着路径移动到终点后会返回到起点，循环运动。
 
+封闭路径在某些场景中非常有用，比如在机器人巡逻、环绕运动或循环运动中。通过使用封闭路径，可以简化路径规划和控制，使得物体可以在仿真环境中实现连续的循环运动。
 
+因此，当 V-REP 中的路径被标记为 "Path is closed" 时，它表示路径是封闭的，可以用于定义物体的循环运动轨迹。(2024年5月12日) 
 
+Mine: 如果去掉选框对勾，小车路径的最后一段封不起来。(2024年5月12日)
+
+### Q: v-rep的generate extrude shape是什么意思？
+
+CG: 在 V-REP 中，"Generate Extrude Shape" 是一个功能，用于创建一个沿着路径延伸的形状。
+
+具体来说，"Generate Extrude Shape" 允许用户定义一个二维形状（通常是一个闭合的轮廓），然后沿着指定的路径（通常是一条直线或曲线）在三维空间中延伸该形状，生成一个复杂的三维对象。
+
+这个功能通常用于创建具有特定截面的三维几何体，比如管道、绳索、线圈等。用户可以通过指定的路径和形状参数来控制生成的三维对象的外观和尺寸。
+
+"Generate Extrude Shape" 功能在 V-REP 的建模工具中常用，它使用户能够快速创建复杂的三维几何体，从而实现更加真实和精确的仿真模型。
+
+Mine: 如果不加这个对勾，小车将无视路径直接走下悬崖。(2024年5月12日)
 
 
 
