@@ -124,7 +124,9 @@ ep 7, 传送带编程。
 
 ep 8, 传送带两种方式合并及区别说明。
 
-ep 9, 小车模型建立。一个大球作为车体，两个圆柱作为后轮，两个圆柱作为轴承，一个球体作为前轮。(2024年5月9日)
+ep 9, 小车模型建立。这个视频的文件在C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\scenes\tutorials。
+
+一个大球作为车体，两个圆柱作为后轮，两个圆柱作为轴承，一个球体作为前轮。(2024年5月9日)
 
 ### Q: V-REP中的local respondable mask和global respondable mask是什么意思？
 
@@ -410,7 +412,7 @@ pointCloudAcquiredByVisionSensor-python.ttt。是Python版。(2024年5月10日)
 
 # lineFollowingBubbleRob-lua.ttt解读
 
-位置C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\scenes\tutorials\LineFollowingBubbleRob
+位置C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\scenes\tutorials\LineFollowingBubbleRob。视频解读https://www.bilibili.com/video/BV1kS4y1G7Ct/?p=9&vd_source=3ef4175721f926fbf390a069da19b0ca 
 
 ### Q: v-rep的path is closed是什么意思？
 
@@ -654,3 +656,7 @@ end
 5. **用户交互**：在用户操作UI元素时调用回调函数来处理用户输入。
 
 在回调函数中，通常会将某些参数传递给回调函数，以便在调用时使用。这样的参数可以是事件的状态、操作的结果等等。回调函数的使用使得代码更加模块化和灵活，能够适应不同的需求和情况。
+
+### Q: 怎样修改v-rep中某个圆柱体的尺寸？
+
+Mine: 双击圆柱体图标，选择Geometry即可修改。(2024年5月12日)
