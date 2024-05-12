@@ -612,3 +612,18 @@ function sysCall_cleanup()
     simUI.destroy(ui)
 end 
 ```
+
+### Q: v-rep脚本中的main函数在哪？换言之，怎么知道脚本中函数的执行顺序？
+
+在 V-REP 中，没有像传统编程语言中的 `main` 函数一样的入口函数。脚本中的函数执行顺序由事件触发和函数调用来确定。V-REP 使用了一种事件驱动的编程模型，其中不同的函数在特定的事件发生时被调用。
+
+在 V-REP 脚本中，常见的事件包括 `sysCall_init`、`sysCall_sensing`、`sysCall_actuation`、`sysCall_cleanup` 等。这些事件对应着仿真过程中的不同阶段或行为。例如：
+
+- `sysCall_init` 在仿真开始时被调用，用于初始化脚本中的变量和对象。
+- `sysCall_sensing` 在感知阶段被调用，用于处理传感器数据。
+- `sysCall_actuation` 在执行阶段被调用，用于执行控制动作。
+- `sysCall_cleanup` 在仿真结束时被调用，用于清理资源。
+
+除了这些系统事件外，用户还可以自定义其他事件，通过 `sim.setScriptAttribute` 函数设置触发条件，并在对应的函数中编写处理逻辑。
+
+因此，在 V-REP 脚本中，函数的执行顺序由系统事件触发和函数调用来确定。要了解脚本中函数的执行顺序，需要了解 V-REP 的事件模型和相应的触发条件。
