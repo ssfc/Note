@@ -600,7 +600,7 @@ function sysCall_actuation()
     if sensorReading[3] then -- 如果检测到了右侧的黑线，将右轮速度设为 0.03 * speed。
         rightV = 0.03 * speed
     end
-    if sensorReading[1] and sensorReading[3] then
+    if sensorReading[1] and sensorReading[3] then -- 如果同时检测到左右两侧的黑线，将设置一个后退时间 backUntilTime，以便在后续的处理中执行后退动作。
         backUntilTime = sim.getSimulationTime() + 2
     end
     
