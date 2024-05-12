@@ -150,7 +150,11 @@ ep 10, 小车简单避障编程实现。
 
 ep 11, 寻迹灯的建立。
 
-Vision sensor是可以识别颜色的摄像头，设置识别最大最小距离。检测灯在地面下也有探测距离。
+Vision sensor是可以识别颜色的摄像头，设置识别最大最小距离。检测灯在地面下也有探测距离。(2024年5月13日)
+
+ep 12, 寻迹线的建立。
+
+
 
 ## 范例scene文件说明
 
@@ -423,6 +427,8 @@ pointCloudAcquiredByVisionSensor-python.ttt。是Python版。(2024年5月10日)
 位置C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\scenes\tutorials\LineFollowingBubbleRob。视频解读https://www.bilibili.com/video/BV1kS4y1G7Ct/?p=9&vd_source=3ef4175721f926fbf390a069da19b0ca 
 
 sensingNose中的Volume parameters设置检测区域的形状，Detection parameters可以设定检测区域。(2024年5月13日)
+
+给场景中又添加了一辆车，两辆车都可以沿着轨迹线行驶，都可以进行碰撞检测。(2024年5月13日)
 
 ### Q: v-rep的path is closed是什么意思？
 
