@@ -428,7 +428,7 @@ pointCloudAcquiredByVisionSensor-python.ttt。是Python版。(2024年5月10日)
 
 sensingNose中的Volume parameters设置检测区域的形状，Detection parameters可以设定检测区域。(2024年5月13日)
 
-给场景中又添加了一辆车，两辆车都可以沿着轨迹线行驶，都可以进行碰撞检测。(2024年5月13日)
+给场景中又添加了一辆车，两辆车都可以沿着轨迹线行驶，都可以进行碰撞检测，两台小车的速度可以分别调整。(2024年5月13日)
 
 ### Q: v-rep的path is closed是什么意思？
 
