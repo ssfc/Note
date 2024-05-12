@@ -545,7 +545,7 @@ function sysCall_init()
     floorSensorHandles[1] = sim.getObject("./leftSensor")
     floorSensorHandles[2] = sim.getObject("./middleSensor")
     floorSensorHandles[3] = sim.getObject("./rightSensor")
-    robotTrace = sim.addDrawingObject(sim.drawing_linestrip + sim.drawing_cyclic, 2, 0, -1, 200, {1, 1, 0}, nil, nil, {1, 1, 0})
+    robotTrace = sim.addDrawingObject(sim.drawing_linestrip + sim.drawing_cyclic, 2, 0, -1, 200, {1, 1, 0}, nil, nil, {1, 1, 0})  -- 创建了一个绘图对象，用于绘制机器人的移动轨迹。
     -- Create the custom UI:
     xml = '<ui title="'..sim.getObjectAlias(bubbleRobBase,1)..' speed" closeable="false" resizeable="false" activate="false">'..[[
                 <hslider minimum="0" maximum="100" on-change="speedChange_callback" id="1"/>
