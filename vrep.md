@@ -554,7 +554,8 @@ function sysCall_init()
         ]]
     -- 通过字符串拼接生成 XML 格式的 UI 描述，包含一个水平滑块和一个标签，用于控制和显示机器人的速度。然后使用 simUI.create(xml) 创建了该 UI。
     ui = simUI.create(xml)
-    speed = (minMaxSpeed[1] + minMaxSpeed[2]) * 0.5
+    speed = (minMaxSpeed[1] + minMaxSpeed[2]) * 0.5 -- 计算了初始速度
+    -- 设置了滑块的初始数值。
     simUI.setSliderValue(ui, 1, 100 * (speed - minMaxSpeed[1]) / (minMaxSpeed[2] - minMaxSpeed[1]))
 end
 
