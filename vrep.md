@@ -609,6 +609,7 @@ function sysCall_actuation()
     end
 end 
 
+-- 仿真结束时被调用，用于清理资源和执行必要的清理操作。
 function sysCall_cleanup() 
     simUI.destroy(ui)
 end 
