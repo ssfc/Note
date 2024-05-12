@@ -590,7 +590,7 @@ function sysCall_actuation()
         end
     end
     
-    -- 根据地面传感器的检测结果，计算左右轮的速度，以跟随检测到的黑线。
+    -- 根据车上对地面传感器的检测结果，计算左右轮的速度，以跟随检测到的黑线。
     -- compute left and right velocities to follow the detected line:
     rightV = speed
     leftV = speed
