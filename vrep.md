@@ -408,6 +408,10 @@ pointCloudAcquiredByVisionSensor-lua.ttt。一个摄像头绕着花盆移动。(
 
 pointCloudAcquiredByVisionSensor-python.ttt。是Python版。(2024年5月10日)
 
+## lineFollowingBubbleRob-lua.ttt解读
+
+位置C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\scenes\tutorials\LineFollowingBubbleRob
+
 
 
 
