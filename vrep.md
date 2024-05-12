@@ -611,7 +611,7 @@ end
 
 -- 仿真结束时被调用，用于清理资源和执行必要的清理操作。
 function sysCall_cleanup() 
-    simUI.destroy(ui)
+    simUI.destroy(ui) -- 用于销毁指定的用户界面（UI）对象，以释放相关资源。
 end 
 ```
 
