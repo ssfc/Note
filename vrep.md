@@ -530,6 +530,7 @@ function sysCall_init()
     -- 引入了 V-REP（Virtual Robot Experimentation Platform）中的 sim 和 simUI 模块，用于与仿真环境进行交互以及创建用户界面。
     sim = require('sim')
     simUI = require('simUI')
+    -- 获取了当前脚本所属对象的句柄，通常是一个移动机器人对象。
     bubbleRobBase = sim.getObject('.')
     leftMotor = sim.getObject("./leftMotor")
     rightMotor = sim.getObject("./rightMotor")
