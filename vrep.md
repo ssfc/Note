@@ -594,10 +594,10 @@ function sysCall_actuation()
     -- compute left and right velocities to follow the detected line:
     rightV = speed
     leftV = speed
-    if sensorReading[1] then -- 如果检测到了左侧的黑线，将左轮速度设为 0.03 * speed，
+    if sensorReading[1] then -- 如果检测到了左侧的黑线，将左轮速度设为 0.03 * speed，(左轮慢右轮快则左转)
         leftV = 0.03 * speed
     end
-    if sensorReading[3] then -- 如果检测到了右侧的黑线，将右轮速度设为 0.03 * speed。
+    if sensorReading[3] then -- 如果检测到了右侧的黑线，将右轮速度设为 0.03 * speed。(右轮慢左轮快则右转)
         rightV = 0.03 * speed
     end
     if sensorReading[1] and sensorReading[3] then -- 如果同时检测到左右两侧的黑线，将设置一个后退时间 backUntilTime，以便在后续的处理中执行后退动作。
