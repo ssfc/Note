@@ -561,8 +561,8 @@ end
 
 -- 在仿真过程中对机器人的感知进行处理
 function sysCall_sensing()
-    local p = sim.getObjectPosition(bubbleRobBase)
-    sim.addDrawingObjectItem(robotTrace, p)
+    local p = sim.getObjectPosition(bubbleRobBase) -- 通过 sim.getObjectPosition 函数获取了机器人的当前位置，并将其存储在变量 p 中。bubbleRobBase 是之前在 sysCall_init 函数中获取的机器人基本对象的句柄。
+    sim.addDrawingObjectItem(robotTrace, p) -- 使用 sim.addDrawingObjectItem 函数将当前位置 p 添加到绘图对象 robotTrace 中。这样做可以实时绘制机器人的移动轨迹。
 end 
 
 function speedChange_callback(ui, id, newVal)
