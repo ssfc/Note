@@ -473,9 +473,11 @@ Mine: 黑色轨迹中绿色的线条会消失。(2024年5月12日)
 ```lua
 --lua
 
+-- 通过 require 函数引入了 sim 模块和 path_customization 模块，用于后续的仿真操作和路径定制化。
 sim = require'sim'
 path = require('path_customization')
 
+-- 定义了一个名为 path.shaping 的函数。该函数接受三个参数：path（路径对象）、pathIsClosed（路径是否封闭）、upVector（路径延伸的方向向量）。
 function path.shaping(path, pathIsClosed, upVector)
     local section = {-0.02, 0.001, 0.02, 0.001}
     local color = {0.3, 0.3, 0.3}
