@@ -479,10 +479,10 @@ path = require('path_customization')
 
 -- 定义了一个名为 path.shaping 的函数。该函数接受三个参数：path（路径对象）、pathIsClosed（路径是否封闭）、upVector（路径延伸的方向向量）。
 function path.shaping(path, pathIsClosed, upVector)
-    local section = {-0.02, 0.001, 0.02, 0.001}
-    local color = {0.3, 0.3, 0.3}
+    local section = {-0.02, 0.001, 0.02, 0.001} -- 表示路径横截面的数组 section
+    local color = {0.3, 0.3, 0.3} -- 表示形状颜色的数组 color
     local options = 0
-    if pathIsClosed then
+    if pathIsClosed then  -- 根据路径是否封闭的标志位 pathIsClosed，设置 options 变量。
         options = options | 4
     end
     local shape = sim.generateShapeFromPath(path, section, options, upVector)
