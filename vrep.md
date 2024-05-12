@@ -408,7 +408,7 @@ pointCloudAcquiredByVisionSensor-lua.ttt。一个摄像头绕着花盆移动。(
 
 pointCloudAcquiredByVisionSensor-python.ttt。是Python版。(2024年5月10日)
 
-## lineFollowingBubbleRob-lua.ttt解读
+# lineFollowingBubbleRob-lua.ttt解读
 
 位置C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\scenes\tutorials\LineFollowingBubbleRob
 
@@ -467,3 +467,24 @@ Mine: 黑色轨迹中绿色的线条会消失。(2024年5月12日)
 调整 Subdivisions 参数可以影响路径的形状和运动特性，从而影响到机器人或其他物体沿着路径移动时的运动轨迹的细节和精度。通常情况下，更高的 Subdivisions 值会产生更精细、更平滑的路径，但可能会增加计算负载和减慢仿真速度。
 
 总之，Subdivisions 参数允许用户根据实际需求调整路径的精细程度，以达到最佳的仿真效果。
+
+## Path Script
+
+```lua
+--lua
+
+sim = require'sim'
+path = require('path_customization')
+
+function path.shaping(path, pathIsClosed, upVector)
+    local section = {-0.02, 0.001, 0.02, 0.001}
+    local color = {0.3, 0.3, 0.3}
+    local options = 0
+    if pathIsClosed then
+        options = options | 4
+    end
+    local shape = sim.generateShapeFromPath(path, section, options, upVector)
+    sim.setShapeColor(shape, nil, sim.colorcomponent_ambient_diffuse, color)
+    return shape
+end
+```
