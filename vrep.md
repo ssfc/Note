@@ -532,6 +532,7 @@ function sysCall_init()
     simUI = require('simUI')
     -- 获取了当前脚本所属对象的句柄，通常是一个移动机器人对象。
     bubbleRobBase = sim.getObject('.')
+    -- 分别获取了左电机、右电机和鼻子传感器对象的句柄。
     leftMotor = sim.getObject("./leftMotor")
     rightMotor = sim.getObject("./rightMotor")
     noseSensor = sim.getObject("./sensingNose")
