@@ -493,6 +493,8 @@ function path.shaping(path, pathIsClosed, upVector)
 end
 ```
 
+sim.lua（1968行）和path_customization.lua（1309行）都在C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\lua中。两者都规模巨大，吾人直接复用算了。(2024年5月12日)
+
 ### Q: sim 模块是什么模块？
 
 sim 模块是 V-REP（Virtual Robot Experimentation Platform）中的一个 Lua 模块，用于提供与仿真环境进行交互的功能。在 V-REP 中，Lua 脚本是一种常用的编程语言，用于控制和定制仿真场景中的各种元素。
