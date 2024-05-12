@@ -570,6 +570,8 @@ function speedChange_callback(ui, id, newVal)
     speed = minMaxSpeed[1] + (minMaxSpeed[2] - minMaxSpeed[1]) * newVal / 100
 end
 
+
+-- 动作执行函数，用于在仿真过程中执行机器人的控制动作。
 function sysCall_actuation() 
     local result = sim.readProximitySensor(noseSensor)
     if result > 0 then
