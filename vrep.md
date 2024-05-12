@@ -536,9 +536,12 @@ function sysCall_init()
     leftMotor = sim.getObject("./leftMotor")
     rightMotor = sim.getObject("./rightMotor")
     noseSensor = sim.getObject("./sensingNose")
+    -- 定义了机器人的速度范围，单位为弧度每秒。
     minMaxSpeed = {50 * math.pi / 180,300 * math.pi / 180}
+    -- 初始化了一个变量，用于记录机器人是否处于前进或后退模式。初始值为 -1，表示机器人处于前进模式。
     backUntilTime = -1 -- Tells whether bubbleRob is in forward or backward mode
-    floorSensorHandles = {-1, -1, -1}
+    floorSensorHandles = {-1, -1, -1} -- 初始化了一个数组，用于存储地面传感器对象的句柄。
+    -- 分别获取了左侧、中间和右侧地面传感器对象的句柄。
     floorSensorHandles[1] = sim.getObject("./leftSensor")
     floorSensorHandles[2] = sim.getObject("./middleSensor")
     floorSensorHandles[3] = sim.getObject("./rightSensor")
