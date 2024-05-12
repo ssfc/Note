@@ -590,13 +590,14 @@ function sysCall_actuation()
         end
     end
     
+    -- 根据地面传感器的检测结果，计算左右轮的速度，以跟随检测到的黑线。
     -- compute left and right velocities to follow the detected line:
     rightV = speed
     leftV = speed
-    if sensorReading[1] then
+    if sensorReading[1] then -- 如果检测到了左侧的黑线，将左轮速度设为 0.03 * speed，
         leftV = 0.03 * speed
     end
-    if sensorReading[3] then
+    if sensorReading[3] then -- 如果检测到了右侧的黑线，将右轮速度设为 0.03 * speed。
         rightV = 0.03 * speed
     end
     if sensorReading[1] and sensorReading[3] then
