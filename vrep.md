@@ -585,6 +585,7 @@ function sysCall_actuation()
         -- 使用 sim.readVisionSensor 函数读取地面传感器的状态
         local result, data = sim.readVisionSensor(floorSensorHandles[i])
         if result >= 0 then -- 传感器读取成功，将检测到的地面亮度数据存储在 data 中。
+            -- 将地面传感器的亮度数据与阈值 0.5 进行比较，如果亮度较低，则将相应位置的 sensorReading 设置为 true，表示检测到了黑线。
             sensorReading[i] = (data[11] < 0.5) -- data[11] is the average of intensity of the image
         end
     end
