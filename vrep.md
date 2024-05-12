@@ -527,6 +527,7 @@ DefaultLight 具有以下特点和功能：
 --lua
 
 function sysCall_init()
+    -- 引入了 V-REP（Virtual Robot Experimentation Platform）中的 sim 和 simUI 模块，用于与仿真环境进行交互以及创建用户界面。
     sim = require('sim')
     simUI = require('simUI')
     bubbleRobBase = sim.getObject('.')
