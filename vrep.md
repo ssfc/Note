@@ -866,7 +866,7 @@ function sysCall_thread()
         local t=sim.getSimulationTime() -- 获取当前仿真时间（以秒为单位）。CoppeliaSim的仿真环境根据设置的仿真步长来推进时间，获取当前时间是计算移动距离的基础。
         posAlongPath=posAlongPath+velocity*(t-previousSimulationTime) -- 表示对象在路径上的位置。通过计算自上一仿真步骤以来经过的时间并乘以速度(velocity)，可以得出对象在路径上应该移动的距离，并加到当前位置上。
         posAlongPath=posAlongPath % totalLength -- 确保posAlongPath在到达路径末尾时能够循环回到开始，通过取余totalLength（路径的总长度），实现路径循环。
-        local pos=sim.getPathInterpolatedConfig(pathPositions,pathLengths,posAlongPath)
+        local pos=sim.getPathInterpolatedConfig(pathPositions,pathLengths,posAlongPath) -- 调用sim.getPathInterpolatedConfig函数，根据当前位置(posAlongPath)在路径上获得插值后的位置坐标。这个函数会考虑路径的形状和对象应在的确切位置，计算得出准确的三维空间坐标。
         local quat=sim.getPathInterpolatedConfig(pathQuaternions,pathLengths,posAlongPath,nil,{2,2,2,2})
         sim.setObjectPosition(cube,pos,path)
         sim.setObjectQuaternion(cube,quat,path)
