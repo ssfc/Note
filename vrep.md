@@ -837,3 +837,7 @@ function sysCall_actuation()
     sim.setObjectQuaternion(cube,quat,path) -- 计算得到的四元数(quat)更新对象的旋转状态。
     previousSimulationTime=t -- 更新previousSimulationTime为当前仿真时间，为下一仿真步骤的计算准备。
 end
+```
+
+在上述代码中，位置不是通过速度仿真得到的，而是通过计算得到的。(2024年5月13日) => 试试加上碰撞检测？
+
