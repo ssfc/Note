@@ -856,7 +856,7 @@ function sysCall_init()
     pathQuaternions=m:slice(1,4,m:rows(),7):data()
     pathLengths,totalLength=sim.getPathLengths(pathPositions,3) -- 每段路径的长度和总长度
     velocity=0.04 -- m/s
-    posAlongPath=0
+    posAlongPath=0 -- 对象当前沿路径的位置
     previousSimulationTime=0
     sim.setStepping(true)
 end
