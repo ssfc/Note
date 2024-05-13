@@ -913,3 +913,49 @@ sim.step() 的调用是该脚本与其他简单循环脚本的主要区别，它
 **结论：**
 
 选择`sysCall_actuation()`还是`sysCall_thread()`依赖于你具体的需求和任务复杂度。如果任务与仿真的每个时间步骤紧密相关并且需要紧跟仿真的进程，使用`sysCall_actuation()`更简单直接。如果任务更加独立或需要灵活的时间管理和复杂逻辑，`sysCall_thread()`可能是更好的选择。在`sysCall_thread()`中，手动管理仿真的时间步骤可以提供额外的控制，但也增加了脚本复杂性和出错的风险。
+
+```lua
+-- Child script /Path lua
+
+function sysCall_init()
+    sim = require('sim')
+    path=sim.getObject('.')
+    pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH'))
+    local m=Matrix(math.floor(#pathData/7),7,pathData)
+    pathPositions=m:slice(1,1,m:rows(),3):data()
+    pathQuaternions=m:slice(1,4,m:rows(),7):data()
+    local cubeCount=100
+    cube=sim.getObject('/blackCube')
+    objectsToMove={cube}
+    for i=2,cubeCount,1 do
+        objectsToMove[i]=sim.copyPasteObjects({cube},0)[1]
+    end
+    for i=1,cubeCount,1 do
+        sim.setObjectParent(objectsToMove[i],path,true) -- not required, but looks cleaner
+    end
+    
+    pathLengths,totalLength=sim.getPathLengths(pathPositions,3)
+    offset=totalLength/#objectsToMove
+    v=0.06
+    sim.setStepping(true)
+end
+
+function sysCall_thread()
+    while true do
+        setPathPosition(sim.getSimulationTime()*v)
+        sim.step()
+    end
+end
+
+function setPathPosition(p)
+    for i=1,#objectsToMove,1 do
+        p=p % totalLength
+        local h=objectsToMove[i]
+        local pos=sim.getPathInterpolatedConfig(pathPositions,pathLengths,p)
+        local quat=sim.getPathInterpolatedConfig(pathQuaternions,pathLengths,p,nil,{2,2,2,2})
+        sim.setObjectPosition(h,pos,path)
+        sim.setObjectQuaternion(h,quat,path)
+        p=p+offset
+    end
+end
+```
