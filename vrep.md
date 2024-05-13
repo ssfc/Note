@@ -805,3 +805,6 @@ CoppeliaSim提供了丰富的API函数，允许您通过编写Lua脚本动态地
 通常，您可以通过Remote API执行Lua脚本命令来间接实现这种控制，如调用上述Lua API函数来添加、删除或获取路径控制点。
 
 在使用这些方法时，请确保您熟悉CoppeliaSim的操作界面和Lua脚本编程。详细的API文档可以在CoppeliaSim官方网站或安装目录的文档中找到，它将提供更具体的函数使用方法和参数说明。
+
+# movingAlongAPath-lua.ttt解读
+
