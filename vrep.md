@@ -194,9 +194,19 @@ minimumDistanceCalculationDemo-lua.ttt。minimumDistanceCalculationDemo-lua.ttt 
 
 minimumDistanceCalculationDemo-python.ttt。是Python版。(2024年5月10日)
 
-**mobileRobotVisualTraces-lua.ttt**。mobileRobotVisualTraces-lua.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了如何使用 Lua 脚本为移动机器人生成轨迹并进行可视化。// 在 mobileRobotVisualTraces-lua.ttt 示例场景中，你可以看到一个移动机器人模型和一些障碍物，以及一个地图或场景背景。通过 Lua 脚本，移动机器人可以在仿真环境中移动，并在地图上留下运动轨迹的可视化表示。// 示例场景中的 Lua 脚本通常包含以下功能：1. **移动机器人控制**：通过控制机器人的轮子或关节，使其在仿真环境中移动。2. **轨迹生成**：在机器人移动过程中，通过记录其位置信息，生成轨迹数据。3. **可视化表示**：使用图形绘图功能，将轨迹数据在地图或场景上进行可视化表示，以便用户观察和分析。// 通过 mobileRobotVisualTraces-lua.ttt 示例场景，你可以学习如何使用 Lua 脚本为移动机器人生成轨迹并进行可视化，这对于机器人路径规划、运动控制和仿真分析非常有帮助。(2024年5月10日) => 两轮小车，具有避障功能，并且显示轨迹。**可能用于AMHS**。(2024年5月10日)
+**mobileRobotVisualTraces-lua.ttt**。mobileRobotVisualTraces-lua.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了如何使用 Lua 脚本为移动机器人生成轨迹并进行可视化。// 在 mobileRobotVisualTraces-lua.ttt 示例场景中，你可以看到一个移动机器人模型和一些障碍物，以及一个地图或场景背景。通过 Lua 脚本，移动机器人可以在仿真环境中移动，并在地图上留下运动轨迹的可视化表示。// 示例场景中的 Lua 脚本通常包含以下功能：1. **移动机器人控制**：通过控制机器人的轮子或关节，使其在仿真环境中移动。2. **轨迹生成**：在机器人移动过程中，通过记录其位置信息，生成轨迹数据。3. **可视化表示**：使用图形绘图功能，将轨迹数据在地图或场景上进行可视化表示，以便用户观察和分析。// 通过 mobileRobotVisualTraces-lua.ttt 示例场景，你可以学习如何使用 Lua 脚本为移动机器人生成轨迹并进行可视化，这对于机器人路径规划、运动控制和仿真分析非常有帮助。(2024年5月10日) => 两轮小车，具有避障功能，并且显示轨迹。**f**。(2024年5月10日)
 
-**motorControllerExamples-lua.ttt**。motorControllerExamples-lua.ttt 是 V-REP（Virtual Robot Experimentation Platform）中的一个示例场景文件。这个场景演示了如何使用 Lua 脚本控制电机和执行器。// 在 motorControllerExamples-lua.ttt 示例场景中，你可以看到一个或多个电机或执行器模型，以及一个控制界面。通过 Lua 脚本，用户可以与控制界面上的控件交互，以控制电机或执行器的运动和行为。// 示例场景中的 Lua 脚本通常包含以下功能：1. **电机控制**：通过设置电机的转速、位置或力矩等参数，控制电机的运动。2. **执行器控制**：通过设置执行器的位置、速度或力矩等参数，控制执行器的运动。3. **用户交互**：通过控制界面上的按钮、滑块或文本框等控件，与 Lua 脚本进行交互，从而控制电机或执行器的运动和行为。// 通过 motorControllerExamples-lua.ttt 示例场景，你可以学习如何使用 Lua 脚本控制电机和执行器，这对于机器人运动控制、机械臂操作等领域非常有帮助。(2024年5月10日) => 可以控制速度、力、时间。**可能用于AMHS**。(2024年5月10日)
+**motorControllerExamples-lua.ttt**。This scene features various dynamic motor controllers available in CoppeliaSim: 
+
+1. constant force/torque (in red)
+
+2. velocity (in green), or velocity with specific motion profile (in light green)
+
+3. position (in blue), or position with specific motion profile (in light blue)
+
+5. spring-damper mode (in purple)
+
+5. custom control (in yellow) enables virtually any type of controller via joint callback functions(2024年5月10日) => 可以控制速度、力、时间。**可能用于AMHS**。(2024年5月10日)
 
 mobileRobotVisualTraces-python.ttt。是Python版。(2024年5月10日)
 
