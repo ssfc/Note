@@ -821,7 +821,7 @@ function sysCall_init()
     local m=Matrix(#pathData//7,7,pathData)
     pathPositions=m:slice(1,1,m:rows(),3):data()  -- 位置
     pathQuaternions=m:slice(1,4,m:rows(),7):data() -- 旋转
-    pathLengths,totalLength=sim.getPathLengths(pathPositions,3)
+    pathLengths,totalLength=sim.getPathLengths(pathPositions,3) -- 每段路径的长度和总长度
     velocity=0.05 -- m/s
     posAlongPath=0
     previousSimulationTime=0
