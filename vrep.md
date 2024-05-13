@@ -852,7 +852,7 @@ function sysCall_init()
     -- #pathData//7 计算了 pathData 数组的长度，并且除以 7，得到了矩阵的行数。
 	--然后，7 被用作列数，因为每个数据元素代表路径中的一个点，每个点通常有 7 个相关联的数值（如 x、y、z 坐标以及姿态等）。
     local m=Matrix(#pathData//7,7,pathData)
-    pathPositions=m:slice(1,1,m:rows(),3):data()
+    pathPositions=m:slice(1,1,m:rows(),3):data() -- 位置
     pathQuaternions=m:slice(1,4,m:rows(),7):data()
     pathLengths,totalLength=sim.getPathLengths(pathPositions,3) -- 每段路径的长度和总长度
     velocity=0.04 -- m/s
@@ -919,11 +919,13 @@ sim.step() 的调用是该脚本与其他简单循环脚本的主要区别，它
 
 function sysCall_init()
     sim = require('sim')
-    path=sim.getObject('.')
-    pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH'))
-    local m=Matrix(math.floor(#pathData/7),7,pathData)
-    pathPositions=m:slice(1,1,m:rows(),3):data()
-    pathQuaternions=m:slice(1,4,m:rows(),7):data()
+    path=sim.getObject('.') -- 获取当前脚本绑定对象(redCube)的句柄。
+    pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH')) -- 读取路径对象自定义数据块中的“PATH”字段，并将其解压缩为一个双精度浮点数表（存储路径的控制点信息）。
+    -- #pathData//7 计算了 pathData 数组的长度，并且除以 7，得到了矩阵的行数。
+	--然后，7 被用作列数，因为每个数据元素代表路径中的一个点，每个点通常有 7 个相关联的数值（如 x、y、z 坐标以及姿态等）。
+    local m=Matrix(math.floor(#pathData/7),7,pathData) 
+    pathPositions=m:slice(1,1,m:rows(),3):data() -- 位置
+    pathQuaternions=m:slice(1,4,m:rows(),7):data() -- 旋转
     local cubeCount=100
     cube=sim.getObject('/blackCube')
     objectsToMove={cube}
