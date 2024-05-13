@@ -814,8 +814,8 @@ CoppeliaSim提供了丰富的API函数，允许您通过编写Lua脚本动态地
 function sysCall_init()
     sim = require('sim')
     cube=sim.getObject('.') -- 获取当前脚本绑定对象(redCube)的句柄。
-    path=sim.getObject('/Path')
-    pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH'))
+    path=sim.getObject('/Path') -- 获取场景中名为“Path”的路径对象的句柄。
+    pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH')) -- 读取路径对象自定义数据块中的“PATH”字段，并将其解压缩为一个双精度浮点数表（存储路径的控制点信息）。
     local m=Matrix(#pathData//7,7,pathData)
     pathPositions=m:slice(1,1,m:rows(),3):data()
     pathQuaternions=m:slice(1,4,m:rows(),7):data()
