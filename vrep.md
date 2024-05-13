@@ -858,7 +858,7 @@ function sysCall_init()
     velocity=0.04 -- m/s
     posAlongPath=0 -- 对象当前沿路径的位置
     previousSimulationTime=0
-    sim.setStepping(true)
+    sim.setStepping(true) -- 仿真不会连续运行，而是在每个仿真步骤后暂停，等待用户手动使仿真前进到下一个步骤
 end
 
 function sysCall_thread()
@@ -875,3 +875,13 @@ function sysCall_thread()
     end
 end
 ```
+
+### Q: 下面函数中，sim.setStepping(true)是什么意思？
+
+在CoppeliaSim中，`sim.setStepping(true)`调用是用来开启或激活“步进模式”（Stepping mode）。在步进模式下，仿真不会连续运行，而是在每个仿真步骤后暂停，等待用户手动使仿真前进到下一个步骤。这个模式对于调试和教学目的特别有用，因为它允许用户仔细观察和分析仿真的每个阶段，理解仿真模型的行为。
+
+`sim.setStepping(true)`调用使得步进模式被激活，意味着仿真将在每次仿真步骤后暂停。这对于逐步执行仿真、检查变量状态、或者更精细地控制仿真流程非常有帮助。开启步进模式后，通常需要通过CoppeliaSim的用户界面中的相应按钮或通过脚本调用来手动前进仿真。
+
+在脚本开头调用`sim.setStepping(true)`意味着从仿真开始就启用这种模式，确保了仿真的每个步骤都能被精确地控制和观察。这可以是对某些特定仿真场景的需求，特别是在进行复杂场景的调试或教育演示时，步进模式显示出其价值。
+
+总结来说，`sim.setStepping(true)`在您的脚本中用于控制仿真的执行方式，允许逐步执行仿真来更好地观察和理解模型的动态行为。
