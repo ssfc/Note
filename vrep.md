@@ -861,7 +861,7 @@ function sysCall_init()
     sim.setStepping(true) -- 仿真不会连续运行，而是在每个仿真步骤后暂停，等待用户手动使仿真前进到下一个步骤
 end
 
-function sysCall_thread()
+function sysCall_thread() -- 定义的线程函数，它在线程的生命周期内不断地循环直至线程结束或仿真停止。
     while true do
         local t=sim.getSimulationTime() -- 获取当前仿真时间（以秒为单位）。CoppeliaSim的仿真环境根据设置的仿真步长来推进时间，获取当前时间是计算移动距离的基础。
         posAlongPath=posAlongPath+velocity*(t-previousSimulationTime) -- 表示对象在路径上的位置。通过计算自上一仿真步骤以来经过的时间并乘以速度(velocity)，可以得出对象在路径上应该移动的距离，并加到当前位置上。
