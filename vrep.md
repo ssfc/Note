@@ -956,8 +956,8 @@ function setPathPosition(p)
         local h=objectsToMove[i]
         local pos=sim.getPathInterpolatedConfig(pathPositions,pathLengths,p)
         local quat=sim.getPathInterpolatedConfig(pathQuaternions,pathLengths,p,nil,{2,2,2,2})
-        sim.setObjectPosition(h,pos,path)
-        sim.setObjectQuaternion(h,quat,path)
+        sim.setObjectPosition(h,pos,path) -- 对象h在场景中相对于路径的位置
+        sim.setObjectQuaternion(h,quat,path) -- 对象h在场景中相对于路径的旋转方向
         p=p+offset
     end
 end
