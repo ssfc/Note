@@ -823,12 +823,12 @@ function sysCall_init()
     pathQuaternions=m:slice(1,4,m:rows(),7):data() -- 旋转
     pathLengths,totalLength=sim.getPathLengths(pathPositions,3) -- 每段路径的长度和总长度
     velocity=0.05 -- m/s
-    posAlongPath=0
+    posAlongPath=0 -- 对象当前沿路径的位置
     previousSimulationTime=0
 end
 
 function sysCall_actuation()
-    local t=sim.getSimulationTime()
+    local t=sim.getSimulationTime() -- 获取当前仿真时间（以秒为单位）。CoppeliaSim的仿真环境根据设置的仿真步长来推进时间，获取当前时间是计算移动距离的基础。
     posAlongPath=posAlongPath+velocity*(t-previousSimulationTime)
     posAlongPath=posAlongPath % totalLength
     local pos=sim.getPathInterpolatedConfig(pathPositions,pathLengths,posAlongPath)
