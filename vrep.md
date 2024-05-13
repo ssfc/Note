@@ -816,6 +816,8 @@ function sysCall_init()
     cube=sim.getObject('.') -- 获取当前脚本绑定对象(redCube)的句柄。
     path=sim.getObject('/Path') -- 获取场景中名为“Path”的路径对象的句柄。
     pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH')) -- 读取路径对象自定义数据块中的“PATH”字段，并将其解压缩为一个双精度浮点数表（存储路径的控制点信息）。
+    -- #pathData//7 计算了 pathData 数组的长度，并且除以 7，得到了矩阵的行数。
+	--然后，7 被用作列数，因为每个数据元素代表路径中的一个点，每个点通常有 7 个相关联的数值（如 x、y、z 坐标以及姿态等）。
     local m=Matrix(#pathData//7,7,pathData)
     pathPositions=m:slice(1,1,m:rows(),3):data()
     pathQuaternions=m:slice(1,4,m:rows(),7):data()
