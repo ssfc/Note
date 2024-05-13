@@ -486,6 +486,40 @@ Mine: 黑色轨迹中绿色的线条会消失。(2024年5月12日)
 
 总之，Subdivisions 参数允许用户根据实际需求调整路径的精细程度，以达到最佳的仿真效果。
 
+### Q: 介绍函数sim.readVisionSensor
+
+`sim.readVisionSensor` 是 V-REP 中用于读取视觉传感器数据的函数。它可以用于模拟机器人或虚拟环境中的视觉感知。
+
+**语法**：
+```lua
+number result, table data = sim.readVisionSensor(number sensorHandle)
+```
+
+**参数**：
+- `sensorHandle`（数字）：视觉传感器的句柄（handle），表示要读取数据的视觉传感器。
+
+**返回值**：
+- `result`（数字）：操作结果，如果成功读取数据，则返回非负整数，表示数据有效性。如果失败，则返回负数。
+- `data`（表格）：包含从传感器读取的数据的表格。数据的具体内容取决于传感器的类型和设置。
+
+**说明**：
+- 这个函数用于读取视觉传感器的数据，例如相机或激光雷达传感器。
+- 如果成功读取数据，则返回值 `result` 将是非负整数，表示读取成功。此时，数据将包含在 `data` 中。
+- 如果读取失败，返回值 `result` 将是负数，表示出现了错误或无法读取数据。
+
+**示例**：
+```lua
+local result, data = sim.readVisionSensor(sensorHandle)
+if result >= 0 then
+    -- 读取到了有效的数据，可以使用 data 进行后续处理
+    -- data 包含了从传感器读取的具体数据
+else
+    -- 读取失败，处理错误情况
+end
+```
+
+使用 `sim.readVisionSensor` 函数，你可以在V-REP中读取视觉传感器（如相机、激光雷达等）的数据，并据此进行后续的处理和决策。
+
 ## Path Script
 
 ```lua
