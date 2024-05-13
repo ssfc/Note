@@ -937,7 +937,7 @@ function sysCall_init()
         sim.setObjectParent(objectsToMove[i],path,true) -- not required, but looks cleaner
     end
     
-    pathLengths,totalLength=sim.getPathLengths(pathPositions,3)
+    pathLengths,totalLength=sim.getPathLengths(pathPositions,3) -- 基于提取的位置数据计算路径的长度，以及从起点到每个控制点的长度列表pathLengths和路径的总长度totalLength。
     offset=totalLength/#objectsToMove
     v=0.06
     sim.setStepping(true) -- 仿真不会连续运行，而是在每个仿真步骤后暂停，等待用户手动使仿真前进到下一个步骤
