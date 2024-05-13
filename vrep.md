@@ -808,3 +808,30 @@ CoppeliaSim提供了丰富的API函数，允许您通过编写Lua脚本动态地
 
 # movingAlongAPath-lua.ttt解读
 
+```lua
+--redCube lua
+
+function sysCall_init()
+    sim = require('sim')
+    cube=sim.getObject('.') -- 获取当前脚本绑定对象(redCube)的句柄。
+    path=sim.getObject('/Path')
+    pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH'))
+    local m=Matrix(#pathData//7,7,pathData)
+    pathPositions=m:slice(1,1,m:rows(),3):data()
+    pathQuaternions=m:slice(1,4,m:rows(),7):data()
+    pathLengths,totalLength=sim.getPathLengths(pathPositions,3)
+    velocity=0.05 -- m/s
+    posAlongPath=0
+    previousSimulationTime=0
+end
+
+function sysCall_actuation()
+    local t=sim.getSimulationTime()
+    posAlongPath=posAlongPath+velocity*(t-previousSimulationTime)
+    posAlongPath=posAlongPath % totalLength
+    local pos=sim.getPathInterpolatedConfig(pathPositions,pathLengths,posAlongPath)
+    local quat=sim.getPathInterpolatedConfig(pathQuaternions,pathLengths,posAlongPath,nil,{2,2,2,2})
+    sim.setObjectPosition(cube,pos,path)
+    sim.setObjectQuaternion(cube,quat,path)
+    previousSimulationTime=t
+end
