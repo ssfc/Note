@@ -868,9 +868,9 @@ function sysCall_thread()
         posAlongPath=posAlongPath % totalLength -- 确保posAlongPath在到达路径末尾时能够循环回到开始，通过取余totalLength（路径的总长度），实现路径循环。
         local pos=sim.getPathInterpolatedConfig(pathPositions,pathLengths,posAlongPath) -- 调用sim.getPathInterpolatedConfig函数，根据当前位置(posAlongPath)在路径上获得插值后的位置坐标。这个函数会考虑路径的形状和对象应在的确切位置，计算得出准确的三维空间坐标。
         local quat=sim.getPathInterpolatedConfig(pathQuaternions,pathLengths,posAlongPath,nil,{2,2,2,2}) -- 获取对象在当前位置(posAlongPath)的四元数表示的旋转状态。传递额外的参数{2,2,2,2}用于指定插值方法，特别是对于四元数这样的旋转数据。
-        sim.setObjectPosition(cube,pos,path)
-        sim.setObjectQuaternion(cube,quat,path)
-        previousSimulationTime=t
+        sim.setObjectPosition(cube,pos,path) -- 根据计算得到的位置(pos)更新对象（在这个例子中是cube）的位置
+        sim.setObjectQuaternion(cube,quat,path) -- 计算得到的四元数(quat)更新对象的旋转状态。
+        previousSimulationTime=t -- 更新previousSimulationTime为当前仿真时间，为下一仿真步骤的计算准备。
         sim.step()
     end
 end
