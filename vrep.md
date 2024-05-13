@@ -939,7 +939,7 @@ function sysCall_init()
     pathLengths,totalLength=sim.getPathLengths(pathPositions,3)
     offset=totalLength/#objectsToMove
     v=0.06
-    sim.setStepping(true)
+    sim.setStepping(true) -- 仿真不会连续运行，而是在每个仿真步骤后暂停，等待用户手动使仿真前进到下一个步骤
 end
 
 function sysCall_thread()
