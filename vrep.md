@@ -927,6 +927,7 @@ function sysCall_init()
     pathPositions=m:slice(1,1,m:rows(),3):data() -- 位置
     pathQuaternions=m:slice(1,4,m:rows(),7):data() -- 旋转
     local cubeCount=100
+    -- 在路径上计划放置100个blackCube对象。第一个对象是直接通过名字/blackCube从场景中获得，后续的对象则是通过复制粘贴第一个对象来创建的。
     cube=sim.getObject('/blackCube')
     objectsToMove={cube}
     for i=2,cubeCount,1 do
