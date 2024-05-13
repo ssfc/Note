@@ -846,8 +846,8 @@ end
 
 function sysCall_init()
     sim = require('sim')
-    cube=sim.getObject('.')
-    path=sim.getObject('/Path')
+    cube=sim.getObject('.') -- 获取当前脚本绑定对象(redCube)的句柄。
+    path=sim.getObject('/Path') -- 获取场景中名为“Path”的路径对象的句柄。
     pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH'))
     local m=Matrix(#pathData//7,7,pathData)
     pathPositions=m:slice(1,1,m:rows(),3):data()
