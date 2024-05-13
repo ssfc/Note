@@ -943,10 +943,10 @@ function sysCall_init()
     sim.setStepping(true) -- 仿真不会连续运行，而是在每个仿真步骤后暂停，等待用户手动使仿真前进到下一个步骤
 end
 
-function sysCall_thread()
+function sysCall_thread() -- 创建一个新的线程。该线程会在模拟运行时独立于主线程运行
     while true do
         setPathPosition(sim.getSimulationTime()*v)
-        sim.step()
+        sim.step() -- 执行一次模拟步进，使模拟时间向前推进一个固定的时间步长。
     end
 end
 
