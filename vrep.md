@@ -835,5 +835,5 @@ function sysCall_actuation()
     local quat=sim.getPathInterpolatedConfig(pathQuaternions,pathLengths,posAlongPath,nil,{2,2,2,2}) -- 获取对象在当前位置(posAlongPath)的四元数表示的旋转状态。传递额外的参数{2,2,2,2}用于指定插值方法，特别是对于四元数这样的旋转数据。
     sim.setObjectPosition(cube,pos,path) -- 根据计算得到的位置(pos)更新对象（在这个例子中是cube）的位置
     sim.setObjectQuaternion(cube,quat,path) -- 计算得到的四元数(quat)更新对象的旋转状态。
-    previousSimulationTime=t
+    previousSimulationTime=t -- 更新previousSimulationTime为当前仿真时间，为下一仿真步骤的计算准备。
 end
