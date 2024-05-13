@@ -952,7 +952,7 @@ end
 
 function setPathPosition(p)
     for i=1,#objectsToMove,1 do
-        p=p % totalLength
+        p=p % totalLength -- 确保了p的值总是在路径的总长度范围内。
         local h=objectsToMove[i]
         local pos=sim.getPathInterpolatedConfig(pathPositions,pathLengths,p)
         local quat=sim.getPathInterpolatedConfig(pathQuaternions,pathLengths,p,nil,{2,2,2,2})
