@@ -1098,7 +1098,7 @@ function sysCall_init()
     local m=Matrix(#pathData//7,7,pathData)
     pathPositions=m:slice(1,1,m:rows(),3):data() -- 从矩阵 m 中提取路径位置数据，取每行的前三个元素，并转换为路径位置的数组。
     pathQuaternions=m:slice(1,4,m:rows(),7):data() -- 方向
-    pathLengths,totalLength=sim.getPathLengths(pathPositions,3)
+    pathLengths,totalLength=sim.getPathLengths(pathPositions,3) -- 计算路径的长度 和 总长度
     velocity=0.04 -- m/s
     sim.setStepping(true)
 end
