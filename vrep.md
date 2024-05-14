@@ -1083,13 +1083,15 @@ function sysCall_sensing()
 end
 ```
 
+插值法在路径锐角处很明显，紫色球直接跳过了锐角。(2024年5月14日)
+
 ## yellowCube script
 
 ```lua
 --lua
 
 function sysCall_init()
-    sim = require('sim')
+    sim = require('sim') -- 加载了 CoppeliaSim 的 API 模块，使得脚本可以调用各种仿真功能
     cube=sim.getObject('.')
     path=sim.getObject('/Path')
     pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH'))
