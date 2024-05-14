@@ -1065,8 +1065,8 @@ end
 --purpleSphere lua
 
 function sysCall_init()
-    sim = require('sim')
-    purpleSphere=sim.getObject('.')
+    sim = require('sim') -- 加载了 CoppeliaSim 的 API 模块，使得脚本可以调用各种仿真功能
+    purpleSphere=sim.getObject('.') -- 获取当前脚本绑定对象(purpleSphere)的句柄。
     greenSphere=sim.getObject('/greenSphere')
     path=sim.getObject('/Path')
     local pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH'))
