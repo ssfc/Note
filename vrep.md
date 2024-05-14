@@ -1092,12 +1092,12 @@ end
 
 function sysCall_init()
     sim = require('sim') -- 加载了 CoppeliaSim 的 API 模块，使得脚本可以调用各种仿真功能
-    cube=sim.getObject('.')
-    path=sim.getObject('/Path')
+    cube=sim.getObject('.') -- 获取当前脚本绑定对象(purpleSphere)的句柄。
+    path=sim.getObject('/Path') -- 获取对象(/Path)的句柄。
     pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH'))
     local m=Matrix(#pathData//7,7,pathData)
-    pathPositions=m:slice(1,1,m:rows(),3):data()
-    pathQuaternions=m:slice(1,4,m:rows(),7):data()
+    pathPositions=m:slice(1,1,m:rows(),3):data() -- 从矩阵 m 中提取路径位置数据，取每行的前三个元素，并转换为路径位置的数组。
+    pathQuaternions=m:slice(1,4,m:rows(),7):data() -- 方向
     pathLengths,totalLength=sim.getPathLengths(pathPositions,3)
     velocity=0.04 -- m/s
     sim.setStepping(true)
