@@ -1125,7 +1125,7 @@ function callback(config,vel,accel)
 end
 
 function jumpToPosAlongPath(posAlongPath) -- 用于立即跳跃到路径上的指定位置。
-    posAlongPath=posAlongPath%totalLength
+    posAlongPath = posAlongPath % totalLength -- 沿路径的位置（归一化到路径总长度）。
     local pos=sim.getPathInterpolatedConfig(pathPositions,pathLengths,posAlongPath)
     local quat=sim.getPathInterpolatedConfig(pathQuaternions,pathLengths,posAlongPath,nil,{2,2,2,2})
     sim.setObjectPosition(cube,pos,path)
