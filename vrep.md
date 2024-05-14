@@ -1067,8 +1067,8 @@ end
 function sysCall_init()
     sim = require('sim') -- 加载了 CoppeliaSim 的 API 模块，使得脚本可以调用各种仿真功能
     purpleSphere=sim.getObject('.') -- 获取当前脚本绑定对象(purpleSphere)的句柄。
-    greenSphere=sim.getObject('/greenSphere') -- 获取对象(greenSphere)的句柄。
-    path=sim.getObject('/Path') 
+    greenSphere=sim.getObject('/greenSphere') -- 获取对象(/greenSphere)的句柄。
+    path=sim.getObject('/Path') -- 获取对象(/Path)的句柄。
     local pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH'))
     local m=Matrix(#pathData//7,7,pathData)
     pathPositions=m:slice(1,1,m:rows(),3):data()
