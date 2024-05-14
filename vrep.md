@@ -1071,7 +1071,7 @@ function sysCall_init()
     path=sim.getObject('/Path') -- 获取对象(/Path)的句柄。
     local pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH'))
     local m=Matrix(#pathData//7,7,pathData)
-    pathPositions=m:slice(1,1,m:rows(),3):data()
+    pathPositions=m:slice(1,1,m:rows(),3):data() -- 从矩阵 m 中提取路径位置数据，取每行的前三个元素，并转换为路径位置的数组。
     pathLengths=sim.getPathLengths(pathPositions,3)
 end
 
