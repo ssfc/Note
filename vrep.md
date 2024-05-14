@@ -1037,3 +1037,16 @@ end
 **总结**
 
 通过以上两种方法，可以在CoppeliaSim中添加和管理碰撞检测器。使用图形界面的方法适合快速设置和可视化调试，而使用脚本的方法适合复杂的逻辑控制和动态管理。选择适合你的具体需求的方法来进行碰撞检测设置。
+
+```lua
+-- Joint lua
+
+function sysCall_init()
+    sim = require('sim')
+    joint=sim.getObject('.')
+end
+
+function sysCall_actuation()
+    sim.setJointPosition(joint,sim.getJointPosition(joint)+0.01)
+end
+```
