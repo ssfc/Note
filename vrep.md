@@ -808,7 +808,7 @@ CoppeliaSim提供了丰富的API函数，允许您通过编写Lua脚本动态地
 
 # movingAlongAPath-lua.ttt解读
 
-## redCube
+## redCube script
 
 ```lua
 --redCube lua
@@ -843,7 +843,7 @@ end
 
 在上述代码中，位置不是通过速度仿真得到的，而是通过计算得到的。(2024年5月13日) => 试试加上碰撞检测？
 
-## blueCube
+## blueCube script
 
 ```lua
 --blueCube lua
@@ -917,6 +917,8 @@ sim.step() 的调用是该脚本与其他简单循环脚本的主要区别，它
 **结论：**
 
 选择`sysCall_actuation()`还是`sysCall_thread()`依赖于你具体的需求和任务复杂度。如果任务与仿真的每个时间步骤紧密相关并且需要紧跟仿真的进程，使用`sysCall_actuation()`更简单直接。如果任务更加独立或需要灵活的时间管理和复杂逻辑，`sysCall_thread()`可能是更好的选择。在`sysCall_thread()`中，手动管理仿真的时间步骤可以提供额外的控制，但也增加了脚本复杂性和出错的风险。
+
+## Path script
 
 ```lua
 -- Child script /Path lua
