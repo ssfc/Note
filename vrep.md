@@ -1046,7 +1046,7 @@ function sysCall_init() -- 仿真开始时被调用的初始化函数
     joint=sim.getObject('.') -- 获取当前脚本绑定对象(Joint)的句柄。
 end
 
-function sysCall_actuation()
+function sysCall_actuation() -- 在每个仿真步调用的函数，用于执行仿真中的动作。
     sim.setJointPosition(joint,sim.getJointPosition(joint)+0.01)
 end
 ```
