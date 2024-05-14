@@ -1124,7 +1124,7 @@ function callback(config,vel,accel)
     jumpToPosAlongPath(config[1]) -- 回调函数，用于在 followPath 调用中处理位置更新。
 end
 
-function jumpToPosAlongPath(posAlongPath)
+function jumpToPosAlongPath(posAlongPath) -- 用于立即跳跃到路径上的指定位置。
     posAlongPath=posAlongPath%totalLength
     local pos=sim.getPathInterpolatedConfig(pathPositions,pathLengths,posAlongPath)
     local quat=sim.getPathInterpolatedConfig(pathQuaternions,pathLengths,posAlongPath,nil,{2,2,2,2})
