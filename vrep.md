@@ -1105,7 +1105,7 @@ end
 
 function sysCall_thread()
     -- Smooth movements:
-    followPath(0,totalLength*0.25,velocity,0.01,99)
+    followPath(0,totalLength*0.25,velocity,0.01,99) -- 从路径起点移动到路径总长度的 1/4 处。
     followPath(totalLength*0.25,-totalLength*0.25,velocity*2,0.01,99)
     sim.wait(5)
     followPath(-totalLength*0.25,2*totalLength,velocity*4,0.01,99)
