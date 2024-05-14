@@ -1047,6 +1047,6 @@ function sysCall_init() -- 仿真开始时被调用的初始化函数
 end
 
 function sysCall_actuation() -- 在每个仿真步调用的函数，用于执行仿真中的动作。
-    sim.setJointPosition(joint,sim.getJointPosition(joint)+0.01)
+    sim.setJointPosition(joint,sim.getJointPosition(joint)+0.01) -- 设置关节的位置。它首先获取当前关节的位置（sim.getJointPosition(joint)），然后在此基础上增加 0.01 弧度，并将新的位置设置回关节。
 end
 ```
