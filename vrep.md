@@ -1100,7 +1100,7 @@ function sysCall_init()
     pathQuaternions=m:slice(1,4,m:rows(),7):data() -- 方向
     pathLengths,totalLength=sim.getPathLengths(pathPositions,3) -- 计算路径的长度 和 总长度
     velocity=0.04 -- m/s
-    sim.setStepping(true)
+    sim.setStepping(true) -- 仿真不会连续运行，而是在每个仿真步骤后暂停，等待用户手动使仿真前进到下一个步骤
 end
 
 function sysCall_thread()
