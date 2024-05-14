@@ -1126,10 +1126,10 @@ end
 
 function jumpToPosAlongPath(posAlongPath) -- 用于立即跳跃到路径上的指定位置。
     posAlongPath = posAlongPath % totalLength -- 沿路径的位置（归一化到路径总长度）。
-    local pos=sim.getPathInterpolatedConfig(pathPositions,pathLengths,posAlongPath)
-    local quat=sim.getPathInterpolatedConfig(pathQuaternions,pathLengths,posAlongPath,nil,{2,2,2,2})
-    sim.setObjectPosition(cube,pos,path)
-    sim.setObjectQuaternion(cube,quat,path)
+    local pos=sim.getPathInterpolatedConfig(pathPositions,pathLengths,posAlongPath) -- 位置
+    local quat=sim.getPathInterpolatedConfig(pathQuaternions,pathLengths,posAlongPath,nil,{2,2,2,2}) -- 旋转
+    sim.setObjectPosition(cube,pos,path) -- 设置位置
+    sim.setObjectQuaternion(cube,quat,path) -- 设置旋转
 end
 ```
 
