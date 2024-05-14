@@ -1110,7 +1110,7 @@ function sysCall_thread()
     sim.wait(5) -- 等待 5 秒。
     followPath(-totalLength*0.25,2*totalLength,velocity*4,0.01,99) -- 从起点开始移动到路径总长度的两倍，速度增加四倍。
     -- Jagged, bumpy or instant jumps:
-    for i=1,20,1 do
+    for i=1,20,1 do -- 使用一个循环，在路径上跳跃到20个不同位置，每次跳跃后等待1秒。
         jumpToPosAlongPath(totalLength*i/20)
         sim.wait(1)
     end
