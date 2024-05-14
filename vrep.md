@@ -1041,9 +1041,9 @@ end
 ```lua
 -- Joint lua
 
-function sysCall_init()
-    sim = require('sim')
-    joint=sim.getObject('.')
+function sysCall_init() -- 仿真开始时被调用的初始化函数
+    sim = require('sim') -- 加载了 CoppeliaSim 的 API 模块，使得脚本可以调用各种仿真功能
+    joint=sim.getObject('.') -- 获取当前脚本绑定对象(Joint)的句柄。
 end
 
 function sysCall_actuation()
