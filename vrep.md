@@ -1077,9 +1077,9 @@ end
 
 function sysCall_sensing()
     local p=sim.getObjectPosition(greenSphere,path) -- 获取 greenSphere 相对于 path 的当前位置。
-    local l=sim.getClosestPosOnPath(pathPositions,pathLengths,p)
-    local p2=sim.getPathInterpolatedConfig(pathPositions,pathLengths,l)
-    sim.setObjectPosition(purpleSphere,p2,path)
+    local l=sim.getClosestPosOnPath(pathPositions,pathLengths,p) -- 计算 greenSphere 在路径上距离当前位置最近的点的位置索引。
+    local p2=sim.getPathInterpolatedConfig(pathPositions,pathLengths,l) -- 根据索引l（最近位置），计算路径上对应的插值位置 p2。
+    sim.setObjectPosition(purpleSphere,p2,path) -- 将 purpleSphere 设置为路径上的插值位置 p2。
 end
 ```
 
