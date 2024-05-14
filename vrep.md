@@ -808,6 +808,8 @@ CoppeliaSim提供了丰富的API函数，允许您通过编写Lua脚本动态地
 
 # movingAlongAPath-lua.ttt解读
 
+## redCube
+
 ```lua
 --redCube lua
 
@@ -1048,5 +1050,27 @@ end
 
 function sysCall_actuation() -- 在每个仿真步调用的函数，用于执行仿真中的动作。
     sim.setJointPosition(joint,sim.getJointPosition(joint)+0.01) -- 设置关节的位置。它首先获取当前关节的位置（sim.getJointPosition(joint)），然后在此基础上增加 0.01 弧度，并将新的位置设置回关节。
+end
+```
+
+```lua
+--lua
+
+function sysCall_init()
+    sim = require('sim')
+    purpleSphere=sim.getObject('.')
+    greenSphere=sim.getObject('/greenSphere')
+    path=sim.getObject('/Path')
+    local pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH'))
+    local m=Matrix(#pathData//7,7,pathData)
+    pathPositions=m:slice(1,1,m:rows(),3):data()
+    pathLengths=sim.getPathLengths(pathPositions,3)
+end
+
+function sysCall_sensing()
+    local p=sim.getObjectPosition(greenSphere,path)
+    local l=sim.getClosestPosOnPath(pathPositions,pathLengths,p)
+    local p2=sim.getPathInterpolatedConfig(pathPositions,pathLengths,l)
+    sim.setObjectPosition(purpleSphere,p2,path)
 end
 ```
