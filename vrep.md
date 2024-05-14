@@ -1076,7 +1076,7 @@ function sysCall_init()
 end
 
 function sysCall_sensing()
-    local p=sim.getObjectPosition(greenSphere,path)
+    local p=sim.getObjectPosition(greenSphere,path) -- 获取 greenSphere 相对于 path 的当前位置。
     local l=sim.getClosestPosOnPath(pathPositions,pathLengths,p)
     local p2=sim.getPathInterpolatedConfig(pathPositions,pathLengths,l)
     sim.setObjectPosition(purpleSphere,p2,path)
