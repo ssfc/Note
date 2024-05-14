@@ -1116,12 +1116,12 @@ function sysCall_thread()
     end
 end
 
-function callback(config,vel,accel)
-    jumpToPosAlongPath(config[1])
-end
-
 function followPath(startPos,endPos,vel,accel,jerk)
     sim.moveToConfig(-1,{startPos},{0},{0},{vel},{accel},{jerk},{endPos},{0},callback)
+end
+
+function callback(config,vel,accel)
+    jumpToPosAlongPath(config[1]) -- 回调函数，用于在 followPath 调用中处理位置更新。
 end
 
 function jumpToPosAlongPath(posAlongPath)
