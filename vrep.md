@@ -1082,3 +1082,52 @@ function sysCall_sensing()
     sim.setObjectPosition(purpleSphere,p2,path)
 end
 ```
+
+## yellowCube script
+
+```lua
+--lua
+
+function sysCall_init()
+    sim = require('sim')
+    cube=sim.getObject('.')
+    path=sim.getObject('/Path')
+    pathData=sim.unpackDoubleTable(sim.readCustomDataBlock(path,'PATH'))
+    local m=Matrix(#pathData//7,7,pathData)
+    pathPositions=m:slice(1,1,m:rows(),3):data()
+    pathQuaternions=m:slice(1,4,m:rows(),7):data()
+    pathLengths,totalLength=sim.getPathLengths(pathPositions,3)
+    velocity=0.04 -- m/s
+    sim.setStepping(true)
+end
+
+function sysCall_thread()
+    -- Smooth movements:
+    followPath(0,totalLength*0.25,velocity,0.01,99)
+    followPath(totalLength*0.25,-totalLength*0.25,velocity*2,0.01,99)
+    sim.wait(5)
+    followPath(-totalLength*0.25,2*totalLength,velocity*4,0.01,99)
+    -- Jagged, bumpy or instant jumps:
+    for i=1,20,1 do
+        jumpToPosAlongPath(totalLength*i/20)
+        sim.wait(1)
+    end
+end
+
+function callback(config,vel,accel)
+    jumpToPosAlongPath(config[1])
+end
+
+function followPath(startPos,endPos,vel,accel,jerk)
+    sim.moveToConfig(-1,{startPos},{0},{0},{vel},{accel},{jerk},{endPos},{0},callback)
+end
+
+function jumpToPosAlongPath(posAlongPath)
+    posAlongPath=posAlongPath%totalLength
+    local pos=sim.getPathInterpolatedConfig(pathPositions,pathLengths,posAlongPath)
+    local quat=sim.getPathInterpolatedConfig(pathQuaternions,pathLengths,posAlongPath,nil,{2,2,2,2})
+    sim.setObjectPosition(cube,pos,path)
+    sim.setObjectQuaternion(cube,quat,path)
+end
+```
+
