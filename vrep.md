@@ -1116,7 +1116,7 @@ function sysCall_thread()
     end
 end
 
-function followPath(startPos,endPos,vel,accel,jerk)
+function followPath(startPos,endPos,vel,accel,jerk) -- 用于沿路径平滑移动物体。
     sim.moveToConfig(-1,{startPos},{0},{0},{vel},{accel},{jerk},{endPos},{0},callback)
 end
 
