@@ -1059,8 +1059,10 @@ function sysCall_actuation() -- 在每个仿真步调用的函数，用于执行
 end
 ```
 
+## purpleSphere script
+
 ```lua
---lua
+--purpleSphere lua
 
 function sysCall_init()
     sim = require('sim')
