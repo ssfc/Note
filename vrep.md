@@ -1133,3 +1133,26 @@ function jumpToPosAlongPath(posAlongPath) -- 用于立即跳跃到路径上的�
 end
 ```
 
+# controlledViaPlugin.ttt解读
+
+```lua
+--lua
+
+sim=require('sim') -- 加载了 CoppeliaSim 的 API 模块，使得脚本可以调用各种仿真功能
+simBubble=require('simBubble') -- 一个假设的模块，通常表示一个外部插件或库，用于控制机器人或仿真对象。
+
+function sysCall_sensing() -- 这个函数在每个仿真周期的感应阶段调用。
+    local p=sim.getObjectPosition(robotHandle)
+    sim.addDrawingObjectItem(drawingCont,p) -- 它获取机器人位置 p，并将其添加到 drawingCont 中，以便在仿真环境中绘制机器人的轨迹。
+end 
+
+function sysCall_thread()
+    robotHandle=sim.getObject('.') -- 获取当前对象的句柄。
+    drawingCont=sim.addDrawingObject(sim.drawing_linestrip+sim.drawing_cyclic,2,0,-1,200,{1,1,0},nil,nil,{1,1,0}) -- 创建一个绘制对象，用于绘制线条轨迹，颜色为黄色。
+
+    local jointHandles={sim.getObject('./LeftMotor'),sim.getObject('./RightMotor')} -- 获取左、右电机的句柄。
+    local sensorHandle=sim.getObject('./SensingNose') -- 获取传感器的句柄。
+    local robHandle=simBubble.create(jointHandles,sensorHandle,{0.5,0.25}) --  使用 simBubble.create 创建一个机器人控制对象，传递电机句柄、传感器句柄和控制参数。
+    simBubble.start(robHandle) -- control now happens directly from the plugin
+end
+```
