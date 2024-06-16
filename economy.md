@@ -75,7 +75,7 @@ CPI一般会高估, 因为是拉氏指数(除以基期); GDP平减指数低估-�
 
 https://www.bilibili.com/video/BV1am4y1D73g/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=3ef4175721f926fbf390a069da19b0ca
 
-P1【微观部分】01 什么是经济学。经济学的十大原理。
+P1【微观部分】01 什么是经济学。经济学的三类问题。经济学的十大原理。
 
 ​	
 
