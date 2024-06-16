@@ -77,7 +77,7 @@ https://www.bilibili.com/video/BV1am4y1D73g/?spm_id_from=333.1007.top_right_bar_
 
 P1【微观部分】01 什么是经济学。经济学的三类问题。人们如何做出决策。经济学的十大原理。(2024年6月16日)
 
-P2  什么是经济学。市场通常是组织经济活动的好方式。
+P2  什么是经济学。市场通常是组织经济活动的好方式。价格是看不见的手。
 
 #	Textbook: Macroeconomics 12th editon, Rudiger Dornbusch; 
 ##	Chapter 1, introduction;
