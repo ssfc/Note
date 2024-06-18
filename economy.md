@@ -79,7 +79,7 @@ P1【微观部分】01 什么是经济学。经济学的三类问题。人们如
 
 P2  什么是经济学。市场通常是组织经济活动的好方式。价格是看不见的手。科学的研究方法。讲逻辑，讲证据。(2024年6月16日)
 
-
+P3  像经济学家一样思考。数学是工具，但经济学idea更重要。8:17
 
 #	Textbook: Macroeconomics 12th editon, Rudiger Dornbusch; 
 ##	Chapter 1, introduction;
